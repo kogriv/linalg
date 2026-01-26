@@ -1,1 +1,1 @@
-﻿# Linear Algebra Notes
+# Linear Algebra Notes
