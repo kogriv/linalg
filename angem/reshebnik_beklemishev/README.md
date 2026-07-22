@@ -31,4 +31,9 @@
 - [[rbek_g01_s02|§2]] (стр. 8–9) — решения упражнений 1–4 из [[../beklemishev/bekl_g01_s02_sistemy_koordinat|Беклемишев §2. Системы координат]]
 - [[rbek_g01_s03|§3]] (стр. 9–11) — решения упражнений 1–3 из [[../beklemishev/bekl_g01_s03_zamena_bazisa|Беклемишев §3. Замена базиса и системы координат]]
 - [[rbek_g01_s04|§4]] (стр. 11–13) — решения упражнений 1–4 из [[../beklemishev/bekl_g01_s04_skalyarnoe_proizvedenie|Беклемишев §4. Скалярное произведение]]
-- [[rbek_g01_s05|§5]] (стр. 14–17) — решения упражнений 1–6 из [[../beklemishev/bekl_g01_s05_smeshannoe_i_vektornoe_proizvedeniya|Беклемишев §5. Смешанное и векторное произведения]]
+- [[rbek_g01_s05|§5]] (стр. 14–17) — решения упражнений 1–6 из [[../beklemishev/bekl_g01_s05_smeshannoe_i_vektornoe_proizvedenie|Беклемишев §5. Смешанное и векторное произведения]]
+
+**Глава II**
+- [[rbek_g02_s01|§1]] (стр. 18–20) — решения упражнений 1–5 из [[../beklemishev/bekl_g02_s01_obshchee_ponyatie_ob_uravneniyakh|Беклемишев §1. Общее понятие об уравнениях]]
+- [[rbek_g02_s02|§2]] (стр. 21–26) — решения упражнений 1–5 из [[../beklemishev/bekl_g02_s02_uravneniya_pryamykh_i_ploskostey|Беклемишев §2. Уравнения прямых и плоскостей]]
+- [[rbek_g02_s03|§3]] (стр. 26–33) — решения упражнений 1–7 из [[../beklemishev/bekl_g02_s03_osnovnye_zadachi_o_pryamykh_i_ploskostyakh|Беклемишев §3. Основные задачи о прямых и плоскостях]]
