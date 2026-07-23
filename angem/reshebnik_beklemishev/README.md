@@ -37,3 +37,9 @@
 - [[rbek_g02_s01|§1]] (стр. 18–20) — решения упражнений 1–5 из [[../beklemishev/bekl_g02_s01_obshchee_ponyatie_ob_uravneniyakh|Беклемишев §1. Общее понятие об уравнениях]]
 - [[rbek_g02_s02|§2]] (стр. 21–26) — решения упражнений 1–5 из [[../beklemishev/bekl_g02_s02_uravneniya_pryamykh_i_ploskostey|Беклемишев §2. Уравнения прямых и плоскостей]]
 - [[rbek_g02_s03|§3]] (стр. 26–33) — решения упражнений 1–7 из [[../beklemishev/bekl_g02_s03_osnovnye_zadachi_o_pryamykh_i_ploskostyakh|Беклемишев §3. Основные задачи о прямых и плоскостях]]
+
+**Глава III**
+- [[rbek_g03_s01|§1]] (стр. 34–38) — решения упражнений 1–6 из [[../beklemishev/bekl_g03_s01_issledovanie_uravneniya|Беклемишев §1. Исследование уравнения]]
+- [[rbek_g03_s02|§2]] (стр. 39–45) — решения упражнений 1–9 из [[../beklemishev/bekl_g03_s02_ellips_giperbola_i_parabola|Беклемишев §2. Эллипс, гипербола и парабола]]
+- [[rbek_g03_s03|§3]] (стр. 46–51) — решения упражнений 1–8 из [[../beklemishev/bekl_g03_s03_liniya_vtorogo_poryadka_zadannaya_obshchim_uravneniem|Беклемишев §3. Линия второго порядка, заданная общим уравнением]]
+- [[rbek_g03_s04|§4]] (стр. 51–56) — решения упражнений 1–6 из [[../beklemishev/bekl_g03_s04_poverkhnosti_vtorogo_poryadka|Беклемишев §4. Поверхности второго порядка]]
