@@ -19,6 +19,28 @@ Books in progress:
 
 Full-parity policy for this book front (2026-07-22): when a textbook §'s exercises are transcribed, also transcribe the matching Решебник section; when a Сборник задач § is transcribed, also transcribe its **(р)**-marked solutions. Cross-link both directions (problem → solution, solution → problem). Don't bulk-fetch "Ответы и указания" (brief answers, ~90 pages, covers every problem) unless separately asked — out of scope for now.
 
+### Current progress (updated after each round — check each book's own README "Файлы" list for full detail, this is just the resume point)
+
+| Book | Done through | Next up |
+|---|---|---|
+| `beklemishev` | Глава II §2 (стр. 75) | Глава II §3 «Основные задачи о прямых и плоскостях» (75–88), then Глава III §1–4 (89+) |
+| `gusyatnikov` | Глава 2 §5 (стр. 62) | Глава 2 §6 «Система координат...» (62–87, ~26 стр. — большая, возможно разово) |
+| `sbornik_zadach` | Глава 3 complete (стр. 80) | Глава 4 «Поверхности второго порядка» §10+§11 (81–102) |
+| `reshebnik_beklemishev` | Глава III complete (стр. 56) | Глава IV §1–3 (57–71) |
+
+Last full round: 2026-07-23.
+
+### Parallel conversion workflow (how progress gets made — for a session picking this back up)
+
+This book front is advanced by running ONE background Agent per book in parallel each round (see the Agent tool), not sequentially by hand. Pattern that's worked across ~5 rounds so far:
+
+1. Check the table above (or each book's README) to find where each book left off.
+2. Size each book's next chunk to keep parallel workloads roughly comparable — NOT always "next 1 section": some books' §s run 3 pages, others 25+. Aim for ~15–25 pages per agent per round; bundle multiple short §s into one agent call, or hand a single long § to one agent alone. Prefer stopping at a chapter boundary when a chunk of that size lands near one.
+3. Brief each agent with: read `AGENTS.md` first, read the target book's own README + 1-2 existing files in it as style reference, exact source file path + page range to verify (don't trust TOC page numbers blindly, confirm by reading), the page-marker/asset/figure-extraction workflow (PDF vs DjVu differs — see above), and hard boundaries: only touch its own book folder + its own README, never `angem/README.md` or this `AGENTS.md`, never run git commands.
+4. After all agents report back, spot-check a sample of the actual files/figures against the source PDF/DjVu yourself before committing (agents self-flag uncertain judgment calls — e.g. corrected typos, ambiguous OCR, sign errors — verify those specifically). Fix any cross-file link mismatches (agents sometimes guess slightly different slugs for not-yet-created files in other books).
+5. Commit everything in `linalg` in one commit, push (dual remote: GitHub + GitLab), then bump the submodule pointer in the parent vault repo and push that too. Update the progress table above.
+6. If an agent run fails outright (network/API error, not a content problem), just relaunch it with the same brief — mention any stray partial files it left (incomplete figure crops etc.) so it can decide whether to reuse or redo them, rather than re-deriving everything from scratch.
+
 ## LaTeX in chat vs. in files
 
 - **In files**: keep raw LaTeX (`$...$`, `$$...$$`) — Obsidian renders it natively via MathJax.
