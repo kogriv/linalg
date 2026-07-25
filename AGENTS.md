@@ -25,14 +25,14 @@ Since 2026-07-24 each book is worked from **two fronts converging toward the mid
 
 | Book | Forward front: done through | Forward next up | Backward front: done through | Backward next up |
 |---|---|---|---|---|
-| `beklemishev` | Глава II complete (стр. 88) | Глава III §1–4 (89+) | Глава IX §3 (стр. 400–413, last §) | Глава IX §1–2 (375–399) |
-| `gusyatnikov` | Глава 2 complete (стр. 88) | Глава 3 §1–4 (114+) | Глава 4 §4–5 (стр. 202–228, last two §) | Глава 4 §1–3 (178–202) |
-| `sbornik_zadach` | Глава 4 complete (стр. 102) | Глава 5 §12–13 (103+) | Глава 14 complete (стр. 323–347, last chapter) | Глава 13 §33–34 (307–322) |
-| `reshebnik_beklemishev` | Глава IV complete (стр. 71) | Глава V §1–6 (72+) | Глава IX complete (стр. 182–190, last chapter = end of book) | Глава VIII §1–2 (174–181) |
+| `beklemishev` | Глава III §2 (стр. 108) | Глава III §3–4 (109+) | Глава IX complete (стр. 375–413, last chapter) | Глава VIII (355–374) |
+| `gusyatnikov` | Глава 3 §2 (стр. 141) | Глава 3 §3–4 (141+) | Глава 4 complete (стр. 178–228, last chapter) | Глава 3 §3–4 (141–178) — **fronts meet here next round** |
+| `sbornik_zadach` | Глава 5 complete (стр. 126) | Глава 6 §14–16 (127+) | Глава 13–14 complete (стр. 307–347) | Глава 12 §31–32 (285–306) |
+| `reshebnik_beklemishev` | Глава V complete (стр. 96) | Глава VI §1–7 (97+) | Глава VIII–IX complete (стр. 174–190, end of book) | Глава VII §1–4 (135–173) |
 
-The gap still to fill in the middle of each book: `beklemishev` Гл.III–VIII (89–399) · `gusyatnikov` Гл.3 + Гл.4§1-3 (114–202) · `sbornik_zadach` Гл.5–13 (103–322) · `reshebnik_beklemishev` Гл.V–VIII (72–181).
+The gap still to fill in the middle of each book: `beklemishev` Гл.III§3–VIII (109–374) · `gusyatnikov` Гл.3§3-4 (141–178, **both fronts converge on this same range next round**) · `sbornik_zadach` Гл.6–12 (127–306) · `reshebnik_beklemishev` Гл.VI–VII (97–173).
 
-Last full round: 2026-07-24.
+Last full round: 2026-07-25. Ran 8 agents in parallel (forward+backward × 4 books) two rounds running now — pattern holds up well, only isolated network failures (handled by relaunching with the same brief).
 
 ### Parallel conversion workflow (how progress gets made — for a session picking this back up)
 
