@@ -25,14 +25,14 @@ Since 2026-07-24 each book is worked from **two fronts converging toward the mid
 
 | Book | Forward front: done through | Forward next up | Backward front: done through | Backward next up |
 |---|---|---|---|---|
-| `beklemishev` | Глава III §2 (стр. 108) | Глава III §3–4 (109+) | Глава IX complete (стр. 375–413, last chapter) | Глава VIII (355–374) |
-| `gusyatnikov` | Глава 3 §2 (стр. 141) | Глава 3 §3–4 (141+) | Глава 4 complete (стр. 178–228, last chapter) | Глава 3 §3–4 (141–178) — **fronts meet here next round** |
-| `sbornik_zadach` | Глава 5 complete (стр. 126) | Глава 6 §14–16 (127+) | Глава 13–14 complete (стр. 307–347) | Глава 12 §31–32 (285–306) |
-| `reshebnik_beklemishev` | Глава V complete (стр. 96) | Глава VI §1–7 (97+) | Глава VIII–IX complete (стр. 174–190, end of book) | Глава VII §1–4 (135–173) |
+| `beklemishev` | Глава III complete (стр. 132) | Глава IV (133+) | Глава IX complete + Гл.VII§3–4 (стр. 341–413) | Глава VIII (355–374, see gap note) |
+| `gusyatnikov` | **BOOK COMPLETE** — Главы 1–4, стр. 6–228, both fronts met | — | — | — |
+| `sbornik_zadach` | Глава 6 complete (стр. 155) | Глава 7 §17–19 (156+) | Глава 12–14 complete (стр. 285–347) | Глава 11 §28–30 (265–284) |
+| `reshebnik_beklemishev` | Глава VI §1–4 (стр. 119) | Глава VI §5–7 (119+) | Глава VII–IX complete (стр. 135–190, end of book) | Глава VII §3–4 (161–173) — **fronts nearly meet** |
 
-The gap still to fill in the middle of each book: `beklemishev` Гл.III§3–VIII (109–374) · `gusyatnikov` Гл.3§3-4 (141–178, **both fronts converge on this same range next round**) · `sbornik_zadach` Гл.6–12 (127–306) · `reshebnik_beklemishev` Гл.VI–VII (97–173).
+The gap still to fill in the middle of each book: `beklemishev` Гл.IV–VI + Гл.VII§1-2 (133–340) **plus a separate untouched pocket, Гл.VIII (355–374) — do NOT confuse with `reshebnik_beklemishev`'s Гл.VIII, which is a different book and already done; a 2026-07-25 planning mix-up skipped it, fix in an upcoming round** · `gusyatnikov` — none, book finished · `sbornik_zadach` Гл.7–11 (156–284) · `reshebnik_beklemishev` Гл.VI§5-7 + Гл.VII§3-4 (119–173, both small, fronts converging).
 
-Last full round: 2026-07-25. Ran 8 agents in parallel (forward+backward × 4 books) two rounds running now — pattern holds up well, only isolated network failures (handled by relaunching with the same brief).
+Last full round: 2026-07-25 (second dual-front round same day). Ran 7-8 agents in parallel per round (forward+backward × 4 books, fewer once a book completes) — three rounds running now, pattern holds up well. One planning error this round: when a book's backward front's "next up" chapter belongs only to a *different* book (e.g. `reshebnik_beklemishev` had already done Глава VIII, but `beklemishev` itself had not), double-check which book's table row you're reading before assigning the next chunk — don't jump ahead past an undone chapter just because a same-named chapter is done in a sibling book.
 
 ### Parallel conversion workflow (how progress gets made — for a session picking this back up)
 
