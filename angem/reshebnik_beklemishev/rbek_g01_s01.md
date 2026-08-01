@@ -63,6 +63,15 @@ $$2x+3y=1.$$
 Решение. Пусть такая точка $O$ существует. Тогда для произвольной точки $P$ выполнено равенство
 $$\overrightarrow{PA}+\overrightarrow{PB}+\overrightarrow{PC} = 3\overrightarrow{PO}+\overrightarrow{OA}+\overrightarrow{OB}+\overrightarrow{OC} = 3\overrightarrow{PO}. \quad (1)$$
 
+> [!note] Наше дополнение — откуда берётся равенство (1)
+> Первое равенство — чистая алгебра, применение тождества $\overrightarrow{PO}+\overrightarrow{OX}=\overrightarrow{PX}$ (правило треугольника) отдельно к $X=A,B,C$ через общую точку $O$:
+> $$\overrightarrow{PA} = \overrightarrow{PO}+\overrightarrow{OA}, \quad \overrightarrow{PB} = \overrightarrow{PO}+\overrightarrow{OB}, \quad \overrightarrow{PC} = \overrightarrow{PO}+\overrightarrow{OC}.$$
+> Складывая эти три равенства почленно, получаем $\overrightarrow{PA}+\overrightarrow{PB}+\overrightarrow{PC} = 3\overrightarrow{PO}+(\overrightarrow{OA}+\overrightarrow{OB}+\overrightarrow{OC})$ — это верно для любой точки $P$, геометрия здесь ещё не используется.
+>
+> Второе равенство (переход к $3\overrightarrow{PO}$) уже использует условие задачи: точка $O$ по предположению выбрана так, что $\overrightarrow{OA}+\overrightarrow{OB}+\overrightarrow{OC}=\mathbf{0}$ (это и есть искомое свойство $O$, о котором говорится в первой фразе решения). Подставляя это, скобка обнуляется, и остаётся $\overrightarrow{PA}+\overrightarrow{PB}+\overrightarrow{PC} = 3\overrightarrow{PO}$.
+>
+> Далее в решении подставляется конкретное $P=A$, что и даёт формулу (2).
+
 Положив $P=A$, мы получим
 $$\overrightarrow{AO} = \frac{1}{3}(\overrightarrow{AB}+\overrightarrow{AC}), \quad (2)$$
 
