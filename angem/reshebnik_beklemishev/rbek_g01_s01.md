@@ -77,7 +77,27 @@ $$\overrightarrow{AO} = \frac{1}{3}(\overrightarrow{AB}+\overrightarrow{AC}), \q
 
 откуда следует, что такой точкой $O$ может быть только точка пересечения медиан $\triangle ABC$.
 
+> [!note] Наше дополнение — почему $O$ обязательно точка пересечения медиан
+> Из формулы (2): $\overrightarrow{AO} = \frac{1}{3}(\overrightarrow{AB}+\overrightarrow{AC})$. Обозначим через $D$ середину стороны $BC$, тогда $\overrightarrow{AD} = \frac{1}{2}(\overrightarrow{AB}+\overrightarrow{AC})$. Обе формулы содержат одну и ту же сумму, поэтому $\overrightarrow{AO} = \frac{2}{3}\overrightarrow{AD}$.
+>
+> Это даёт сразу три вещи: (1) $\overrightarrow{AO}$ и $\overrightarrow{AD}$ коллинеарны — значит $O$ лежит на прямой $AD$, то есть на медиане из вершины $A$; (2) коэффициент $2/3 \in (0,1)$ — значит $O$ лежит между $A$ и $D$, внутри отрезка; (3) поскольку $\overrightarrow{OD} = \overrightarrow{AD}-\overrightarrow{AO} = \frac{1}{3}\overrightarrow{AD}$, отношение $AO:OD = 2:1$. Итог: $O$ делит медиану $AD$ в отношении $2:1$, считая от вершины $A$.
+>
+> Это показано только для одной медианы. Но условие $\overrightarrow{OA}+\overrightarrow{OB}+\overrightarrow{OC}=\mathbf{0}$ симметрично относительно $A$, $B$, $C$ — тот же вывод с $P=B$ (через $E$ — середину $AC$) даёт $\overrightarrow{BO} = \frac{2}{3}\overrightarrow{BE}$, а с $P=C$ (через $F$ — середину $AB$) даёт $\overrightarrow{CO} = \frac{2}{3}\overrightarrow{CF}$.
+>
+> Значит $O$ одновременно лежит на всех трёх медианах, деля каждую в отношении $2:1$ от вершины. По стандартному факту элементарной геометрии медианы треугольника пересекаются в одной точке — а значит такая $O$ может быть только этой точкой пересечения медиан.
+>
+> Альтернативная проверка через радиус-векторы: если $\mathbf a,\mathbf b,\mathbf c$ — радиус-векторы вершин, а $\mathbf o$ — искомой точки, то $\overrightarrow{OA}=\mathbf a-\mathbf o$ и аналогично для $B$, $C$; условие $\overrightarrow{OA}+\overrightarrow{OB}+\overrightarrow{OC}=\mathbf 0$ даёт $\mathbf o = \frac{1}{3}(\mathbf a+\mathbf b+\mathbf c)$ — стандартная формула центроида.
+
 С другой стороны, если $O$ — центр тяжести $\triangle ABC$, то $\overrightarrow{OB}+\overrightarrow{OC}=2\overrightarrow{OD}$, где $D$ — середина стороны $BC$. Но и $\overrightarrow{AO}=2\overrightarrow{OD}$. Отсюда $\overrightarrow{OB}+\overrightarrow{OC}+\overrightarrow{OA}=\mathbf{0}$. Таким образом, точка $O$ пересечения медиан $\triangle ABC$ — единственная точка, удовлетворяющая условию задачи.
+
+> [!note] Наше дополнение — разбор обратного доказательства
+> Выше доказана необходимость: если такая $O$ существует, она обязана быть центром тяжести. Этот абзац доказывает достаточность: если $O$ — центр тяжести, то она удовлетворяет условию $\overrightarrow{OA}+\overrightarrow{OB}+\overrightarrow{OC}=\mathbf{0}$. Вместе это даёт единственность.
+>
+> **Откуда $\overrightarrow{OB}+\overrightarrow{OC}=2\overrightarrow{OD}$.** Это общий факт про середину отрезка, справедливый для любой точки $O$ (пока никак не связанной с центром тяжести) и $D$ — середины $BC$: $\overrightarrow{OD} = \overrightarrow{OB}+\overrightarrow{BD} = \overrightarrow{OB}+\frac{1}{2}\overrightarrow{BC} = \overrightarrow{OB}+\frac{1}{2}(\overrightarrow{OC}-\overrightarrow{OB}) = \frac{1}{2}(\overrightarrow{OB}+\overrightarrow{OC})$, откуда $\overrightarrow{OB}+\overrightarrow{OC}=2\overrightarrow{OD}$.
+>
+> **Откуда $\overrightarrow{AO}=2\overrightarrow{OD}$.** А вот это уже использует то, что $O$ — центр тяжести. Как показано в предыдущем примечании, $O$ делит медиану $AD$ в отношении $AO:OD=2:1$ считая от вершины $A$, причём $\overrightarrow{AO}$ и $\overrightarrow{OD}$ сонаправлены (лежат на одной медиане, по одну сторону движения от $A$ к $D$). Отсюда как векторное равенство $\overrightarrow{AO}=2\overrightarrow{OD}$.
+>
+> **Собираем.** Правые части обоих равенств совпадают ($2\overrightarrow{OD}$), значит совпадают и левые: $\overrightarrow{OB}+\overrightarrow{OC}=\overrightarrow{AO}$. Так как $\overrightarrow{AO}=-\overrightarrow{OA}$, получаем $\overrightarrow{OB}+\overrightarrow{OC}-\overrightarrow{OA}=\mathbf{0}$, то есть $\overrightarrow{OA}+\overrightarrow{OB}+\overrightarrow{OC}=\mathbf{0}$ — то самое исходное условие, но выведенное уже из предположения, что $O$ — центр тяжести.
 
 Теперь пусть даны четыре точки $A$, $B$, $C$ и $D$. Если $Q$ — центр тяжести $\triangle ABC$, то, полагая в равенстве (1) $P=D$ (и $O=Q$), мы получим
 $$\overrightarrow{DQ} = \frac{1}{3}(\overrightarrow{DA}+\overrightarrow{DB}+\overrightarrow{DC}).$$
