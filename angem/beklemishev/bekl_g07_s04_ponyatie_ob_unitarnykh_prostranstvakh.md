@@ -205,3 +205,5 @@ $$\begin{Vmatrix} 0 & i \\ -i & 0 \end{Vmatrix}.$$
 5. Найдите ортонормированный базис из собственных векторов унитарного преобразования, заданного в ортонормированном базисе матрицей
 
 $$\begin{Vmatrix} \cos\varphi & -\sin\varphi \\ \sin\varphi & \cos\varphi \end{Vmatrix}.$$
+
+Решения упражнений 1–5: [[../reshebnik_beklemishev/rbek_g07_s04|Решебник, Гл. VII §4]].
