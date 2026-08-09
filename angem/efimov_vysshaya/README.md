@@ -114,7 +114,7 @@
 - [[efimov_g02_s04_sledstviya_iz_aksiom_svyazi_i_poryadka|4. Следствия из аксиом связи и порядка (§§ 14-15)]] (стр. 45–54)
 - [[efimov_g02_s05_gruppa_3_aksiomy_kongruentnosti|5. Группа III. Аксиомы конгруэнтности (§ 16)]] (стр. 54–57)
 - [[efimov_g02_s06_sledstviya_iz_aksiom_i_iii|6. Следствия из аксиом I-III (§§ 17-19)]] (стр. 58–71)
-- [[efimov_g02_s07_gruppa_4_aksiomy_nepreryvnosti|7. Группа IV. Аксиомы непрерывности (§§ 20-24)]] (стр. 72–73, не окончен)
+- [[efimov_g02_s07_gruppa_4_aksiomy_nepreryvnosti|7. Группа IV. Аксиомы непрерывности (§§ 20-24)]] (стр. 72–79, не окончен)
 
 **Глава V. Основы проективной геометрии**
 - [[efimov_g05_s01_predmet_proektivnoy_geometrii|1. Предмет проективной геометрии (§§ 77-83)]] (стр. 242–247)
