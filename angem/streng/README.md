@@ -93,7 +93,7 @@
 - [[streng_g02_s02_reshenie_m_uravneniy|§ 2.2. РЕШЕНИЕ M УРАВНЕНИЙ С N НЕИЗВЕСТНЫМИ]] (стр. 68–76)
 - [[streng_g02_s03_lineynaya_nezavisimost|§ 2.3. ЛИНЕЙНАЯ НЕЗАВИСИМОСТЬ, БАЗИС И РАЗМЕРНОСТЬ]] (стр. 77–85)
 - [[streng_g02_s04_chetyre_osnovnykh_podprostranstva|§ 2.4. ЧЕТЫРЕ ОСНОВНЫХ ПОДПРОСТРАНСТВА]] (стр. 86–99)
-- [[streng_g02_s05_ortogonalnost_vektorov_i_podprostranstv|§ 2.5. ОРТОГОНАЛЬНОСТЬ ВЕКТОРОВ И ПОДПРОСТРАНСТВ]] (стр. 100–105, не окончен)
+- [[streng_g02_s05_ortogonalnost_vektorov_i_podprostranstv|§ 2.5. ОРТОГОНАЛЬНОСТЬ ВЕКТОРОВ И ПОДПРОСТРАНСТВ]] (стр. 100–112)
 
 **Глава 8. Линейное программирование и теория игр**
 - [[streng_g08_s01_lineynye_neravenstva|§ 8.1. ЛИНЕЙНЫЕ НЕРАВЕНСТВА]] (стр. 353–359)
