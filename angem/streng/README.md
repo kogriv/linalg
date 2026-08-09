@@ -94,6 +94,7 @@
 - [[streng_g02_s03_lineynaya_nezavisimost|§ 2.3. ЛИНЕЙНАЯ НЕЗАВИСИМОСТЬ, БАЗИС И РАЗМЕРНОСТЬ]] (стр. 77–85)
 - [[streng_g02_s04_chetyre_osnovnykh_podprostranstva|§ 2.4. ЧЕТЫРЕ ОСНОВНЫХ ПОДПРОСТРАНСТВА]] (стр. 86–99)
 - [[streng_g02_s05_ortogonalnost_vektorov_i_podprostranstv|§ 2.5. ОРТОГОНАЛЬНОСТЬ ВЕКТОРОВ И ПОДПРОСТРАНСТВ]] (стр. 100–112)
+- [[streng_g02_s06_pary_podprostranstv_i_proizvedeniya_matrits|§ 2.6. ПАРЫ ПОДПРОСТРАНСТВ И ПРОИЗВЕДЕНИЯ МАТРИЦ]] (стр. 113–119, не окончен)
 
 **Глава 8. Линейное программирование и теория игр**
 - [[streng_g08_s01_lineynye_neravenstva|§ 8.1. ЛИНЕЙНЫЕ НЕРАВЕНСТВА]] (стр. 353–359)
