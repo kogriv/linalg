@@ -94,7 +94,8 @@
 - [[streng_g02_s03_lineynaya_nezavisimost|§ 2.3. ЛИНЕЙНАЯ НЕЗАВИСИМОСТЬ, БАЗИС И РАЗМЕРНОСТЬ]] (стр. 77–85)
 - [[streng_g02_s04_chetyre_osnovnykh_podprostranstva|§ 2.4. ЧЕТЫРЕ ОСНОВНЫХ ПОДПРОСТРАНСТВА]] (стр. 86–99)
 - [[streng_g02_s05_ortogonalnost_vektorov_i_podprostranstv|§ 2.5. ОРТОГОНАЛЬНОСТЬ ВЕКТОРОВ И ПОДПРОСТРАНСТВ]] (стр. 100–112)
-- [[streng_g02_s06_pary_podprostranstv_i_proizvedeniya_matrits|§ 2.6. ПАРЫ ПОДПРОСТРАНСТВ И ПРОИЗВЕДЕНИЯ МАТРИЦ]] (стр. 113–119, не окончен)
+- [[streng_g02_s06_pary_podprostranstv_i_proizvedeniya_matrits|§ 2.6. ПАРЫ ПОДПРОСТРАНСТВ И ПРОИЗВЕДЕНИЯ МАТРИЦ]] (стр. 113–122)
+- [[streng_g02_s07_obzornye_uprazhneniya|§ 2.7. ОБЗОРНЫЕ УПРАЖНЕНИЯ]] (стр. 123–124)
 
 **Глава 3. Ортогональные проекции и метод наименьших квадратов**
 - [[streng_g03_s01_skalyarnye_proizvedeniya_i_transponirovanie|§ 3.1. СКАЛЯРНЫЕ ПРОИЗВЕДЕНИЯ И ТРАНСПОНИРОВАНИЕ]] (стр. 125–131, не окончен)
