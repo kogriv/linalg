@@ -36,7 +36,7 @@ Full-parity policy for the Beklemishev front (2026-07-22): when a textbook §'s 
 
 Both in-progress books were started from two fronts (a forward front from the beginning, a backward front from a later chapter), which is why their coverage has holes in the middle — those are planned work, not losses. `apokrif run --book <id> --fill-gaps` plans batches into exactly those holes; a plain `apokrif run --book <id>` continues the forward front.
 
-**Both books are frozen ON THE HP HOST ONLY** (human decision 2026-08-24, `apokrif/BACKLOG.md` п.46: the scans were not copied there, so work continues on `volya` instead). That decision does not apply to the Termux host — the DjVu/PDF sources are here and verified present. What blocks a resume here is the registry, not the decision: see the host note below.
+**Frozen on the HP host only, runnable here.** The 2026-08-24 decision (`apokrif/BACKLOG.md` п.46) froze both books on the machine that has no scans of them; the Termux host has both sources, the `cursor-agent` backend, and — since 2026-08-25 — a registry that no longer points at the wrong machine. Nothing blocks a resume here; the next batch is a real next step, not a historical marker.
 
 Coverage numbers here were computed directly from the page markers in the files, which works anywhere:
 
@@ -52,10 +52,13 @@ cd angem && grep -h -o '^\*\*стр\. -\?[0-9]\+\*\*' streng/*.md | grep -o '\-\
 
 Lives OUTSIDE the vault, at `/root/notes/pro/apokrif` (private repo `kogriv/apokrif`) — read its `README.md` and `AGENTS.md` before running anything. Read-only rule for this side: **apokrif writes into `angem/<book>/`, agents working in the vault do not hand-patch pages that apokrif is about to re-merge.** Also check the local clone isn't behind its remote before a run.
 
-**Two hosts, and that is why `streng`/`efimov_vysshaya` are frozen.** The harness moved to another machine (`/data/obsidian_vaults/obsi_vault_hp/...`) around 2026-08-16 and `books/candidates.tsv` was repointed there. The DjVu/PDF scans of these two books stayed on the Termux host (`/root/download/ya_disk/Books/Math/АнГем/`), and on 2026-08-24 the human chose freeze over copying them (`BACKLOG.md` п.46, вариант 2): work continues only on `volya`/`selivanov`. Consequences to expect:
+**Two hosts, and how the harness now handles that.** apokrif runs on two machines — this Termux host and an HP one (`/data/obsidian_vaults/obsi_vault_hp/...`) — with different paths to the vault and to the scan library. Until 2026-08-25 `books/candidates.tsv` held absolute paths, so it was correct on exactly one machine at a time: the 2026-08-16 move to HP broke every book lookup here (`apokrif state --book streng` → `FileNotFoundError`), which is also what produced the freeze decision above.
 
-- On the Termux host `python3 apokrif state --book streng` dies with `FileNotFoundError` on the HP `vault_dir` — the registry is host-specific and there is no per-host override. Not a bug in the vault, and not something to "fix" by rewriting the column: the registry points at whichever host is current, and flipping it back would break the other one.
-- The Termux host is the only machine that has both the scans and this vault checkout, so it is where these two books resume — once the registry can describe two hosts at once. Host-dependent values are exactly two columns of `books/candidates.tsv` (`path`, `vault_dir`), version-controlled with one slot per book; nothing is hardcoded in the harness code. `run.sh` accepts `--book-path`/`--book-format`/`--vault-dir` for a one-off run, but `apokrif run` (the full round) has no override at all — so don't "just edit the column": that silently breaks the other host. The fix belongs in apokrif (a gitignored local overlay over the shared registry), not here.
+Fixed in apokrif (GF18): the registry now stores `{books}/…` and `{vault}/…`, and each machine says once where those point — `apokrif roots set vault <path>` / `apokrif roots set books <path>`, stored in `~/.config/apokrif/roots.tsv`, outside git. Both roots are already configured on this host. What this means for a session working here:
+
+- Don't paste an absolute path into the registry to "make it work" — that is the exact move that breaks the other machine, and it now fails apokrif's test suite.
+- A book whose scan is absent on this machine (`selivanov`) is not a defect: `run.sh` stops on "Файл не найден", tests skip it. Availability is a property of the pair (book, machine) and is computed, not declared.
+- `apokrif roots` shows what resolves here; `apokrif roots detect` proposes candidates when a new machine joins.
 
 One round = one command:
 
