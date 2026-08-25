@@ -31,24 +31,31 @@ Full-parity policy for the Beklemishev front (2026-07-22): when a textbook §'s 
 | `gusyatnikov` | **BOOK COMPLETE** — Главы 1–4, стр. 6–228 |
 | `sbornik_zadach` | **BOOK COMPLETE** — Главы 1–14, стр. 7–372 (2026-08-07) |
 | `reshebnik_beklemishev` | **BOOK COMPLETE** — Главы I–IX, стр. 5–190 (2026-08-07) |
-| `streng` | in progress — 239/459 стр. Готово: вступительные (стр. −4…6), Гл. 1–2 (11–124), §3.1–3.2 (125–145), §4.1–4.3 (182–195), Гл. 8 (353–431, см. баг ниже). Форвард-фронт: следующий батч 432–437, до конца файла ~22 стр. Пропуски в середине: 7–10, 146–181, 196–352 |
-| `efimov_vysshaya` | in progress — 167/576 стр. Готово: Гл. I (9–40), Гл. II п.1–7 (41–79), Гл. V п.1–9 (242–337). Форвард-фронт: следующий батч 338–343. Пропуск в середине: 80–241; хвост 338–576 |
+| `streng` | заморожена 2026-08-24, покрыто — 239/459 стр. Готово: вступительные (стр. −4…6), Гл. 1–2 (11–124), §3.1–3.2 (125–145), §4.1–4.3 (182–195), Гл. 8 (353–431, см. баг ниже). Форвард-фронт: следующий батч 432–437, до конца файла ~22 стр. Пропуски в середине: 7–10, 146–181, 196–352 |
+| `efimov_vysshaya` | заморожена 2026-08-24, покрыто — 167/576 стр. Готово: Гл. I (9–40), Гл. II п.1–7 (41–79), Гл. V п.1–9 (242–337). Форвард-фронт: следующий батч 338–343. Пропуск в середине: 80–241; хвост 338–576 |
 
 Both in-progress books were started from two fronts (a forward front from the beginning, a backward front from a later chapter), which is why their coverage has holes in the middle — those are planned work, not losses. `apokrif run --book <id> --fill-gaps` plans batches into exactly those holes; a plain `apokrif run --book <id>` continues the forward front.
 
-Canonical, always-current numbers (don't trust this table if it looks stale):
+**Both in-progress books are FROZEN as of 2026-08-24** (human decision, `apokrif/BACKLOG.md` п.46) — see the host note below. The "next batch" above is a resume point, not an active plan.
+
+Coverage numbers here were computed directly from the page markers in the files, which works anywhere:
 
 ```bash
-cd /root/notes/pro/apokrif
-python3 apokrif state --book streng          # coverage, next batch, known gaps
-python3 apokrif state --book efimov_vysshaya
+cd angem && grep -h -o '^\*\*стр\. -\?[0-9]\+\*\*' streng/*.md | grep -o '\-\?[0-9]\+' | sort -n | uniq | wc -l
 ```
+
+`apokrif state --book <id>` gives the same numbers plus the next batch, but only on the host whose paths are in `books/candidates.tsv` (see below).
 
 **Backend:** both in-progress books are transcribed with `cursor:composer-2.5`. `agy:gemini` is deprecated for this project — on dense pages of Ефимов it silently dropped up to 80% of the text with no flag at all, and hardening the harness didn't fix it (details in `apokrif/AGENTS.md`).
 
 ## How progress is made now — the apokrif harness (since 2026-08-08)
 
 Lives OUTSIDE the vault, at `/root/notes/pro/apokrif` (private repo `kogriv/apokrif`) — read its `README.md` and `AGENTS.md` before running anything. Read-only rule for this side: **apokrif writes into `angem/<book>/`, agents working in the vault do not hand-patch pages that apokrif is about to re-merge.** Also check the local clone isn't behind its remote before a run.
+
+**Two hosts, and that is why `streng`/`efimov_vysshaya` are frozen.** The harness moved to another machine (`/data/obsidian_vaults/obsi_vault_hp/...`) around 2026-08-16 and `books/candidates.tsv` was repointed there. The DjVu/PDF scans of these two books stayed on the Termux host (`/root/download/ya_disk/Books/Math/АнГем/`), and on 2026-08-24 the human chose freeze over copying them (`BACKLOG.md` п.46, вариант 2): work continues only on `volya`/`selivanov`. Consequences to expect:
+
+- On the Termux host `python3 apokrif state --book streng` dies with `FileNotFoundError` on the HP `vault_dir` — the registry is host-specific and there is no per-host override. Not a bug in the vault, and not something to "fix" by rewriting the column: the registry points at whichever host is current, and flipping it back would break the other one.
+- The Termux host is the only machine that has both the scans and this vault checkout, so it is where these two books *could* resume — but repointing `vault_dir` is the human's call, not an agent's.
 
 One round = one command:
 
