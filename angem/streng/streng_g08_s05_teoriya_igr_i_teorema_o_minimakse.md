@@ -1186,3 +1186,241 @@ $$
 **3.2.9.** $P = \begin{bmatrix} 0 & 0 \\ 0 & 1 \end{bmatrix}$; тогда $P \begin{bmatrix} x \\ y \end{bmatrix} = \begin{bmatrix} 0 \\ y \end{bmatrix}$.
 
 **3.2.11.** $y = -\dfrac{3}{10} - \dfrac{12}{5} t$.
+
+
+---
+**стр. 432**
+---
+
+**3.2.12.** $\begin{bmatrix} 1 & -1 & 1 \\ 1 & 0 & 0 \\ 1 & 1 & 1 \\ 1 & 2 & 4 \end{bmatrix} \begin{bmatrix} C \\ D \\ E \end{bmatrix} = \begin{bmatrix} 2 \\ 0 \\ -3 \\ -5 \end{bmatrix}$.
+
+**3.3.1.** $\begin{bmatrix} 1 & -2 \\ 1 & -1 \\ 1 & 1 \\ 1 & 2 \end{bmatrix} \begin{bmatrix} C \\ D \end{bmatrix} = \begin{bmatrix} -4 \\ -3 \\ -1 \\ 0 \end{bmatrix}$; $c = 2C$, $d = \sqrt{10}D$; $y = -2 + t$ является оптимальным и действительно проходит через все четыре точки; $E^2 = 0$ и $b = p$, поскольку $b$ принадлежит пространству столбцов.
+
+**3.3.2.** Отдельными проекциями являются $2a_1$ и $2a_2$; $p = 2a_1 + 2a_2$.
+
+**3.3.3.** Эта проекция равна $-a_3$; сумма $2a_1 + 2a_2 - a_3 = (0,\; 3,\; 0)$ совпадает с вектором $b$; оператор проектирования на все пространство является тождественным.
+
+**3.3.4.** $(Q_1 Q_2)^{\text{T}} (Q_1 Q_2) = Q_2^{\text{T}} Q_1^{\text{T}} Q_1 Q_2 = Q_2^{\text{T}} I Q_2 = I$.
+
+**3.3.5.** $Q^{\text{T}} Q = (I - 2uu^{\text{T}})(I - 2uu^{\text{T}}) = I - 4uu^{\text{T}} + 4uu^{\text{T}} uu^{\text{T}} = I$, поскольку $u^{\text{T}} u = 1$.
+
+**3.3.6.** Третий столбец есть $\pm (1,\; -2,\; 1)/\sqrt{6}$.
+
+**3.3.7.** $\|v\|^2 = (x_1 q_1 + \dots + x_n q_n)^{\text{T}} (x_1 q_1 + \dots + x_n q_n) = x_1^2 q_1^{\text{T}} q_1 + \dots + x_n^2 q_n^{\text{T}} q_n = x_1^2 + \dots + x_n^2$.
+
+**3.3.8.** Матрица $Q$ является ортогональной.
+
+**3.3.9.** $q_1 = a_1$, $q_2 = a_2 - a_1$, $q_3 = a_3 - a_2$; $A = \begin{bmatrix} 0 & 0 & 1 \\ 0 & 1 & 1 \\ 1 & 1 & 1 \end{bmatrix} = \begin{bmatrix} 0 & 0 & 1 \\ 0 & 1 & 0 \\ 1 & 0 & 0 \end{bmatrix} \begin{bmatrix} 1 & 1 & 1 \\ 0 & 1 & 1 \\ 0 & 0 & 1 \end{bmatrix} = QR$.
+
+**3.3.10.** $\begin{bmatrix} 3 & 0 \\ 4 & 5 \end{bmatrix} = \begin{bmatrix} 3/5 & -4/5 \\ 4/5 & 3/5 \end{bmatrix} \begin{bmatrix} 5 & 4 \\ 0 & 3 \end{bmatrix}$.
+
+**3.3.11.** $\begin{bmatrix} 1 & 1 \\ 2 & 3 \\ 2 & 1 \end{bmatrix} = \begin{bmatrix} 1/3 & 0 \\ 2/3 & 1/\sqrt{2} \\ 2/3 & -1/\sqrt{2} \end{bmatrix} \begin{bmatrix} 3 & 3 \\ 0 & \sqrt{2} \end{bmatrix}$; матрицы $A$ и $Q$ имеют размер $m \times n$, а матрица $R$ — размер $n \times n$.
+
+**3.3.12.** $\bar{x} = R^{-1} Q^{\text{T}} b = \begin{bmatrix} 5/9 \\ 0 \end{bmatrix}$.
+
+**3.3.13.** Пространства столбцов матриц $Q$ и $A$ совпадают, так что $P = Q(Q^{\text{T}} Q)^{-1} Q^{\text{T}} = QQ^{\text{T}}$.
+
+**3.3.14.** $v_3 = \left(c - \dfrac{v_1^{\text{T}} c}{v_1^{\text{T}} v_1} v_1\right) - \dfrac{v_2^{\text{T}} c}{v_2^{\text{T}} v_2} v_2$, поскольку $v_2^{\text{T}} v_1 = 0$.
+
+---
+**стр. 433**
+---
+
+**3.3.15.** $\|v\|^2 = \dfrac{1}{2} + \dfrac{1}{4} + \dots = 1$, $\|e^x\|^2 = \int e^{2x}\, dx = (e^2 - 1)/2$, $\int e^x e^{-x}\, dx = 1$.
+
+**3.3.16.** $b_1 = \int y \sin x / \int \sin^2 x$; если $y = \cos x$, то коэффициент Фурье $b_1$ равен нулю.
+
+**3.3.17.** $a_0 = 1$, $a_1 = 0$, $b_1 = 2/\pi$.
+
+**3.3.18.** Функция $x^3$ уже ортогональна четным функциям $1$ и $x^2 - \dfrac{1}{3}$; $\int_{-1}^{1} x^3 x\, dx = \dfrac{2}{5}$, так что следующий многочлен Лежандра имеет вид $x^3 - \dfrac{3}{5}x$.
+
+**3.3.19.** Горизонтальная прямая $y = 1/3$.
+
+**3.4.1.** Если $A = 0$, то пространство строк есть $0$, $\bar{x} = 0$ и $A^+ = 0$.
+
+**3.4.2.** $A = \begin{bmatrix} 1 \\ 1 \end{bmatrix} \begin{bmatrix} 1 & 1 & 1 \end{bmatrix} = \bar{L}\bar{U}$; $A^+ = \dfrac{1}{6} \begin{bmatrix} 1 & 1 \\ 1 & 1 \\ 1 & 1 \end{bmatrix}$, $\bar{x} = A^+ b = \dfrac{1}{6} \begin{bmatrix} 1 \\ 1 \\ 1 \end{bmatrix}$, $A\bar{x} = \begin{bmatrix} 1/2 \\ 1/2 \end{bmatrix} = p$.
+
+**3.4.3.** $A^+ = A^{\text{T}}$, поскольку решением системы $Ax = b$ по методу наименьших квадратов является вектор $\bar{x} = A^{\text{T}} b$.
+
+**3.4.4.** $\bar{u} = \bar{v} = 3/2$.
+
+**3.5.1.** Из (59) имеем $\bar{x}_W = (4b_1 + b_2)/(4 + 1) = \dfrac{17}{5}$.
+
+**3.5.2.** Вектор $c$ является $W$-перпендикулярным к $b$, если $(c_1,\; c_2) W^{\text{T}} W b = 0$, или $4c_1 + c_2 = 0$; $\|b\|_W = \|Wb\| = \sqrt{5}$.
+
+**3.5.3.** $\bar{x}_W = \dfrac{8}{13}$, обратное к изображенному на рис. 3.9.
+
+**3.5.4.** Любая ортогональная матрица.
+
+## Глава 4
+
+**4.2.1.** $\det 2A = 2^n \det A$; $\det (-A) = (-1)^n \det A$; $\det A^2 = (\det A)^2$.
+
+**4.2.2.** Правила (5) и (1) влекут за собой (2).
+
+**4.2.3.** $\det A = 20$, $\det A = 5$.
+
+**4.2.4.** $\det A^{\text{T}} = \det A$, $\det (-A) = (-1)^3 \det A$, следовательно, $\det A = -\det A$ или $\det A = 0$.
+
+**4.2.5.** (a) $0$; (b) $16$; (c) $16$; (d) $\dfrac{1}{16}$; (e) $16$.
+
+**4.2.7.** $\det Q^{-1} \det Q = 1$, или $(\det Q)^2 = 1$; единичный куб.
+
+**4.3.1.** Столбцы $2$, $1$, $4$, $3$; перестановка четная, так что $|A| = 1$.
+
+**4.3.4.** $|A_4| = -3$, $|A_3| = 2$, $|A_2| = -1$, $|A_n| = (-1)^n (1 - n)$.
+
+**4.3.5.** $|A| = 20$, $B = \begin{bmatrix} 20 & -10 & -12 \\ 0 & 5 & 0 \\ 0 & 0 & 4 \end{bmatrix}$, $A^{-1} = B/20$.
+
+---
+**стр. 434**
+---
+
+**4.4.1.** $A^{-1} = \begin{bmatrix} 1 & -1 & 0 \\ 0 & 1 & -1 \\ 0 & 0 & 1 \end{bmatrix}$.
+
+**4.4.2.** $x = 3$, $y = -1$, $z = -2$.
+
+**4.4.3.** $J = r^2 \cos \varphi$ ($\varphi = 0$ есть экватор!).
+
+**4.4.4.** Треугольник $A'B'C'$ имеет такую же площадь, как и $ABC$, он просто сдвинут в начало координат.
+
+**4.4.5.** Каждая из трех строк увеличивается в три раза.
+
+**4.4.6.** Ведущие элементы равны $2$, $\dfrac{6}{2}$, $\dfrac{0}{6}$; нет, матрица $A$ вырожденная.
+
+**4.4.7.** Начиная с $n = 2$, перестановки являются нечетной, нечетной, четной, четной, нечетной, нечетной и т. д. Задача для $n + 1$ подобна задаче для $n$, за исключением того, что число $n + 1$ необходимо будет передвинуть из одного конца в другой, для чего требуется $n$ дополнительных перестановок. Поэтому четность сохраняется, когда $n$ четное, и изменяется при нечетном $n$.
+
+**4.4.8.** Четное.
+
+**4.4.9.** Зависимы, поскольку составленный из них определитель равен нулю.
+
+## Глава 5
+
+**5.1.1.** $\lambda = 2$, $\lambda = 3$, след равен $5$, определитель равен $6$.
+
+**5.1.2.** $u = c_1 \begin{bmatrix} 1 \\ -1 \end{bmatrix} e^{2t} + c_2 \begin{bmatrix} 1 \\ -2 \end{bmatrix} e^{3t} = 6 \begin{bmatrix} 1 \\ -1 \end{bmatrix} e^{2t} - 6 \begin{bmatrix} 1 \\ -2 \end{bmatrix} e^{3t}$.
+
+**5.1.3.** $\lambda = -5$, $\lambda = -4$; оба уменьшаются на $7$ при неизменных собственных векторах.
+
+**5.1.4.** $c_1 x_1 + c_2 x_2 + c_3 x_3 = \begin{bmatrix} 3 \\ 3 \\ 1 \end{bmatrix}$, или $c_1 = \dfrac{7}{3}$, $c_2 = 0$, $c_3 = -\dfrac{1}{3}$.
+
+**5.1.5.** $\begin{bmatrix} 1 \\ 0 \\ 0 \end{bmatrix}$, $\begin{bmatrix} 1 \\ -1 \\ 0 \end{bmatrix}$, $\begin{bmatrix} 1 \\ -2 \\ 1 \end{bmatrix}$; $\lambda = 3$, $1$, $2$; $\begin{bmatrix} 1 \\ 0 \\ 0 \end{bmatrix}$, $\begin{bmatrix} 0 \\ 1 \\ 0 \end{bmatrix}$, $\begin{bmatrix} 0 \\ 0 \\ 1 \end{bmatrix}$.
+
+**5.1.7.** Если $Ax = \lambda x$, то $(A - 7I)x = (\lambda - 7)x$; если $Ax = \lambda x$, то $A^{-1}x = \lambda^{-1}x$.
+
+**5.1.8.** Взять $\lambda = 0$.
+
+**5.1.11.** $\det(A - \lambda I) = \det(A^{\text{T}} - \lambda I)$.
+
+**5.1.12.** $\lambda_1 = 5$, $\lambda_2 = -5$, $x_1 = \begin{bmatrix} 2 \\ 1 \end{bmatrix}$, $x_2 = \begin{bmatrix} 1 \\ -2 \end{bmatrix}$.
+
+**5.1.13.** $\lambda_1 = 2$, $\lambda_2 = 0$, $\lambda_3 = -2$.
+
+**5.2.1.** Столбцы матрицы $S$ суть $x_1$, $x_2$, $x_3$; $S^{-1}AS = \operatorname{diag}(0,\; 1,\; 3)$.
+
+**5.2.2.** $A = \begin{bmatrix} -5 & 18 \\ -3 & 10 \end{bmatrix}$.
+
+**5.2.3.** $\lambda = 0$, $0$, $3$; третий столбец матрицы $S$ является кратным вектору $\begin{bmatrix} 1 \\ 1 \\ 1 \end{bmatrix}$, а другие столбцы ортогональны к нему.
+
+**5.2.4.** $S^{\text{T}} A^{\text{T}} (S^{-1})^{\text{T}} = \Lambda^{\text{T}}$, так что $(S^{-1})^{\text{T}}$ является матрицей собственных векторов для $A^{\text{T}}$.
+
+**5.2.5.** $AB = S \Lambda_1 S^{-1} S \Lambda_2 S^{-1} = S \Lambda_1 \Lambda_2 S^{-1} = S \Lambda_2 \Lambda_1 S^{-1} = S \Lambda_2 S^{-1} S \Lambda_1 S^{-1} = BA$, $B = \begin{bmatrix} \alpha & \beta \\ \beta & \alpha \end{bmatrix}$.
+
+
+---
+**стр. 435**
+---
+
+**5.2.6.** $R = (\text{вращение на } 45^\circ) = \dfrac{1}{\sqrt{2}} \begin{bmatrix} 1 & -1 & 0 \\ 1 & 1 & 0 \\ 0 & 0 & \sqrt{2} \end{bmatrix}$.
+
+**5.2.7.** Матрица $\begin{bmatrix} 1 & 1 \\ -1 & -1 \end{bmatrix}$ имеет только один собственный вектор.
+
+**5.3.1.** $u_0 = \begin{bmatrix} 3 \\ 1 \end{bmatrix}$, $c_1 = \dfrac{3 - \lambda_2}{\lambda_1 - \lambda_2}$, $c_2 = \dfrac{-3 + \lambda_1}{\lambda_1 - \lambda_2}$, $F_k = c_1 \lambda_1^k + c_2 \lambda_2^k$; $F_{k+1}/F_k \to \lambda_1$.
+
+**5.3.2.** $\begin{bmatrix} G_{k+2} \\ G_{k+1} \end{bmatrix} = \begin{bmatrix} \frac{1}{2} & \frac{1}{2} \\ 1 & 0 \end{bmatrix} \begin{bmatrix} G_{k+1} \\ G_k \end{bmatrix}$, $\lambda_1 = 1$, $\lambda_2 = -\frac{1}{2}$,
+$\begin{bmatrix} G_{k+1} \\ G_k \end{bmatrix} = S \Lambda^k S^{-1} \begin{bmatrix} G_1 \\ G_0 \end{bmatrix} = \begin{bmatrix} 1 & 1 \\ 1 & -2 \end{bmatrix} \begin{bmatrix} 1^k & 0 \\ 0 & \left(-\frac{1}{2}\right)^k \end{bmatrix} \begin{bmatrix} \frac{2}{3} & \frac{1}{3} \\ \frac{1}{3} & -\frac{1}{3} \end{bmatrix} \begin{bmatrix} \frac{1}{2} \\ 0 \end{bmatrix}$,
+$G_k = \frac{1}{3} \left[ 1 - \left(-\frac{1}{2}\right)^k \right] \to \frac{1}{3}$.
+
+**5.3.3.** $\begin{bmatrix} 3000 \\ 3000 \\ 3000 \end{bmatrix}$, $\begin{bmatrix} 18\,000 \\ 1500 \\ 1000 \end{bmatrix}$, $\begin{bmatrix} 6000 \\ 9000 \\ 500 \end{bmatrix}$, $\begin{bmatrix} 3000 \\ 3000 \\ 3000 \end{bmatrix}$, $\begin{bmatrix} 18\,000 \\ 1500 \\ 1000 \end{bmatrix}$, $\begin{bmatrix} 6000 \\ 9000 \\ 500 \end{bmatrix}$,
+$\begin{bmatrix} 3000 \\ 3000 \\ 3000 \end{bmatrix}$.
+
+**5.3.4.** $A = \begin{bmatrix} \frac{1}{2} & 0 & \frac{1}{2} \\ 0 & \frac{1}{2} & \frac{1}{2} \\ \frac{1}{2} & \frac{1}{2} & 0 \end{bmatrix} \begin{matrix} \text{Бостон} \\ \text{Лос-Анджелес} \\ \text{Чикаго} \end{matrix}$, $u_\infty = \begin{bmatrix} \frac{1}{3} \\ \frac{1}{3} \\ \frac{1}{3} \end{bmatrix}$.
+
+**5.3.5.** В стационарном состоянии все являются мертвыми: $d_\infty = 1$, $s_\infty = 0$, $w_\infty = 0$.
+
+**5.3.6.** $A = \begin{bmatrix} \frac{1}{2} & \frac{1}{4} & 0 \\ \frac{1}{2} & \frac{1}{2} & \frac{1}{2} \\ 0 & \frac{1}{4} & \frac{1}{2} \end{bmatrix}$, $u_\infty = \begin{bmatrix} \frac{1}{4} \\ \frac{1}{2} \\ \frac{1}{4} \end{bmatrix}$.
+
+**5.3.7.** $A^T A - I = \begin{bmatrix} -1 & 0 \\ 0 & a_{12}^2 - \frac{3}{4} \end{bmatrix}$; собственные значения лежат на диагонали, и оба будут отрицательными при $a_{12}^2 < \frac{3}{4}$.
+
+---
+**стр. 436**
+---
+
+**5.3.8.** Система неустойчива при $|\alpha| > \frac{1}{2}$ и устойчива при $|\alpha| < \frac{1}{2}$.
+
+**5.3.9.** Увеличение матрицы $A$ означает рост производственных расходов, что приводит к замедлению темпов развития.
+
+**5.3.10.** $A^2 = \begin{bmatrix} 0 & 0 & 1 \\ 0 & 0 & 0 \\ 0 & 0 & 0 \end{bmatrix}$, $A^3 = 0$, $(I - A)^{-1} = I + A + A^2 = \begin{bmatrix} 1 & 1 & 2 \\ 0 & 1 & 1 \\ 0 & 0 & 1 \end{bmatrix}$.
+
+**5.4.1.** $e^{At} = S e^{\Lambda t} S^{-1} = \begin{bmatrix} 1 & 1 \\ 1 & -1 \end{bmatrix} \begin{bmatrix} e^{-t} & \\ & e^{-3t} \end{bmatrix} \begin{bmatrix} \frac{1}{2} & \frac{1}{2} \\ \frac{1}{2} & -\frac{1}{2} \end{bmatrix} =$
+$= \frac{1}{2} \begin{bmatrix} e^{-t} + e^{-3t} & e^{-t} - e^{-3t} \\ e^{-t} - e^{-3t} & e^{-t} + e^{-3t} \end{bmatrix} > 0$.
+
+**5.4.2.** Собственные значения равны $\lambda = 1$, $\lambda = 3$; $u = \frac{1}{2} \begin{bmatrix} 1 \\ 1 \end{bmatrix} e^t + \frac{1}{2} \begin{bmatrix} 1 \\ -1 \end{bmatrix} e^{3t} \to \infty$.
+
+**5.4.3.** $\lambda_1 = 0$, $\lambda_2 = -2$, $x_1 = \begin{bmatrix} 1 \\ 1 \end{bmatrix}$, $x_2 = \begin{bmatrix} 1 \\ -1 \end{bmatrix}$, $u(t) = c_1 x_1 + c_2 x_2 e^{-2t}$;
+$u_0 = \begin{bmatrix} 3 \\ 1 \end{bmatrix}$ дает $u = \begin{bmatrix} 2 + e^{-2t} \\ 2 - e^{-2t} \end{bmatrix} \to \begin{bmatrix} 2 \\ 2 \end{bmatrix}$ при $t \to \infty$.
+
+**5.4.4.** Замена дает $dv/dt = \Lambda v$, $v = e^{\Lambda t} v_0 = e^{\Lambda t} S^{-1} u_0$, т. е. $u = S e^{\Lambda t} S^{-1} u_0$, как и ранее.
+
+**5.4.5.** $e^{tA} e^{sA} = (S e^{t\Lambda} S^{-1})(S e^{s\Lambda} S^{-1}) = S e^{t\Lambda} e^{s\Lambda} S^{-1} = S e^{(t+s)\Lambda} S^{-1} = e^{(t+s)A}$.
+
+**5.4.6.** $\dfrac{d}{dt}(x_1 y_1 + \dots) = \dfrac{dx_1}{dt} y_1 + x_1 \dfrac{dy_1}{dt} + \dots = \left(\dfrac{dx}{dt}\right)^T y + x^T \left(\dfrac{dy}{dt}\right)$.
+
+**5.4.7.** Матрица $A$ имеет мнимые собственные значения, так что система нейтрально устойчива.
+
+**5.4.8.** Собственные значения матрицы $A$ равны $\lambda_1 = \lambda_2 = -1$, что дает убывание при $t \to \infty$; собственные значения матрицы $A^T + A$ равны $\lambda_1 = 1$, $\lambda_2 = -5$, так что при $t = 0$ может не быть немедленного убывания решения.
+
+**5.4.9.** Система является неустойчивой.
+
+**5.4.10.** $u = \begin{bmatrix} 1 \\ 0 \\ -1 \end{bmatrix} \cos t + \begin{bmatrix} 1 \\ -2 \\ 1 \end{bmatrix} \dfrac{\sin \sqrt{3}\,t}{\sqrt{3}}$.
+
+**5.4.11.** $u = \frac{1}{2} \begin{bmatrix} 1 \\ 1 \end{bmatrix} \cos \sqrt{6}\,t + \frac{1}{2} \begin{bmatrix} 1 \\ -1 \end{bmatrix} \cos 2t$.
+
+**5.4.12.** $\rho^2 e^{\rho t} x = -\rho F e^{\rho t} x + A e^{\rho t} x$ или $(A - \rho F - \rho^2 I) x = 0$.
+
+**5.4.14.** $u = \begin{bmatrix} 1 & 1 \\ 1 & -1 \end{bmatrix} \begin{bmatrix} \sin t & 0 \\ 0 & (\sin \sqrt{3}\,t)/\sqrt{3} \end{bmatrix} \begin{bmatrix} \frac{1}{2} & \frac{1}{2} \\ \frac{1}{2} & -\frac{1}{2} \end{bmatrix} \begin{bmatrix} 1 \\ 0 \end{bmatrix} =$
+$= \frac{1}{2} \begin{bmatrix} \sin t + (\sin \sqrt{3}\,t)/\sqrt{3} \\ \sin t - (\sin \sqrt{3}\,t)/\sqrt{3} \end{bmatrix}$.
+
+---
+**стр. 437**
+---
+
+**5.5.1.** Все числа лежат ане единичного круга. <!-- вероятная опечатка оригинала: вне -->
+
+**5.5.2.** Сумма вещественна; также лежит на единичной окружности; также лежит на единичной окружности; лежит внутри или на границе круга радиуса два.
+
+**5.5.4.** $\|x\| = 6 = \|y\|$, $x^H y = -12$.
+
+**5.5.5.** $C = \begin{bmatrix} 1 & -i \\ -i & 0 \\ 0 & 1 \end{bmatrix} \begin{bmatrix} 1 & i & 0 \\ i & 0 & 1 \end{bmatrix} = \begin{bmatrix} 2 & i & -i \\ -i & 1 & 0 \\ i & 0 & 1 \end{bmatrix}$, $C = C^H$, поскольку $(A^H A)^H = A^H A^{HH} = A^H A$.
+
+**5.5.6.** $\begin{bmatrix} 1 & i & 0 \\ i & 0 & 1 \end{bmatrix} \to \begin{bmatrix} 1 & i & 0 \\ 0 & 1 & 1 \end{bmatrix} = U$; $Ax = 0$, если $x$ является кратным вектору $\begin{bmatrix} i \\ -1 \\ 1 \end{bmatrix}$; этот вектор ортогонален к столбцам матрицы $A^H$ (но не к столбцам матрицы $A^T$, т. е. строкам матрицы $A$).
+
+**5.5.7.** $A = \begin{bmatrix} 0 & 1 \\ 0 & 0 \end{bmatrix}$, $x = \begin{bmatrix} 1 \\ i \end{bmatrix}$, $x^H A x = i$.
+
+**5.5.8.** $\lambda_1 = 1$, $\lambda_2 = -1$, $x_1 = \begin{bmatrix} 1 \\ -i \end{bmatrix}$, $x_2 = \begin{bmatrix} 1 \\ i \end{bmatrix}$, $A = x_1 x_1^H - x_2 x_2^H$; произведение $x_1^H x_2$ равно нулю, поскольку собственные векторы ортогональны (свойство 3).
+
+**5.5.9.** $U = \begin{bmatrix} 1/\sqrt{3} & 1/\sqrt{2} & 1/\sqrt{6} \\ 1/\sqrt{3} & 0 & -2/\sqrt{6} \\ 1/\sqrt{3} & -1/\sqrt{2} & 1/\sqrt{6} \end{bmatrix}$, $A = 0 + \begin{bmatrix} \frac{1}{2} & 0 & -\frac{1}{2} \\ 0 & 0 & 0 \\ -\frac{1}{2} & 0 & \frac{1}{2} \end{bmatrix} + 3 \begin{bmatrix} \frac{1}{6} & -\frac{2}{6} & \frac{1}{6} \\ -\frac{2}{6} & \frac{4}{6} & -\frac{2}{6} \\ \frac{1}{6} & -\frac{2}{6} & \frac{1}{6} \end{bmatrix}$.
+
+**5.5.10.** Определитель равен произведению собственных значений.
+
+**5.5.12.** Единица не является собственным значением, поскольку она вещественна.
+
+**5.5.13.** $K = \begin{bmatrix} 0 & 1 \\ -1 & 0 \end{bmatrix}$, $x = \begin{bmatrix} 4 \\ 5 \end{bmatrix}$, $x^H K x = 0$ (оно должно быть мнимым в силу $1'$ и вещественным, поскольку $K$ и $x$ вещественны; следовательно, оно равняется нулю).
+
+**5.5.14.** $K = (Z - Z^H)/2 = -K^H$; $Z = A + K$,
+$\begin{bmatrix} 3+i & 4+2i \\ 0 & 5 \end{bmatrix} = \begin{bmatrix} 3 & 2+i \\ 2-i & 5 \end{bmatrix} + \begin{bmatrix} i & 2+i \\ -2+i & 0 \end{bmatrix}$.
+
+**5.5.15.** $(UV)^H (UV) = V^H U^H U V = V^H I V = I$.
+
+**5.5.16.** Определитель равен произведению собственных значений, и модуль произведения $\lambda_1 \dots \lambda_n$ есть $|\lambda_1| \dots |\lambda_n| = 1$; матрица первого порядка имеет вид $U = [e^{i\theta}]$;
+$U = \begin{bmatrix} e^{i\theta} & 0 \\ 0 & e^{i\psi} \end{bmatrix}$ для произвольных углов $\theta$ и $\psi$.
