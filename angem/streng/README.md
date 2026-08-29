@@ -81,7 +81,7 @@
 Именование — по конвенции из [[../README|angem/README]], префикс `streng`: `streng_g{глава:02d}_s{параграф:02d}_{слаг}.md`.
 
 **Вступительные материалы**
-- [[streng_g00_s01_vstupitelnye_materialy|Вступительные материалы]] (стр. -4–6, не окончен)
+- [[streng_g00_s01_vstupitelnye_materialy|Вступительные материалы]] (стр. -4–10)
 
 **Глава 1. Метод исключения Гаусса**
 - [[streng_g01_s01_vvedenie|§ 1.1. ВВЕДЕНИЕ]] (стр. 11–12)
@@ -103,11 +103,23 @@
 **Глава 3. Ортогональные проекции и метод наименьших квадратов**
 - [[streng_g03_s01_skalyarnye_proizvedeniya_i_transponirovanie|§ 3.1. СКАЛЯРНЫЕ ПРОИЗВЕДЕНИЯ И ТРАНСПОНИРОВАНИЕ]] (стр. 125–133)
 - [[streng_g03_s02_proektsii_na_podprostranstva|§ 3.2. ПРОЕКЦИИ НА ПОДПРОСТРАНСТВА И АППРОКСИМАЦИИ ПО МЕТОДУ НАИМЕНЬШИХ КВАДРАТОВ]] (стр. 134–145)
+- [[streng_g03_s03_ortogonalnye_bazisy_i_grama_shmidta|§ 3.3. ОРТОГОНАЛЬНЫЕ БАЗИСЫ, ОРТОГОНАЛЬНЫЕ МАТРИЦЫ И ОРТОГОНАЛИЗАЦИЯ ГРАМА — ШМИДТА]] (стр. 146–163)
+- [[streng_g03_s04_psevdobrashchenie_i_singularnoe_razlozhenie|§ 3.4. ПСЕВДООБРАЩЕНИЕ И СИНГУЛЯРНОЕ РАЗЛОЖЕНИЕ]] (стр. 164–173)
+- [[streng_g03_s05_vzveshennye_naimenshie_kvadraty|§ 3.5. ВЗВЕШЕННЫЕ НАИМЕНЬШИЕ КВАДРАТЫ]] (стр. 174–179)
+- [[streng_g03_s06_obzornye_uprazhneniya|§ 3.6. ОБЗОРНЫЕ УПРАЖНЕНИЯ]] (стр. 180–181)
 
 **Глава 4. Определители**
 - [[streng_g04_s01_vvedenie|§ 4.1. ВВЕДЕНИЕ]] (стр. 182–184)
 - [[streng_g04_s02_svoystva_opredelitelya|§ 4.2. СВОЙСТВА ОПРЕДЕЛИТЕЛЯ]] (стр. 185–190)
-- [[streng_g04_s03_formuly_dlya_opredelitelya|§ 4.3. ФОРМУЛЫ ДЛЯ ОПРЕДЕЛИТЕЛЯ]] (стр. 191–195, не окончен)
+- [[streng_g04_s03_formuly_dlya_opredelitelya|§ 4.3. ФОРМУЛЫ ДЛЯ ОПРЕДЕЛИТЕЛЯ]] (стр. 191–199)
+- [[streng_g04_s04_primeneniya_opredeliteley|§ 4.4. ПРИМЕНЕНИЯ ОПРЕДЕЛИТЕЛЕЙ]] (стр. 200–207)
+- [[streng_g04_s05_obzornye_uprazhneniya|§ 4.5. ОБЗОРНЫЕ УПРАЖНЕНИЯ]] (стр. 208–209)
+
+**Глава 5. Собственные значения и собственные векторы**
+- [[streng_g05_s01_vvedenie|§ 5.1. ВВЕДЕНИЕ]] (стр. 210–220)
+- [[streng_g05_s02_diagonalnaya_forma_matritsy|§ 5.2. ДИАГОНАЛЬНАЯ ФОРМА МАТРИЦЫ]] (стр. 221–226)
+- [[streng_g05_s03_raznostnye_uravneniya_i_stepeni_a|§ 5.3. РАЗНОСТНЫЕ УРАВНЕНИЯ И СТЕПЕНИ A^K]] (стр. 227–238)
+- [[streng_g05_s04_differentsialnye_uravneniya_i_eksponenta|§ 5.4. ДИФФЕРЕНЦИАЛЬНЫЕ УРАВНЕНИЯ И ЭКСПОНЕНТА E^(AT)]] (стр. 239–249, не окончен)
 
 **Глава 8. Линейное программирование и теория игр**
 - [[streng_g08_s01_lineynye_neravenstva|§ 8.1. ЛИНЕЙНЫЕ НЕРАВЕНСТВА]] (стр. 353–359)
