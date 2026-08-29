@@ -119,7 +119,23 @@
 - [[streng_g05_s01_vvedenie|§ 5.1. ВВЕДЕНИЕ]] (стр. 210–220)
 - [[streng_g05_s02_diagonalnaya_forma_matritsy|§ 5.2. ДИАГОНАЛЬНАЯ ФОРМА МАТРИЦЫ]] (стр. 221–226)
 - [[streng_g05_s03_raznostnye_uravneniya_i_stepeni_a|§ 5.3. РАЗНОСТНЫЕ УРАВНЕНИЯ И СТЕПЕНИ A^K]] (стр. 227–238)
-- [[streng_g05_s04_differentsialnye_uravneniya_i_eksponenta|§ 5.4. ДИФФЕРЕНЦИАЛЬНЫЕ УРАВНЕНИЯ И ЭКСПОНЕНТА E^(AT)]] (стр. 239–249, не окончен)
+- [[streng_g05_s04_differentsialnye_uravneniya_i_eksponenta|§ 5.4. ДИФФЕРЕНЦИАЛЬНЫЕ УРАВНЕНИЯ И ЭКСПОНЕНТА E^(AT)]] (стр. 239–250)
+- [[streng_g05_s05_kompleksnyy_sluchay_ermitovy_i_unitarnye|§ 5.5. КОМПЛЕКСНЫЙ СЛУЧАЙ: ЭРМИТОВЫ И УНИТАРНЫЕ МАТРИЦЫ]] (стр. 251–266)
+- [[streng_g05_s06_preobrazovaniya_podobiya_i_treugolnye_formy|§ 5.6. ПРЕОБРАЗОВАНИЯ ПОДОБИЯ И ТРЕУГОЛЬНЫЕ ФОРМЫ]] (стр. 267–276)
+- [[streng_g05_s07_obzornye_uprazhneniya|§ 5.7. ОБЗОРНЫЕ УПРАЖНЕНИЯ]] (стр. 277–278)
+
+**Глава 6. Положительно определённые матрицы**
+- [[streng_g06_s01_maksimumy_minimumy_i_sedlovye_tochki|§ 6.1. МАКСИМУМЫ, МИНИМУМЫ И СЕДЛОВЫЕ ТОЧКИ]] (стр. 279–285)
+- [[streng_g06_s02_kriterii_polozhitelnoy_opredelennosti|§ 6.2. КРИТЕРИИ ПОЛОЖИТЕЛЬНОЙ ОПРЕДЕЛЁННОСТИ]] (стр. 286–294)
+- [[streng_g06_s03_poluopredelennye_i_neopredelennye_matritsy|§ 6.3. ПОЛУОПРЕДЕЛЁННЫЕ И НЕОПРЕДЕЛЁННЫЕ МАТРИЦЫ. ОБОБЩЁННАЯ ЗАДАЧА НА СОБСТВЕННЫЕ ЗНАЧЕНИЯ AX=ΛBX]] (стр. 295–303)
+- [[streng_g06_s04_printsipy_minimuma_i_otnoshenie_releya|§ 6.4. ПРИНЦИПЫ МИНИМУМА И ОТНОШЕНИЕ РЕЛЕЯ]] (стр. 304–314)
+- [[streng_g06_s05_printsip_releya_ritsa_i_konechnye_elementy|§ 6.5. ПРИНЦИП РЕЛЕЯ — РИТЦА И МЕТОД КОНЕЧНЫХ ЭЛЕМЕНТОВ]] (стр. 315–321)
+
+**Глава 7. Вычисления с матрицами**
+- [[streng_g07_s01_vvedenie|§ 7.1. ВВЕДЕНИЕ]] (стр. 322–323)
+- [[streng_g07_s02_norma_i_chislo_obuslovlennosti|§ 7.2. НОРМА И ЧИСЛО ОБУСЛОВЛЕННОСТИ МАТРИЦЫ]] (стр. 324–331)
+- [[streng_g07_s03_vychislenie_sobstvennykh_znacheniy|§ 7.3. ВЫЧИСЛЕНИЕ СОБСТВЕННЫХ ЗНАЧЕНИЙ]] (стр. 332–342)
+- [[streng_g07_s04_iteratsionnye_metody_resheniya_sistemy|§ 7.4. ИТЕРАЦИОННЫЕ МЕТОДЫ РЕШЕНИЯ СИСТЕМЫ AX=B]] (стр. 343–352)
 
 **Глава 8. Линейное программирование и теория игр**
 - [[streng_g08_s01_lineynye_neravenstva|§ 8.1. ЛИНЕЙНЫЕ НЕРАВЕНСТВА]] (стр. 353–359)
@@ -134,6 +150,6 @@
 - [[streng_g09_s03_spisok_literatury|Список литературы]] (стр. 423)
 - [[streng_g09_s04_resheniya|Решения]] (стр. 424–445)
 - [[streng_g09_s05_ukazatel|Указатель]] (стр. 446–451)
-- [[streng_g09_s06_oglavlenie|Оглавление]] (стр. 452–454, не окончен)
+- [[streng_g09_s06_oglavlenie|Оглавление]] (стр. 452–454)
 
-Разбор в процессе. Дальше — продолжение «Оглавление» со стр. 455.
+Книга разобрана до конца источника (последняя печатная страница — 454).
