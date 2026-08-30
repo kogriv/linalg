@@ -114,7 +114,29 @@
 - [[efimov_g02_s04_sledstviya_iz_aksiom_svyazi_i_poryadka|4. Следствия из аксиом связи и порядка (§§ 14-15)]] (стр. 45–54)
 - [[efimov_g02_s05_gruppa_3_aksiomy_kongruentnosti|5. Группа III. Аксиомы конгруэнтности (§ 16)]] (стр. 54–57)
 - [[efimov_g02_s06_sledstviya_iz_aksiom_i_iii|6. Следствия из аксиом I-III (§§ 17-19)]] (стр. 58–71)
-- [[efimov_g02_s07_gruppa_4_aksiomy_nepreryvnosti|7. Группа IV. Аксиомы непрерывности (§§ 20-24)]] (стр. 72–79, не окончен)
+- [[efimov_g02_s07_gruppa_4_aksiomy_nepreryvnosti|7. Группа IV. Аксиомы непрерывности (§§ 20-24)]] (стр. 72–85)
+- [[efimov_g02_s08_gruppa_5_aksioma_parallelnosti|8. Группа V. Аксиома параллельности. Абсолютная геометрия (§§ 25-27)]] (стр. 86–89)
+
+**Глава III. Неевклидова теория параллельных**
+- [[efimov_g03_s01_opredelenie_parallelnykh_po_lobachevskomu|1. Определение параллельных по Лобачевскому (§§ 28-30)]] (стр. 90–101)
+- [[efimov_g03_s02_osobennosti_raspolozheniya_parallelnykh|2. Особенности расположения параллельных и расходящихся прямых (§§ 31-32)]] (стр. 102–106)
+- [[efimov_g03_s03_funktsiya_lobachevskogo|3. Функция Лобачевского П(х) (§ 33)]] (стр. 107–110)
+- [[efimov_g03_s04_pryamye_i_ploskosti_v_prostranstve_lobachevskogo|4. Прямые и плоскости в пространстве Лобачевского (§§ 34-35)]] (стр. 111–118)
+- [[efimov_g03_s05_ekvidistanta_i_oritsikl|5. Эквидистанта и орицикл (§§ 36-40)]] (стр. 119–129)
+- [[efimov_g03_s06_ekvidistantnaya_poverkhnost_i_orisfera|6. Эквидистантная поверхность и орисфера (§§ 41-44)]] (стр. 130–135)
+- [[efimov_g03_s07_elementarnaya_geometriya_na_poverkhnostyakh|7. Элементарная геометрия на поверхностях пространства Лобачевского (§§ 45-47)]] (стр. 136–146)
+- [[efimov_g03_s08_ploshchad_treugolnika|8. Площадь треугольника (§ 48)]] (стр. 147–155)
+- [[efimov_g03_s09_dokazatelstvo_neprotivorechivosti_geometrii_lobachevskogo|9. Доказательство логической непротиворечивости геометрии Лобачевского (§§ 49-54)]] (стр. 156–176)
+- [[efimov_g03_s10_osnovnye_metricheskie_sootnosheniya|10. Основные метрические соотношения в геометрии Лобачевского (§§ 55-62)]] (стр. 177–190)
+- [[efimov_g03_s11_kratkie_svedeniya_o_geometrii_rimana|11. Краткие сведения о геометрии Римана (§§ 63-68)]] (стр. 191–200)
+
+**Глава IV. Исследование аксиом элементарной геометрии**
+- [[efimov_g04_s01_tri_osnovnye_zadachi_aksiomatiki|1. Три основные задачи аксиоматики (§§ 69-70)]] (стр. 201–204)
+- [[efimov_g04_s02_neprotivorechivost_aksiom_evklidovoy_geometrii|2. Непротиворечивость аксиом евклидовой геометрии (§ 71)]] (стр. 205–220)
+- [[efimov_g04_s03_dokazatelstvo_nezavisimosti_nekotorykh_aksiom|3. Доказательство независимости некоторых аксиом евклидовой геометрии (§§ 72-73)]] (стр. 221–231)
+- [[efimov_g04_s04_aksioma_polnoty|4. Аксиома полноты (§ 74)]] (стр. 232–236)
+- [[efimov_g04_s05_polnota_sistemy_aksiom_evklidovoy_geometrii|5. Полнота системы аксиом евклидовой геометрии (§ 75)]] (стр. 237–239)
+- [[efimov_g04_s06_aksiomaticheskiy_metod_v_matematike|6. Аксиоматический метод в математике (§ 76)]] (стр. 240–241)
 
 **Глава V. Основы проективной геометрии**
 - [[efimov_g05_s01_predmet_proektivnoy_geometrii|1. Предмет проективной геометрии (§§ 77-83)]] (стр. 242–247)
@@ -157,5 +179,3 @@
 - [[efimov_g09_s04_giperbolicheskie_prostranstvennye_formy|4. Гиперболические пространственные формы (§§ 246-249)]] (стр. 572–576)
 
 Книга разобрана до конца источника (последняя печатная страница — 576).
-
-**Бэкенд:** транскрибируется через `cursor:composer-2.5` (не `agy:gemini`, см. `apokrif/AGENTS.md` — на плотных страницах этой книги agy тихо теряет до 80% текста без единой пометки, задокументированный и пофикшенный харнесс не помог, cursor отработал безупречно).
