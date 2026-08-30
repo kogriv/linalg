@@ -2,6 +2,10 @@
 
 ## § 4. Сложение направленных отрезков. Композиция параллельных переносов
 
+---
+**стр. 12**
+---
+
 *Суммой $\overrightarrow{AB} + \overrightarrow{CD}$ направленных отрезков $\overrightarrow{AB}$ и $\overrightarrow{CD}$ называется направленный отрезок $\overrightarrow{AF}$, где $F = T_{\overrightarrow{CD}}(B)$* (рис. 1.12). Операция нахождения суммы называется *сложением* направленных отрезков. Сформулируем законы сложения направленных отрезков в виде следующих утверждений.
 
 I. $\overrightarrow{AB} + \vec\theta_C = \overrightarrow{AB}$; $\overrightarrow{AB} + \overrightarrow{BA} = \overrightarrow{AB} + (-\overrightarrow{AB}) = \vec\theta_A = \vec\theta_C$.

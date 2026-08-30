@@ -2,6 +2,10 @@
 
 ## § 2. Определение и свойства векторного произведения. Условие коллинеарности векторов. Площадь треугольника и четырехугольника
 
+---
+**стр. 181**
+---
+
 Зафиксируем правый ортонормированный базис $\{\vec i, \vec j, \vec k\}$. Пусть $\vec a = (a_x; a_y; a_z)$ и $\vec b = (b_x; b_y; b_z)$ — произвольные векторы. *Векторным произведением* $[\vec a, \vec b]$ *векторов* $\vec a$ *и* $\vec b$ (в указанном порядке) называется вектор
 
 $$[\vec a, \vec b] = \begin{vmatrix} \vec i & \vec j & \vec k \\ a_x & a_y & a_z \\ b_x & b_y & b_z \end{vmatrix} = \vec i\begin{vmatrix} a_y & a_z \\ b_y & b_z \end{vmatrix} - \vec j\begin{vmatrix} a_x & a_z \\ b_x & b_z \end{vmatrix} + \vec k\begin{vmatrix} a_x & a_y \\ b_x & b_y \end{vmatrix} = \left( \begin{vmatrix} a_y & a_z \\ b_y & b_z \end{vmatrix}; -\begin{vmatrix} a_x & a_z \\ b_x & b_z \end{vmatrix}; \begin{vmatrix} a_x & a_y \\ b_x & b_y \end{vmatrix} \right). \quad (4.1)$$

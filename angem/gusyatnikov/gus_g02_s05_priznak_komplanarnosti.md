@@ -2,6 +2,10 @@
 
 ## § 5. Признак компланарности векторов. Базис в плоскости и в пространстве. Разложение вектора по базису
 
+---
+**стр. 49**
+---
+
 Пусть $\vec a$ и $\vec b$ — неколлинеарные векторы. Отложим их от одной точки: $\overrightarrow{OA} = \vec a$, $\overrightarrow{OB} = \vec b$ (рис. 2.16). Обозначим через $P$ плоскость, определяемую точками $O$, $A$, $B$. Любой вектор $\vec c$, компланарный векторам $\vec a$ и $\vec b$, по определению параллелен плоскости $P$. Если построить вектор $\overrightarrow{OC} = \vec c$, то точка $C$ будет принадлежать плоскости $P$. Проведем через точку $C$ прямую $l$ параллельно прямой $(OB)$. Поскольку $\vec a$ и $\vec b$ не коллинеарны, прямые $l$ и $(OA)$ пересекутся в некоторой точке $D$. Векторы $\overrightarrow{OD}$ и $\overrightarrow{OA}$ коллинеарны, причем $\overrightarrow{OA} \neq \vec 0$. Согласно признаку коллинеарности векторов найдется такое действительное число $x$, что $\overrightarrow{OD} = x\overrightarrow{OA}$. Аналогично, найдется такое число $y$, что $\overrightarrow{DC} = y\overrightarrow{OB}$. Поэтому $\overrightarrow{OC} = \overrightarrow{OD} + \overrightarrow{DC} = x\overrightarrow{OA} + y\overrightarrow{OB}$, т. е.
 $$\vec c = x\vec a + y\vec b. \quad (2.28)$$
 
