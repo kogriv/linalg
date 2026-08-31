@@ -2,6 +2,10 @@
 
 ## § 14. Определители
 
+---
+**стр. 127**
+---
+
 В этом параграфе используются следующие основные понятия: *матрица, подматрица, строка матрицы, столбец матрицы, перестановка, четная или нечетная перестановка, число нарушений порядка в перестановке, определитель (детерминант) квадратной матрицы, минор матрицы, элементарные преобразования матрицы, транспонирование матрицы*. В задачах 14.33–14.44 используются и другие операции с матрицами и некоторые специальные виды матриц; соответствующие обозначения и определения даны во введении к § 15.
 
 Квадратная матрица порядка $n$
@@ -146,7 +150,7 @@ $$\begin{vmatrix}\partial x/\partial r&\partial x/\partial\varphi&\partial x/\pa
 7) $|A_{644}|$ («детерминант Вандермонда»);
 8) $\begin{vmatrix}\dfrac{1-a_1^nb_1^n}{1-a_1b_1}&\ldots&\dfrac{1-a_1^nb_n^n}{1-a_1b_n}\\ \ldots&\ldots&\ldots\\ \dfrac{1-a_n^nb_1^n}{1-a_nb_1}&\ldots&\dfrac{1-a_n^nb_n^n}{1-a_nb_n}\end{vmatrix}$;
 9) $\begin{vmatrix}1+x_1&\ldots&1+x_1^n\\1+x_2&\ldots&1+x_2^n\\ \ldots&\ldots&\ldots\\1+x_n&\ldots&1+x_n^n\end{vmatrix}$;
-10) (р) $\begin{vmatrix}2\alpha&1&0&\ldots&0&0\\1&2\alpha&1&\ldots&0&0\\0&1&2\alpha&\ldots&0&0\\ \ldots&\ldots&\ldots&\ldots&\ldots&\ldots\\0&0&0&\ldots&1&2\alpha\end{vmatrix}$; → см. [[sbz_g06_resheniya#14.24, 10) (р)|Решения к Главе 6]]
+10) (р) $\begin{vmatrix}2\alpha&1&0&\ldots&0&0\\1&2\alpha&1&\ldots&0&0\\0&1&2\alpha&\ldots&0&0\\ \ldots&\ldots&\ldots&\ldots&\ldots&\ldots\\0&0&0&\ldots&1&2\alpha\end{vmatrix}$; → см. [[sbz_g06_s99_resheniya#14.24, 10) (р)|Решения к Главе 6]]
 
 ---
 **стр. 132**
@@ -154,7 +158,7 @@ $$\begin{vmatrix}\partial x/\partial r&\partial x/\partial\varphi&\partial x/\pa
 ---
 
 11) $\begin{vmatrix}2\cos\varphi&1&0&\ldots&0&0\\1&2\cos\varphi&1&\ldots&0&0\\0&1&2\cos\varphi&\ldots&0&0\\ \ldots&\ldots&\ldots&\ldots&\ldots&\ldots\\0&0&0&\ldots&1&2\cos\varphi\end{vmatrix}$;
-12) $\begin{vmatrix}2\operatorname{ch}\varphi&1&0&\ldots&0&0\\1&2\operatorname{ch}\varphi&1&\ldots&0&0\\0&1&2\operatorname{ch}\varphi&\ldots&0&0\\ \ldots&\ldots&\ldots&\ldots&\ldots&\ldots\\0&0&0&\ldots&1&2\operatorname{ch}\varphi\end{vmatrix}$; 13) (р) $|A_{638}|$. → см. [[sbz_g06_resheniya#14.24, 13) (р)|Решения к Главе 6]]
+12) $\begin{vmatrix}2\operatorname{ch}\varphi&1&0&\ldots&0&0\\1&2\operatorname{ch}\varphi&1&\ldots&0&0\\0&1&2\operatorname{ch}\varphi&\ldots&0&0\\ \ldots&\ldots&\ldots&\ldots&\ldots&\ldots\\0&0&0&\ldots&1&2\operatorname{ch}\varphi\end{vmatrix}$; 13) (р) $|A_{638}|$. → см. [[sbz_g06_s99_resheniya#14.24, 13) (р)|Решения к Главе 6]]
 
 **14.25.** Показать, что определитель матрицы $A$ порядка $n$ равен 0, если в ней имеется нулевая подматрица размеров $k\times l$ и $k+l>n$.
 
@@ -216,4 +220,4 @@ $$\det H^\square=\det(A-BC).$$
 
 ---
 
-Задачи 14.24, 10) и 13) снабжены полным решением в разделе «Решения» (стр. 358–359 оригинала) — см. [[sbz_g06_resheniya|Решения к Главе 6]]. Ответы — в разделе «Ответы и указания» (стр. 373 и далее) — пока не перенесено. Обозначения $A_k$, $\mathbf{c}_k$ отсылают к «Банку столбцов и матриц» (стр. 465–494 оригинала, пока не перенесен) — стандартизованному набору столбцов и матриц, на которые ссылаются условия задач по номеру $k$.
+Задачи 14.24, 10) и 13) снабжены полным решением в разделе «Решения» (стр. 358–359 оригинала) — см. [[sbz_g06_s99_resheniya|Решения к Главе 6]]. Ответы — в разделе «Ответы и указания» (стр. 373 и далее) — пока не перенесено. Обозначения $A_k$, $\mathbf{c}_k$ отсылают к «Банку столбцов и матриц» (стр. 465–494 оригинала, пока не перенесен) — стандартизованному набору столбцов и матриц, на которые ссылаются условия задач по номеру $k$.
