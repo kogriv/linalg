@@ -175,6 +175,10 @@ $$S_{ABC} = \frac12|[\overrightarrow{AB}, \overrightarrow{AC}]| = \frac12\sqrt{\
 $$[\vec a, \vec b] = a_x(b_y\vec f_3 - b_z\vec f_2) + a_y(b_z\vec f_1 - b_x\vec f_3) + a_z(b_x\vec f_2 - b_y\vec f_1) =$$
 $$= \vec f_1\begin{vmatrix} a_y & a_z \\ b_y & b_z \end{vmatrix} - \vec f_2\begin{vmatrix} a_x & a_z \\ b_x & b_z \end{vmatrix} + \vec f_3\begin{vmatrix} a_x & a_y \\ b_x & b_y \end{vmatrix} = \begin{vmatrix} \vec f_1 & \vec f_2 & \vec f_3 \\ a_x & a_y & a_z \\ b_x & b_y & b_z \end{vmatrix}. \ ▲ \quad (4.6)$$
 
+---
+**стр. 189**
+---
+
 **Пример 11.** Докажите, что площадь $S$ треугольника, векторы сторон которого равны векторам медиан треугольника $ABC$ (рис. 4.3, $a$, $б$), составляет 3/4 площади $\sigma$ треугольника $ABC$.
 
 △ Пусть $\vec a = \overrightarrow{CA}$, $\vec b = \overrightarrow{CB}$. Тогда $\overrightarrow{CC_1} = (\vec a+\vec b)/2$, $\overrightarrow{B_1B} = \vec b-\vec a/2$, $[\overrightarrow{CC_1}, \overrightarrow{B_1B}] = [(\vec a+\vec b)/2, \vec b-\vec a/2] = (3/4)[\vec a, \vec b]$ (см. пример 7). Поэтому $S = (1/2)|[\overrightarrow{CC_1}, \overrightarrow{B_1B}]| = (3/4)(1/2)|[\vec a, \vec b]| = (3/4)\sigma$.▲
