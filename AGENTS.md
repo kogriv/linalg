@@ -16,27 +16,27 @@ Since 2026-08-08 these files are not written by hand or by an ad-hoc agent: they
 Books:
 - `angem/beklemishev/` — Беклемишев, «Курс аналитической геометрии и линейной алгебры», theory (source PDF: `/root/download/ya_disk/Books/Math/АнГем/`).
 - `angem/gusyatnikov/` — Гусятников, Резниченко, «Векторная алгебра в примерах и задачах», worked examples (source DjVu, same folder).
-- `angem/sbornik_zadach/` — Беклемишева и др., «Сборник задач по аналитической геометрии и линейной алгебре», problem set matching Beklemishev's textbook chapter-for-chapter, same editor (source PDF, same folder). Its own worked solutions (marked **(р)** in problem statements) live in per-chapter `sbz_g{NN}_resheniya.md` files, not inline with the problem statements — the source book itself keeps them in a separate back-of-book section out of chapter order.
+- `angem/sbornik_zadach/` — Беклемишева и др., «Сборник задач по аналитической геометрии и линейной алгебре», problem set matching Beklemishev's textbook chapter-for-chapter, same editor (source PDF, same folder). Its own worked solutions (marked **(р)** in problem statements) live in per-chapter `sbz_g{NN}_s99_resheniya.md` files (`s99` — по конвенции самой книги, где `s00` — введение к главе), not inline with the problem statements — the source book itself keeps them in a separate back-of-book section out of chapter order.
 - `angem/reshebnik_beklemishev/` — Беклемишев, «Решение задач из курса аналитической геометрии и линейной алгебры», solutions to the *textbook's* own exercises, 1:1 chapter/§ structure match with `angem/beklemishev/` (source PDF, same folder).
 - `angem/streng/` — Стренг, «Линейная алгебра и её применения» (Mir, 1980), applied/computational course (source DjVu, same folder; file page = printed page + 5).
 - `angem/efimov_vysshaya/` — Ефимов, «Высшая геометрия» (Наука, 1971), foundations of geometry, Lobachevsky/Riemann, projective geometry (source PDF: `.../АнГем/геом_доп/`; file page = printed page).
 
-Full-parity policy for the Beklemishev front (2026-07-22): when a textbook §'s exercises are transcribed, also transcribe the matching Решебник section; when a Сборник задач § is transcribed, also transcribe its **(р)**-marked solutions. Cross-link both directions (problem → solution, solution → problem). Don't bulk-fetch "Ответы и указания" (brief answers, ~90 pages, covers every problem) unless separately asked — out of scope for now.
+Full-parity policy for the Beklemishev front (2026-07-22): when a textbook §'s exercises are transcribed, also transcribe the matching Решебник section; when a Сборник задач § is transcribed, also transcribe its **(р)**-marked solutions. Cross-link both directions (problem → solution, solution → problem). "Ответы и указания" (краткие ответы ко всем задачам, стр. 373–464) долго были вне рамок и взяты в работу 2026-09-01 по отдельной просьбе — вместе с остальной задней частью книги.
 
-### Current progress (updated 2026-08-25 — each book's own README "Файлы" list is the detailed truth, this is just the resume point)
+### Current progress (updated 2026-09-01 — each book's own README "Файлы" list is the detailed truth, this is just the resume point)
 
 | Book | Status |
 |---|---|
-| `beklemishev` | **BOOK COMPLETE** — Главы I–IX, стр. 5–413 (2026-08-07) |
-| `gusyatnikov` | **BOOK COMPLETE** — Главы 1–4, стр. 6–228 |
-| `sbornik_zadach` | **BOOK COMPLETE** — Главы 1–14, стр. 7–372 (2026-08-07) |
-| `reshebnik_beklemishev` | **BOOK COMPLETE** — Главы I–IX, стр. 5–190 (2026-08-07) |
-| `streng` | покрыто — 239/459 стр. Готово: вступительные (стр. −4…6), Гл. 1–2 (11–124), §3.1–3.2 (125–145), §4.1–4.3 (182–195), Гл. 8 (353–431, см. баг ниже). Форвард-фронт: следующий батч 432–437, до конца файла ~22 стр. Пропуски в середине: 7–10, 146–181, 196–352 |
-| `efimov_vysshaya` | покрыто — 167/576 стр. Готово: Гл. I (9–40), Гл. II п.1–7 (41–79), Гл. V п.1–9 (242–337). Форвард-фронт: следующий батч 338–343. Пропуск в середине: 80–241; хвост 338–576 |
+| `beklemishev` | **BOOK COMPLETE** — 445/445 стр., включая back matter (2026-08-31) |
+| `reshebnik_beklemishev` | **BOOK COMPLETE** — 190/190 стр. (2026-08-31) |
+| `gusyatnikov` | **BOOK COMPLETE** — 233/233 стр. |
+| `streng` | **BOOK COMPLETE** — 451/451 стр. Ещё 8 страниц печатного пространства отсутствуют в самом скане (задняя часть книги подшита спереди) — это свойство источника, а не пропуск; см. карту `books/streng_pagemap.json` |
+| `efimov_vysshaya` | **BOOK COMPLETE** — 576/576 стр. |
+| `sbornik_zadach` | покрыто — 366/496 стр. Главы 1–14 (7–347) и раздел «Решения» (348–372) закрыты. Остаток: вступительные (1–6), «Ответы и указания» (373–464), «Банк столбцов и матриц» (465–494), список литературы и выходные данные (495–496) |
 
-Both in-progress books were started from two fronts (a forward front from the beginning, a backward front from a later chapter), which is why their coverage has holes in the middle — those are planned work, not losses. `apokrif run --book <id> --fill-gaps` plans batches into exactly those holes; a plain `apokrif run --book <id>` continues the forward front.
+`streng` and `efimov_vysshaya` were run from two fronts (a forward front from the beginning, a backward front from a later chapter), so their coverage had holes in the middle until the very end — planned work, not losses. `apokrif run --book <id> --fill-gaps` plans batches into exactly such holes; a plain `apokrif run --book <id>` continues the forward front.
 
-**Frozen on the HP host only, runnable here.** The 2026-08-24 decision (`apokrif/BACKLOG.md` п.46) froze both books on the machine that has no scans of them; the Termux host has both sources, the `cursor-agent` backend, and — since 2026-08-25 — a registry that no longer points at the wrong machine. Nothing blocks a resume here; the next batch is a real next step, not a historical marker.
+**Where the work happens now.** Long fronts run on the external x99 machine over ssh (`x99wsldirect`, see `/root/notes/infra/proot_debian/x99_direct_ssh_from_android_proot.md`), so the phone isn't loaded; the Termux host keeps a full copy and is used for scan-reading, checks and commits. Launching a front over non-interactive ssh needs `PATH=$HOME/.local/bin:$PATH` — the backends live there and a bare `ssh host 'tmux new-session …'` does not inherit it (GF47 makes the harness say so out loud instead of misdiagnosing it).
 
 Coverage numbers here were computed directly from the page markers in the files, which works anywhere:
 
@@ -46,7 +46,7 @@ cd angem && grep -h -o '^\*\*стр\. -\?[0-9]\+\*\*' streng/*.md | grep -o '\-\
 
 `apokrif state --book <id>` gives the same numbers plus the next batch, but only on the host whose paths are in `books/candidates.tsv` (see below).
 
-**Backend:** both in-progress books are transcribed with `cursor:composer-2.5`. `agy:gemini` is deprecated for this project — on dense pages of Ефимов it silently dropped up to 80% of the text with no flag at all, and hardening the harness didn't fix it (details in `apokrif/AGENTS.md`).
+**Backend:** the linalg books are transcribed with `cursor:composer-2.5` (registry column `default_backend`). `agy:gemini` is deprecated for this project — on dense pages of Ефимов it silently dropped up to 80% of the text with no flag at all, and hardening the harness didn't fix it (details in `apokrif/AGENTS.md`).
 
 ## How progress is made now — the apokrif harness (since 2026-08-08)
 
@@ -81,7 +81,7 @@ The four completed books were converted before apokrif existed, by launching bac
 
 ## Open follow-ups (none urgent, all real)
 
-- **`streng` — appendix pages are being merged into the wrong file.** `books/streng_toc.json` stops at §8.5 (стр. 395) and has no entries for Приложение A (407), Приложение B (416), Список литературы (423), Решения (424), Указатель (446). So everything from стр. 407 onward lands in `streng_g08_s05_teoriya_igr_i_teorema_o_minimakse.md` — verified: стр. 408+ of that file is Приложение A text (линейные преобразования, базисы), not game theory. Recent commit messages calling стр. 408–431 "§8.5" repeat the same mislabeling. Fix = add the back-matter entries to `toc.json`, then split the file and re-point the README.
+- **Раскладка back matter.** У `streng` (GF21), `ivannikov` и `beklemishev` (GF46) хвост книги оседал в файле последнего параграфа, потому что `toc.json` пишется до расшифровки и приложений не знает. Все три разобраны, инструмент — `apokrif/tools/resplit_by_toc.py --pages FROM-TO`. Проверка `find_toc_coverage_holes` по построению видит дыру только ПЕРЕД первой записью оглавления, поэтому у каждой следующей книги с back matter это надо смотреть глазами.
 - Textbook/решебник exercise-count mismatches, 5 instances, all flagged in-file with `⚠`/parentheticals, none reconciled against the решебник PDF page-by-page: `beklemishev/bekl_g04_s02_lineynye_preobrazovaniya.md` 12 vs 13, `bekl_g04_s03_affinnye_preobrazovaniya.md` 9 vs 8, `bekl_g05_s03_rang_matritsy.md` 6 vs 8, `bekl_g05_s06_sistemy_lineynykh_uravneniy_obshchaya_teoriya.md` 8 vs 9*, `bekl_g06_s04_zadacha_o_sobstvennykh_vektorakh.md` bonus 14* not in textbook (plus `bekl_g07_s02_...` solving bonus 7*/11*). These are real content discrepancies (extra or substituted problems), not transcription errors — worth a dedicated audit pass.
 - `sbornik_zadach/sbz_g09_s24_invariantnye_podprostranstva.md` has several cross-references to §23 problems left as plain text because §23's file didn't exist yet in that round — can be upgraded to wikilinks now that `sbz_g09_s23_osnovnye_svoystva_lineynykh_otobrazheniy.md` exists.
 
