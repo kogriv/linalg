@@ -10,6 +10,12 @@
 $$x^*=a_1x+b_1y+c_1, \qquad y^*=a_2x+b_2y+c_2 \quad (11)$$
 переводит первые две прямые в оси $Oy$ и $Ox$. Найдем образ $l^*$ третьей прямой, подставив решения системы (11):
 $$x=\frac{1}{\delta_3}\begin{vmatrix}x^*-c_1&b_1\\y^*-c_2&b_2\end{vmatrix}, \qquad y=\frac{1}{\delta_3}\begin{vmatrix}a_1&x^*-c_1\\a_2&y^*-c_2\end{vmatrix} \qquad \left(\delta_3=\begin{vmatrix}a_1&b_1\\a_2&b_2\end{vmatrix}\right)$$
+
+---
+**стр. 358**
+
+---
+
 в уравнение прямой $a_3x+b_3y+c_3=0$. Получим
 $$a_3=\begin{vmatrix}x^*-c_1&b_1\\y^*-c_2&b_2\end{vmatrix}+b_3\begin{vmatrix}a_1&x^*-c_1\\a_2&y^*-c_2\end{vmatrix}+c_3\begin{vmatrix}a_1&b_1\\a_2&b_2\end{vmatrix}=0,$$
 или

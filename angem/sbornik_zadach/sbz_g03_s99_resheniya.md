@@ -25,7 +25,14 @@ $$=\frac{a^2b^2}{p+q\cos2\varphi}+\frac{a^2b^2}{p-q\cos2\varphi},$$
 
 Найдем угол поворота $\varphi$ системы координат из формулы (9) (при этом можно считать, что $0<\varphi<\pi/2$, тогда $\sin2\varphi>0$, и знаки $\operatorname{tg}2\varphi$ и $\cos2\varphi$ совпадают): $\operatorname{tg}2\varphi=4/3$, $\cos2\varphi=\dfrac{1}{\sqrt{1+(4/3)^2}}=3/5$.
 
-$\sin\varphi=\dfrac{1}{\sqrt5}$, $\cos\varphi=\dfrac{2}{\sqrt5}$. Замена координат при повороте на угол $\varphi$ осуществляется по формулам (7): $x=\dfrac{2x'-y'}{\sqrt5}$, $y=\dfrac{x'+2y'}{\sqrt5}$. Подставляя эти выражения в уравнение кривой, получим после упрощения:
+$\sin\varphi=\dfrac{1}{\sqrt5}$, $\cos\varphi=\dfrac{2}{\sqrt5}$. Замена координат при повороте на угол $\varphi$ осуществляется по формулам (7): $x=\dfrac{2x'-y'}{\sqrt5}$, $y=\dfrac{x'+2y'}{\sqrt5}$.
+
+---
+**стр. 352**
+
+---
+
+Подставляя эти выражения в уравнение кривой, получим после упрощения:
 $$x'^2-4y'^2+\frac{2}{\sqrt5}x'+\frac{24}{\sqrt5}y'-6=0.$$
 Выделим полные квадраты по $x'$ и $y'$:
 $$\left(x'^2+2x'\cdot\frac{1}{\sqrt5}+\frac15\right)-\frac15-4\left(\left(y'^2-2y'\cdot\frac{3}{\sqrt5}+\frac95\right)-\frac95\right)-6=0,$$
