@@ -23,7 +23,7 @@ Books:
 
 Full-parity policy for the Beklemishev front (2026-07-22): when a textbook §'s exercises are transcribed, also transcribe the matching Решебник section; when a Сборник задач § is transcribed, also transcribe its **(р)**-marked solutions. Cross-link both directions (problem → solution, solution → problem). "Ответы и указания" (краткие ответы ко всем задачам, стр. 373–464) долго были вне рамок и взяты в работу 2026-09-01 по отдельной просьбе — вместе с остальной задней частью книги.
 
-### Current progress (updated 2026-09-01 — each book's own README "Файлы" list is the detailed truth, this is just the resume point)
+### Current progress (updated 2026-09-02 — each book's own README "Файлы" list is the detailed truth, this is just the resume point)
 
 | Book | Status |
 |---|---|
@@ -32,7 +32,7 @@ Full-parity policy for the Beklemishev front (2026-07-22): when a textbook §'s 
 | `gusyatnikov` | **BOOK COMPLETE** — 233/233 стр. |
 | `streng` | **BOOK COMPLETE** — 451/451 стр. Ещё 8 страниц печатного пространства отсутствуют в самом скане (задняя часть книги подшита спереди) — это свойство источника, а не пропуск; см. карту `books/streng_pagemap.json` |
 | `efimov_vysshaya` | **BOOK COMPLETE** — 576/576 стр. |
-| `sbornik_zadach` | покрыто — 366/496 стр. Главы 1–14 (7–347) и раздел «Решения» (348–372) закрыты. Остаток: вступительные (1–6), «Ответы и указания» (373–464), «Банк столбцов и матриц» (465–494), список литературы и выходные данные (495–496) |
+| `sbornik_zadach` | **BOOK COMPLETE** — 496/496 стр. (2026-09-01), включая «Ответы и указания» (373–464) и «Банк столбцов и матриц» (465–494) |
 
 `streng` and `efimov_vysshaya` were run from two fronts (a forward front from the beginning, a backward front from a later chapter), so their coverage had holes in the middle until the very end — planned work, not losses. `apokrif run --book <id> --fill-gaps` plans batches into exactly such holes; a plain `apokrif run --book <id>` continues the forward front.
 
