@@ -21,6 +21,10 @@ Books:
 - `angem/streng/` — Стренг, «Линейная алгебра и её применения» (Mir, 1980), applied/computational course (source DjVu, same folder; file page = printed page + 5).
 - `angem/efimov_vysshaya/` — Ефимов, «Высшая геометрия» (Наука, 1971), foundations of geometry, Lobachevsky/Riemann, projective geometry (source PDF: `.../АнГем/геом_доп/`; file page = printed page).
 
+Since 2026-09-02 there is a second shelf, `planimetriya/` — school-level plane geometry, deliberately kept out of `angem/` because that shelf's README says «аналитическая геометрия» and a planimetry book would make it false:
+
+- `planimetriya/geom_ploskosti/` — Амелькин, Рабцевич, Тимохович, «Геометрия на плоскости: теория, задачи, решения» (Минск «Асар» / ОНИКС 21 век, 2003), 591 стр. Systematic planimetry with proofs; a third of the book is worked solutions to the C-group problems (source DjVu: `.../АнГем/геом_доп/`; file page = printed + 1; file prefix `amel`).
+
 Full-parity policy for the Beklemishev front (2026-07-22): when a textbook §'s exercises are transcribed, also transcribe the matching Решебник section; when a Сборник задач § is transcribed, also transcribe its **(р)**-marked solutions. Cross-link both directions (problem → solution, solution → problem). "Ответы и указания" (краткие ответы ко всем задачам, стр. 373–464) долго были вне рамок и взяты в работу 2026-09-01 по отдельной просьбе — вместе с остальной задней частью книги.
 
 ### Current progress (updated 2026-09-02 — each book's own README "Файлы" list is the detailed truth, this is just the resume point)
@@ -33,6 +37,7 @@ Full-parity policy for the Beklemishev front (2026-07-22): when a textbook §'s 
 | `streng` | **BOOK COMPLETE** — 451/451 стр. Ещё 8 страниц печатного пространства отсутствуют в самом скане (задняя часть книги подшита спереди) — это свойство источника, а не пропуск; см. карту `books/streng_pagemap.json` |
 | `efimov_vysshaya` | **BOOK COMPLETE** — 576/576 стр. |
 | `sbornik_zadach` | **BOOK COMPLETE** — 496/496 стр. (2026-09-01), включая «Ответы и указания» (373–464) и «Банк столбцов и матриц» (465–494) |
+| `geom_ploskosti` | заведена 2026-09-02, разбор не начат — 0/591 стр. Оглавление собрано `preflight` (56 записей, back matter standalone-главами), бэкенд `cursor:composer-2.5` |
 
 `streng` and `efimov_vysshaya` were run from two fronts (a forward front from the beginning, a backward front from a later chapter), so their coverage had holes in the middle until the very end — planned work, not losses. `apokrif run --book <id> --fill-gaps` plans batches into exactly such holes; a plain `apokrif run --book <id>` continues the forward front.
 
