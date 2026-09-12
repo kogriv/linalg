@@ -245,3 +245,28 @@ $$= R^2 \cdot (1 + \cos\varphi) \cdot \sqrt{1 - \cos^2\varphi}.$$
 $$= \frac{1}{2} OM \cdot MD \cdot \sin\varphi + \frac{1}{2} OM \cdot MC \cdot \sin\varphi = \frac{d}{2} \cdot CD \cdot \sin\varphi.$$
 
 Следовательно, $\frac{S_{\Delta DOC}}{S_{ACBD}} = \frac{d}{2R}$, откуда $S_{ACBD} = \frac{2R \cdot S_{\Delta DOC}}{d}$ и, значит, площадь четырехугольника $ACBD$ будет наибольшей, когда наибольшей будет
+
+
+---
+**стр. 495**
+---
+
+площадь треугольника $DOC$. А поскольку площадь треугольника $DOC$ вычисляется и по формуле $S_{\Delta DOC} = \frac{1}{2} R^2 \cdot \sin\psi$, то наибольшей она будет при наибольшем значении $\sin\psi$.
+
+![Рис. 22.13C](assets/amel_g09_s22_resheniya_max_min/p496-fig1.png)
+
+Но $\psi \in [\psi_0; 180^\circ)$, где $\psi_0$ — угол, соответствующий углу $\varphi = 90^\circ$ (при таком значении $\varphi$ значение $\cos\frac{\psi_0}{2} = \frac{d}{R}$), и, значит, если $\psi_0 \le 90^\circ$, то наибольшей площадь треугольника $DOC$ будет при $\psi = 90^\circ$, если же $\psi_0 > 90^\circ$, то наибольшей она будет при $\psi = \psi_0$.
+
+Замечая теперь, что если $\psi = 90^\circ$ и, следовательно,
+
+$d = R \cdot \cos \frac{90^\circ}{2} = \frac{R\sqrt{2}}{2}$, $CD = 2R \cdot \sin \frac{90^\circ}{2} = R\sqrt{2}$, $S_{\Delta DOC} = \frac{1}{2} \cdot d \cdot CD =$
+
+$= \frac{1}{2} \cdot \frac{R\sqrt{2}}{2} \cdot R\sqrt{2} = \frac{R^2}{2}$, то приходим к выводу: если $d = \frac{R\sqrt{2}}{2}$, то
+
+$S_{ACBD} = \frac{2R \cdot \frac{R^2}{2}}{\frac{R\sqrt{2}}{2}} = R^2\sqrt{2}$; если $d < \frac{R\sqrt{2}}{2}$, то $S_{ACBD} = \frac{2R \cdot S_{\Delta DOC}}{d} =$
+
+$= \frac{2R \cdot \frac{1}{2} \cdot 2 \cdot MC \cdot OM}{d} = \frac{2R \cdot MC \cdot OM}{d} = \frac{2R \cdot \sqrt{R^2 - d^2} \cdot d}{d} = 2R\sqrt{R^2 - d^2}$;
+
+если же $d > \frac{R\sqrt{2}}{2}$, то $S_{ACBD} = \frac{2R \cdot S_{\Delta DOC}}{d} = \frac{2R \cdot R^2}{2 \cdot d} = \frac{R^3}{d}$.
+
+**Ответ:** если $d < \frac{R\sqrt{2}}{2}$, то $S_{ACBD} = 2R\sqrt{R^2 - d^2}$; если $d = \frac{R\sqrt{2}}{2}$, то $S_{ACBD} = R^2\sqrt{2}$; если $d > \frac{R\sqrt{2}}{2}$, то $S_{ACBD} = \frac{R^3}{d}$.
