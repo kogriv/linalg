@@ -4,8 +4,6 @@ slug: Maiorov_V_Skopec_Z_Zadachnik_praktikum_po_vek_libcats_org
 разведка: 2026-09-14
 ---
 
-Connection lost, reconnecting to https://agentn.global.api5.cursor.sh (attempt 1)...
-Retry attempt 1...
 # Maiorov_V_Skopec_Z_Zadachnik_praktikum_po_vek_libcats_org: разведка
 
 **Автор/издание:** В. М. Майоров, З. А. Скопец; Государственное учебно-педагогическое издательство Министерства просвещения РСФСР (Учпедгиз), Москва; подготовлено при Московском государственном заочном педагогическом институте  

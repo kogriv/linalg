@@ -4,8 +4,6 @@ slug: Boltyansky_V_G_Ogibayushaya_libcats_org
 разведка: 2026-09-14
 ---
 
-Connection lost, reconnecting to https://agentn.global.api5.cursor.sh (attempt 1)...
-Retry attempt 1...
 # Boltyansky_V_G_Ogibayushaya_libcats_org: разведка
 
 **Автор/издание:** В. Г. Болтянский; серия «Популярные лекции по математике», вып. 36; Государственное издательство физико-математической литературы (Физматгиз), Москва  
