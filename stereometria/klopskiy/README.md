@@ -27,8 +27,17 @@
 - [[klopskiy_stereometria_g01_s05_reshenie_zadachi_na_postroenie_secheniya_mnogogrannika|1.5. Решение задачи на построение сечения многогранника (§ 5)]] (стр. 12)
 - [[klopskiy_stereometria_g01_s06_skreshchivayushchiesya_pryamye_priznak_skreshchivayushchikhs|1.6. Скрещивающиеся прямые. Признак скрещивающихся прямых (§ 6)]] (стр. 13–14)
 - [[klopskiy_stereometria_g01_s07_vzaimnoe_raspolozhenie_pryamoy_i_ploskosti_priznak|1.7. Взаимное расположение прямой и плоскости. Признак параллельности прямой и плоскости (§ 7)]] (стр. 15–17)
-- [[klopskiy_stereometria_g01_s08_tranzitivnost_parallelnosti_pryamykh_svyazka_parallelnykh_pr|1.8. Транзитивность параллельности прямых. Связка параллельных прямых (§ 8)]] (стр. 18, не окончен)
+- [[klopskiy_stereometria_g01_s08_tranzitivnost_parallelnosti_pryamykh_svyazka_parallelnykh_pr|1.8. Транзитивность параллельности прямых. Связка параллельных прямых (§ 8)]] (стр. 18–19)
+- [[klopskiy_stereometria_g01_s09_parallelepiped|1.9. Параллелепипед (§ 9)]] (стр. 20)
+- [[klopskiy_stereometria_g01_s10_vzaimnoe_raspolozhenie_dvukh_ploskostey_priznak_parallelnost|1.10. Взаимное расположение двух плоскостей. Признак параллельности плоскостей (§ 10)]] (стр. 21–22)
+- [[klopskiy_stereometria_g01_s11_teoremy_o_parallelnykh_ploskostyakh|1.11. Теоремы о параллельных плоскостях (§ 11)]] (стр. 23–25)
+- [[klopskiy_stereometria_g01_s12_parallelnaya_proektsiya_figury_svoystva_parallelnoy_proektsi|1.12. Параллельная проекция фигуры. Свойства параллельной проекции (§ 12)]] (стр. 26)
+- [[klopskiy_stereometria_g01_s13_izobrazhenie_figur_v_stereometrii|1.13. Изображение фигур в стереометрии (§ 13)]] (стр. 27–31)
+- [[klopskiy_stereometria_g01_s14_zadachi_na_povtorenie_k_glave_i|1.14. Задачи на повторение к главе I]] (стр. 32–35)
 
-Разбор в процессе. Дальше — продолжение «1.8. Транзитивность параллельности прямых. Связка параллельных прямых» со стр. 19.
+**Глава 2. Глава II. Преобразования пространства. Векторы**
+- [[klopskiy_stereometria_g02_s01_otobrazhenie_figury_preobrazovanie_prostranstva|2.1. Отображение фигуры. Преобразование пространства (§ 14)]] (стр. 36, не окончен)
+
+Разбор в процессе. Дальше — продолжение «2.1. Отображение фигуры. Преобразование пространства» со стр. 37.
 
 <!-- конец автогенерируемого блока apokrif -->
