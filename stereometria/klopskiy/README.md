@@ -36,8 +36,21 @@
 - [[klopskiy_stereometria_g01_s14_zadachi_na_povtorenie_k_glave_i|1.14. Задачи на повторение к главе I]] (стр. 32–35)
 
 **Глава 2. Глава II. Преобразования пространства. Векторы**
-- [[klopskiy_stereometria_g02_s01_otobrazhenie_figury_preobrazovanie_prostranstva|2.1. Отображение фигуры. Преобразование пространства (§ 14)]] (стр. 36, не окончен)
+- [[klopskiy_stereometria_g02_s01_otobrazhenie_figury_preobrazovanie_prostranstva|2.1. Отображение фигуры. Преобразование пространства (§ 14)]] (стр. 36–37)
+- [[klopskiy_stereometria_g02_s02_peremeshcheniya_prostranstva_kongruentnost_figur|2.2. Перемещения пространства. Конгруэнтность фигур (§ 15)]] (стр. 38–39)
+- [[klopskiy_stereometria_g02_s03_napravlenie_v_prostranstve|2.3. Направление в пространстве (§ 16)]] (стр. 40)
+- [[klopskiy_stereometria_g02_s04_vektor|2.4. Вектор (§ 17)]] (стр. 41–43)
+- [[klopskiy_stereometria_g02_s05_slozhenie_vektorov|2.5. Сложение векторов (§ 18)]] (стр. 44–45)
+- [[klopskiy_stereometria_g02_s06_protivopolozhnye_vektory_vychitanie_vektorov|2.6. Противоположные векторы. Вычитание векторов (§ 19)]] (стр. 46–47)
+- [[klopskiy_stereometria_g02_s07_kollinearnye_vektory_umnozhenie_vektora_na_chislo|2.7. Коллинеарные векторы. Умножение вектора на число (§ 20)]] (стр. 48–49)
+- [[klopskiy_stereometria_g02_s08_komplanarnye_vektory|2.8. Компланарные векторы (§ 21)]] (стр. 50–51)
+- [[klopskiy_stereometria_g02_s09_primenenie_vektorov_k_resheniyu_zadach|2.9. Применение векторов к решению задач (§ 22)]] (стр. 52)
+- [[klopskiy_stereometria_g02_s10_pravilo_parallelepipeda_razlozhenie_vektora_po_trem|2.10. Правило параллелепипеда. Разложение вектора по трем некомпланарным векторам (§ 23)]] (стр. 53–54)
+- [[klopskiy_stereometria_g02_s11_ugol_mezhdu_dvumya_vektorami|2.11. Угол между двумя векторами (§ 24)]] (стр. 55–56)
+- [[klopskiy_stereometria_g02_s12_skalyarnoe_umnozhenie_dvukh_vektorov|2.12. Скалярное умножение двух векторов (§ 25)]] (стр. 57–58)
+- [[klopskiy_stereometria_g02_s13_osnovnye_svoystva_skalyarnogo_umnozheniya_vektorov|2.13. Основные свойства скалярного умножения векторов (§ 26)]] (стр. 59)
+- [[klopskiy_stereometria_g02_s14_primenenie_vektorov_k_resheniyu_zadach|2.14. Применение векторов к решению задач (§ 27)]] (стр. 60, не окончен)
 
-Разбор в процессе. Дальше — продолжение «2.1. Отображение фигуры. Преобразование пространства» со стр. 37.
+Разбор в процессе. Дальше — продолжение «2.14. Применение векторов к решению задач» со стр. 61.
 
 <!-- конец автогенерируемого блока apokrif -->
