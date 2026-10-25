@@ -59,7 +59,7 @@ $30^\circ$. Каждое из рёбер тетраэдра $ABCD$ (рис. 12) 
 
 Для обозначения скрещивающихся прямых $a$ и $b$ будем применять запись $a \div b$. Обратите внимание: через скрещивающиеся прямые нельзя провести плоскость.
 
-![Рис. 14 — Скрещивающиеся прямые](assets/klopskiy_stereometria_g01_s06_skreshchivayushchiesya_pryamye_priznak_skreshchivayushchikhs/p14-fig14.png)
+![Рис. 14 — Скрещивающиеся прямые](assets/klopskiy_stereometria_g01_s06_skreshchivayushchiesya_pryamye_priznak_skreshchivayushchikhs/p14-fig1.png)
 
 **Задачи**
 

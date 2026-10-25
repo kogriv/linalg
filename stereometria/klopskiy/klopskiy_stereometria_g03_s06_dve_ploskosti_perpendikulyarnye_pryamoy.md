@@ -29,6 +29,6 @@
 
 Верна и обратная теорема: *две плоскости, перпендикулярные прямой, параллельны.* Докажите это самостоятельно (рис. 124).
 
-![Рис. 123](assets/klopskiy_stereometria_g03_s06_dve_ploskosti_perpendikulyarnye_pryamoy/p78-fig123.png)
+![Рис. 123](assets/klopskiy_stereometria_g03_s06_dve_ploskosti_perpendikulyarnye_pryamoy/p78-fig1.png)
 
-![Рис. 124](assets/klopskiy_stereometria_g03_s06_dve_ploskosti_perpendikulyarnye_pryamoy/p78-fig124.png)
+![Рис. 124](assets/klopskiy_stereometria_g03_s06_dve_ploskosti_perpendikulyarnye_pryamoy/p78-fig2.png)

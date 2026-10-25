@@ -44,9 +44,9 @@
 **стр. 102**
 ---
 
-![Рис. 163](assets/klopskiy_stereometria_g03_s16_zadachi_na_povtorenie_po_kursu_ix/p102-fig163.png)
+![Рис. 163](assets/klopskiy_stereometria_g03_s16_zadachi_na_povtorenie_po_kursu_ix/p102-fig1.png)
 
-![Рис. 164](assets/klopskiy_stereometria_g03_s16_zadachi_na_povtorenie_po_kursu_ix/p102-fig164.png)
+![Рис. 164](assets/klopskiy_stereometria_g03_s16_zadachi_na_povtorenie_po_kursu_ix/p102-fig2.png)
 
 436. Дано множество плоскостей, проходящих через одну прямую, и точка, не принадлежащая этой прямой. Найдите множество точек, являющихся основаниями перпендикуляров, проведенных из данной точки ко всем данным плоскостям.
 

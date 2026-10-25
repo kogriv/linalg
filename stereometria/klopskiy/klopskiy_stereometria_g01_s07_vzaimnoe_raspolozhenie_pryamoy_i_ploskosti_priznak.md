@@ -10,7 +10,7 @@
 
 43. Прямые $a$, $b$, $c$ пересекают плоскость $\alpha$ в точках $A$, $B$, $C$, причём $A \notin (BC)$ (рис. 16). Могут ли данные прямые быть попарно пересекающимися?
 
-![Рис. 15 и 16 — Взаимное расположение прямых и плоскостей](assets/klopskiy_stereometria_g01_s07_vzaimnoe_raspolozhenie_pryamoy_i_ploskosti_priznak/p15-fig15-16.png)
+![Рис. 15 и 16 — Взаимное расположение прямых и плоскостей](assets/klopskiy_stereometria_g01_s07_vzaimnoe_raspolozhenie_pryamoy_i_ploskosti_priznak/p15-fig1.png)
 
 § 7. ВЗАИМНОЕ РАСПОЛОЖЕНИЕ ПРЯМОЙ И ПЛОСКОСТИ.
 ПРИЗНАК ПАРАЛЛЕЛЬНОСТИ ПРЯМОЙ И ПЛОСКОСТИ
@@ -25,7 +25,7 @@
 
 Пришли к противоречию: прямые $a$ и $b$ одновременно скрещиваются и параллельны. Следовательно, прямая $a$ и плоскость $\alpha$ не имеют общей точки.
 
-![Рис. 17 и 18 — Взаимное расположение прямой и плоскости](assets/klopskiy_stereometria_g01_s07_vzaimnoe_raspolozhenie_pryamoy_i_ploskosti_priznak/p15-fig17-18.png)
+![Рис. 17 и 18 — Взаимное расположение прямой и плоскости](assets/klopskiy_stereometria_g01_s07_vzaimnoe_raspolozhenie_pryamoy_i_ploskosti_priznak/p15-fig2.png)
 
 
 ---

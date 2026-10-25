@@ -49,7 +49,7 @@ $$\vec{c} + \vec{b} = (\vec{a} + (-\vec{b})) + \vec{b} = \vec{a} + ((-\vec{b}) +
 
 $$\vec{c} + \vec{b} = \vec{a}.$$
 
-![Рис. 75](assets/klopskiy_stereometria_g02_s06_protivopolozhnye_vektory_vychitanie_vektorov/p47-fig75.png)
+![Рис. 75](assets/klopskiy_stereometria_g02_s06_protivopolozhnye_vektory_vychitanie_vektorov/p47-fig1.png)
 
 Обозначение разности $\vec{c}$ векторов $\vec{a}$ и $\vec{b}$: $\vec{a} - \vec{b} = \vec{c}$. Из рассуждения, приведенного в начале пункта 2, вытекает:
 
@@ -61,7 +61,7 @@ $$\vec{a} - \vec{b} = \vec{a} + (-\vec{b}). \qquad (2)$$
 
 $$\overrightarrow{OB} - \overrightarrow{OA} = \overrightarrow{AB}. \qquad (3)$$
 
-![Рис. 76](assets/klopskiy_stereometria_g02_s06_protivopolozhnye_vektory_vychitanie_vektorov/p47-fig76.png)
+![Рис. 76](assets/klopskiy_stereometria_g02_s06_protivopolozhnye_vektory_vychitanie_vektorov/p47-fig2.png)
 
 Действительно, по правилу треугольника (рис. 76) $\overrightarrow{OA} +$
 $+ \overrightarrow{AB} = \overrightarrow{OB}$, отсюда по определению разности векторов $\overrightarrow{AB} =$

@@ -47,7 +47,7 @@
 
 $$\overrightarrow{OM} = (x; y; z).$$
 
-![Рис. 6](assets/klopskiy_stereometria_g04_s03_pryamougolnaya_sistema_koordinat_koordinaty_tochki/p109-fig6.png)
+![Рис. 6](assets/klopskiy_stereometria_g04_s03_pryamougolnaya_sistema_koordinat_koordinaty_tochki/p109-fig1.png)
 
 Если заданы прямоугольный базис $(\vec{i}; \vec{j}; \vec{k})$ и точка $O$, то говорят, что задана прямоугольная система координат в пространстве. Точку $O$ называют началом координат, а векторы $\vec{i}, \vec{j}, \vec{k}$ — координатными векторами. Координатами точки $M$ в прямоугольной системе координат называются координаты вектора $\overrightarrow{OM}$ в базисе $(\vec{i}; \vec{j}; \vec{k})$.
 
@@ -61,6 +61,6 @@ $$\overrightarrow{OM} = (x; y; z).$$
 
 Задача 2. По координатам точек $A(x_1; y_1; z_1)$ и $B(x_2; y_2; z_2)$ найти координаты вектора $\overrightarrow{AB}$.
 
-![Рис. 7](assets/klopskiy_stereometria_g04_s03_pryamougolnaya_sistema_koordinat_koordinaty_tochki/p109-fig7.png)
+![Рис. 7](assets/klopskiy_stereometria_g04_s03_pryamougolnaya_sistema_koordinat_koordinaty_tochki/p109-fig2.png)
 
-![Рис. 8](assets/klopskiy_stereometria_g04_s03_pryamougolnaya_sistema_koordinat_koordinaty_tochki/p109-fig8.png)
+![Рис. 8](assets/klopskiy_stereometria_g04_s03_pryamougolnaya_sistema_koordinat_koordinaty_tochki/p109-fig3.png)

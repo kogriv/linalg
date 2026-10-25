@@ -34,7 +34,7 @@ $$(0=z\vec d^{\,2})\Rightarrow(z=0).$$
 
 16.
 
-![Рис. 112](assets/klopskiy_stereometria_g03_s03_dva_perpendikulyara_k_ploskosti_ortogonalnoe_proektirovanie/p72-fig112.png)
+![Рис. 112](assets/klopskiy_stereometria_g03_s03_dva_perpendikulyara_k_ploskosti_ortogonalnoe_proektirovanie/p72-fig1.png)
 
 Итак, $\vec b=x\vec a$. Следовательно, векторы $\vec b$ и $\vec a$ коллинеарны (§ 20), а прямые $BB_1$ и $AA_1$ параллельны. ■
 

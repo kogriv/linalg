@@ -25,7 +25,7 @@ $$\text{следует, что } \frac{Q}{S(x)} = \frac{H^2}{x^2}, \text{ отк
 
 $$S(x) = \frac{Q}{H^2}x^2.$$
 
-![Рис. 67](assets/klopskiy_stereometria_g05_s12_obem_piramidy/p140-fig67.png)
+![Рис. 67](assets/klopskiy_stereometria_g05_s12_obem_piramidy/p140-fig1.png)
 
 Замечаем, что функция $S(x)$ непрерывна на отрезке $[0; H]$, поэтому $\lim\limits_{\Delta x \to 0} S(x + \Delta x) = S(x)$. Из двойного неравенства (1) вытекает, что $\lim\limits_{\Delta x \to 0} \frac{\Delta V}{\Delta x} = S(x)$. Следовательно, $V'(x)=S(x)$, т. е. функция $V(x)$ есть первообразная для функции $S(x)$ на $[0; H]$. Объем данной
 

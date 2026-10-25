@@ -29,9 +29,9 @@ $= \sqrt{2}\,ab\sqrt{1-2\cos^2\varphi} = ab\sqrt{-2\cos2\varphi}. \qquad (3)$
 
 **Доказательство.** Рассмотрим треугольник $P_1Q_1R_1$, лежащий в плоскости $\beta$, и его ортогональную проекцию $(\Delta PQR)$ на плоскость $\alpha$ (рис. 38). Пусть $\beta \cap \alpha = a$, $(\widehat{\beta,\alpha}) = \varphi$, где $0^\circ < \varphi < 90^\circ$.
 
-![Рис. 37](assets/klopskiy_stereometria_g05_s04_ploshchad_ortogonalnoy_proektsii_mnogougolnika/p125-fig37.png)
+![Рис. 37](assets/klopskiy_stereometria_g05_s04_ploshchad_ortogonalnoy_proektsii_mnogougolnika/p125-fig1.png)
 
-![Рис. 38](assets/klopskiy_stereometria_g05_s04_ploshchad_ortogonalnoy_proektsii_mnogougolnika/p125-fig38.png)
+![Рис. 38](assets/klopskiy_stereometria_g05_s04_ploshchad_ortogonalnoy_proektsii_mnogougolnika/p125-fig2.png)
 
 ---
 **стр. 126**

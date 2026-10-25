@@ -57,7 +57,7 @@ $$\gamma \cap \angle \alpha a \beta = \angle AOB.$$
 
 ¹ Величину линейного угла для краткости также называют линейным углом.
 
-![Рис. 146](assets/klopskiy_stereometria_g03_s11_dvugrannyy_ugol_izmerenie_dvugrannykh_uglov/p89-fig146.png)
+![Рис. 146](assets/klopskiy_stereometria_g03_s11_dvugrannyy_ugol_izmerenie_dvugrannykh_uglov/p89-fig1.png)
 
 ---
 **стр. 90**
@@ -79,18 +79,18 @@ $$(\widehat{\alpha, \beta}) = \varphi, \text{ где } 0^\circ \leqslant \varphi
 
 353. Дан куб $ABCDA_1B_1C_1D_1$. Рассмотрите двугранный угол с ребром $AB$ и гранями, проходящими через точки $D_1$ и $D$ (рис. 147). Вычислите $D\hat{A}D_1$ и $D\hat{B}D_1$. Какой из этих углов служит линейным углом данного двугранного угла?
 
-![Рис. 147](assets/klopskiy_stereometria_g03_s11_dvugrannyy_ugol_izmerenie_dvugrannykh_uglov/p90-fig147.png)
+![Рис. 147](assets/klopskiy_stereometria_g03_s11_dvugrannyy_ugol_izmerenie_dvugrannykh_uglov/p90-fig1.png)
 
 354°. 1) Можно ли считать линейным углом двугранного угла угол, стороны которого — два луча, проведенные в гранях двугранного угла из одной точки ребра?
 2) Равен ли линейному углу двугранного угла угол между двумя лучами, перпендикулярными его ребру и лежащими в его гранях?
 
 355°. Сторона $BC$ прямоугольника $ABCD$ служит стороной треугольника $BCF$ (рис. 148), причем вершина $F$ проектируется на $(DC)$. Назовите линейный угол двугранного угла $BC$.
 
-![Рис. 148](assets/klopskiy_stereometria_g03_s11_dvugrannyy_ugol_izmerenie_dvugrannykh_uglov/p90-fig148.png)
+![Рис. 148](assets/klopskiy_stereometria_g03_s11_dvugrannyy_ugol_izmerenie_dvugrannykh_uglov/p90-fig2.png)
 
 356. Дано изображение равнобедренной трапеции $ABCD$ и треугольника $ABM$ (рис. 149). Отрезок $MC$ изображает перпендикуляр, проведенный из точки $M$ к плоскости $ABC$. Постройте линейный угол двугранного угла $AB$ так, чтобы одна из его сторон проходила через точку $M$.
 
-![Рис. 149](assets/klopskiy_stereometria_g03_s11_dvugrannyy_ugol_izmerenie_dvugrannykh_uglov/p90-fig149.png)
+![Рис. 149](assets/klopskiy_stereometria_g03_s11_dvugrannyy_ugol_izmerenie_dvugrannykh_uglov/p90-fig3.png)
 
 357. Найдите множество всех точек:
 1) принадлежащих одной грани двугранного угла и удаленных от плоскости

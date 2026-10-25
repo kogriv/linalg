@@ -12,11 +12,11 @@
 
 $$\vec{a} = \overrightarrow{OA}, \quad \vec{b} = \overrightarrow{OB}, \quad \vec{c} = \overrightarrow{OC}.$$
 
-![Рис. 77](assets/klopskiy_stereometria_g02_s07_kollinearnye_vektory_umnozhenie_vektora_na_chislo/p48-fig77.png)
+![Рис. 77](assets/klopskiy_stereometria_g02_s07_kollinearnye_vektory_umnozhenie_vektora_na_chislo/p48-fig1.png)
 
 Если векторы $\vec{a}$, $\vec{b}$, $\vec{c}$ коллинеарны (рис. 78), то точки $O$, $A$, $B$, $C$ принадлежат одной прямой.
 
-![Рис. 78](assets/klopskiy_stereometria_g02_s07_kollinearnye_vektory_umnozhenie_vektora_na_chislo/p48-fig78.png)
+![Рис. 78](assets/klopskiy_stereometria_g02_s07_kollinearnye_vektory_umnozhenie_vektora_na_chislo/p48-fig2.png)
 
 2. Определение. Произведением ненулевого вектора $\vec{a}$ на число $x$ называется вектор, имеющий направление вектора $\vec{a}$, если $x$ положительно, и противоположное направление, если $x$ отрицательно. Длина этого вектора равна произведению длины вектора $\vec{a}$ на модуль числа $x$.
 

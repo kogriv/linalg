@@ -6,7 +6,7 @@
 
 Трехгранный угол является пересечением трех полупространств (рис. 159). Каждое из них определяется плоскостью грани трехгранного угла и ребром, не лежащим в этой грани.
 
-![Рис. 159](assets/klopskiy_stereometria_g03_s14_svoystva_ploskikh_uglov_trekhgrannogo_i_mnogogrannogo/p96-fig159.png)
+![Рис. 159](assets/klopskiy_stereometria_g03_s14_svoystva_ploskikh_uglov_trekhgrannogo_i_mnogogrannogo/p96-fig1.png)
 
 ### Задачи
 

@@ -63,4 +63,4 @@ $$= (Q_1 + Q_2 + \ldots + Q_{n-2}) \cdot H = Q \cdot H,$$
 
 124. Длина железнодорожной шпалы равна 275 см, её поперечное сечение показано на рисунке 62
 
-![Рис. 62](assets/klopskiy_stereometria_g05_s10_obem_pryamoy_prizmy/p137-fig4.png)
+![Рис. 62](assets/klopskiy_stereometria_g05_s10_obem_pryamoy_prizmy/p137-fig3.png)

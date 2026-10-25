@@ -8,7 +8,7 @@
 
 $$\overrightarrow{AB} = (x_2 - x_1; y_2 - y_1; z_2 - z_1). \quad (1)$$
 
-![Рис. 9](assets/klopskiy_stereometria_g04_s04_uravnenie_ploskosti/p110-fig9.png)
+![Рис. 9](assets/klopskiy_stereometria_g04_s04_uravnenie_ploskosti/p110-fig1.png)
 
 Задача 3. Найти расстояние между точками $A(x_1; y_1; z_1)$ и $B(x_2; y_2; z_2)$.
 
