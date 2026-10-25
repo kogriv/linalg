@@ -55,7 +55,7 @@ $= \frac{2ab \sin\frac{\varphi}{2}}{-(b-a)}$. Объединяя две посл
 
 значит, $\frac{BM}{MC} = \frac{1}{2}$. Аналогично находим, что $\frac{BN}{AN} = \frac{2}{5}$.
 
-![Рис. 8.3С](assets/amel_g09_s08_resheniya_bissektrisy/p418-fig1.png)
+![Рис. 8.3С](assets/amel_g09_s08_resheniya_bissektrisy/p417-fig1.png)
 
 По свойству 8.7X $\frac{BM}{MC} = \frac{AB}{AC}$, $\frac{BN}{AN} = \frac{BC}{AC}$, поэтому $AB = = \frac{AC}{2}$, $BC = \frac{2AC}{5}$. Отсюда $AB + BC = \left(\frac{1}{2} + \frac{2}{5}\right) AC = \frac{9}{10} AC < AC$, т. е. $AB + BC < AC$, что противоречит неравенству треугольника и, значит, сделанное выше предположение неверно.
 
@@ -63,13 +63,13 @@ $= \frac{2ab \sin\frac{\varphi}{2}}{-(b-a)}$. Объединяя две посл
 
 **8.5С.** Предположим, что $BK : KC = 1 : 2$, а $LO : OC = 2 : 3$. Поскольку $AK$ и $CL$ — биссектрисы треугольников $ABC$ и $ALC$ (рис. 8.4С) соответственно, то по свойству 8.7X $\frac{AB}{AC} = \frac{BK}{KC}$, а $\frac{AL}{AC} = \frac{LO}{OC}$. Учитывая предположение, получаем, что $\frac{AB}{AC} = \frac{1}{2}$, а $\frac{AL}{AC} = \frac{2}{3}$. Отсюда $AB = \frac{AC}{2}$, а $AL = \frac{2AC}{3}$ и, таким образом, $AL > AB$. Но это противоречит тому, что биссектриса $CL$ пересекает отрезок $AB$ и, следовательно, сделанное предположение не верно.
 
-![Рис. 8.4С](assets/amel_g09_s08_resheniya_bissektrisy/p418-fig2.png)
+![Рис. 8.4С](assets/amel_g09_s08_resheniya_bissektrisy/p417-fig2.png)
 
 **Ответ:** не может.
 
 **8.6С.** Отрезки $AK$ и $CL$ — биссектрисы треугольника $ABC$ (рис. 8.5С), поэтому по свойству 8.7X $\frac{BK}{KC} = \frac{AB}{AC} = \frac{1}{3}$, $\frac{BL}{LA} = \frac{BC}{AC} = \frac{5}{6}$. Отсюда $\frac{BK}{KC} = \frac{BC - KC}{KC} = \frac{BC}{KC} - 1 = \frac{1}{3}$ и, значит, $KC = 3BC/4 = 15/4$, $BK = BC - KC = 5/4$.
 
-![Рис. 8.5С](assets/amel_g09_s08_resheniya_bissektrisy/p418-fig3.png)
+![Рис. 8.5С](assets/amel_g09_s08_resheniya_bissektrisy/p417-fig3.png)
 
 ---
 **стр. 418**
@@ -81,7 +81,7 @@ $= \frac{2ab \sin\frac{\varphi}{2}}{-(b-a)}$. Объединяя две посл
 
 **8.7С.** Рассмотрим треугольник $ACE$ (рис. 8.6С). Биссектриса этого треугольника, проведенная из вершины $A$, лежит на отрезке $AD$, так как $CD = DE$ и, значит, $\cup CD = \cup DE$. Аналогично $EB$ и $CF$ — отрезки, на которых лежат биссектрисы того же треугольника $ACE$, проведенные из вершин $E$ и $C$ соответственно.
 
-![Рис. 8.6С](assets/amel_g09_s08_resheniya_bissektrisy/p419-fig1.png)
+![Рис. 8.6С](assets/amel_g09_s08_resheniya_bissektrisy/p418-fig1.png)
 
 Но биссектрисы треугольника пересекаются в одной точке (свойство 8.3X), поэтому диагонали $AD$, $EB$ и $CF$ также пересекаются в одной точке, что и требовалось доказать.
 
@@ -91,7 +91,7 @@ $$S_1 = \frac{1}{2} x \cdot h = \frac{1}{2} a \cdot n \cdot \sin \angle KBC,$$
 
 $$S_2 = \frac{1}{2} \cdot \frac{x+y}{2} \cdot h = \frac{1}{2} c \cdot m \cdot \sin \angle ABM.$$
 
-![Рис. 8.7С](assets/amel_g09_s08_resheniya_bissektrisy/p419-fig2.png)
+![Рис. 8.7С](assets/amel_g09_s08_resheniya_bissektrisy/p418-fig2.png)
 
 Теперь так как $BD$ — ось симметрии угла $MBK$, то в силу характеристичности свойства 8.2X имеем равенство $\angle MBD = \angle DBK$. Отсюда получаем, что $\angle ABM = \angle ABD - \angle MBD = \angle DBC - \angle DBK = \angle KBC$ и, значит, $\sin \angle KBC = \sin \angle ABM$. С учетом этого находим, что
 
@@ -117,7 +117,7 @@ $$\begin{cases} a_1 + a_2 = a, \\ \frac{c}{b} = \frac{a_1}{a_2}, \end{cases}$$
 
 решая которую, находим, что $a_1 = \frac{ac}{b + c}$, $a_2 = \frac{ab}{b + c}.$
 
-![Рис. 8.8С](assets/amel_g09_s08_resheniya_bissektrisy/p420-fig1.png)
+![Рис. 8.8С](assets/amel_g09_s08_resheniya_bissektrisy/p419-fig1.png)
 
 Подобным образом находятся отрезки $CM = b_1$, $MA = b_2$, $AK = c_1$, $KB = c_2$, на которые делятся стороны $AC$ и $AB$ треугольника $ABC$ биссектрисами $BM$ и $CK$:
 

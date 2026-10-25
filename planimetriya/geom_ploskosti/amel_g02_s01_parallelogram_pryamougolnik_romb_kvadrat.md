@@ -26,7 +26,7 @@
 
 **Доказательство.** Рассмотрим параллелограмм $ABCD$ и проведем в нем (рис. 13.1), например, диагональ $BD$ (если провести диагональ $AC$, то рассуждения аналогичны).
 
-![Рис. 13.1](assets/amel_g02_s01_parallelogram_pryamougolnik_romb_kvadrat/p156-fig1.png)
+![Рис. 13.1](assets/amel_g02_s01_parallelogram_pryamougolnik_romb_kvadrat/p155-fig1.png)
 
 Тогда у треугольников $ABD$ и $BCD$ сторона $BD$ общая, $\angle ABD = \angle CDB$, $\angle BDA = \angle DBC$ (указанные пары углов равны как накрест лежащие углы
 
@@ -187,7 +187,7 @@ $-\frac{xy}{2}\cos\alpha$, $b^2=\frac{x^2}{4}+\frac{y^2}{4}+\frac{xy}{2}\cos\alp
 
 **Решение.** Пусть в параллелограмме $ABCD$ (рис. 13.12) угол $ABC$ — тупой, $BE\perp AD$, $BF\perp DC$ и пусть для определенности $BE=a$, $BF=b$.
 
-![Рис. 13.12](assets/amel_g02_s01_parallelogram_pryamougolnik_romb_kvadrat/p163-fig1.png)
+![Рис. 13.12](assets/amel_g02_s01_parallelogram_pryamougolnik_romb_kvadrat/p162-fig1.png)
 
 По условию $\angle EBF=\alpha$. Но тогда и $\angle DAB=\alpha$, так как его стороны соответственно перпендикулярны сторонам угла $EBF$.
 
@@ -215,7 +215,7 @@ $$AC=\frac{\sqrt{a^2+b^2+2ab\cos\alpha}}{\sin\alpha}.$$
 
 $$AE^2-ED^2=AF^2-FD^2.$$
 
-![Рис. 13.13](assets/amel_g02_s01_parallelogram_pryamougolnik_romb_kvadrat/p164-fig1.png)
+![Рис. 13.13](assets/amel_g02_s01_parallelogram_pryamougolnik_romb_kvadrat/p163-fig1.png)
 
 Далее, из рассмотрения прямоугольных треугольников $EKB$ и $EKC$ следует, что $EK^2=BE^2-BK^2$ и $EK^2=EC^2-KC^2$, откуда $BE^2-BK^2=EC^2-KC^2$.
 
@@ -229,7 +229,7 @@ $$AE^2-ED^2=AF^2-FD^2.$$
 **стр. 164**
 ---
 
-![Рис. 13.14](assets/amel_g02_s01_parallelogram_pryamougolnik_romb_kvadrat/p165-fig1.png)
+![Рис. 13.14](assets/amel_g02_s01_parallelogram_pryamougolnik_romb_kvadrat/p164-fig1.png)
 
 $\angle DAB+\angle ABC=180^\circ$, то $\angle BEA=180^\circ-\left(\frac{1}{2}\angle DAB+\frac{1}{2}\angle ABC\right)=90^\circ$ и, значит, $\angle LEF=90^\circ$. Аналогично доказывается, что и остальные три угла четырехугольника $EFKL$ — прямые, а это и доказывает требуемое.
 
@@ -237,7 +237,7 @@ $\angle DAB+\angle ABC=180^\circ$, то $\angle BEA=180^\circ-\left(\frac{1}{2}\
 
 **Решение.** Пусть $BE$ — высота ромба $ABCD$, $AE=m$, $ED=n$, $O$ — точка пересечения диагоналей ромба (рис. 13.15). Тогда из прямоугольного треугольника $DEB$ находим, что $BE^2=BD^2-ED^2=BD^2-n^2$. Из прямоугольного же треугольника $BEA$ находим $BE^2=AB^2-AE^2=(m+n)^2-m^2$. Таким образом, $BD^2-n^2=(m+n)^2-m^2$, откуда $BD=\sqrt{2n(m+n)}$.
 
-![Рис. 13.15](assets/amel_g02_s01_parallelogram_pryamougolnik_romb_kvadrat/p165-fig2.png)
+![Рис. 13.15](assets/amel_g02_s01_parallelogram_pryamougolnik_romb_kvadrat/p164-fig2.png)
 
 Если рассмотреть теперь прямоугольный треугольник $BOA$, то в этом треугольнике $AO=\sqrt{AB^2-BO^2}=\sqrt{(m+n)^2-\frac{1}{2}n(m+n)}=\frac{1}{2}\sqrt{2(2m^2+3mn+n^2)}$ и, значит, $AC=\sqrt{2(2m^2+3mn+n^2)}$.
 
@@ -252,7 +252,7 @@ $\angle DAB+\angle ABC=180^\circ$, то $\angle BEA=180^\circ-\left(\frac{1}{2}\
 **стр. 165**
 ---
 
-![Рис. 13.16](assets/amel_g02_s01_parallelogram_pryamougolnik_romb_kvadrat/p166-fig1.png)
+![Рис. 13.16](assets/amel_g02_s01_parallelogram_pryamougolnik_romb_kvadrat/p165-fig1.png)
 
 $S_{\Delta MBC} = \frac{1}{2} MB \cdot EC = \frac{1}{3} S_{ABCD}$,
 
@@ -266,7 +266,7 @@ $S_{\Delta AMC} = \frac{1}{2} AM \cdot EC = \frac{1}{6} S_{ABCD}$.
 
 **Решение.** Пусть сторона ромба $ABCD$ равна $a$, $\angle BAD = \alpha$ — острый угол ромба, а $AC = d_1$ и $BD = d_2$ — его диагонали (рис. 13.17). По условию $a^2 = d_1 \cdot d_2$, а по теореме косинусов из треугольников $ACD$ и $ABD$ соответственно имеем
 
-![Рис. 13.17](assets/amel_g02_s01_parallelogram_pryamougolnik_romb_kvadrat/p166-fig2.png)
+![Рис. 13.17](assets/amel_g02_s01_parallelogram_pryamougolnik_romb_kvadrat/p165-fig2.png)
 
 $d_1^2 = 2a^2 + 2a^2 \cdot \cos \alpha = 2a^2(1 + \cos \alpha) = 4a^2 \cdot \cos^2 \frac{\alpha}{2}$,
 
@@ -284,7 +284,7 @@ $d_2^2 = 2a^2 - 2a^2 \cdot \cos \alpha = 2a^2(1 - \cos \alpha) = 4a^2 \cdot \sin
 
 **Решение.** Пусть точка $E$ — центр квадрата $ABCD$, а $F$ — середина отрезка $BC$ (рис. 13.18). Тогда так как треугольник $AFE$ является вписанным в окружность с центром $O$, то радиус $R$ этой окружности можно найти по формуле
 
-![Рис. 13.18](assets/amel_g02_s01_parallelogram_pryamougolnik_romb_kvadrat/p167-fig1.png)
+![Рис. 13.18](assets/amel_g02_s01_parallelogram_pryamougolnik_romb_kvadrat/p166-fig1.png)
 
 $$R = \frac{FE}{2 \sin \alpha}, \text{ где } \alpha = \angle EAF.$$
 
@@ -304,7 +304,7 @@ $$\frac{a^2}{4} = \frac{a^2}{2} + \frac{5}{4}a^2 - 2 \cdot \frac{\sqrt{2}}{2}a \
 
 Тогда, с одной стороны, площадь трапеции $MNCO$
 
-![Рис. 13.19](assets/amel_g02_s01_parallelogram_pryamougolnik_romb_kvadrat/p167-fig2.png)
+![Рис. 13.19](assets/amel_g02_s01_parallelogram_pryamougolnik_romb_kvadrat/p166-fig2.png)
 
 $$S_{MNCO} = \frac{1}{2} MC \cdot NO \cdot \sin \alpha,$$
 
@@ -326,7 +326,7 @@ $NO = \sqrt{\left(\frac{3}{2}\right)^2 + \left(\frac{1}{2}\right)^2} = \frac{\sq
 
 **Решение.** Пусть $O$ — точка пересечения диагоналей квадрата $ABCD$, $A_1$, $D_1$, $O_1$, $B_1$ и $C_1$ — проекции точек $A$, $D$, $O$, $B$ и $C$ соответственно на прямую $l$ и пусть $\phi$ — острый угол между диагональю $BD$ квадрата и прямой $l$ (рис. 13.20). Обозначим $OO_1 = x$. Тогда если $OE \perp AA_1$, $DM \perp OE$, $OF \perp BB_1$, $CN \perp OO_1$, то так как $\angle EAO = \angle MOD = \angle NOC = \angle FOB = \phi$, получаем, что
 
-![Рис. 13.20](assets/amel_g02_s01_parallelogram_pryamougolnik_romb_kvadrat/p168-fig1.png)
+![Рис. 13.20](assets/amel_g02_s01_parallelogram_pryamougolnik_romb_kvadrat/p167-fig1.png)
 
 $AA_1 = x + AE = x + \frac{a\sqrt{2}}{2} \cos \phi,$
 

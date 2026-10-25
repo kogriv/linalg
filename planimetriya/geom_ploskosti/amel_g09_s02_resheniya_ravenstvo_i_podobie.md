@@ -10,7 +10,7 @@ $\frac{a^2}{b^2} = 3$. Таким образом, $\frac{a}{b} = \sqrt{3}$.
 
 ▼ **1.6С.** Рассмотрим рис. 1.4С. На этом рисунке $AB_1 = AC_1$, $BC_1 = BA_1$, а $CA_1 = CB_1$, что следует, например, из свойства 5.2.
 
-![Рис. 1.4С](assets/amel_g09_s02_resheniya_ravenstvo_i_podobie/p387-fig1.png)
+![Рис. 1.4С](assets/amel_g09_s02_resheniya_ravenstvo_i_podobie/p386-fig1.png)
 
 Поэтому
 
@@ -22,7 +22,7 @@ $$\frac{AB_1}{B_1C} \cdot \frac{CA_1}{A_1B} \cdot \frac{BC_1}{C_1A} = 1$$
 
 **2.1С.** Опустим из точки $L$ перпендикуляры $LM$ и $LN$ на стороны $AB$ и $AD$ соответственно (рис. 2.1С). Параллельные прямые $BC$ и $ML$ пересекают стороны угла $BAC$, поэтому по обобщенной теореме Фалеса $MB : AM = LC : AL = 1 : 3$.
 
-![Рис. 2.1С](assets/amel_g09_s02_resheniya_ravenstvo_i_podobie/p387-fig2.png)
+![Рис. 2.1С](assets/amel_g09_s02_resheniya_ravenstvo_i_podobie/p386-fig2.png)
 
 Отсюда $MB = \frac{1}{3} AM = \frac{1}{4} AB$ и, значит,
 
@@ -41,7 +41,7 @@ $KM = AM - AK = \frac{3}{4} AB - \frac{1}{2} AB = \frac{1}{4} AB$.
 
 **2.2C.** Пусть в равнобедренном треугольнике $ABC$ основание $AC = 8$, а боковые стороны $AB = BC = 5$ (рис. 2.2C). Очевидно, что точка $K$, из которой проведены перпендикуляры $KD$, $KM$ и $KN$ к сторонам $AC$, $AB$ и $BC$ треугольника $ABC$ соответственно, лежит на оси симметрии треугольника $ABC$, проходящей через вершину $B$.
 
-![Рис. 2.2C](assets/amel_g09_s02_resheniya_ravenstvo_i_podobie/p388-fig1.png)
+![Рис. 2.2C](assets/amel_g09_s02_resheniya_ravenstvo_i_podobie/p387-fig1.png)
 
 А тогда на основании теоремы Пифагора $BD = \sqrt{BC^2 - DC^2} = \sqrt{25 - 16} = 3$ и, значит, $S_{\triangle ABC} = \frac{1}{2} AC \cdot BD = \frac{1}{2} \cdot 8 \cdot 3 = 12$.
 
@@ -71,7 +71,7 @@ $$BK = \sqrt{x^2 + y^2} = \frac{5\sqrt{3}}{3}.$$
 
 **2.3C.** На продолжении стороны $DC$ за точку $C$ вписанного в окружность четырехугольника $ABCD$ отложим отрезок $CE = AD$ (рис. 2.3C). Тогда треугольники $DAB$ и $ECB$ равны по двум сторонам и углу между ними ($\angle ECB = 180^\circ - \angle BCD = \angle DAB$).
 
-![Рис. 2.3C](assets/amel_g09_s02_resheniya_ravenstvo_i_podobie/p389-fig1.png)
+![Рис. 2.3C](assets/amel_g09_s02_resheniya_ravenstvo_i_podobie/p388-fig1.png)
 
 Но в таком случае четырехугольник $ABCD$ и равнобедренный треугольник $DBE$ ($BE = BD$) равновелики и, значит, задача свелась к вычислению площади $S$ треугольника $DBE$.
 
@@ -83,7 +83,7 @@ $$S = \frac{1}{2} DE \cdot BF = a \cdot \cos\gamma \cdot a \cdot \sin\gamma = \f
 
 **2.4C.** Пусть $K$ — точка пересечения медиан, $L$ и $M$ — точки пересечения медианы $AE$ с отрезками $HD$ и $HG$ соответственно, а $P$ и $N$ — точки пересечения медианы $CF$ с отрезками $DG$ и $HG$ (рис. 2.4C).
 
-![Рис. 2.4C](assets/amel_g09_s02_resheniya_ravenstvo_i_podobie/p389-fig2.png)
+![Рис. 2.4C](assets/amel_g09_s02_resheniya_ravenstvo_i_podobie/p388-fig2.png)
 
 Теперь так как треугольники $AHL$ и $AFK$ подобны, то $HL : FK = AL : AK$. Из подобия же треугольников $ALD$ и $AKC$ следует, что $LD : KC = AL : AK$ и, таким образом, $HL : LD = FK : KC = 1 : 2$.
 
@@ -99,14 +99,14 @@ $$S = \frac{1}{2} DE \cdot BF = a \cdot \cos\gamma \cdot a \cdot \sin\gamma = \f
 
 **2.5C.** Пусть $M$ и $N$ — точки пересечения прямых $AD$ и $AE$ со стороной $BC$ ($BM < BN$), а $O$ — середина $BC$ (рис. 2.5C). Поскольку точки $D$ и $E$ делят полуокружность на равные дуги, то треугольник $OEC$ — равносторонний и, значит, $CE \parallel AB$ ($\angle ABC = \angle ECB$). Но тогда на основании цепочки равенств $EC = OC = \frac{1}{2} BC = \frac{1}{2} AB$ из подобия треугольников $ABN$ и $ECN$ (задача 2.1) следует, что $\frac{BN}{NC} = \frac{AB}{EC} = 2$. Следовательно, $BC = BN + NC = 3NC$. Аналогично доказывается, что $BC = 3BM$. Но в таком случае $BM = NC$, что с учётом равенства $BN = 2NC$ и доказывает требуемое.
 
-![Рис. 2.5C](assets/amel_g09_s02_resheniya_ravenstvo_i_podobie/p390-fig1.png)
+![Рис. 2.5C](assets/amel_g09_s02_resheniya_ravenstvo_i_podobie/p389-fig1.png)
 
 **2.6C.** Рассмотрим рис. 2.6C. Поскольку $\angle BDA = \angle DBC$, а $\angle ABD = \angle BCD = \frac{1}{2} \cup BED$, то треугольники $ABD$ и $BCD$ подобны. Следовательно, $\frac{BD}{AD} = \frac{BC}{BD}$, откуда находим, что $BD = \sqrt{AD \cdot BC} = \sqrt{a \cdot b}$.
 
-![Рис. 2.6C](assets/amel_g09_s02_resheniya_ravenstvo_i_podobie/p390-fig2.png)
+![Рис. 2.6C](assets/amel_g09_s02_resheniya_ravenstvo_i_podobie/p389-fig2.png)
 
 **Ответ:** $BD = \sqrt{a \cdot b}$.
 
 **2.7C.** Рассмотрим рис. 2.7C, где $AE \perp BC$, $AF \perp BD$. Из подобия прямоугольных треугольников $AEC$ и $DFA$ ($\angle CAE = \angle ADF$) следует, что $\frac{CE}{EA} = \frac{AF}{FD}$. А тогда, замечая, что четырёхугольник $BEAF$ — квадрат и полагая, что $EA = AF = c$, предыдущую пропорцию можно переписать в виде
 
-![Рис. 2.7C](assets/amel_g09_s02_resheniya_ravenstvo_i_podobie/p390-fig3.png)
+![Рис. 2.7C](assets/amel_g09_s02_resheniya_ravenstvo_i_podobie/p389-fig3.png)

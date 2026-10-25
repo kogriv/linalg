@@ -35,7 +35,7 @@
 
 **Решение.** Пусть $O$ — центр вписанной в треугольник $ABC$ окружности радиуса $r$, которая касается сторон треугольника $AB=c$, $BC=a$ и $AC=b$ в точках $D$, $E$ и $F$ соответственно (рис. 9.1).
 
-![Рис. 9.1](assets/amel_g01_s09_treugolnik_vpisannye_opisannye_vnevписанные_okruzhnosti/p124-fig1.png)
+![Рис. 9.1](assets/amel_g01_s09_treugolnik_vpisannye_opisannye_vnevписанные_okruzhnosti/p123-fig1.png)
 
 Тогда замечая, что радиус $r$ равен высотам $OD$, $OE$ и $OF$ треугольников $AOB$, $BOC$ и $AOC$ с площадями $S_1$, $S_2$ и $S_3$ соответственно, имеем: $S_1 = \frac{1}{2}cr$, $S_2 = \frac{1}{2}ar$, $S_3 = \frac{1}{2}br$.
 
@@ -65,7 +65,7 @@ $$R = \frac{d}{2\sin\varphi}.$$
 
 **Решение.** Пусть $O$ — центр описанной около треугольника $ABC$ окружности и пусть для определенности $AC = d$, $D$ — середина отрезка $AC$, $E$ — точка окружности и $\angle ABC = \varphi$ (рис. 9.2).
 
-![Рис. 9.2](assets/amel_g01_s09_treugolnik_vpisannye_opisannye_vnevписанные_okruzhnosti/p125-fig1.png)
+![Рис. 9.2](assets/amel_g01_s09_treugolnik_vpisannye_opisannye_vnevписанные_okruzhnosti/p124-fig1.png)
 
 Тогда поскольку $\angle ABC$ — вписанный, то дуга $AEC$ измеряется углом $2\varphi$, что, в свою очередь, означает, что центральный угол $AOC$ равен $2\varphi$, а его половина — $\angle DOC = \varphi$. С учетом этого из прямоугольного треугольника $CDO$ находим $DC = R\sin\varphi$, где $R = OC$. Но так как $DC = d/2$, то $d/2 = R\sin\varphi$ или $R = \frac{d}{2\sin\varphi}$, что и требовалось доказать.
 
@@ -85,7 +85,7 @@ $R = \frac{b}{2\sin\varphi} = \frac{abc}{2ac\sin\varphi} = \frac{abc}{4 \cdot \f
 
 **Решение.** Пусть $E$ и $F$ — точки касания вневписанной окружности треугольника $ABC$ с продолжением его стороны $AC$ и со стороной $CB$ соответственно (рис. 9.3).
 
-![Рис. 9.3](assets/amel_g01_s09_treugolnik_vpisannye_opisannye_vnevписанные_okruzhnosti/p126-fig1.png)
+![Рис. 9.3](assets/amel_g01_s09_treugolnik_vpisannye_opisannye_vnevписанные_okruzhnosti/p125-fig1.png)
 
 Тогда по свойству 5.2 отрезок $AD = AE$, $BD = BF$, $CE = CF$ и, таким образом,
 
@@ -95,7 +95,7 @@ $AD = \frac{1}{2}(AD + AE) = \frac{1}{2}(AB + BD + AC + CE) = \frac{1}{2}(AB + B
 
 **Решение.** Пусть $O$ — центр вписанной в треугольник $ABC$ окружности, касающейся стороны $AB$ в точке $D$, $O_1$ — центр вневписанной окружности треугольника $ABC$, касающейся для определенности стороны $BC = d$ и продолжения стороны $AB$ в точке $E$ (рис. 9.4).
 
-![Рис. 9.4](assets/amel_g01_s09_treugolnik_vpisannye_opisannye_vnevписанные_okruzhnosti/p126-fig2.png)
+![Рис. 9.4](assets/amel_g01_s09_treugolnik_vpisannye_opisannye_vnevписанные_okruzhnosti/p125-fig2.png)
 
 В силу характеристичности свойства 8.11 точки $O$ и $O_1$ лежат на одном луче — биссектрисе угла $CAB$. Поэтому поскольку
 
@@ -120,7 +120,7 @@ $OD \perp AD$, $O_1E \perp AE$ (свойство 5.1X), то прямоугол�
 
 $MN = MA + AC + CN = c_1 + a_2 + b$, $DQ = DB + BQ = c_2 + a_1$ и, следовательно, $MN + DQ = a + b + c$. Далее, $AQ = AD + DQ = c_1 + DQ = AN = AC + CN = b + a_2 = MC = MA + AC = c_1 + b = p$ (задача 9.6) и, таким образом, $DQ = b$, а значит, $MN = a + c$, что и требовалось доказать.
 
-![Рис. 9.5](assets/amel_g01_s09_treugolnik_vpisannye_opisannye_vnevписанные_okruzhnosti/p128-fig1.png)
+![Рис. 9.5](assets/amel_g01_s09_treugolnik_vpisannye_opisannye_vnevписанные_okruzhnosti/p127-fig1.png)
 
 **9.10.** *Доказать, что если $d$ — одна из сторон треугольника, $\varphi$ и $\psi$ — прилежащие к ней углы, то радиус $r$ вписанной в треугольник окружности находится по формуле*
 
@@ -128,7 +128,7 @@ $$r = \frac{d}{\text{ctg} \frac{\varphi}{2} + \text{ctg} \frac{\psi}{2}} = d \cd
 
 **Решение.** Пусть в треугольнике $ABC$ для определенности $AC = d$, $\angle CAB = \varphi$, $\angle BCA = \psi$. Обозначим через $O$ — центр вписанной в треугольник окружности, а через $D$ — точку касания этой окружности со стороной $AC$ (рис. 9.6). Тогда так как лучи $AO$ и $CO$ — биссектрисы углов $CAB$ и $BCA$ соответственно, то из прямоугольных треугольников $ODA$ и $ODC$ находим
 
-![Рис. 9.6](assets/amel_g01_s09_treugolnik_vpisannye_opisannye_vnevписанные_okruzhnosti/p128-fig2.png)
+![Рис. 9.6](assets/amel_g01_s09_treugolnik_vpisannye_opisannye_vnevписанные_okruzhnosti/p127-fig2.png)
 
 $AD = OD \cdot \text{ctg} \frac{\varphi}{2}$, $DC = OD \cdot \text{ctg} \frac{\psi}{2}$.
 
@@ -146,7 +146,7 @@ $$r = \frac{d}{\text{ctg} \frac{\varphi}{2} + \text{ctg} \frac{\psi}{2}} = d \cd
 
 **Решение.** Так как $BO$ и $AO$ — биссектрисы углов треугольника $ABC$ (рис. 9.7), то внешний для треугольника $BOA$ угол $DOB$ равен $\angle ABO + \angle OAB = \frac{1}{2}(\angle ABC + \angle CAB)$. Теперь учитывая, что $\angle CBD = \angle CAD = \frac{1}{2}\cup CD$ (свойство 4.6) и, таким образом, $\angle OBD = \angle CBD + \angle OBC = \angle CAD + \angle OBC = \frac{1}{2}(\angle CAB + \angle ABC)$, приходим к выводу, что $\angle DOB = \angle OBD$ и, значит, треугольник $BDO$ — равнобедренный. Последнее означает, в частности, что $BD = OD$. По свойству же 8.6X точка $D$ лежит на серединном к отрезку $BC$ перпендикуляре и, следовательно, $BD = DC$. А это и доказывает требуемое.
 
-![Рис. 9.7](assets/amel_g01_s09_treugolnik_vpisannye_opisannye_vnevписанные_okruzhnosti/p129-fig1.png)
+![Рис. 9.7](assets/amel_g01_s09_treugolnik_vpisannye_opisannye_vnevписанные_okruzhnosti/p128-fig1.png)
 
 **9.12.** *Дан треугольник со сторонами $a$, $b$ и $c$. Доказать, что если $r$ — радиус окружности, вписанной в данный треугольник, $R$ — радиус описанной около него окружности, $r_a$, $r_b$ и $r_c$ — радиусы вневписанных окружностей, касающихся соответственно сторон $a$, $b$ и $c$ и продолжений двух других сторон треугольника, то $r_a + r_b + r_c = 4R + r$.*
 

@@ -62,11 +62,11 @@ $$P^n \cong \mathcal{K}^n \cup \mathcal{K}^{n-1} \cup \mathcal{K}^{n-2} \cup \ld
 
 Сложнее «увидеть» $\mathbf{C}P^n$: в одну точку $\mathbf{C}P^n$ склеивается целый большой круг сферы $S^{2n+1}$, состоящий из точек $(x_0 e^{i\varphi}, \ldots, x_n e^{i\varphi})$ с переменным $\varphi$. Из описания $\mathbf{C}P^1$ в случае б) в качестве $\mathbf{C} \cup \{\infty\}$ ясно, что $\mathbf{C}P^1$ можно представлять себе как двумерную сферу Римана, в которой $\infty$ представлена северным полюсом, как при стереографической проекции (рис. 3).
 
-![Рис. 1: Построение $\mathbf{R}P^1$ из $S^1$](assets/kostrikin_manin_g03_s06_proektivnyye_prostranstva/p228-fig1.png)
+![Рис. 1: Построение $\mathbf{R}P^1$ из $S^1$](assets/kostrikin_manin_g03_s06_proektivnyye_prostranstva/p222-fig1.png)
 
-![Рис. 2: Построение $\mathbf{R}P^2$ из $S^2$](assets/kostrikin_manin_g03_s06_proektivnyye_prostranstva/p228-fig2.png)
+![Рис. 2: Построение $\mathbf{R}P^2$ из $S^2$](assets/kostrikin_manin_g03_s06_proektivnyye_prostranstva/p222-fig2.png)
 
-![Рис. 3: Стереографическая проекция $\mathbf{C}P^1$](assets/kostrikin_manin_g03_s06_proektivnyye_prostranstva/p228-fig3.png)
+![Рис. 3: Стереографическая проекция $\mathbf{C}P^1$](assets/kostrikin_manin_g03_s06_proektivnyye_prostranstva/p222-fig3.png)
 
 Поэтому наше новое представление $\mathbf{C}P^1$ в виде факторпространства $S^3$ даёт замечательное отображение $S^3 \to S^2$, слои которого являются окружностями $S^1$. Оно называется *отображением Хопфа*.
 

@@ -34,7 +34,7 @@ $$c^2 = a^2 + b^2 - 2a \cdot b \cdot \cos \gamma.$$
 
 показано на рис. 11.1.
 
-![Рис. 11.1](assets/amel_g01_s11_teorema_kosinusov/p144-fig1.png)
+![Рис. 11.1](assets/amel_g01_s11_teorema_kosinusov/p143-fig1.png)
 
 Тогда вершина $B$ треугольника $ABC$ имеет координаты $(c; 0)$, а вершина $C$ — координаты $(b \cdot \cos \alpha; b \cdot \sin \alpha)$. Воспользовавшись теперь формулой расстояния между двумя точками, имеем
 

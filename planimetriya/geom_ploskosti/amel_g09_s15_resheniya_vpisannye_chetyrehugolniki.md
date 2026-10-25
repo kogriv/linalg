@@ -85,7 +85,7 @@ $n^2 = \frac{(ab + cd)(ac + bd)}{ad + bc}$. Но в таком случае $\fr
 
 **15.6С.** Пусть в прямоугольной трапеции $ABCD$ (рис. 15.6С) основания $BC$ и $AD$ равны соответственно $a$ и $b$ и пусть $CE \perp AD$, а $r$ — радиус окружности. Тогда так как $CE = 2r$, то $BC + AD = AB + DC = EC + DC = 2r + DC$, откуда следует, что $DC = a + b - 2r$. С другой стороны, поскольку $CD^2 = CE^2 + ED^2$, имеем $(a + b - 2r)^2 = 4r^2 + (b - a)^2$.
 
-![Рис. 15.6С](assets/amel_g09_s15_resheniya_vpisannye_chetyrehugolniki/p456-fig1.png)
+![Рис. 15.6С](assets/amel_g09_s15_resheniya_vpisannye_chetyrehugolniki/p455-fig1.png)
 
 Отсюда после преобразований получаем, что $r = \frac{ab}{a + b}$.
 
@@ -93,11 +93,11 @@ $n^2 = \frac{(ab + cd)(ac + bd)}{ad + bc}$. Но в таком случае $\fr
 
 **15.7С.** Пусть $O$ — центр окружности, вписанной в трапецию $ABCD$, $E$ — точка касания этой окружности с боковой стороной $AB$ (рис. 15.7С). Тогда так как $\angle BOA = 90^\circ$ (задача 15.4), а радиус окружности $OE \perp AB$ (свойство 5.1X), то по свойству 3.8 имеем $OE^2 = BE \cdot EA$, что и требовалось доказать.
 
-![Рис. 15.7С](assets/amel_g09_s15_resheniya_vpisannye_chetyrehugolniki/p456-fig2.png)
+![Рис. 15.7С](assets/amel_g09_s15_resheniya_vpisannye_chetyrehugolniki/p455-fig2.png)
 
 **15.8С.** Пусть $O$ — центр окружности, $E$ — точка касания касательной $l$ с окружностью (рис. 15.8С). Тогда так как $OE^2 = AE \cdot EB$, где $OE$ — радиус окружности (задача 15.7С), и так как $AC = AE$, а $BE = BD$, то $AC \cdot BD = AE \cdot EB = OE^2$, что и доказывает требуемое.
 
-![Рис. 15.8С](assets/amel_g09_s15_resheniya_vpisannye_chetyrehugolniki/p456-fig3.png)
+![Рис. 15.8С](assets/amel_g09_s15_resheniya_vpisannye_chetyrehugolniki/p455-fig3.png)
 
 
 ---

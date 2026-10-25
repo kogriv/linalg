@@ -34,7 +34,7 @@
 
 **4. Конфигурация Паппа.** Рассмотрим в проективной плоскости две разные прямые и две тройки лежащих на них попарно разных точек $p_1$, $p_2$, $p_3$ и $q_1$, $q_2$, $q_3$. Для любой пары различных индексов
 
-![Рис. 8](assets/kostrikin_manin_g03_s09_konfiguratsii_dezarga_i_pappa/p246-fig8.png)
+![Рис. 8](assets/kostrikin_manin_g03_s09_konfiguratsii_dezarga_i_pappa/p240-fig8.png)
 
 
 ---
@@ -51,7 +51,7 @@ $\{i,\,j\}\subset\{1,\,2,\,3\}$ построим точку $s_k=\overline{p_iq_
 
 Первое из них, $f_1$, будет композицией проекции $\overline{p_1p_2p_3}$ на $s_2s_3$ из точки $q_1$ с проекцией $s_3s_2$ на $\overline{q_1q_2q_3}$ из точки $p_1$. Очевидно, $f_1(p_i)=q_i$ для всех $i=1,\,2,\,3$, и, кроме того, $f_1(t_1)=t_2$, где $t_1=\overline{p_1p_2p_3}\cap\overline{q_1q_2q_3}$, $t_2=\overline{s_4s_3s_2}\cap\overline{q_1q_2q_3}$ (рис. 9).
 
-![Рис. 9](assets/kostrikin_manin_g03_s09_konfiguratsii_dezarga_i_pappa/p247-fig1.png)
+![Рис. 9](assets/kostrikin_manin_g03_s09_konfiguratsii_dezarga_i_pappa/p241-fig1.png)
 
 Второе из них, $f_2$, будет композицией проекции $\overline{p_1p_2p_3}$ на $\overline{s_3s_2}$ из точки $q_2$ с проекцией $\overline{s_3s_2}$ на $\overline{q_1q_2q_3}$ из точки $p_2$. Эта композиция переводит $p_1$ в $q_1$, $p_2$ в $q_2$ и $t_1$ в $t_2$.
 

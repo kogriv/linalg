@@ -4,7 +4,7 @@
 **стр. 467**
 ---
 
-![Рис. 18.4C](assets/amel_g09_s19_resheniya_otnoshenie_ploshchadey/p468-fig1.png)
+![Рис. 18.4C](assets/amel_g09_s19_resheniya_otnoshenie_ploshchadey/p467-fig1.png)
 
 С другой стороны, по условию $\angle AOB = 3\angle COD$. Следовательно, $3\cup CD + \cup CD = \pi$ и, таким образом, $\cup CD = \frac{\pi}{4}$.
 
@@ -20,7 +20,7 @@
 
 **19.1C.** Так как треугольники $AFE$ и $BCF$ подобны (рис. 19.1C), то $AE : BC = 1 : 5$.
 
-![Рис. 19.1C](assets/amel_g09_s19_resheniya_otnoshenie_ploshchadey/p468-fig2.png)
+![Рис. 19.1C](assets/amel_g09_s19_resheniya_otnoshenie_ploshchadey/p467-fig2.png)
 
 Но в таком случае $\frac{S_{\triangle AFE}}{S_{\triangle BCF}} = \left(\frac{AE}{BC}\right)^2 = \frac{1}{25}$.
 
@@ -140,7 +140,7 @@ $= \frac{x^2+1}{(x+1)^2} \cdot S_{\Delta ABC}$. Таким образом, $\fra
 
 **19.8С.** Пусть в трапеции $ABCD$ точки $E$ и $F$ — серединные точки оснований $BC$ и $AD$ соответственно, а $\varphi$ — угол между диагональю $AC$ и отрезком $EF$ (рис. 19.8С). Тогда площадь четырехугольника $AECF$ вычисляется по формуле
 
-![Рис. 19.8С](assets/amel_g09_s19_resheniya_otnoshenie_ploshchadey/p472-fig1.png)
+![Рис. 19.8С](assets/amel_g09_s19_resheniya_otnoshenie_ploshchadey/p471-fig1.png)
 
 $S_{AECF} = \frac{1}{2} AC \cdot EF \cdot \sin \varphi$.
 
@@ -148,7 +148,7 @@ $S_{AECF} = \frac{1}{2} AC \cdot EF \cdot \sin \varphi$.
 
 **19.9С.** Из условия задачи следует (рис. 19.9С), что $S_{\Delta ABO} = a - c$, $S_{\Delta CDO} = b - c$. Но тогда (задача 16.13)
 
-![Рис. 19.9С](assets/amel_g09_s19_resheniya_otnoshenie_ploshchadey/p472-fig2.png)
+![Рис. 19.9С](assets/amel_g09_s19_resheniya_otnoshenie_ploshchadey/p471-fig2.png)
 
 $S_{\Delta BCO} = \frac{S_{\Delta ABO} \cdot S_{\Delta CDO}}{S_{\Delta AOD}} = \frac{(a-c)(b-c)}{c}$
 
@@ -166,7 +166,7 @@ $- S_{\Delta AOD} = \frac{(a-c)(b-c)}{c} + a + b - c = \frac{ab}{c}$.
 
 **19.10С.** Пусть $\angle BAD = \alpha$ (рис. 19.10С). Тогда $\angle BCD = 180^\circ - \alpha$ и, значит,
 
-![Рис. 19.10С](assets/amel_g09_s19_resheniya_otnoshenie_ploshchadey/p473-fig1.png)
+![Рис. 19.10С](assets/amel_g09_s19_resheniya_otnoshenie_ploshchadey/p472-fig1.png)
 
 $\frac{AO}{OC} = \frac{S_{\Delta DAB}}{S_{\Delta BCD}} = \frac{\frac{1}{2} AD \cdot AB \cdot \sin \alpha}{\frac{1}{2} CD \cdot CB \cdot \sin(180^\circ - \alpha)} =$
 
@@ -174,7 +174,7 @@ $= \frac{AD \cdot AB}{CD \cdot CB}$, что и требовалось доказ
 
 **19.11С.** Пусть точка $F$ — середина диагонали $BD$ четырехуголь-
 
-![Рис. 19.11С, 19.12С](assets/amel_g09_s19_resheniya_otnoshenie_ploshchadey/p473-fig2.png)
+![Рис. 19.11С, 19.12С](assets/amel_g09_s19_resheniya_otnoshenie_ploshchadey/p472-fig2.png)
 
 ника $ABCD$, $M$ — точка пересечения прямой $AD$ с прямой, про-
 
@@ -208,7 +208,7 @@ $= \frac{1}{4} S_{\Delta ABC}$. Согласно же свойству 19.2 сп
 **стр. 473**
 ---
 
-![Рис. 19.13С](assets/amel_g09_s19_resheniya_otnoshenie_ploshchadey/p474-fig1.png)
+![Рис. 19.13С](assets/amel_g09_s19_resheniya_otnoshenie_ploshchadey/p473-fig1.png)
 
 $\frac{S_{\Delta AFD}}{S_{\Delta AKL}} = \frac{AF \cdot AD}{AK \cdot AL} = \frac{AF}{AK} \cdot \frac{AD}{AL} = \frac{4}{3} \cdot 2 = \frac{8}{3}$,
 
@@ -222,7 +222,7 @@ $S_{\Delta AFD} = \frac{8}{3} S_{\Delta AKL} = \frac{8}{3} \cdot \frac{1}{4} \cd
 
 **19.13С.** Так как $LK \perp AB$, $LM \perp AC$, то $\angle AKL + \angle LMA = 180^\circ$
 
-![Рис. 19.14С](assets/amel_g09_s19_resheniya_otnoshenie_ploshchadey/p474-fig2.png)
+![Рис. 19.14С](assets/amel_g09_s19_resheniya_otnoshenie_ploshchadey/p473-fig2.png)
 
 и, значит, около четырехугольника $AKLN$ можно описать окружность $s$, которая пересекает отрезок $BC$, кроме точки $L$ еще и в некоторой точке $P$ (которая совпадает с $L$, если $AB = AC$) (рис. 19.14С).
 

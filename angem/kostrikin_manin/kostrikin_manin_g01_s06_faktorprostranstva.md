@@ -94,11 +94,11 @@ $$f^{-1}(l_0+M)=\{l\in L\,|\,l+M=l_0+M\}=\{l\in L\,|\,l-l_0\in M\}=l_0+M.$$
 
 **7.** Поставим следующую задачу: даны два отображения $f: L \to M$ и $g: L \to N$; когда существует такое отображение $h: M \to N$, что $g = hf$? На языке диаграмм: когда можно вложить диаграмму
 
-![Диаграмма $L \xrightarrow{f} M$, $L \xrightarrow{g} N$](assets/kostrikin_manin_g01_s06_faktorprostranstva/p55-fig1.png)
+![Диаграмма $L \xrightarrow{f} M$, $L \xrightarrow{g} N$](assets/kostrikin_manin_g01_s06_faktorprostranstva/p49-fig1.png)
 
 в коммутативный треугольник
 
-![Коммутативный треугольник $L \xrightarrow{f} M \xrightarrow{h} N$, $L \xrightarrow{g} N$](assets/kostrikin_manin_g01_s06_faktorprostranstva/p55-fig2.png)
+![Коммутативный треугольник $L \xrightarrow{f} M \xrightarrow{h} N$, $L \xrightarrow{g} N$](assets/kostrikin_manin_g01_s06_faktorprostranstva/p49-fig2.png)
 
 (ср. § 13 о коммутативных диаграммах). Ответ для линейных отображений даётся следующим результатом.
 
@@ -126,7 +126,7 @@ $$\operatorname{Ker} g \xrightarrow{i} L \xrightarrow{c} \operatorname{Coim} g \
 
 где все отображения, кроме $h$, — канонические вложения и факторизация, а $h$ — единственное отображение, делающее коммутативной диаграмму
 
-![Коммутативная диаграмма $L \xrightarrow{c} \operatorname{Coim} g \xrightarrow{h} \operatorname{Im} g \xleftarrow{g} L$](assets/kostrikin_manin_g01_s06_faktorprostranstva/p56-fig1.png)
+![Коммутативная диаграмма $L \xrightarrow{c} \operatorname{Coim} g \xrightarrow{h} \operatorname{Im} g \xleftarrow{g} L$](assets/kostrikin_manin_g01_s06_faktorprostranstva/p50-fig1.png)
 
 Оно определено однозначно, потому что $\operatorname{Ker} c = \operatorname{Ker} g$, и является изоморфизмом, потому что обратное отображение тоже существует и определено однозначно.
 

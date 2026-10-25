@@ -16,7 +16,7 @@ $- \frac{1}{2} \cdot \frac{b \cdot \sin \beta}{\sin(\alpha + \beta)} \cdot \frac
 
 **18.1C.** Пусть $O$ — центр данной полуокружности, а $D$ — точка пересечения этой полуокружности со стороной $BC$ равностороннего треугольника $ABC$ (рис. 18.1C). Площадь последнего, как известно, $S_1 = \frac{AC^2 \sqrt{3}}{4} = R^2 \sqrt{3}$. Площадь полукруга $S_2 = \frac{\pi R^2}{2}$.
 
-![Рис. 18.1C](assets/amel_g09_s18_resheniya_ploshchad_kruga/p466-fig1.png)
+![Рис. 18.1C](assets/amel_g09_s18_resheniya_ploshchad_kruga/p465-fig1.png)
 
 А поскольку треугольник $COD$ — равносторонний, то площадь сегмента, соответствующего дуге $CD$,
 
@@ -34,7 +34,7 @@ $S = S_1 + 2S_3 - S_2 = R^2 \sqrt{3} + R^2 \left( \frac{\pi}{3} - \frac{\sqrt{3}
 **стр. 466**
 ---
 
-![Рис. 18.2C](assets/amel_g09_s18_resheniya_ploshchad_kruga/p467-fig1.png)
+![Рис. 18.2C](assets/amel_g09_s18_resheniya_ploshchad_kruga/p466-fig1.png)
 
 Тогда очевидно, что $O_1O = OA - O_1A = R - r$,
 
@@ -46,7 +46,7 @@ $S = \frac{1}{2} R^2 \cdot 2\arcsin \frac{r}{R - r} = R^2 \cdot \arcsin \frac{r}
 
 **18.3C.** Пусть $AC$ — искомая хорда, а $R$ — радиус окружности с
 
-![Рис. 18.3C](assets/amel_g09_s18_resheniya_ploshchad_kruga/p467-fig2.png)
+![Рис. 18.3C](assets/amel_g09_s18_resheniya_ploshchad_kruga/p466-fig2.png)
 
 центром $O$, являющейся границей данного круга (рис. 18.3C). Тогда площадь правильного вписанного треугольника $ABC$ равна $\frac{3R^2\sqrt{3}}{4}$, а площадь круга $S = \pi \cdot R^2$. Поэтому площадь меньшего сегмента
 

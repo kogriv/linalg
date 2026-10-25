@@ -8,7 +8,7 @@
 
 **26.1С.** Пусть $ABC$ — прямоугольный треугольник, у которого $\angle BCA = 90^\circ$, $BL = \frac{d\sqrt{3}}{3}$ — биссектриса, $AB = d$, $\angle ABC = 2\beta$ (рис. 26.1С). Тогда из треугольника $ABC$ следует, что $BC = d \cdot \cos 2\beta$. С другой стороны, из прямоугольного треугольника $BCL$ катет $BC = \frac{d\sqrt{3}}{3} \cdot \cos \beta$.
 
-![Рис. 26.1С](assets/amel_g09_s25_resheniya_treugolniki_okruzhnosti/p510-fig1.png)
+![Рис. 26.1С](assets/amel_g09_s25_resheniya_treugolniki_okruzhnosti/p511-fig1.png)
 
 Но в таком случае $\frac{d\sqrt{3}}{3} \cos \beta = d \cdot \cos 2\beta$ или $\sqrt{3} \cos 2\beta = \cos \beta$, или $2\sqrt{3} \cos^2 \beta - \cos \beta - \sqrt{3} = 0$, откуда $\cos \beta = \frac{\sqrt{3}}{2}$ и, значит, $\beta = \frac{\pi}{6}$. Таким образом, $BC = d \cdot \cos 2\beta = d \cdot \cos \frac{\pi}{3} = \frac{d}{2}$, а $CA = d \cdot \sin 2\beta = d \cdot \sin \frac{\pi}{3} = \frac{\sqrt{3}}{2} d$.
 
@@ -16,7 +16,7 @@
 
 **26.2С.** Пусть $\angle ABC = \beta$ (рис. 26.2С). Тогда $\angle ACD = \beta$, $\angle ECD = \frac{\beta}{2}$ и, значит, $\angle ECB = \angle ECD + \angle DCB = \frac{\beta}{2} + (90^\circ - \beta) = 90^\circ - \frac{\beta}{2}$.
 
-![Рис. 26.2С](assets/amel_g09_s25_resheniya_treugolniki_okruzhnosti/p510-fig2.png)
+![Рис. 26.2С](assets/amel_g09_s25_resheniya_treugolniki_okruzhnosti/p511-fig2.png)
 
 С другой стороны, поскольку $\angle EDC = 90^\circ$, то $\angle CED = 90^\circ - \frac{\beta}{2}$. Таким образом, $\angle ECB = \angle CEB$ и, следовательно, треугольник $BEC$ — равнобедренный. Отсюда и вытекает, что $CB = BE$.
 
@@ -28,7 +28,7 @@
 
 $\frac{DK}{BD} = \frac{ME}{BM}$ и, значит, $DK = \frac{5}{8} BD$ или $DK = \frac{5}{16} a$.
 
-![Рис. 26.3С](assets/amel_g09_s25_resheniya_treugolniki_okruzhnosti/p511-fig1.png)
+![Рис. 26.3С](assets/amel_g09_s25_resheniya_treugolniki_okruzhnosti/p512-fig1.png)
 
 Далее, поскольку $DC = \frac{a}{2}$, то $KC = \frac{a}{2} - \frac{5}{16} a = \frac{3a}{16}$, а так как параллельные прямые $EK$ и $DA$ пересекают стороны угла $ACB$, то $\frac{CE}{EA} = \frac{CK}{DK}$ и, следовательно, $\frac{CE}{EA} = \frac{3a}{16} : \frac{5a}{16} = \frac{3}{5}$.
 
@@ -40,7 +40,7 @@ $\frac{DK}{BD} = \frac{ME}{BM}$ и, значит, $DK = \frac{5}{8} BD$ или $
 
 **26.4С.** Пусть в прямоугольном треугольнике $ABC$ с прямым углом $BCA$ катет $AC = b$, $BC = a$, $CD$ — высота, $S_{\triangle CDB} = S_1$, $S_{\triangle ADC} = S_2$ (рис. 26.4С). Тогда $S_{\triangle ABC} = S_1 + S_2$ или $\frac{1}{2} a \cdot b = S_1 + S_2$, или $a \cdot b = 2(S_1 + S_2)$.
 
-![Рис. 26.4С](assets/amel_g09_s25_resheniya_treugolniki_okruzhnosti/p511-fig2.png)
+![Рис. 26.4С](assets/amel_g09_s25_resheniya_treugolniki_okruzhnosti/p512-fig2.png)
 
 Далее, поскольку треугольники $ADC$
 
@@ -59,7 +59,7 @@ $$\begin{cases} ab = 2(S_1 + S_2), \\ \frac{a^2}{b^2} = \frac{S_1}{S_2} \end{cas
 
 **26.5C.** Пусть $O$ — центр вписанной в треугольник $ABC$ окружности, $\angle ACB = 90^\circ$, точки $M$, $N$ и $P$ — точки касания окружности со сторонами треугольника (рис. 26.5C).
 
-![Рис. 26.5C](assets/amel_g09_s25_resheniya_treugolniki_okruzhnosti/p512-fig1.png)
+![Рис. 26.5C](assets/amel_g09_s25_resheniya_treugolniki_okruzhnosti/p513-fig1.png)
 
 Тогда так как $\angle OAB + \angle OBA = 45^\circ$, а $\angle AOB = 180^\circ - 45^\circ = 135^\circ$, то по теореме косинусов из треугольника $AOB$ находим, что $AB^2 = OA^2 + OB^2 - 2OA \cdot OB \cdot \cos\angle AOB = 5 + 10 - 2\sqrt{5} \cdot \sqrt{10} \cdot \cos 135^\circ = 15 + 10\sqrt{2} \cdot \frac{\sqrt{2}}{2} = 25$, откуда $AB = 5$.
 
@@ -75,7 +75,7 @@ $$\begin{cases} ab = 2(S_1 + S_2), \\ \frac{a^2}{b^2} = \frac{S_1}{S_2} \end{cas
 
 ▼ **26.6C.** Пусть $CD$ — биссектриса треугольника $ACB$, где $C$ — вершина прямого угла, $CB = a$, $AC = b$, точка $E$ — основание высоты треугольника $CDB$ (рис. 26.6C).
 
-![Рис. 26.6C](assets/amel_g09_s25_resheniya_treugolniki_okruzhnosti/p513-fig1.png)
+![Рис. 26.6C](assets/amel_g09_s25_resheniya_treugolniki_okruzhnosti/p514-fig1.png)
 
 Тогда $\angle DCE = \angle CDE = 45^\circ$ и, значит, $DE = CE$. Далее, поскольку треугольники $BDE$ и $BAC$ подобны, то $\frac{DE}{AC} = \frac{BE}{BC}$ или $\frac{DE}{b} = \frac{a - DE}{a}$ и, следовательно, $DE = \frac{ab}{a + b}$. Но в таком случае из прямоугольного треугольника $CED$ находим, что $CD = \frac{ab\sqrt{2}}{a + b}$.
 
@@ -85,7 +85,7 @@ $$\begin{cases} ab = 2(S_1 + S_2), \\ \frac{a^2}{b^2} = \frac{S_1}{S_2} \end{cas
 
 ▼ **26.8C.** Пусть $AK = x$, $BK = y$, $BN = z$, $AB = c$, $BC = a$, $AC = b$ (рис. 26.7C).
 
-![Рис. 26.7C](assets/amel_g09_s25_resheniya_treugolniki_okruzhnosti/p513-fig2.png)
+![Рис. 26.7C](assets/amel_g09_s25_resheniya_treugolniki_okruzhnosti/p514-fig2.png)
 
 Тогда по свойству биссектрисы $\frac{x}{b} = \frac{y}{a}$, $\frac{x}{b} = \frac{z}{c}$ и, значит, $\frac{y}{a} = \frac{z}{c}$ или $\frac{y}{z} = \frac{a}{c}$. Предположим теперь, что $y < z$. В этом случае из последнего равенства следует неравенство $a < c$. С другой стороны, $a = x + z > x + y = c$ и мы приходим к противоречию. Аналогично приходим к противоречию и в предположении, что $y > z$. Таким образом, $y = z$ и, следовательно, $AB = BC$.
 
@@ -95,7 +95,7 @@ $$\begin{cases} ab = 2(S_1 + S_2), \\ \frac{a^2}{b^2} = \frac{S_1}{S_2} \end{cas
 
 **26.9C.** Пусть $BD = h$ — высота, а $BK$ — медиана треугольника $ABC$, у которого $\angle ABD = \angle DBK = \angle KBC = \varphi$ (рис. 26.8C).
 
-![Рис. 26.8C](assets/amel_g09_s25_resheniya_treugolniki_okruzhnosti/p514-fig1.png)
+![Рис. 26.8C](assets/amel_g09_s25_resheniya_treugolniki_okruzhnosti/p515-fig1.png)
 
 Обозначим $AD = x$. Тогда так как треугольник $ABK$ — равнобедренный, то $DK = AD = x$, $KC = 2x$. Но в таком случае $\frac{x}{h} = \operatorname{tg}\varphi$, а $\frac{3x}{h} = \operatorname{tg}2\varphi$ и, следовательно, $3\operatorname{tg}\varphi = \operatorname{tg}2\varphi$ или $3\operatorname{tg}\varphi = \frac{2\operatorname{tg}\varphi}{1 - \operatorname{tg}^2\varphi}$.
 
@@ -109,7 +109,7 @@ $$\cos \varphi = \frac{3^2 + 5^2 - 7^2}{2 \cdot 3 \cdot 5} = -\frac{1}{2}$$
 
 и, значит, $\varphi = 120^\circ$.
 
-![Рис. 26.9C](assets/amel_g09_s25_resheniya_treugolniki_okruzhnosti/p514-fig2.png)
+![Рис. 26.9C](assets/amel_g09_s25_resheniya_treugolniki_okruzhnosti/p515-fig2.png)
 
 Далее, из условия задачи следует, что треугольники $APC$ и $CQB$ являются равнобедренными. Пусть $\angle CAP = \alpha$, $\angle QBC = \beta$. Тогда внешний угол $CPQ$ треугольника $APC$ равен $2\alpha$, а внешний угол $CQP$ треугольника $CQB$ равен $2\beta$.
 
@@ -374,7 +374,7 @@ $S = \frac{1}{2} OB \cdot MN = \frac{1}{2} \frac{AC}{2 \sin \beta} \cdot AC \cdo
 
 ветственно, лежат на биссектрисах углов $ADC$ и $BDC$, а так как в равнобедренных треугольниках биссектрисы являются также и высотами (свойство 1.18X), то $ECFD$ — прямоугольник, а $O_1DO_2$ — прямоугольный треугольник.
 
-![Рис. 26.26С](assets/amel_g09_s25_resheniya_treugolniki_okruzhnosti/p524-fig1.png)
+![Рис. 26.26С](assets/amel_g09_s25_resheniya_treugolniki_okruzhnosti/p525-fig2.png)
 
 Предположим теперь для определенности, что $AC = 3$, $BC = 4$. Тогда по теореме Пифагора находим, что $AB = 5$, а значит, $CD = 2,5$. Далее, поскольку $ED \parallel BC$, $DF \parallel AC$, а $D$ — середина $AB$, то $CE = \frac{1}{2} AC = 1,5$; $DE = \frac{1}{2} CB = 2$.<!-- вероятная опечатка оригинала: $DE$ вместо $DF$ -->
 
@@ -384,7 +384,7 @@ $S = \frac{1}{2} OB \cdot MN = \frac{1}{2} \frac{AC}{2 \sin \beta} \cdot AC \cdo
 
 **26.27С.** Пусть в треугольнике $ABC$ (рис. 26.27С) $M$ — точка пересечения медиан, $AB = 5$, $BC = 6$, $AC = 7$; $h_1$, $h_2$ и $h_3$ — перпендикуляры, опущенные из точки $M$ на стороны $AB$, $BC$ и $AC$ соответственно (эти перпендикуляры и определяют искомые расстояния). Тогда если $S$ — площадь треугольника $ABC$, то
 
-![Рис. 26.27С](assets/amel_g09_s25_resheniya_treugolniki_okruzhnosti/p524-fig2.png)
+![Рис. 26.27С](assets/amel_g09_s25_resheniya_treugolniki_okruzhnosti/p525-fig3.png)
 
 $S_{\triangle AMB} = S_{\triangle BMC} = S_{\triangle AMC} = \frac{1}{3} S =$
 
@@ -406,7 +406,7 @@ $S_{\triangle AMC} = \frac{1}{2} AC \cdot h_3 = \frac{7}{2} h_3 = 2\sqrt{6}$ и 
 
 **26.28С.** Пусть в треугольнике $ABC$ сторона $AB = 5, BC = 6, AC = 7, AD$ — медиана, проведенная к стороне $BC, E$ — точка пересечения продолжения медианы $AD$ с описанной около треугольника $ABC$ окружностью (рис. 26.28С).
 
-![Рис. 26.28С](assets/amel_g09_s25_resheniya_treugolniki_okruzhnosti/p525-fig1.png)
+![Рис. 26.28С](assets/amel_g09_s25_resheniya_treugolniki_okruzhnosti/p526-fig1.png)
 
 Тогда поскольку $AD^2 = \frac{1}{4}(2AB^2 + 2AC^2 - BC^2) = 28$ (задача 12.1), то с учетом значений $AB, AC$ и $BC$ находим, что $AD = 2\sqrt{7}$.
 
@@ -422,7 +422,7 @@ $S_{\triangle AMC} = \frac{1}{2} AC \cdot h_3 = \frac{7}{2} h_3 = 2\sqrt{6}$ и 
 
 $NBO_3$ находим, что $BN = NA = \sqrt{R^2 - x^2}$.
 
-![Рис. 26.29С](assets/amel_g09_s25_resheniya_treugolniki_okruzhnosti/p526-fig1.png)
+![Рис. 26.29С](assets/amel_g09_s25_resheniya_treugolniki_okruzhnosti/p527-fig1.png)
 
 А тогда $AB = 2 \sqrt{R^2 - x^2}$. Замечая теперь, что $O_3O_1^2 - O_1L^2 = O_3O_2^2 - LO_2^2$ или $(r + R)^2 - (r + x)^2 = (R + \rho)^2 - (\rho - x)^2$, находим $x = \frac{r - \rho}{r + \rho} \cdot R$. Таким образом, $AB = 2 \sqrt{R^2 - x^2} = \frac{4\sqrt{r\rho}}{r + \rho} \cdot R$.
 
@@ -430,7 +430,7 @@ $NBO_3$ находим, что $BN = NA = \sqrt{R^2 - x^2}$.
 
 **26.30С.** Пусть $O_1$ и $O_2$ — центры окружностей радиусов $R_1$ и $R_2$ соответственно, $D$ — точка пересечения хорды $AB$ с окружностью радиуса $R_2$ и пусть точки $M$ и $N$ — основания перпендикуляров, опущенных на $AB$ из точек $O_2$ и $O_1$ соответственно (рис. 26.30С).
 
-![Рис. 26.30С](assets/amel_g09_s25_resheniya_treugolniki_okruzhnosti/p526-fig2.png)
+![Рис. 26.30С](assets/amel_g09_s25_resheniya_treugolniki_okruzhnosti/p527-fig2.png)
 
 Тогда так как радиус окружности, перпендикулярный хорде, делит хорду пополам, то $AN = \frac{1}{2}AB$, а $AM = \frac{1}{2}AD$.
 
@@ -447,7 +447,7 @@ $NBO_3$ находим, что $BN = NA = \sqrt{R^2 - x^2}$.
 
 $ODBF$ — вписанные (на рис. 26.31С соответствующие окружности, чтобы не загромождать чертеж, не изображены).
 
-![Рис. 26.31С](assets/amel_g09_s25_resheniya_treugolniki_okruzhnosti/p527-fig1.png)
+![Рис. 26.31С](assets/amel_g09_s25_resheniya_treugolniki_okruzhnosti/p528-fig1.png)
 
 Запишем теперь следующие цепочки равенств для углов, опирающихся на одинаковые дуги, $\angle DEO = \angle DCO = \angle BCO = \angle BAO = \frac{\varphi}{2}$, $\angle DFO = \angle DBO = \angle CBO =$ $= \angle CAO = \frac{\varphi}{2}$. А отсюда следует, что треугольник $OEF$ равнобедренный и, значит, $DE = DF = OD \cdot \text{ctg}\,\frac{\varphi}{2}$. Из треугольника же $DBO$ по теореме косинусов находим, что $OD = \sqrt{R^2 + a^2 - 2Ra \cos \frac{\varphi}{2}}$ и, таким образом, $DE = \text{ctg}\,\frac{\varphi}{2} \sqrt{R^2 + a^2 - 2Ra \cos \frac{\varphi}{2}}$.
 
@@ -455,7 +455,7 @@ $ODBF$ — вписанные (на рис. 26.31С соответствующи
 
 **26.32С.** Пусть $O_1$ и $O_2$ — центры описанных около треугольников $ABD$ и $ADC$ окружностей, $R$ и $r$ — их соответствующие радиусы, $E$ — точка пересечения отрезков $O_1O_2$ и $AD$ (рис. 26.32С).
 
-![Рис. 26.32С](assets/amel_g09_s25_resheniya_treugolniki_okruzhnosti/p527-fig2.png)
+![Рис. 26.32С](assets/amel_g09_s25_resheniya_treugolniki_okruzhnosti/p528-fig2.png)
 
 Обозначим $\angle ABC = \beta$, $\angle BCA = \gamma$, $\angle BDA = \alpha$, $AB = c$, $AC = b$. Тогда так как треугольники $AO_1D$ и $DO_2A$ равнобедренные, то по свойству 4.6 имеем: $\angle EO_1D = \beta$, $\angle DO_2E = \gamma$, причем отрезки $O_1O_2$ и $AD$ перпендикулярны. Из прямоугольных треугольников $O_1DE$ и $EDO_2$ находим, что $O_1E = R \cdot \cos \beta$, $EO_2 = r \cdot \cos \gamma$, и, таким образом, $O_1O_2 = O_1E +$
 
@@ -469,7 +469,7 @@ $+ EO_2 = R \cdot \cos \beta + r \cdot \cos \gamma$. Но $R = \frac{c}{2 \sin \
 
 **26.33С.** Пусть $O$ — центр вписанной окружности, точки $D, E,$
 
-![Рис. 26.33С](assets/amel_g09_s25_resheniya_treugolniki_okruzhnosti/p528-fig1.png)
+![Рис. 26.33С](assets/amel_g09_s25_resheniya_treugolniki_okruzhnosti/p529-fig1.png)
 
 $F$ — точки касания окружности со сторонами треугольника $ABC$, $BF = a, FC = b, r$ — радиус окружности (рис. 26.33С). Тогда $EB = BF = a, FC = DC = b,$ $AE = AD = OD = r, AB = r + a, AC = r + b.$ По теореме же Пифагора $(r + a)^2 + (r + b)^2 = (a + b)^2,$ откуда находим, что $r = \frac{-(a+b) + \sqrt{a^2 + 6ab + b^2}}{2}$.
 
@@ -477,7 +477,7 @@ $F$ — точки касания окружности со сторонами �
 
 **26.34С.** Рассмотрим случай, когда точка пересечения окружностей, отличная от точки $A$, лежит внутри треугольника $ABC$. При другом расположении указанных точек решение задачи аналогично.
 
-![Рис. 26.34С](assets/amel_g09_s25_resheniya_treugolniki_okruzhnosti/p528-fig2.png)
+![Рис. 26.34С](assets/amel_g09_s25_resheniya_treugolniki_okruzhnosti/p529-fig2.png)
 
 Итак, пусть $O_1$ и $O_2$ — центры окружностей радиусов $R$ и $r$ соответственно, $\angle O_1AO_2 = \varphi$, $O_1O_2 = a$, $D$ — точка пересечения радиуса $O_1B = R$ с прямой, проходящей через точку $O_2$ параллельно
 
@@ -491,7 +491,7 @@ $F$ — точки касания окружности со сторонами �
 
 **26.35С.** Пусть $D$ — точка пересечения линии центров $O$ и $O_1$ заданных окружностей с перпендикулярной к ней прямой, а $B$ и $C$ — точки пересечения указанной прямой с окружностями радиусов $R$ и $r$ соответственно. Обозначим далее через $EA$ и $FA$ диаметры рассматриваемых окружностей (рис. 26.35С) (в случае, когда точка $C$ лежит внутри треугольника $ABF$, решение задачи аналогично рассматриваемому случаю).
 
-![Рис. 26.35С](assets/amel_g09_s25_resheniya_treugolniki_okruzhnosti/p529-fig1.png)
+![Рис. 26.35С](assets/amel_g09_s25_resheniya_treugolniki_okruzhnosti/p530-fig1.png)
 
 Тогда из подобия треугольников $ECA$ и $ADC$ следует, что $CA^2 = 2rx$, где $x = DA$. Из подобия же треугольников $BFA$ и $DAB$ находим, что $BA^2 = 2Rx$. Теперь если $\rho$ — радиус окружности, описанной около треугольника $ABC$, то, обозначая $\angle ABC = \alpha$ и замечая, что $\sin \alpha = x / BA$, находим $\rho = \frac{CA}{2 \sin \alpha} = \frac{CA \cdot BA}{2x} = \frac{\sqrt{2rx} \cdot \sqrt{2Rx}}{2x} = \sqrt{R \cdot r}$.
 
@@ -571,7 +571,7 @@ $$b = -\frac{9 - 4\sqrt{3}}{2(2 + \sqrt{3})} < 0, \text{ а этого быть 
 
 Рассмотрим второй случай. Обозначим через $M$ точку пересечения продолжения отрезка $KB$ за точку $B$ с окружностью, описанной около треугольника $ABC$ (рис. 26.40С).
 
-![Рис. 26.40С](assets/amel_g09_s25_resheniya_treugolniki_okruzhnosti/p533-fig1.png)
+![Рис. 26.40С](assets/amel_g09_s25_resheniya_treugolniki_okruzhnosti/p534-fig3.png)
 
 В данном случае, с одной стороны, $\angle CKB = \frac{1}{2}(\cup MC - \cup BC) = \frac{\beta}{2} - \alpha$, а, с другой, —
 
@@ -583,7 +583,7 @@ $$\angle CKB = \frac{3\alpha - \gamma}{2} \text{ (по условию).}$$
 
 Предположим сначала, что $\beta < 90^\circ$. По условию $3\alpha - \gamma = 2\delta$ и, значит, $\gamma = 3\alpha - 2\delta < 90^\circ$ (поскольку $\alpha = 30^\circ$). Следовательно, треугольник $ABC$ — остроугольный и точка $O$ лежит внутри треугольника (рис. 26.41С).
 
-![Рис. 26.41С](assets/amel_g09_s25_resheniya_treugolniki_okruzhnosti/p533-fig2.png)
+![Рис. 26.41С](assets/amel_g09_s25_resheniya_treugolniki_okruzhnosti/p534-fig2.png)
 
 Отрезок $QP$ — средняя линия треугольника $ABC$ и, значит, $QP = a/2$. Но тогда по теореме косинусов из треугольника $QOP$ находим, что $QP^2 = \frac{a^2}{4} = x^2 + y^2 - 2x \cdot y \cdot \cos 150^\circ = x^2 + (2 -$
 
@@ -601,11 +601,11 @@ $-x)^2 + x \cdot (2 - x) \cdot \sqrt{3} = (2 - \sqrt{3}) \cdot x^2 - 2(2 - \sqrt
 
 Предположим, что $\beta = 90^\circ$. В этом случае точка $O$ лежит на стороне $AC$ — диаметре окружности (рис. 26.42С) и поэтому $x = 0$, $y = 2$ и, следовательно, $a = 2y = 4$ ($OQ$ — средняя линия треугольника $ABC$). Но, тогда $b + c > a = 4 > 2 + \sqrt{3}$, что противоречит условию задачи, согласно которому $b + c = 2 + \sqrt{3}$. Полученное противоречие означает, что угол $\beta$ не может быть равен и $90^\circ$.
 
-![Рис. 26.42С](assets/amel_g09_s25_resheniya_treugolniki_okruzhnosti/p534-fig1.png)
+![Рис. 26.42С](assets/amel_g09_s25_resheniya_treugolniki_okruzhnosti/p535-fig1.png)
 
 Рассмотрим, наконец, третью — последнюю возможность — случай, когда $\beta > 90^\circ$. Очевидно, что в этом случае точки $B$ и $O$ лежат по разные стороны от прямой $AC$ (рис. 26.43С). А тогда $\angle QOP = \angle BAC = \alpha = 30^\circ$ (поскольку это углы с соответственно перпендикулярными сторонами) и, значит, $OT = \frac{x}{\cos 30^\circ} = \frac{2x}{\sqrt{3}}$, $PT = x \cdot \operatorname{tg} 30^\circ = \frac{x}{\sqrt{3}}$, $QT = 2 - (x + OT) = 2 - \frac{x(2 + \sqrt{3})}{\sqrt{3}}$, $c = 2AQ = 2QT \cdot \operatorname{ctg} 30^\circ = 4\sqrt{3} - 2x \cdot (2 + \sqrt{3})$, $b = 2(PT + TA) = 2\left(\frac{x}{\sqrt{3}} + \frac{QT}{\sin 30^\circ}\right) = 8 - 2x \cdot (2 + \sqrt{3})$. По условию $b + c = 2 + \sqrt{3}$,
 
-![Рис. 26.43С](assets/amel_g09_s25_resheniya_treugolniki_okruzhnosti/p534-fig2.png)
+![Рис. 26.43С](assets/amel_g09_s25_resheniya_treugolniki_okruzhnosti/p535-fig2.png)
 
 ---
 **стр. 536**
@@ -617,7 +617,7 @@ $-x)^2 + x \cdot (2 - x) \cdot \sqrt{3} = (2 - \sqrt{3}) \cdot x^2 - 2(2 - \sqrt
 
 **▼ 26.40С.** Пусть $K$ — вторая точка пересечения прямой $CO$ с первой окружностью, а $M$ — точка пересечения прямой $CO$ с прямой $DE$ (рис. 26.44С).
 
-![Рис. 26.44С](assets/amel_g09_s25_resheniya_treugolniki_okruzhnosti/p535-fig1.png)
+![Рис. 26.44С](assets/amel_g09_s25_resheniya_treugolniki_okruzhnosti/p536-fig1.png)
 
 Тогда по свойству секущей $CA \cdot CD = CB \cdot CE$ или $\frac{CA}{CE} = \frac{CB}{CD}$, откуда следует, что треугольники $ABC$ и $DEC$ подобны. Следовательно, $\angle CDE = \angle CBA$, а $\angle CED = \angle CAB$. Далее, поскольку $\angle CBA = \angle CKA$, то треугольники $CAK$ и $CMD$ подобны и, таким образом, $\angle CMD = \angle CAK = 90^\circ$, что и требовалось доказать.
 
@@ -871,13 +871,13 @@ $=\frac{1}{4}AC\cdot EC\cdot DC\cdot BC\cdot\sin^2\angle BCA=\left(\frac{1}{2}AC
 
 **26.58C.** Так как $BD$ — биссектриса угла $ABC$ (рис. 26.63C), то $\dfrac{DC}{AD} = \dfrac{BC}{AB} = \dfrac{a}{c}$. С другой стороны, $\dfrac{S_{\triangle DBC}}{S_{\triangle ABD}} = \dfrac{DC}{AD} = \dfrac{a}{c}$ и, значит, $S_{\triangle DBC} = \dfrac{a}{c} \cdot S$. Рассматривая теперь треугольники $DEC$ и $DBE$, находим, что $\dfrac{S_{\triangle DEC}}{S_{\triangle DBE}} = \dfrac{EC}{BE} = \dfrac{DC}{AD} = \dfrac{a}{c}$ и, следовательно, $S_{\triangle DEC} = \dfrac{a}{a+c} \cdot S_{\triangle DBC} = \dfrac{a^2 S}{c(a+c)}$.
 
-![Рис. 26.63C](assets/amel_g09_s25_resheniya_treugolniki_okruzhnosti/p545-fig1.png)
+![Рис. 26.63C](assets/amel_g09_s25_resheniya_treugolniki_okruzhnosti/p546-fig3.png)
 
 **Ответ:** $\dfrac{a^2 S}{c(a+c)}$.
 
 **26.59C.** Пусть $S_0$, $S_1$ и $S_2$ — площади треугольников $ADO$, $ADC$ и $BCD$ соответственно (рис. 26.64C). Тогда учитывая, что $S_2 = S - S_1$, а $\dfrac{S_1}{S_2} = \dfrac{AD}{DB} = m$, находим, что $S_1 = \dfrac{mS}{m+1}$. Определим теперь отношение $\dfrac{DO}{OC}$. Для этого проведем через точку $D$ прямую, параллельную прямой $AE$, и обозначим через $F$ точку пересечения этой прямой с отрезком $BC$. По обобщенной теореме Фалеса $\dfrac{DO}{OC} = \dfrac{FE}{EC}$. А так как $\dfrac{EF}{FB} = \dfrac{AD}{DB} = m$ и, значит, $FB = \dfrac{EF}{m}$, а $BE = BF + FE = \dfrac{m+1}{m} \cdot FE$, то $\dfrac{BE}{EC} = \dfrac{(m+1) \cdot FE}{m \cdot EC} = n$. Отсюда следует, что $\dfrac{DO}{OC} = \dfrac{FE}{EC} = \dfrac{m \cdot n}{m+1}$. Но в таком случае искомая площадь $S_0$ находится из пропорции $\dfrac{S_0}{S_1 - S_0} = \dfrac{mn}{m+1}$, если учесть, что $S_1 = \dfrac{mS}{m+1}$. Решая эту пропор-
 
-![Рис. 26.64C](assets/amel_g09_s25_resheniya_treugolniki_okruzhnosti/p545-fig2.png)
+![Рис. 26.64C](assets/amel_g09_s25_resheniya_treugolniki_okruzhnosti/p546-fig4.png)
 
 ---
 **стр. 547**
@@ -889,13 +889,13 @@ $=\frac{1}{4}AC\cdot EC\cdot DC\cdot BC\cdot\sin^2\angle BCA=\left(\frac{1}{2}AC
 
 **26.60C.** На стороне $AB$ треугольника $ABC$ отметим точку $K$ такую, что $DK \parallel CF$ (рис. 26.65C). Тогда $\dfrac{AF}{FK} = \dfrac{AE}{ED} = \dfrac{1}{2}$, $\dfrac{FK}{KB} = \dfrac{CD}{DB} = \dfrac{1}{1}$ и, таким образом, $AF : FK : KB = 1 : 2 : 2$. Далее, поскольку $S_{\triangle ADB} = \dfrac{1}{2} S_{\triangle ABC} = 15$, $S_{\triangle ADK} = \dfrac{3}{5} S_{\triangle ADB} = 9$, то из подобия треугольников $AEF$ и $ADK$ следует, что $\dfrac{S_{\triangle AEF}}{S_{\triangle ADK}} = \left(\dfrac{AE}{AD}\right)^2 = \left(\dfrac{1}{3}\right)^2 = \dfrac{1}{9}$ и, значит, $S_{\triangle AEF} = \dfrac{1}{9} S_{\triangle ADK} = \dfrac{1}{9} \cdot 9 = 1$.
 
-![Рис. 26.65C](assets/amel_g09_s25_resheniya_treugolniki_okruzhnosti/p546-fig1.png)
+![Рис. 26.65C](assets/amel_g09_s25_resheniya_treugolniki_okruzhnosti/p547-fig1.png)
 
 **Ответ:** $1$.
 
 **26.61C.** Пусть в треугольнике $ABC$ (рис. 26.66C) угол $ACB$ равен $90^\circ$, $AC = b$, $BC = a$. Обозначим через $r$ радиус вписанной в треугольник $ABC$ окружности. Тогда по теореме 17.8 площадь треугольника $ABC$ — это $S_{\triangle ABC} = p \cdot r = \dfrac{1}{2}(a + b + 6) \cdot r = \dfrac{1}{2}(a + b + 6) \cdot 1 = \dfrac{1}{2}(a + b + 6)$. По свойству же 1.23 имеем $a + b = 2(r + R)$, где $R$ — радиус описанной около прямоугольного треугольника окружности, и, значит, в соответствии со свойством 1.22 находим, что $a + b = 2(1 + 3) = 8$. Таким образом, $S_{\triangle ABC} = \dfrac{1}{2}(8 + 6) = 7$.
 
-![Рис. 26.66C](assets/amel_g09_s25_resheniya_treugolniki_okruzhnosti/p546-fig2.png)
+![Рис. 26.66C](assets/amel_g09_s25_resheniya_treugolniki_okruzhnosti/p547-fig2.png)
 
 **Ответ:** $7$.
 
@@ -909,7 +909,7 @@ $=\frac{1}{4}AC\cdot EC\cdot DC\cdot BC\cdot\sin^2\angle BCA=\left(\frac{1}{2}AC
 
 $$= \frac{2 \cdot BC \cdot AC \cdot \cos\frac{\pi}{4}}{BC + AC} = \frac{2 \cdot 3 \cdot 4 \cdot \frac{\sqrt{2}}{2}}{3 + 4} = \frac{12\sqrt{2}}{7}.$$
 
-![Рис. 26.67C](assets/amel_g09_s25_resheniya_treugolniki_okruzhnosti/p547-fig1.png)
+![Рис. 26.67C](assets/amel_g09_s25_resheniya_treugolniki_okruzhnosti/p548-fig1.png)
 
 По теореме же Менелая, примененной к треугольнику $BCD$ и секущей $MA$, справедливо равенство $\dfrac{BM}{MC} \cdot \dfrac{CE}{ED} \cdot \dfrac{DA}{AB} = 1$ или равенство $\dfrac{1}{1} \cdot \dfrac{CE}{ED} \cdot \dfrac{20/7}{5} = 1$, откуда следует, что $\dfrac{CE}{ED} = \dfrac{7}{4}$. Замечая теперь, что $CE + ED = CD$, находим $CE = \dfrac{12\sqrt{2}}{11}$.
 
@@ -919,7 +919,7 @@ $$= \frac{2 \cdot BC \cdot AC \cdot \cos\frac{\pi}{4}}{BC + AC} = \frac{2 \cdot 
 
 **26.63C.** Пусть в прямоугольном треугольнике $ABC$ с прямым углом $ACB$ (рис. 26.68C) гипотенуза $AB = c$, а катеты $AC = b$, $BC = a$. Тогда площади кругов, построенных на сторонах $a$, $b$ и $c$ треугольника, равны соответственно $\dfrac{\pi a^2}{4}$, $\dfrac{\pi b^2}{4}$ и $\dfrac{\pi c^2}{4}$, а сумма
 
-![Рис. 26.68C](assets/amel_g09_s25_resheniya_treugolniki_okruzhnosti/p547-fig2.png)
+![Рис. 26.68C](assets/amel_g09_s25_resheniya_treugolniki_okruzhnosti/p548-fig2.png)
 
 
 ---
@@ -934,7 +934,7 @@ $$S = \frac{\pi a^2}{8} + \frac{\pi b^2}{8} + S_{\triangle ABC} - \frac{\pi c^2}
 
 **26.64С.** Пусть окружности радиусов $R$ и $r$ с центрами в точках $O_1$ и $O_2$ соответственно пересекаются в точках $A$ и $B$, $\angle AO_1B = 2\varphi$, $\angle AO_2B = 2\psi$ (рис. 26.69С).
 
-![Рис. 26.69С](assets/amel_g09_s25_resheniya_treugolniki_okruzhnosti/p548-fig1.png)
+![Рис. 26.69С](assets/amel_g09_s25_resheniya_treugolniki_okruzhnosti/p549-fig1.png)
 
 Тогда если $S$ — искомая площадь, $S_{AO_1B} = R^2 \cdot \varphi$ — площадь сектора, определяемого углом $2\varphi$, $S_{AO_2B} = r^2 \cdot \psi$ — площадь сектора, определяемого углом $2\psi$,
 
@@ -964,13 +964,13 @@ $$- \frac{1}{2}\sqrt{4R^2d^2 - (R^2 + d^2 - r^2)^2}.$$
 
 **26.65С.** Пусть $\angle ABC = \beta$ (рис. 26.70С). Из условия задачи следует, что треугольник $DBE$ подобен треугольнику $ABC$, причем $\frac{DB}{BC} = \frac{BE}{AB} = \frac{DE}{AC} = \cos \beta$. Радиус описанной около треугольника $ABC$ окружности $R = AC/2\sin\beta$ и, значит, $\sin \beta = \frac{AC}{2R} = \frac{12}{2 \cdot \frac{9\sqrt{2}}{2}} = \frac{2\sqrt{2}}{3}$. Но тогда $\cos\beta = \sqrt{1 - \frac{8}{9}} = \frac{1}{3}$, откуда находим, что $\frac{S_{\triangle DBE}}{S_{\triangle ABC}} = \cos^2 \beta = \frac{1}{9}$. А в таком случае $S_{\triangle ABC} = 9 \cdot S_{\triangle DBE} = 9 \cdot 2 = 18$. Следовательно $S_{ADEC} = S_{\triangle ABC} - S_{\triangle DBE} = 18 - 2 = 16$.
 
-![Рис. 26.70С](assets/amel_g09_s25_resheniya_treugolniki_okruzhnosti/p549-fig1.png)
+![Рис. 26.70С](assets/amel_g09_s25_resheniya_treugolniki_okruzhnosti/p550-fig1.png)
 
 **Ответ:** $16$.
 
 **26.66С.** Так как $AB$ и $BC$ — пересекающиеся прямые, которые касаются окружности в точках $D$ и $E$ соответственно, то $BD = BE$ (рис. 26.71С). При этом $\angle EDB = \angle BED$. По условию точки $A$, $C$, $E$ и $D$ лежат на одной окружности, поэтому $\angle DAC + \angle CED = \angle EDA + \angle ACE = 180^\circ$. Но тогда $\angle DAC = \angle ACE$ и, значит, $\angle EDA + \angle DAC = \angle CED + \angle ACE = 180^\circ$. Последнее означает, что четырехугольник $ACED$ — равнобочная трапеция, у которой $DA = CE$. Отсюда приходим к выводу, что $AB = BC = 13$. Воспользовавшись же формулой Герона, находим, что искомая площадь $S = \frac{15\sqrt{3}}{4}$.
 
-![Рис. 26.71С](assets/amel_g09_s25_resheniya_treugolniki_okruzhnosti/p549-fig2.png)
+![Рис. 26.71С](assets/amel_g09_s25_resheniya_treugolniki_okruzhnosti/p550-fig2.png)
 
 **Ответ:** $\frac{15\sqrt{3}}{4}$.
 
@@ -982,7 +982,7 @@ $$- \frac{1}{2}\sqrt{4R^2d^2 - (R^2 + d^2 - r^2)^2}.$$
 
 Пусть, далее, $AK$ и $CL$ — высоты треугольников $ABD$ и $BDC$ соответственно (рис. 26.72С). Тогда так как отношение площадей треугольников с общим основанием равно отношению высот треугольников, опущенных на это основание или его продолжение, то $\frac{S_{\triangle ABD}}{S_{\triangle BDC}} = \frac{AK}{CL}$, а поскольку из подобия прямоугольных треугольников $AKN$ и $NLC$ и условия задачи вытекают равенства $\frac{AK}{CL} = \frac{AN}{NC} = \frac{1}{2}$, то приходим к выводу, что $S_{\triangle ABD} = \frac{1}{2} S_{\triangle BDC}$.
 
-![Рис. 26.72С](assets/amel_g09_s25_resheniya_treugolniki_okruzhnosti/p550-fig1.png)
+![Рис. 26.72С](assets/amel_g09_s25_resheniya_treugolniki_okruzhnosti/p551-fig1.png)
 
 Аналогично получаем равенство $S_{\triangle ACD} = \frac{1}{2} S_{\triangle BDC}$. Теперь так как $S_{\triangle ABC} = S_{\triangle ABD} + S_{\triangle ACD} + S_{\triangle BDC}$ и, следовательно, $S_{\triangle BDC} = \frac{1}{2} S_{\triangle ABC} = \frac{1}{2} S$, то площадь четырехугольника $AMDN$ — это $S_{AMDN} = S_{\triangle ABN} + S_{\triangle BDC} + S_{\triangle AMC} - S_{\triangle ABC} = \left(\frac{1}{3} + \frac{1}{2} + \frac{1}{3} - 1\right) S = \frac{1}{6} S$.
 
@@ -1077,7 +1077,7 @@ $S = \frac{1}{2} EF \cdot DH = \frac{1}{2} 2OD \cdot DH = \frac{1}{2} \cdot \fra
 
 С другой стороны, поскольку $\overline{AF} \uparrow\uparrow \overline{AC}$, то $\overline{AF} = \mu \overline{AC}$, где $\mu > 0$ — некоторая константа, и, следовательно,
 
-![Рис. 26.79C](assets/amel_g09_s25_resheniya_treugolniki_okruzhnosti/p554-fig1.png)
+![Рис. 26.79C](assets/amel_g09_s25_resheniya_treugolniki_okruzhnosti/p555-fig2.png)
 
 $$\left(1 - \frac{\lambda}{2}\right)\overline{a} + \frac{\lambda}{4}\overline{b} = \mu \overline{b}.$$
 
@@ -1107,7 +1107,7 @@ $$\begin{cases} 1 - \frac{\lambda}{2} = 0, \\ \frac{\lambda}{4} = \mu, \end{case
 
 **26.76C.** Пусть $BP$ и $BK$ — высота и медиана треугольника $ABC$ соответственно (рис. 26.80C). Из точек $O$ и $M$ опустим на прямую $AC$ перпендикуляры $OQ$ и $ML$. Очевидно, что $OQ$ — радиус вписанной в треугольник $ABC$ окружности и $OQ = ML$. Из подобия треугольников $MKL$ и $BKP$ следует, что $\frac{BP}{ML} = \frac{BK}{MK} = 3$, откуда находим $BP = 3ML = 3OQ$.
 
-![Рис. 26.80C](assets/amel_g09_s25_resheniya_treugolniki_okruzhnosti/p555-fig1.png)
+![Рис. 26.80C](assets/amel_g09_s25_resheniya_treugolniki_okruzhnosti/p556-fig1.png)
 
 Но в таком случае стороны $BC$, $AC$ и $AB$ треугольника образуют арифметическую прогрессию (задача 26.75C), причем сторона $AC$ является средней по величине стороной треугольника. Значит, $AC = \frac{AB + BC}{2} = \frac{a+c}{2}$.
 
@@ -1125,7 +1125,7 @@ $$\begin{cases} 1 - \frac{\lambda}{2} = 0, \\ \frac{\lambda}{4} = \mu, \end{case
 
 **26.78C** Пусть в треугольнике $ABC$ сторона $AC = b$, $CB = a$, $BA = c$ (рис. 26.82C), а $h_a$, $h_b$ и $h_c$ — высоты треугольника, опущенные из вершин $A$, $B$ и $C$ соответственно, и пусть $\angle CAB = \alpha$, $\angle ABC = \beta$, $\angle BCA = \gamma$. Тогда так как по расширенной теореме синусов $b = 2R\sin\beta$, то $h_a = b \cdot \sin\gamma = 2R \cdot \sin\beta \cdot \sin\gamma$.
 
-![Рис. 26.82C](assets/amel_g09_s25_resheniya_treugolniki_okruzhnosti/p556-fig1.png)
+![Рис. 26.82C](assets/amel_g09_s25_resheniya_treugolniki_okruzhnosti/p557-fig1.png)
 
 Аналогично, $h_b = 2R \cdot \sin\gamma \cdot \sin\alpha$, $h_c = 2R \cdot \sin\alpha \cdot \sin\beta$. Поэтому
 

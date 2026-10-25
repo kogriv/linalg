@@ -18,7 +18,7 @@
 
 Два угла называются **смежными**, если у них общие вершина и одна сторона, а две другие стороны образуют прямую (на рис. 1.1 — это углы $COB$ и $BOA$).
 
-![Рис. 1.1](assets/amel_g01_s01_ugly_treugolniki/p12-fig1.png) ![Рис. 1.2](assets/amel_g01_s01_ugly_treugolniki/p12-fig2.png)
+![Рис. 1.1](assets/amel_g01_s01_ugly_treugolniki/p11-fig1.png) ![Рис. 1.2](assets/amel_g01_s01_ugly_treugolniki/p11-fig2.png)
 
 Углы, имеющие общую вершину и общую сторону, называются **прилежащими**.
 
@@ -49,7 +49,7 @@
 
 В геометрии рассматриваются также **нулевой** и **полный** углы, у которых образующие их лучи совпадают. Различие этих углов показано на рис. 1.3 (нулевой угол) и рис. 1.4 (полный угол).
 
-![Рис. 1.3](assets/amel_g01_s01_ugly_treugolniki/p13-fig1.png) ![Рис. 1.4](assets/amel_g01_s01_ugly_treugolniki/p13-fig1.png)
+![Рис. 1.3](assets/amel_g01_s01_ugly_treugolniki/p12-fig1.png) ![Рис. 1.4](assets/amel_g01_s01_ugly_treugolniki/p12-fig1.png)
 
 Угол с вершиной в центре окружности называется **центральным** углом.
 
@@ -67,7 +67,7 @@
 
 При пересечении двух прямых, лежащих в одной плоскости, третьей прямой (рис 1.5) образуется восемь углов:
 
-![Рис. 1.5](assets/amel_g01_s01_ugly_treugolniki/p14-fig1.png)
+![Рис. 1.5](assets/amel_g01_s01_ugly_treugolniki/p13-fig1.png)
 
 - **соответственные углы**: $\angle 1$ и $\angle 5$, $\angle 2$ и $\angle 6$, $\angle 4$ и $\angle 8$, $\angle 3$ и $\angle 7$;
 - **внутренние односторонние**: $\angle 4$ и $\angle 5$, $\angle 3$ и $\angle 6$;
@@ -168,7 +168,7 @@
 
 **Доказательство.** Пусть при пересечении прямых $a$ и $b$ третьей прямой $c$ (рис. 1.6) равны, например, соответственные $\angle 1$ и $\angle 5$.
 
-![Рис. 1.6](assets/amel_g01_s01_ugly_treugolniki/p18-fig1.png)
+![Рис. 1.6](assets/amel_g01_s01_ugly_treugolniki/p17-fig1.png)
 
 Тогда так как $\angle 1$ и $\angle 3$, $\angle 5$ и $\angle 7$ являются вертикальными, а значит, равными, то равными будут соответственные $\angle 3$ и $\angle 7$ и накрест лежащие $\angle 3$ и $\angle 5$.
 
@@ -199,7 +199,7 @@
 
 **Доказательство.** Докажем, например, что если прямые $a$ и $b$ параллельны, то соответственные $\angle 2$ и $\angle 6$ равны (рис. 1.7).
 
-![Рис. 1.7](assets/amel_g01_s01_ugly_treugolniki/p19-fig1.png)
+![Рис. 1.7](assets/amel_g01_s01_ugly_treugolniki/p18-fig1.png)
 
 Действительно, если предположить, что $\angle 2$ и $\angle 6$ не равны (например, $\angle 2 > \angle 6$), то, построив угол $\angle cOd$, равный $\angle 6$, получим прямую $c$, не совпадающую с прямой $b$.
 
@@ -213,7 +213,7 @@
 
 **Доказательство.** Пусть стороны, например, острых углов 4 и 6 (рис. 1.8) соответственно параллельны.
 
-![Рис. 1.8](assets/amel_g01_s01_ugly_treugolniki/p19-fig2.png)
+![Рис. 1.8](assets/amel_g01_s01_ugly_treugolniki/p18-fig2.png)
 
 Тогда, построив $\angle 2$, вертикальный к $\angle 4$, приходим к выводу (свойство 1.5X), что $\angle 5$ равен $\angle 2$ и $\angle 6$. Но $\angle 2 = \angle 4$, поэтому и $\angle 4 = \angle 6$.
 
@@ -233,7 +233,7 @@
 
 **Доказательство.** Пусть $\angle ABC$ — угол, обозначенный цифрой 1 на рис. 1.9, — один из данных углов, а второй данный угол — это один из углов 2, 3, 4 или 5, образованных двумя пересекающимися прямыми, из которых одна перпендикулярна стороне $AB$, а другая — стороне $BC$.
 
-![Рис. 1.9](assets/amel_g01_s01_ugly_treugolniki/p20-fig1.png)
+![Рис. 1.9](assets/amel_g01_s01_ugly_treugolniki/p19-fig1.png)
 
 Проведем из вершины $\angle 1$ два вспомогательных луча: $BD$ и $BE$, первый из которых перпендикулярен $BC$, а второй — перпендикулярен $BA$. Тогда $\angle 6 = \angle 1$, так как у прямых углов $DBC$ и $EBA$ угол $EBC$ общий.
 
@@ -245,7 +245,7 @@
 
 **Доказательство.** Рассмотрим произвольный треугольник $ABC$. Если в этом треугольнике продолжить сторону $AC$ за точку $C$ и провести прямую $CE$ параллельно $AB$ (рис. 1.10), то углы $CAB$ и $DCE$ равны как соответственные при параллельных прямых $AB$ и $CE$, а углы $ABC$ и $ECB$ равны как накрест лежащие при тех же параллельных прямых. Поэтому
 
-![Рис. 1.10](assets/amel_g01_s01_ugly_treugolniki/p20-fig2.png)
+![Рис. 1.10](assets/amel_g01_s01_ugly_treugolniki/p19-fig2.png)
 
 $\angle ABC + \angle BCA + \angle CAB = \angle DCE + \angle ECB +$
 
@@ -263,7 +263,7 @@ $+ \angle BCA = 180^\circ$, что и требовалось доказать.
 
 **Доказательство.** Пусть прямая $a$, не проходящая через одну из вершин треугольника $ABC$, пересекает, например, сторону $AC$ (рис. 1.11).
 
-![Рис. 1.11](assets/amel_g01_s01_ugly_treugolniki/p21-fig1.png)
+![Рис. 1.11](assets/amel_g01_s01_ugly_treugolniki/p20-fig3.png)
 
 Прямая $a$ (аксиома 1.2) разбивает плоскость на две полуплоскости таким образом, что точки $A$ и $C$ лежат в разных полуплоскостях.
 
@@ -444,13 +444,13 @@ $\Delta ABD = \Delta CBD$. Но в таком случае $DA = DC$ и, зна�
 
 **Решение.** Обозначим через $O$ точку пересечения биссектрис треугольника $ABC$ (рис. 1.23). Тогда накрест лежащие углы $CAO$ и $A_1OA$ при параллельных прямых $AC$ и $A_1C_1$ равны (свойство 1.5X) и поэтому треугольник $AA_1O$ — равнобедренный (на основании характеристичности свойства 1.17X) с равными сторонами $AA_1$ и $A_1O$. По аналогичной причине $CC_1 = OC_1$. Таким образом, $A_1C_1 = A_1O + OC_1 = AA_1 + CC_1$.
 
-![Рис. 1.23](assets/amel_g01_s01_ugly_treugolniki/p28-fig1.png)
+![Рис. 1.23](assets/amel_g01_s01_ugly_treugolniki/p27-fig1.png)
 
 **1.2.** Доказать, что угол треугольника является острым, прямым или тупым, если противолежащая ему сторона соответственно меньше, равна или больше соответствующей удвоенной медианы.
 
 **Решение.** Пусть $BD$ — медиана треугольника $ABC$ (рис. 1.24). Тогда так как в треугольнике против большей стороны лежит больший угол (свойство 1.17X), то, предположив, что $AC < 2BD$, т. е. что $AD < BD$, $DC < BD$, приходим к выводу, что $\angle ABD < \angle BAD$, а $\angle DBC < \angle BCD$, откуда следует, что $\angle ABD + \angle DBC = \angle ABC < \angle BAD + \angle BCD = 180^\circ - \angle ABC$ или $2\angle ABC < 180^\circ$, или $\angle ABC < 90^\circ$. Аналогично рассматриваются случаи, когда $AC = 2BD$ и $AC > 2BD$.
 
-![Рис. 1.24](assets/amel_g01_s01_ugly_treugolniki/p28-fig2.png)
+![Рис. 1.24](assets/amel_g01_s01_ugly_treugolniki/p27-fig2.png)
 
 ---
 **стр. 28**
@@ -472,7 +472,7 @@ $$\angle BAC = 180^\circ - \angle OBA - \angle ACB = 45^\circ.$$
 
 **Ответ:** $\angle BAC = 45^\circ$.
 
-![Рис. 1.25](assets/amel_g01_s01_ugly_treugolniki/p29-fig1.png)
+![Рис. 1.25](assets/amel_g01_s01_ugly_treugolniki/p28-fig1.png)
 
 **1.4.** Доказать, что треугольники с равными периметрами и двумя соответственно равными углами равны.
 
@@ -480,7 +480,7 @@ $$\angle BAC = 180^\circ - \angle OBA - \angle ACB = 45^\circ.$$
 
 Подобным образом доказывается, что $\angle CEA = \frac{1}{2} \angle BAC$.
 
-![Рис. 1.26](assets/amel_g01_s01_ugly_treugolniki/p29-fig2.png)
+![Рис. 1.26](assets/amel_g01_s01_ugly_treugolniki/p28-fig2.png)
 
 ---
 **стр. 29**
@@ -521,7 +521,7 @@ $B_1A = BA \cdot \dfrac{\sin \angle ABB_1}{\sin \angle AB_1B}$, $CB_1 = CB \cdot
 
 $$\frac{AC_1}{C_1B} = \frac{BA \cdot \sin \angle ABB_1 \cdot CB \cdot \sin \angle CAA_1 \cdot \sin \angle BB_1C \cdot \sin \angle AA_1B}{\sin \angle AB_1B \cdot \sin \angle AA_1C \cdot CB \cdot \sin \angle CBB_1 \cdot BA \cdot \sin \angle BAA_1}.$$
 
-![Рис. 1.27](assets/amel_g01_s01_ugly_treugolniki/p31-fig1.png)
+![Рис. 1.27](assets/amel_g01_s01_ugly_treugolniki/p30-fig1.png)
 
 Теперь поскольку $\angle AB_1B = 180^\circ - \angle BB_1C$, $\angle AA_1C = 180^\circ - \angle AA_1B$ и, значит, $\sin \angle AB_1B = \sin \angle BB_1C$, $\sin \angle AA_1C = \sin \angle AA_1B$, то приходим к выводу, что
 
@@ -533,7 +533,7 @@ $$\frac{AC_1}{C_1B} = \frac{\sin \angle ABB_1 \cdot \sin \angle CAA_1}{\sin \ang
 
 **Решение.** Пусть $K$, $L$, $M$ и $N$ — вершины квадрата, $\angle BAC = \varphi$, $KN = a$ (рис. 1.28). Тогда $AN = KN \cdot \text{ctg}\varphi = a \cdot \text{ctg}\varphi$,
 
-![Рис. 1.28](assets/amel_g01_s01_ugly_treugolniki/p31-fig2.png)
+![Рис. 1.28](assets/amel_g01_s01_ugly_treugolniki/p30-fig2.png)
 
 а поскольку $\angle MLB = \angle BAC = \varphi$ (это углы с соответственно перпендикулярными сторонами), то $MB = a \cdot \text{tg}\varphi$. По свойству 1.22 сторона $AB = 2R$, где $R$ — радиус описанной около треугольника $ABC$ окружности. Поэтому
 
@@ -553,7 +553,7 @@ $\varphi_2 = \text{arctg} 3$. А тогда угол с вершиной $B$ р�
 
 **Решение.** Обращаясь к рис. 1.29, прежде всего заметим, что прямая $C_1A_1$ не параллельна прямой $AC$ в силу характеристичности свойства 3.2X, поскольку $\dfrac{AC_1}{C_1B} \neq \dfrac{CA_1}{A_1B}$. Обозначим точку пересечения прямой $C_1A_1$ с продолжением стороны $AC$ за точку $C$ через $B_1$. Тогда по теореме Менелая
 
-![Рис. 1.29](assets/amel_g01_s01_ugly_treugolniki/p32-fig1.png)
+![Рис. 1.29](assets/amel_g01_s01_ugly_treugolniki/p31-fig1.png)
 
 $$\frac{AC_1}{C_1B} \cdot \frac{BA_1}{A_1C} \cdot \frac{CB_1}{B_1A} = 1 \text{ или } \frac{2}{5} \cdot \frac{6}{1} \cdot \frac{CB_1}{B_1A} = 1, \text{ откуда } \frac{CB_1}{B_1A} = \frac{5}{12} \text{ или }$$
 
@@ -575,7 +575,7 @@ $$\frac{2}{5} \cdot \frac{BN}{NM} \cdot \frac{\frac{17}{7} MC}{\frac{24}{7} MC} 
 
 **Решение.** Пусть в треугольнике $ABC$ (рис. 1.30) $AC = b$, $CB = a$, $BD = a_c$, $DA = b_c$, $CD = h$, а $r_1$, $r_2$ и $r$ — радиусы окружностей, вписанных соответственно в треугольники $ACD$, $DCB$ и $ABC$. Тогда в соответствии с замечанием 1.2 справедливы равенства:
 
-![Рис. 1.30](assets/amel_g01_s01_ugly_treugolniki/p33-fig1.png)
+![Рис. 1.30](assets/amel_g01_s01_ugly_treugolniki/p32-fig1.png)
 
 $$r_1 = \frac{1}{2}(b_c + h - b), \quad r_2 = \frac{1}{2}(a_c + h - a),$$
 

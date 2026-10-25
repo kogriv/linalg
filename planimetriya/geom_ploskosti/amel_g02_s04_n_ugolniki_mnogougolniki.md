@@ -27,7 +27,7 @@ $n$-угольник называется **выпуклым**, если он л
 
 На рис. 16.1 приведен пример выпуклого четырехугольника ($ABCD$), а на рис. 16.2 — невыпуклого четырехугольника ($KLMN$).
 
-![Рис. 16.1 и 16.2](assets/amel_g02_s04_n_ugolniki_mnogougolniki/p196-fig1.png)
+![Рис. 16.1 и 16.2](assets/amel_g02_s04_n_ugolniki_mnogougolniki/p195-fig1.png)
 
 **Диагональю $n$-угольника** называется отрезок с концами в несмежных вершинах. На рис. 16.1 — это отрезки $AC$ и $BD$, а на рис. 16.2 — это отрезки $KM$ и $LN$.
 
@@ -37,7 +37,7 @@ $n$-угольник называется **выпуклым**, если он л
 
 Отметим, что любой $n$-угольник является обобщенным $n$-угольником, но не всякий обобщенный $n$-угольник оказывается $n$-угольником (рис. 16.3).
 
-![Рис. 16.3](assets/amel_g02_s04_n_ugolniki_mnogougolniki/p196-fig2.png)
+![Рис. 16.3](assets/amel_g02_s04_n_ugolniki_mnogougolniki/p195-fig2.png)
 
 В случае обобщенного $n$-угольника некоторые его 3 последовательные вершины могут лежать на одной прямой, тогда один из трех углов с этими вершинами (на рис. 16.3 — это угол с вершиной $C$) считается равным развернутому углу.
 
@@ -61,13 +61,13 @@ $n$-угольник называется **описанным около окр
 
 **Доказательство** Рассмотрим сначала случай выпуклого $n$-угольника. Пусть $O$ — его внутренняя точка (рис. 16.4). Тогда если соединить эту точку со всеми вершинами $n$-угольника, то он разобьется на $n$ треугольников. А поскольку сумма углов каждого треугольника равна $180^\circ$, то сумма углов всех треугольников равна $180^\circ \cdot n$. Но в эту сумму входит сумма всех внутренних углов $n$-угольника и сумма всех углов с вершиной в точке $O$, которая равна $360^\circ$.
 
-![Рис. 16.4](assets/amel_g02_s04_n_ugolniki_mnogougolniki/p197-fig1.png)
+![Рис. 16.4](assets/amel_g02_s04_n_ugolniki_mnogougolniki/p196-fig1.png)
 
 Следовательно, сумма внутренних углов выпуклого $n$-угольника равна $180^\circ \cdot n - 360^\circ = 180^\circ \cdot (n - 2)$.
 
 Обратимся теперь к случаю невыпуклого $n$-угольника. Такой $n$-угольник уже реализуется при $n = 4$ (рис. 16.5). А тогда если обозначить через $\Sigma_n$ сумму внутренних углов $n$-угольника, то со-
 
-![Рис. 16.5](assets/amel_g02_s04_n_ugolniki_mnogougolniki/p197-fig2.png)
+![Рис. 16.5](assets/amel_g02_s04_n_ugolniki_mnogougolniki/p196-fig2.png)
 
 ---
 **стр. 197**
@@ -79,7 +79,7 @@ $n$-угольник называется **описанным около окр
 
 Здесь возможны 2 геометрически различных случая, которые и проиллюстрированы на рис. 16.6 и 16.7. Именно, если соединить
 
-![Рис. 16.6 и 16.7](assets/amel_g02_s04_n_ugolniki_mnogougolniki/p198-fig1.png)
+![Рис. 16.6 и 16.7](assets/amel_g02_s04_n_ugolniki_mnogougolniki/p197-fig3.png)
 
 вершины $B$ и $C$ $n$-угольника, то в первом случае три последовательно выбранные из четырех вершин $D, B, C, E$ не лежат на одной прямой, а во втором случае вершины $D, B, C$ лежат на одной прямой.
 
@@ -338,7 +338,7 @@ $$a = \frac{\sqrt{5}-1}{2} R.$$
 
 **Решение.** Рассмотрим шестиугольник $ABCDEF$ (рис. 16.18) с параллельными сторонами $AB$ и $DE$, $BC$ и $EF$, $CD$ и $AF$ и равными диагоналями $AD$, $CF$ и $BE$.
 
-![Рис. 16.18](assets/amel_g02_s04_n_ugolniki_mnogougolniki/p209-fig1.png)
+![Рис. 16.18](assets/amel_g02_s04_n_ugolniki_mnogougolniki/p208-fig1.png)
 
 Тогда в силу характеристичности свойства 14.9X трапеция $ACDF$ будет равнобочной и, значит, $\angle FCD = \angle ADC$. А поскольку $\angle ADC = \angle DAF$, а $\angle AFD = \angle DCF$, то $\angle FCD = \angle ADC = \angle DAF = \angle CFA$.
 
@@ -354,7 +354,7 @@ $$a = \frac{\sqrt{5}-1}{2} R.$$
 
 **Решение.** Пусть $Q$ — точка пересечения диагоналей $AC$ и $BF$ (рис. 16.19). Диагонали $BF$ и $CE$ параллельны, поэтому треугольники $BQM$ и $CMN$ подобны и, значит, $\frac{BQ}{CN} = \frac{QM}{CM}$. Выразим все отрезки в полученном равенстве через отрезок $AC$. Так, из подобия треугольников $ABQ$ и $CFQ$ следует, что $\frac{BQ}{QF} = \frac{AB}{FC} = \frac{1}{2}$, а поскольку $BF = AC$, то $BQ = \frac{AC}{3}$. Аналогично $AQ = \frac{AC}{3}$. А тогда, замечая, что $CN = \lambda \cdot CE = \lambda \cdot AC$, $AM = \lambda \cdot AC$, $MC = (1 - \lambda)AC$, $QM = AM - AQ = \left(\lambda - \frac{1}{3}\right)AC$, приходим к выводу, что
 
-![Рис. 16.19](assets/amel_g02_s04_n_ugolniki_mnogougolniki/p210-fig1.png)
+![Рис. 16.19](assets/amel_g02_s04_n_ugolniki_mnogougolniki/p209-fig2.png)
 
 $$\frac{\frac{AC}{3}}{\lambda \cdot AC} = \frac{\left(\lambda - \frac{1}{3}\right)AC}{(1 - \lambda)AC} \quad \text{или} \quad \frac{\frac{1}{3}}{\lambda} = \frac{\lambda - \frac{1}{3}}{1 - \lambda}, \quad \text{или}$$
 
@@ -436,9 +436,9 @@ $$OA_1 = OA \cdot \cos \alpha, \quad OB_1 = OB \cdot \cos \alpha, \quad OC_1 = O
 
 остальные точки касания окружностей с другими сторонами соответствующих треугольников.
 
-![Рис. 16.24](assets/amel_g02_s04_n_ugolniki_mnogougolniki/p214-fig1.png)
+![Рис. 16.24](assets/amel_g02_s04_n_ugolniki_mnogougolniki/p213-fig1.png)
 
-![Рис. 16.25](assets/amel_g02_s04_n_ugolniki_mnogougolniki/p214-fig2.png)
+![Рис. 16.25](assets/amel_g02_s04_n_ugolniki_mnogougolniki/p213-fig2.png)
 
 Тогда по одному из свойств касательных к окружности имеем
 
@@ -454,7 +454,7 @@ $$BC + AD = BN + NC + AP + PD = BN + K_1C + AK_2 + PD.$$
 
 **Решение.** Пусть $P$ и $S$ — точки пересечения биссектрисы угла $DAB$ с биссектрисами углов $ABC$ и $CDA$ четырехугольника $ABCD$ соответственно, а $R$ и $Q$ — точки пересечения биссектрисы угла $BCD$ с биссектрисами углов $CDA$ и $ABC$ соответственно (рис. 16.26).
 
-![Рис. 16.26](assets/amel_g02_s04_n_ugolniki_mnogougolniki/p214-fig3.png)
+![Рис. 16.26](assets/amel_g02_s04_n_ugolniki_mnogougolniki/p213-fig3.png)
 
 Пусть, далее, $\angle DAB = \alpha$, $\angle ABC = \beta$, $\angle BCD = \gamma$, $\angle CDA = \delta$. То-
 
@@ -474,7 +474,7 @@ $$\angle ASD + \angle BQC = 360^\circ - \frac{1}{2}(\alpha + \beta + \gamma + \d
 
 **Решение.** Пусть $\angle AOB = \phi$ (рис. 16.27). Тогда $S_{\triangle AOB} \cdot S_{\triangle DOC} =$
 
-![Рис. 16.27](assets/amel_g02_s04_n_ugolniki_mnogougolniki/p215-fig1.png)
+![Рис. 16.27](assets/amel_g02_s04_n_ugolniki_mnogougolniki/p214-fig1.png)
 
 $$= \frac{1}{2} OA \cdot OB \cdot \sin \phi \cdot \frac{1}{2} OC \cdot OD \cdot \sin \phi =$$
 

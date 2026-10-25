@@ -116,7 +116,7 @@ $$\begin{cases} \lambda\frac{1}{\frac{p}{q}}-\frac{1}{\frac{m}{n}}=1, \\ -\frac{
 
 $$DA=\frac{q}{p}\cdot BD=\frac{m}{n}\cdot\frac{q}{p}\cdot LC.$$
 
-![Рис. 3.5](assets/amel_g01_s03_proportsionalnye_otrezki/p53-fig1.png)
+![Рис. 3.5](assets/amel_g01_s03_proportsionalnye_otrezki/p52-fig1.png)
 
 С другой стороны, подобными являются и треугольники $KAD$ и $KCL$, поэтому $\frac{AK}{CK}=\frac{DA}{LC}=\frac{m}{n}\cdot\frac{q}{p}$, что и требовалось доказать.
 
@@ -142,7 +142,7 @@ $$CK=\frac{AC}{\frac{mq}{np}-1}.$$
 
 Введем следующие обозначения:
 
-![Рис. 3.6](assets/amel_g01_s03_proportsionalnye_otrezki/p54-fig1.png)
+![Рис. 3.6](assets/amel_g01_s03_proportsionalnye_otrezki/p53-fig1.png)
 
 **Свойство 3.8.** *В прямоугольном треугольнике высота, опущенная из вершины прямого угла на гипотенузу, есть среднее пропорциональное между проекциями катетов, т. е.* $\frac{h}{a_c}=\frac{b_c}{h}$ ($h=\sqrt{a_c\cdot b_c}$).
 
@@ -195,7 +195,7 @@ $\frac{b}{c}=\frac{b_c}{b}$ ($b=\sqrt{c\cdot b_c}$).
 
 Далее, в треугольнике $BFM$ стороны $ED$ и $MF$ параллельны, а $BD:DF=1:2$, следовательно, по обобщенной теореме Фалеса $\frac{BE}{EM}=\frac{1}{2}$.
 
-![Рис. 3.7](assets/amel_g01_s03_proportsionalnye_otrezki/p57-fig1.png)
+![Рис. 3.7](assets/amel_g01_s03_proportsionalnye_otrezki/p56-fig1.png)
 
 **Ответ:** $1:2$.
 
@@ -205,7 +205,7 @@ $\frac{b}{c}=\frac{b_c}{b}$ ($b=\sqrt{c\cdot b_c}$).
 
 $\frac{AE}{EC}=\frac{AB}{BC}=\frac{2}{4}$; $\frac{BD}{DC}=\frac{AB}{AC}=\frac{2}{5}$;
 
-![Рис. 3.8](assets/amel_g01_s03_proportsionalnye_otrezki/p57-fig2.png)
+![Рис. 3.8](assets/amel_g01_s03_proportsionalnye_otrezki/p56-fig2.png)
 
 $\frac{AF}{FB}=\frac{AC}{BC}=\frac{5}{4}$. А тогда на основании свойства 3.4X будет
 

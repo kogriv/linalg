@@ -37,7 +37,7 @@ $$\frac{a}{\sin \alpha} = \frac{b}{\sin \beta} = \frac{c}{\sin \gamma} = 2R.$$
 
 **Решение.** Из условия задачи следует (рис. 10.1), что углы $CAE$, $EAD$ и $DAB$ равны $30^\circ$.
 
-![Рис. 10.1](assets/amel_g01_s10_teorema_sinusov/p133-fig1.png)
+![Рис. 10.1](assets/amel_g01_s10_teorema_sinusov/p132-fig1.png)
 
 Тогда из треугольника $ADC$ находим, что $\angle ADC = \angle ADE = 180^\circ - (60^\circ + \gamma) = 120^\circ - \gamma$, а из треугольника $DEA$ — что $\angle DEA = 180^\circ - (120^\circ - \gamma + 30^\circ) = 30^\circ + \gamma$. По теореме синусов из того же треугольника $DEA$ имеем $\frac{AE}{\sin(120^\circ - \gamma)} = \frac{AD}{\sin(30^\circ + \gamma)}$. Но по условию $4AE = 3\sqrt{3} AD$, поэтому для нахождения угла $\gamma$ получаем уравнение $4\sin(120^\circ - \gamma) = 3\sqrt{3} \sin(30^\circ + \gamma)$, которое в соответствии с теоремой сложения для синуса приводится к виду $5\sin\gamma = \sqrt{3} \cos\gamma$ или к виду $\text{tg}\gamma = \frac{\sqrt{3}}{5}$, откуда $\gamma = \text{arctg}\frac{\sqrt{3}}{5}$.
 
@@ -47,7 +47,7 @@ $$\frac{a}{\sin \alpha} = \frac{b}{\sin \beta} = \frac{c}{\sin \gamma} = 2R.$$
 
 **Решение.** В силу вышепринятых обозначений и условия задачи $\angle BCA = \gamma$, $\angle CAB = 2\gamma$ (рис. 10.2), а так как $\sin(180^\circ - 3\gamma) = \sin3\gamma$, то по расширенной теореме синусов
 
-![Рис. 10.2](assets/amel_g01_s10_teorema_sinusov/p133-fig2.png)
+![Рис. 10.2](assets/amel_g01_s10_teorema_sinusov/p132-fig2.png)
 
 $$\frac{c}{\sin\gamma} = \frac{b}{\sin3\gamma} = \frac{BC}{\sin2\gamma} = 2R.$$
 
@@ -71,7 +71,7 @@ $= 4\cos^2 \gamma - 1$ или $\cos \gamma = \frac{1}{2} \sqrt{\frac{b+c}{c}}$. 
 
 **Решение.** Так как $O$ — точка пересечения биссектрис углов треугольника $ABC$ (рис. 10.3), то $\angle AOC = 180^\circ - \angle OCA - \angle CAO = 180^\circ - \frac{1}{2} \angle BCA - \frac{1}{2} \angle CAB$.
 
-![Рис. 10.3](assets/amel_g01_s10_teorema_sinusov/p134-fig1.png)
+![Рис. 10.3](assets/amel_g01_s10_teorema_sinusov/p133-fig1.png)
 
 Но $\angle BCA + \angle CAB = 180^\circ - \beta$, поэтому $\angle AOC = 180^\circ - 90^\circ + \frac{\beta}{2} = 90^\circ + \frac{\beta}{2}$.
 
@@ -89,7 +89,7 @@ $= 4\cos^2 \gamma - 1$ или $\cos \gamma = \frac{1}{2} \sqrt{\frac{b+c}{c}}$. 
 
 **Решение.** Пусть $O$ — центр вписанной в треугольник $ABC$ окружности, $AB = BC$, $\angle CAB = \angle BCA = \alpha$ (рис. 10.4). Высота $BH$ в треугольнике $ABC$ является также и биссектрисой и, следовательно, проходит через точку $O$.
 
-![Рис. 10.4](assets/amel_g01_s10_teorema_sinusov/p135-fig1.png)
+![Рис. 10.4](assets/amel_g01_s10_teorema_sinusov/p134-fig2.png)
 
 Далее, поскольку $BH \perp AC$, а $AO$ — отрезок биссектрисы угла $CAB$, то
 $\angle OAB = \frac{\alpha}{2}$, $\angle ABO = 90^\circ - \alpha$,
@@ -180,7 +180,7 @@ $$\frac{a}{\sin \angle BAC} = \frac{c}{\sin \angle ACB} = 2R.$$
 
 **Решение.** Пусть в треугольнике $ABC$ сторона $AB = BC = a$, $BH \perp AC$, $\angle BAC = \angle ACB = \alpha$, $O$ — центр вписанной окружности (рис. 10.9). Тогда луч $AO$ — биссектриса угла $BAC$, а $OH = r$. Из прямоугольного треугольника $AHO$ сторона
 
-![Рис. 10.9](assets/amel_g01_s10_teorema_sinusov/p139-fig1.png)
+![Рис. 10.9](assets/amel_g01_s10_teorema_sinusov/p138-fig1.png)
 
 $OH = r = AH \cdot \tg \frac{\alpha}{2} = a \cdot \cos \alpha \cdot \tg \frac{\alpha}{2}$.
 
@@ -208,7 +208,7 @@ $$= 2 \cos \alpha \cdot (1 - \cos \alpha) = \frac{3}{8} \text{ или в вид�
 
 **Решение.** а) Пусть $O$ — центр вписанной в треугольник $ABC$ окружности, $H$ — точка касания ее со стороной $AC$ (рис. 10.10). Тогда лучи $AO$ и $BO$ — биссектрисы углов $CAB$ и $ABC$ соответственно, а $OH = r$. По теореме синусов из треугольника $ABO$ находим, что
 
-![Рис. 10.10](assets/amel_g01_s10_teorema_sinusov/p140-fig1.png)
+![Рис. 10.10](assets/amel_g01_s10_teorema_sinusov/p139-fig1.png)
 
 $$\frac{AB}{AO} = \frac{\sin \angle BOA}{\sin \angle ABO} =$$
 
@@ -238,7 +238,7 @@ $$= 16R^2 \cdot \frac{r}{4R} \cdot \cos \frac{\alpha}{2} \cdot \cos \frac{\beta}
 
 **Решение.** Пусть сторона треугольника равна $a$, $\angle DAB = \varphi$ (рис. 10.11). Тогда $\angle CAD = 60^\circ - \varphi$ и из прямоугольных треугольников $ABN$ и $CAM$ находим, что $AN = a \cdot \cos \varphi$, $AM = a \cdot \cos(60^\circ - \varphi)$.
 
-![Рис. 10.11](assets/amel_g01_s10_teorema_sinusov/p141-fig1.png)
+![Рис. 10.11](assets/amel_g01_s10_teorema_sinusov/p140-fig1.png)
 
 Таким образом,
 $$\frac{AN}{AM} = \frac{a \cos \varphi}{a \cos(60^\circ - \varphi)} = \frac{\cos \varphi}{\cos(60^\circ - \varphi)} = \frac{5}{4}.$$

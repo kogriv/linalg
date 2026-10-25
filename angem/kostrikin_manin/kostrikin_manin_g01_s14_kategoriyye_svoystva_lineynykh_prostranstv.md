@@ -26,7 +26,7 @@ $$f_*(\varphi)(t)=\sum_{s\in f^{-1}(t)}\varphi(s)$$
 
 а) *Пусть $P$, $M$, $N$ — линейные пространства, $P$ конечномерно, $j\colon M\to N$ — сюръективное линейное отображение. Тогда любое линейное отображение $g\colon P\to N$ можно поднять до такого линейного отображения $h\colon P\to M$, что $g=jh$. Иными словами, диаграмму с точной строкой*
 
-![p94-fig1](assets/kostrikin_manin_g01_s14_kategoriyye_svoystva_lineynykh_prostranstv/p94-fig1.png)
+![p94-fig1](assets/kostrikin_manin_g01_s14_kategoriyye_svoystva_lineynykh_prostranstv/p88-fig1.png)
 
 *можно вложить в коммутативную диаграмму*
 
@@ -34,15 +34,15 @@ $$f_*(\varphi)(t)=\sum_{s\in f^{-1}(t)}\varphi(s)$$
 **стр. 89**
 ---
 
-![p95-fig1](assets/kostrikin_manin_g01_s14_kategoriyye_svoystva_lineynykh_prostranstv/p95-fig1.png)
+![p95-fig1](assets/kostrikin_manin_g01_s14_kategoriyye_svoystva_lineynykh_prostranstv/p89-fig1.png)
 
 б) *Пусть $P$, $L$, $M$ — линейные пространства, $M$ конечномерно, $i\colon L\to M$ — инъективное линейное отображение. Тогда любое линейное отображение $g\colon L\to P$ можно продолжить до линейного отображения $h\colon M\to P$ так, что $g=hi$. Иными словами, диаграмму с точной нижней строкой*
 
-![p95-fig2](assets/kostrikin_manin_g01_s14_kategoriyye_svoystva_lineynykh_prostranstv/p95-fig2.png)
+![p95-fig2](assets/kostrikin_manin_g01_s14_kategoriyye_svoystva_lineynykh_prostranstv/p89-fig2.png)
 
 *можно вложить в коммутативную диаграмму*
 
-![p95-fig3](assets/kostrikin_manin_g01_s14_kategoriyye_svoystva_lineynykh_prostranstv/p95-fig3.png)
+![p95-fig3](assets/kostrikin_manin_g01_s14_kategoriyye_svoystva_lineynykh_prostranstv/p89-fig3.png)
 
 **Доказательство.** а) Выберем базис $\{e_1,\dots,e_n\}$ в $P$, положим $e'_i=g(e_i)\in N$. В силу сюръективности $j$ существуют векторы $e''_i\in M$ такие, что $j(e''_i)=e'_i$, $i=1,\dots,n$. По предложению п. 3 §3, существует единственное линейное отображение $h\colon P\to M$ такое, что $h(e_i)=e''_i$, $i=1,\dots,n$. По конструкции $jh(e_i)=j(e''_i)=e'_i=g(e_i)$. Так как $\{e_i\}$ образуют базис $P$, имеем $jh=g$.
 
@@ -108,7 +108,7 @@ $$\chi(K)=\sum_{i=1}^{n}(-1)^i\dim H^i(K).$$
 
 2. «Лемма о змее». Пусть дана коммутативная диаграмма линейных пространств
 
-![Коммутативная диаграмма линейных пространств для леммы о змее](assets/kostrikin_manin_g01_s14_kategoriyye_svoystva_lineynykh_prostranstv/p97-fig1.png)
+![Коммутативная диаграмма линейных пространств для леммы о змее](assets/kostrikin_manin_g01_s14_kategoriyye_svoystva_lineynykh_prostranstv/p91-fig1.png)
 
 ---
 **стр. 92**
@@ -122,7 +122,7 @@ $$\operatorname{Ker}f\to\operatorname{Ker}g\to\operatorname{Ker}h\stackrel{\delt
 
 3. Пусть $K$: $\ldots\to L_i\stackrel{d_i}{\longrightarrow}L_{i+1}\to\ldots$ и $K'$: $\ldots\to L_i'\stackrel{d_i'}{\longrightarrow}L_{i+1}'\to\ldots$ — два комплекса. Морфизмом $f$: $K\to K'$ называется такой набор линейных отображений $f_i$: $L_i\to L_i'$, что все квадраты
 
-![Коммутативный квадрат морфизма комплексов](assets/kostrikin_manin_g01_s14_kategoriyye_svoystva_lineynykh_prostranstv/p98-fig1.png)
+![Коммутативный квадрат морфизма комплексов](assets/kostrikin_manin_g01_s14_kategoriyye_svoystva_lineynykh_prostranstv/p92-fig1.png)
 
 коммутативны. Показать, что комплексы и их морфизмы образуют категорию.
 

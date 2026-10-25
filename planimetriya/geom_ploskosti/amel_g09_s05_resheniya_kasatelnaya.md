@@ -43,7 +43,7 @@ $\frac{1}{4}(x + r)^2 = (x + r)(x - r)$
 
 **5.4C.** Пусть $O$ — центр окружности радиуса $R$, а $D$ — вторая точка пересечения стороны $AC$ треугольника с окружностью (рис. 5.4C).
 
-![Рис. 5.4C](assets/amel_g09_s05_resheniya_kasatelnaya/p397-fig1.png)
+![Рис. 5.4C](assets/amel_g09_s05_resheniya_kasatelnaya/p396-fig1.png)
 
 По свойству касательной и секущей $BC^2 = AC \cdot DC$, поэтому $36 = 9 \cdot DC$ или $DC = 4$. Но тогда $AD = AC - DC = 9 - 4 = 5$ и, значит, $R = 2,5$.
 
@@ -63,7 +63,7 @@ $$S = \frac{1}{2} \cdot 9 \cdot 6 \cdot \frac{5}{13} = \frac{135}{13}.$$
 
 **5.5C.** Так как $B$ и $C$ — точки касания прямых, проходящих через точку $A$, с окружностью (с центром в точке $O$) (рис. 5.5C), то $OB \perp AB$, $OC \perp AC$, а так как $OB = OC$, а $AB = AC$, то $\triangle ABO = \triangle ACO$ и, значит, $\angle BAO = \angle CAO$. В равнобедренном треугольнике $CAB$ биссектриса $AD$ ($D$ — точка пересечения $AO$ и $BC$) является также и ме-
 
-![Рис. 5.5C](assets/amel_g09_s05_resheniya_kasatelnaya/p397-fig2.png)
+![Рис. 5.5C](assets/amel_g09_s05_resheniya_kasatelnaya/p396-fig2.png)
 
 ---
 **стр. 397**
@@ -77,7 +77,7 @@ $$S = \frac{1}{2} \cdot 9 \cdot 6 \cdot \frac{5}{13} = \frac{135}{13}.$$
 
 $$KM = \sqrt{MC^2 - KC^2} = 2\sqrt{3}.$$
 
-![Рис. 5.6C](assets/amel_g09_s05_resheniya_kasatelnaya/p398-fig1.png)
+![Рис. 5.6C](assets/amel_g09_s05_resheniya_kasatelnaya/p397-fig1.png)
 
 Теперь так как $CP = KC, DM = DP$, а четырехугольник $ABCD$ — ромб, то $AM = KC$. Пусть, далее, сторона ромба равна $x$. Проведем $CF \perp AD$. Тогда $MD = x - 2, CF = KM = 2\sqrt{3}$, а $DF = MF - MD = 4 - x$. Но в таком случае из прямоугольного треугольника $CDF$ по теореме Пифагора $CD^2 = CF^2 + DF^2$ или $x^2 = 12 + (x - 4)^2$, откуда $x = \frac{7}{2}$.
 
@@ -85,4 +85,4 @@ $$KM = \sqrt{MC^2 - KC^2} = 2\sqrt{3}.$$
 
 **5.7C.** Из свойства о касательной и секущей следует, что $AK \cdot AB = AM \cdot AC$ (рис. 5.7C), откуда $AM = \frac{AK \cdot AB}{AC} = \frac{1 \cdot 2}{5} = \frac{2}{5}$, а $\frac{AK}{AC} = \frac{AM}{AB} = \frac{1}{5}$. А тогда замечая, что у треугольников $MAK$ и $CAB$ угол с вершиной $A$ — общий, приходим к выводу, что эти треугольники подобны (второй признак подобия
 
-![Рис. 5.7C](assets/amel_g09_s05_resheniya_kasatelnaya/p398-fig2.png)
+![Рис. 5.7C](assets/amel_g09_s05_resheniya_kasatelnaya/p397-fig2.png)

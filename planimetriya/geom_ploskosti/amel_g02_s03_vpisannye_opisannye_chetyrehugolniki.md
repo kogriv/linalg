@@ -158,7 +158,7 @@ $\blacktriangledown$ **15.8.** *Доказать, что если $M$ — точ
 
 **Решение.** Равенство $AM \cdot MC = BM \cdot MD$ преобразуется в пропорцию $\frac{AM}{BM} = \frac{MD}{MC}$.
 
-![Рис. 15.10](assets/amel_g02_s03_vpisannye_opisannye_chetyrehugolniki/p190-fig1.png)
+![Рис. 15.10](assets/amel_g02_s03_vpisannye_opisannye_chetyrehugolniki/p189-fig1.png)
 
 А тогда так как $\angle BMC = \angle AMD$ (рис. 15.10), то треугольники $BMC$ и $AMD$ подобны и, значит, $\angle BCA = \angle BDA$. Последнее же равенство и означает (замечание 15.1), что около четырехугольника $ABCD$ можно описать окружность.
 
@@ -170,15 +170,15 @@ $\blacktriangledown$ **15.8.** *Доказать, что если $M$ — точ
 **стр. 190**
 ---
 
-![Рис. 15.11](assets/amel_g02_s03_vpisannye_opisannye_chetyrehugolniki/p191-fig1.png)
+![Рис. 15.11](assets/amel_g02_s03_vpisannye_opisannye_chetyrehugolniki/p190-fig1.png)
 
 С другой стороны, так как углы $CAB$ и $BAD$ являются смежными, то $\angle BAD = 180^\circ - \angle CAB$ и, значит, $\angle CAB = \angle BFD$. Но в таком случае $\angle CEB + \angle BFD = 180^\circ$, откуда и следует, что $CE \parallel DF$.
 
 Пусть теперь точка пересечения рассматриваемых прямых находится внутри одного из кругов, но вне другого (рис. 15.12). Тогда $\angle CEB = \angle CAB$, а $\angle BAD + \angle BFD = 180^\circ$.
 
-![Рис. 15.12](assets/amel_g02_s03_vpisannye_opisannye_chetyrehugolniki/p191-fig2.png)
+![Рис. 15.12](assets/amel_g02_s03_vpisannye_opisannye_chetyrehugolniki/p190-fig2.png)
 
-![Рис. 15.13](assets/amel_g02_s03_vpisannye_opisannye_chetyrehugolniki/p191-fig3.png)
+![Рис. 15.13](assets/amel_g02_s03_vpisannye_opisannye_chetyrehugolniki/p190-fig3.png)
 
 С другой стороны, так как $\angle BAD = 180^\circ - \angle CAB$, то $\angle CAB = \angle BFD$ и, следовательно, $\angle CEB = \angle BFD$, что и говорит о том, что отрезки $CE$ и $DF$ параллельны.
 
@@ -196,9 +196,9 @@ $\blacktriangledown$ **15.8.** *Доказать, что если $M$ — точ
 
 построим угол $CBF$, равный $\frac{\alpha}{2}$, где точка $F$ принадлежит стороне $DC$.
 
-![Рис. 15.14](assets/amel_g02_s03_vpisannye_opisannye_chetyrehugolniki/p192-fig1.png)
+![Рис. 15.14](assets/amel_g02_s03_vpisannye_opisannye_chetyrehugolniki/p191-fig4.png)
 
-![Рис. 15.15](assets/amel_g02_s03_vpisannye_opisannye_chetyrehugolniki/p192-fig2.png)
+![Рис. 15.15](assets/amel_g02_s03_vpisannye_opisannye_chetyrehugolniki/p191-fig5.png)
 
 Тогда так как четырехугольник $ABCD$ вписан в окружность, то $\angle BCD = 180^\circ - \alpha$ и, следовательно, $\angle BFC = 180^\circ - \angle BCD - \angle CBF = \frac{\alpha}{2}$. Таким образом, в равнобедренном треугольнике $BCF$ сторона $FC = BC$.
 

@@ -142,7 +142,7 @@ $4^0. 1 \cdot \bar{a} = \bar{a}$ — *закон умножения на еди�
 
 Предположим теперь, что $\lambda > 0$, а векторы $\overline{OA} = \bar{a}$ и $\overline{AB} = \bar{b}$ коллинеарны. Отметим какую-либо точку $C$, не лежащую на прямой $OAB$, и проведем лучи $CO$, $CA$ и $CB$ (рис. 20.10).
 
-![Рис. 20.10](assets/amel_g04_s01_vektory_na_ploskosti/p265-fig1.png)
+![Рис. 20.10](assets/amel_g04_s01_vektory_na_ploskosti/p264-fig1.png)
 
 Пусть точка $O_1 \in CO$ такая, что $|CO_1| = \lambda |CO|$. Проведем через точку $O_1$ прямую $l$, параллельную прямой $OB$, и обозначим через $A_1$ и $B_1$ точки пересечения прямой $l$ с лучами $CA$ и $CB$ соответственно. Тогда $\triangle OAC \sim \triangle O_1A_1C$, $\triangle ABC \sim \triangle A_1B_1C$, $\triangle OBC \sim \triangle O_1B_1C$ и, следовательно, $\overline{O_1A_1} = \lambda \bar{a}$, $\overline{A_1B_1} = \lambda \bar{b}$, $\overline{O_1B_1} = \lambda(\bar{a} + \bar{b})$. Таким образом, $\lambda(\bar{a} + \bar{b}) = \overline{O_1B_1} = \overline{O_1A_1} + \overline{A_1B_1} = \lambda \bar{a} + \lambda \bar{b}$, что и требовалось доказать.
 
@@ -174,7 +174,7 @@ $3^0$. Модуль вектора в левой части соотношени
 
 **Доказательство.** Из условия теоремы следует, что $AC = \frac{m}{n} CB$. Поэтому (рис. 20.11) $AB = AC + CB =$
 
-![Рис. 20.11](assets/amel_g04_s01_vektory_na_ploskosti/p266-fig1.png)
+![Рис. 20.11](assets/amel_g04_s01_vektory_na_ploskosti/p265-fig1.png)
 
 $= \frac{m}{n} CB + CB = \left( \frac{m}{n} + 1 \right) CB = \frac{m+n}{n} CB$. А тогда $AC : AB = \frac{m}{n} : \frac{m+n}{n} = \frac{m}{m+n}$ и, та-
 
@@ -192,7 +192,7 @@ $= \frac{m}{m+n} \overline{QB} + \left( 1 - \frac{m}{m+n} \right) \overline{QA} 
 
 **Доказательство.** Написанное в формулировке теоремы соотношение можно переписать так: $\overline{QC} = \lambda \overline{QA} + \overline{QB} - \lambda \overline{QB}$ или $\overline{QC} - \overline{QB} = \lambda (\overline{QA} - \overline{QB})$ (рис. 20.12). Последнее же соотношение имеет место тогда и только тогда, когда векторы $\overline{BC}$ и $\overline{BA}$ параллельны одной и той же прямой, т. е. когда точка $C$ лежит на прямой $AB$.
 
-![Рис. 20.12](assets/amel_g04_s01_vektory_na_ploskosti/p267-fig1.png)
+![Рис. 20.12](assets/amel_g04_s01_vektory_na_ploskosti/p266-fig2.png)
 
 **20.5. Проекции и координаты векторов**
 
@@ -200,7 +200,7 @@ $= \frac{m}{m+n} \overline{QB} + \left( 1 - \frac{m}{m+n} \right) \overline{QA} 
 
 Пусть $l$ — некоторая ось, $\overline{e}$ — единичный вектор (орт), имеющий направление, совпадающее с направлением оси, и $\overline{AB}$ — произвольный вектор на плоскости. Обозначим через $A_1$ и $B_1$ проекции точек $A$ и $B$ на прямую $l$, т. е. основания перпендикуляров, опущенных из точек $A$ и $B$ на прямую $l$ (рис. 20.13).
 
-![Рис. 20.13](assets/amel_g04_s01_vektory_na_ploskosti/p267-fig2.png)
+![Рис. 20.13](assets/amel_g04_s01_vektory_na_ploskosti/p266-fig3.png)
 
 
 ---
@@ -440,7 +440,7 @@ $= \frac{|b\bar{c} - c\bar{b}|}{a + b + c} : \frac{a|b\bar{c} - c\bar{b}|}{(b + 
 
 **Решение.** Пусть $O$ — центр окружности, описанной около правильного $n$-угольника $A_1A_2 \dots A_n$ (рис. 20.23), а $\bar{c}$ — вектор, являющийся суммой $n$ векторов $\overline{OA_1}, \overline{OA_2}, \dots, \overline{OA_n}$. При повороте вокруг точки $O$ на угол $\frac{360^{\circ}}{n}$ система $n$ векторов перейдет сама в себя (векторы поменяются лишь только местами) и поэтому их суммарный вектор $\bar{c}$ при повороте должен остаться прежним. Последнее означает, что $\bar{c} = \bar{0}$,
 
-![Рис. 20.23](assets/amel_g04_s01_vektory_na_ploskosti/p277-fig1.png)
+![Рис. 20.23](assets/amel_g04_s01_vektory_na_ploskosti/p276-fig1.png)
 
 ---
 **стр. 277**
@@ -463,7 +463,7 @@ $= OA_1^2 + OA_2^2 + \dots + OA_n^2 + nOA_1^2 = 2nR^2$.
 $$DO^2 = \frac{1}{3}(DA^2 + DB^2 + DC^2) - \frac{1}{9}(AB^2 + BC^2 + CA^2).$$
 **Решение.** Так как $\overline{DA} = \overline{DO} + \overline{OA}$, $\overline{DB} = \overline{DO} + \overline{OB}$, $\overline{DC} = \overline{DO} + \overline{OC}$ (рис. 20.24), то $\overline{DA} + \overline{DB} + \overline{DC} = 3\overline{DO} + \overline{OA} + \overline{OB} + \overline{OC}$ или, поскольку $\overline{OA} + \overline{OB} + \overline{OC} = \overline{0}$ (что очевидно), $3\overline{DO} = \overline{DA} + \overline{DB} + \overline{DC}$.
 
-![Рис. 20.24](assets/amel_g04_s01_vektory_na_ploskosti/p278-fig1.png)
+![Рис. 20.24](assets/amel_g04_s01_vektory_na_ploskosti/p277-fig1.png)
 
 С другой стороны, $DA^2 = \overline{DA}^2 = (\overline{DO} + \overline{OA})^2 = DO^2 + OA^2 + 2\overline{DO} \cdot \overline{OA}$, $DB^2 = \overline{DB}^2 = (\overline{DO} + \overline{OB})^2 = DO^2 + OB^2 + 2\overline{DO} \cdot \overline{OB}$, $DC^2 = \overline{DC}^2 = (\overline{DO} + \overline{OC})^2 = DO^2 + OC^2 + 2\overline{DO} \cdot \overline{OC}$, откуда $DA^2 + DB^2 + DC^2 = 3DO^2 + OA^2 + OB^2 + OC^2 + 2\overline{DO}(\overline{OA} + \overline{OB} + \overline{OC}) = 3DO^2 + OA^2 + OB^2 + OC^2$ и, значит,
 $$DO^2 = \frac{1}{3}(DA^2 + DB^2 + DC^2) - \frac{1}{3}(OA^2 + OB^2 + OC^2).$$

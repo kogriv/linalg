@@ -65,7 +65,7 @@ $$\frac{S_{\triangle ABC}}{S_{\triangle A_1B_1C_1}} = \frac{AC}{A_1C_1}$$
 
 **Решение.** Очевидно, что надо рассмотреть случаи остроугольного, тупоугольного и прямоугольного треугольников.
 
-![Рис. 19.6–19.8](assets/amel_g03_s03_otnoshenie_ploshchadey/p247-fig1.png)
+![Рис. 19.6–19.8](assets/amel_g03_s03_otnoshenie_ploshchadey/p246-fig1.png)
 
 В первом случае (рис. 19.6) $S_{\triangle ABC} - S_{\triangle A_1B_1C_1} = S_{\triangle AB_1C_1} + S_{\triangle C_1BA_1} + S_{\triangle A_1CB_1}$ и поскольку $S_{\triangle AB_1C_1} = \frac{1}{2} B_1A \cdot AC_1 \cdot \sin \alpha =$
 $= \frac{1}{2} AB \cdot \cos \alpha \cdot AC \cdot \cos \alpha \cdot \sin \alpha = \frac{1}{2} AB \cdot AC \cdot \sin \alpha \cdot \cos^2 \alpha =$
@@ -87,7 +87,7 @@ $= 1 - (\cos^2 \alpha + \cos^2 \beta + \cos^2 \gamma)$.
 
 **Решение.** Пусть точки $A_1$, $B_1$ и $C_1$ являются основаниями биссектрис треугольника $ABC$ (рис. 19.9) и пусть $AB = c$, $BC = a$, $AC = b$, $AC_1 = c_1$, $C_1B = c_2$, $BA_1 = a_1$, $A_1C = a_2$, $CB_1 = b_1$, $B_1A = b_2$.
 
-![Рис. 19.9](assets/amel_g03_s03_otnoshenie_ploshchadey/p248-fig1.png)
+![Рис. 19.9](assets/amel_g03_s03_otnoshenie_ploshchadey/p247-fig1.png)
 
 Тогда с учетом свойства биссектрисы справедливы, например, соотношения:
 $$\begin{cases} a_1 + a_2 = a, \\ \frac{a_1}{a_2} = \frac{c}{b}. \end{cases}$$
@@ -114,7 +114,7 @@ $$= \frac{2pql}{(p+q)(p+l)(q+l)}.$$
 
 **Решение.** Пусть точка $O$ — центр окружности радиуса $r$, вписанной в треугольник $ABC$, периметр которого равен $2p$, $R$ — радиус окружности, описанной около треугольника $ABC$ (рис. 19.10).
 
-![Рис. 19.10](assets/amel_g03_s03_otnoshenie_ploshchadey/p249-fig1.png)
+![Рис. 19.10](assets/amel_g03_s03_otnoshenie_ploshchadey/p248-fig2.png)
 
 Тогда поскольку $p = R(\sin \alpha + \sin \beta + \sin \gamma)$,
 $r = 4R \sin \frac{\alpha}{2} \sin \frac{\beta}{2} \sin \frac{\gamma}{2}$ (задача 10.10), а

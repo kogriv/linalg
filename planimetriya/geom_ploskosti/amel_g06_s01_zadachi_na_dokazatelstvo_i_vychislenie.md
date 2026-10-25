@@ -16,7 +16,7 @@
 
 **Решение.** Отметим на стороне $BC$ остроугольного треугольника
 
-![Рис. 22.1](assets/amel_g06_s01_zadachi_na_dokazatelstvo_i_vychislenie/p308-fig1.png)
+![Рис. 22.1](assets/amel_g06_s01_zadachi_na_dokazatelstvo_i_vychislenie/p307-fig1.png)
 
 $ABC$ произвольную точку $D$ (рис. 22.1) и найдем на сторонах $AB$ и $AC$ соответственно точки $F$ и $E$ такие, чтобы при выбранной точке $D$ периметр треугольника $DEF$ был наименьшим.
 
@@ -38,7 +38,7 @@ $ABC$ произвольную точку $D$ (рис. 22.1) и найдем н�
 
 **Решение.** Пусть $MN$ — произвольная прямая, проходящая через
 
-![Рис. 22.2](assets/amel_g06_s01_zadachi_na_dokazatelstvo_i_vychislenie/p309-fig1.png)
+![Рис. 22.2](assets/amel_g06_s01_zadachi_na_dokazatelstvo_i_vychislenie/p308-fig1.png)
 
 точку $A$, лежащую внутри угла с вершиной $O$ (рис. 22.2), и пусть $P$ и $Q$ — точки пересечения прямых, проходящих через точку $A$ параллельно прямым $ON$ и $OM$ соответственно, с прямыми $OM$ и $ON$. Введем следующие обозначения: $x$ — площадь треугольника $APM$, $y$ — площадь треугольника $ANQ$, $z$ — площадь треугольника $AQP$, $S$ — площадь треугольника $OMN$, $AM = a$, $AN = b$.
 
@@ -57,7 +57,7 @@ $ABC$ произвольную точку $D$ (рис. 22.1) и найдем н�
 
 **Решение.** Пусть $D$ и $E$ — точки пересечения перпендикуляра к
 
-![Рис. 22.3](assets/amel_g06_s01_zadachi_na_dokazatelstvo_i_vychislenie/p310-fig1.png)
+![Рис. 22.3](assets/amel_g06_s01_zadachi_na_dokazatelstvo_i_vychislenie/p309-fig1.png)
 
 прямым $l_1$ и $l_2$ соответственно с этими прямыми и пусть $DA = d$, $AE = b$, $\angle EAC = \psi$ (рис. 22.3). Тогда $\angle BAD = 180^\circ - (\phi + \psi)$ и из прямоугольных треугольников $CEA$ и $ADB$ соответственно находим, что $AC = \frac{b}{\cos \psi}$, $AB = \frac{d}{\cos(180^\circ - (\phi + \psi))} = -\frac{d}{\cos(\phi + \psi)}$, и поэтому площадь треугольника $CAB$ — это $S = -\frac{db \sin \phi}{2 \cos \psi \cdot \cos(\phi + \psi)} = -\frac{db \sin \phi}{\cos \psi + \cos(\phi + 2\psi)}$.
 
@@ -78,7 +78,7 @@ $$S = \frac{db \sin \phi}{1 - \cos \phi} = \frac{2db \sin \frac{\phi}{2} \cos \f
 
 **Решение.** Если $R$ — радиус описанной, а $r$ — радиус вписанной
 
-![Рис. 22.4](assets/amel_g06_s01_zadachi_na_dokazatelstvo_i_vychislenie/p311-fig1.png)
+![Рис. 22.4](assets/amel_g06_s01_zadachi_na_dokazatelstvo_i_vychislenie/p310-fig2.png)
 
 окружности (рис. 22.4), то, очевидно, $2R = r \cdot \operatorname{ctg} \frac{\phi}{2} + r \cdot \operatorname{ctg} \left( \frac{\pi}{4} - \frac{\phi}{2} \right)$.
 
@@ -278,7 +278,7 @@ $$= \sqrt{(a + x)^2(a^2 - x^2)} = \sqrt{-x^4 - 2ax^3 + 2a^3x + a^4} .$$
 
 **Решение.** Опишем около треугольника $AMB$ (рис. 22.12) окружность. Если окружность пересекает сторону угла, на которой лежит точка $M$, то длину отрезка $AB$ можно уменьшить.
 
-![Рис. 22.12](assets/amel_g06_s01_zadachi_na_dokazatelstvo_i_vychislenie/p319-fig1.png)
+![Рис. 22.12](assets/amel_g06_s01_zadachi_na_dokazatelstvo_i_vychislenie/p318-fig1.png)
 
 Действительно, пусть $M_1$ (рис. 22.12) — любая точка на высекаемой окружностью хорде, тогда $\angle AM_1B > 90^\circ$ и, следовательно, на отрезке $AB$ существует точка $B_1$ такая, что $\angle AM_1B_1 = 90^\circ$. Таким образом, если минимальный отрезок существует, то окружность, описанная около существующего треугольника, касается стороны угла. Докажем существование минимального отрезка, выведя формулу
 
@@ -288,7 +288,7 @@ $$= \sqrt{(a + x)^2(a^2 - x^2)} = \sqrt{-x^4 - 2ax^3 + 2a^3x + a^4} .$$
 
 для вычисления длины отрезка $AB$. Итак, пусть имеет место тот случай расположения точек $A, M, B$, когда окружность, построенная на $AB$ как на диаметре касается стороны угла в точке $M$ (рис. 22.13) и пусть $P$ — середина отрезка $AB$, $MP = x$.
 
-![Рис. 22.13](assets/amel_g06_s01_zadachi_na_dokazatelstvo_i_vychislenie/p320-fig1.png)
+![Рис. 22.13](assets/amel_g06_s01_zadachi_na_dokazatelstvo_i_vychislenie/p319-fig1.png)
 
 Тогда $AB = 2x$, $OP = a - x$, $\sin \phi = \frac{x}{a - x}$, откуда $x = \frac{a \sin \phi}{1 + \sin \phi}$.
 
@@ -300,7 +300,7 @@ $$= \sqrt{(a + x)^2(a^2 - x^2)} = \sqrt{-x^4 - 2ax^3 + 2a^3x + a^4} .$$
 
 **Решение.** Пусть $R_1$ и $R_2$ — радиусы окружностей, описанных соответственно около треугольников $MCA$ и $BCM$, $\angle AMC = \phi$, $BC = a$, $AC = b$ (рис. 22.14).
 
-![Рис. 22.14](assets/amel_g06_s01_zadachi_na_dokazatelstvo_i_vychislenie/p320-fig2.png)
+![Рис. 22.14](assets/amel_g06_s01_zadachi_na_dokazatelstvo_i_vychislenie/p319-fig2.png)
 
 Тогда по расширенной теореме синусов $2R_1 = \frac{b}{\sin \phi}$, $2R_2 = \frac{a}{\sin(\pi - \phi)} = \frac{a}{\sin \phi}$, откуда следует, что $\frac{R_1}{R_2} = \frac{b}{a}$ и что дает ответ на первый вопрос.
 
@@ -316,7 +316,7 @@ $$= \sqrt{(a + x)^2(a^2 - x^2)} = \sqrt{-x^4 - 2ax^3 + 2a^3x + a^4} .$$
 
 **Решение.** Пусть треугольник $ABC$ (рис. 22.15) имеет периметр $P_{\Delta ABC} = 2p$, $AB = c$, $A_1B_1 = x$, где $A_1$ и $B_1$ — концы отрезка касательной к вписанной в треугольник $ABC$ окружности.
 
-![Рис. 22.15](assets/amel_g06_s01_zadachi_na_dokazatelstvo_i_vychislenie/p321-fig1.png)
+![Рис. 22.15](assets/amel_g06_s01_zadachi_na_dokazatelstvo_i_vychislenie/p320-fig3.png)
 
 Тогда так как треугольник $A_1B_1C$ подобен треугольнику $ABC$, то $\frac{P_{\Delta A_1B_1C}}{P_{\Delta ABC}} = \frac{x}{c}$ или, замечая, что $P_{\Delta A_1B_1C} = AC + BC - AB = 2p - 2c$, имеем $\frac{2p - 2c}{2p} = \frac{x}{c}$, откуда $x = \frac{c(p - c)}{p}$. Из вида числителя в правой части последнего равенства следует, что максимум $x$ достигается при $c = p/2$ и этот максимум равен $p/4$.
 
