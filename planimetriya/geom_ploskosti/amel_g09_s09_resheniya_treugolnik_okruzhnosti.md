@@ -131,11 +131,11 @@ $2(p-c) \sqrt{\frac{(p-a)(p-b)}{ab}}$.
 
 **9.9C.** Обозначим радиус окружности, вписанной в треугольник $ABC$, через $r$, $AD = AF = x$, $DB = BE = y$, $EC = CF = z$ (рис. 9.10C). Тогда $y + z = a$, $yz = 4r^2$ (свойство 3.8). Пусть далее $p$ — полупериметр треугольника $ABC$. В рассматриваемой задаче $p = x + y + z = x + a$.
 
-![Рис. 9.10C](assets/amel_g09_s09_resheniya_treugolnik_okruzhnosti/p429-fig1.png)
-
 ---
 **стр. 428**
 ---
+
+![Рис. 9.10C](assets/amel_g09_s09_resheniya_treugolnik_okruzhnosti/p428-fig1.png)
 
 Глава 9. Решения задач группы С
 
