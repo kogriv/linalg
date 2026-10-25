@@ -53,7 +53,7 @@ $$\overrightarrow{BB_1}\cdot\overrightarrow{CC_1}=0. \qquad (1)$$
 $$\overrightarrow{BB_1} = \overrightarrow{AB_1} - \overrightarrow{AB} = \frac12\vec q - \vec p,$$
 $$\overrightarrow{CC_1} = \overrightarrow{AC_1} - \overrightarrow{AC} = \frac12\vec p - \vec q.$$
 
-![Рис. 96](assets/klopskiy_stereometria_g02_s14_primenenie_vektorov_k_resheniyu_zadach/p64-fig1.png)
+![Рис. 96](assets/klopskiy_stereometria_g02_s14_primenenie_vektorov_k_resheniyu_zadach/p61-fig1.png)
 
 Из равенства (1) следует:
 
@@ -67,7 +67,7 @@ $$\frac54 m^2\cos\varphi - m^2 = 0,$$
 
 отсюда $\cos\varphi = 0{,}8$; $\varphi \approx 37^\circ$.
 
-![Рис. 97](assets/klopskiy_stereometria_g02_s14_primenenie_vektorov_k_resheniyu_zadach/p64-fig2.png)
+![Рис. 97](assets/klopskiy_stereometria_g02_s14_primenenie_vektorov_k_resheniyu_zadach/p61-fig2.png)
 
 Задача 2. В параллелепипеде $ABCDA_1B_1C_1D_1$ (рис. 97) грань $ABCD$ — квадрат со стороной $a$; ребро $AA_1$ также равно $a$ и образует с рёбрами $AB$ и $AD$ углы, равные $\alpha$. Найти длину диагонали $BD_1$ и угол между прямыми $BD_1$ и $AC$.
 
@@ -117,8 +117,8 @@ $$m_a = \frac12\sqrt{2b^2+2c^2-a^2}.$$
 
 2) Найдите равнодействующую трёх сил по $10$ Н каждая, если силы приложены к одной точке и углы между силами $90^\circ$, $60^\circ$, $60^\circ$ (рис. 98).
 
-![Рис. 98](assets/klopskiy_stereometria_g02_s14_primenenie_vektorov_k_resheniyu_zadach/p65-fig1.png)
+![Рис. 98](assets/klopskiy_stereometria_g02_s14_primenenie_vektorov_k_resheniyu_zadach/p62-fig1.png)
 
 **234.** Груз равномерно перемещают по горизонтальной плоскости с помощью двух канатов, один из которых образует угол $15^\circ$, а другой — $20^\circ$ с направлением движения (рис. 99). Сила натяжения каждого каната равна $50$ кН. Какую работу нужно затратить для перемещения груза на $100$ м? (Трением пренебрегаем.)
 
-![Рис. 99](assets/klopskiy_stereometria_g02_s14_primenenie_vektorov_k_resheniyu_zadach/p65-fig2.png)
+![Рис. 99](assets/klopskiy_stereometria_g02_s14_primenenie_vektorov_k_resheniyu_zadach/p62-fig2.png)

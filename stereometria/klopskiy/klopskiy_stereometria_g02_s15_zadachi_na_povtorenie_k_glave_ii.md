@@ -32,7 +32,7 @@
 
 **245.** Прямые $p$ и $p_1$ пересекаются в точке $O$ (рис. 100). На прямой $p$ даны точки $A$, $B$, $C$ и для них построены на прямой $p_1$ точки $A_1$, $B_1$, $C_1$ так, что $(AB_1) \parallel (A_1B)$, $(BC_1) \parallel (B_1C)$. Доказать, что $(AC_1) \parallel (A_1C)$.
 
-![Рис. 100](assets/klopskiy_stereometria_g02_s15_zadachi_na_povtorenie_k_glave_ii/p66-fig1.png)
+![Рис. 100](assets/klopskiy_stereometria_g02_s15_zadachi_na_povtorenie_k_glave_ii/p63-fig1.png)
 
 Решение. Из условия задачи и теоремы о пропорциональных
 
@@ -68,7 +68,7 @@ $$\overrightarrow{OO_1} = \frac{1}{4}(\overrightarrow{AA_1} + \overrightarrow{BB
 
 Решение. Дано: $[AB] \parallel [DE]$, $[BC] \parallel [EF]$, $[CD] \parallel [FA]$ (рис. 101).
 
-![Рис. 101](assets/klopskiy_stereometria_g02_s15_zadachi_na_povtorenie_k_glave_ii/p67-fig1.png)
+![Рис. 101](assets/klopskiy_stereometria_g02_s15_zadachi_na_povtorenie_k_glave_ii/p64-fig1.png)
 
 Доказать: $|AB| = |DE|$, $|BC| =$
 $= |EF|$, $|CD| = |FA|$.

@@ -57,7 +57,7 @@ $$0\vec{a} = \vec{0} \text{ для любого } \vec{a}.$$
 
 Если же $\vec b=\vec 0$, то $x=0$. ■
 
-![Рис. 79](assets/klopskiy_stereometria_g02_s07_kollinearnye_vektory_umnozhenie_vektora_na_chislo/p52-fig1.png)
+![Рис. 79](assets/klopskiy_stereometria_g02_s07_kollinearnye_vektory_umnozhenie_vektora_na_chislo/p49-fig1.png)
 
 **Задачи**
 

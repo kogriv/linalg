@@ -4,9 +4,9 @@
 **стр. 88**
 ---
 
-![Рис. 141](assets/klopskiy_stereometria_g03_s11_dvugrannyy_ugol_izmerenie_dvugrannykh_uglov/p91-fig1.png)
+![Рис. 141](assets/klopskiy_stereometria_g03_s11_dvugrannyy_ugol_izmerenie_dvugrannykh_uglov/p88-fig1.png)
 
-![Рис. 142](assets/klopskiy_stereometria_g03_s11_dvugrannyy_ugol_izmerenie_dvugrannykh_uglov/p91-fig2.png)
+![Рис. 142](assets/klopskiy_stereometria_g03_s11_dvugrannyy_ugol_izmerenie_dvugrannykh_uglov/p88-fig2.png)
 
 лом $\beta$ к другой стороне ромба. Найдите площадь проекции ромба на эту плоскость.
 
@@ -22,11 +22,11 @@
 
 Двугранный угол (рис. 144) является выпуклой фигурой. Каждый двугранный угол ограничен двумя полуплоскостями,
 
-![Рис. 143](assets/klopskiy_stereometria_g03_s11_dvugrannyy_ugol_izmerenie_dvugrannykh_uglov/p91-fig3.png)
+![Рис. 143](assets/klopskiy_stereometria_g03_s11_dvugrannyy_ugol_izmerenie_dvugrannykh_uglov/p88-fig3.png)
 
-![Рис. 144](assets/klopskiy_stereometria_g03_s11_dvugrannyy_ugol_izmerenie_dvugrannykh_uglov/p91-fig4.png)
+![Рис. 144](assets/klopskiy_stereometria_g03_s11_dvugrannyy_ugol_izmerenie_dvugrannykh_uglov/p88-fig4.png)
 
-![Рис. 145](assets/klopskiy_stereometria_g03_s11_dvugrannyy_ugol_izmerenie_dvugrannykh_uglov/p91-fig5.png)
+![Рис. 145](assets/klopskiy_stereometria_g03_s11_dvugrannyy_ugol_izmerenie_dvugrannykh_uglov/p88-fig5.png)
 
 
 ---
@@ -57,7 +57,7 @@ $$\gamma \cap \angle \alpha a \beta = \angle AOB.$$
 
 ¹ Величину линейного угла для краткости также называют линейным углом.
 
-![Рис. 146](assets/klopskiy_stereometria_g03_s11_dvugrannyy_ugol_izmerenie_dvugrannykh_uglov/p92-fig146.png)
+![Рис. 146](assets/klopskiy_stereometria_g03_s11_dvugrannyy_ugol_izmerenie_dvugrannykh_uglov/p89-fig146.png)
 
 ---
 **стр. 90**
@@ -79,18 +79,18 @@ $$(\widehat{\alpha, \beta}) = \varphi, \text{ где } 0^\circ \leqslant \varphi
 
 353. Дан куб $ABCDA_1B_1C_1D_1$. Рассмотрите двугранный угол с ребром $AB$ и гранями, проходящими через точки $D_1$ и $D$ (рис. 147). Вычислите $D\hat{A}D_1$ и $D\hat{B}D_1$. Какой из этих углов служит линейным углом данного двугранного угла?
 
-![Рис. 147](assets/klopskiy_stereometria_g03_s11_dvugrannyy_ugol_izmerenie_dvugrannykh_uglov/p93-fig147.png)
+![Рис. 147](assets/klopskiy_stereometria_g03_s11_dvugrannyy_ugol_izmerenie_dvugrannykh_uglov/p90-fig147.png)
 
 354°. 1) Можно ли считать линейным углом двугранного угла угол, стороны которого — два луча, проведенные в гранях двугранного угла из одной точки ребра?
 2) Равен ли линейному углу двугранного угла угол между двумя лучами, перпендикулярными его ребру и лежащими в его гранях?
 
 355°. Сторона $BC$ прямоугольника $ABCD$ служит стороной треугольника $BCF$ (рис. 148), причем вершина $F$ проектируется на $(DC)$. Назовите линейный угол двугранного угла $BC$.
 
-![Рис. 148](assets/klopskiy_stereometria_g03_s11_dvugrannyy_ugol_izmerenie_dvugrannykh_uglov/p93-fig148.png)
+![Рис. 148](assets/klopskiy_stereometria_g03_s11_dvugrannyy_ugol_izmerenie_dvugrannykh_uglov/p90-fig148.png)
 
 356. Дано изображение равнобедренной трапеции $ABCD$ и треугольника $ABM$ (рис. 149). Отрезок $MC$ изображает перпендикуляр, проведенный из точки $M$ к плоскости $ABC$. Постройте линейный угол двугранного угла $AB$ так, чтобы одна из его сторон проходила через точку $M$.
 
-![Рис. 149](assets/klopskiy_stereometria_g03_s11_dvugrannyy_ugol_izmerenie_dvugrannykh_uglov/p93-fig149.png)
+![Рис. 149](assets/klopskiy_stereometria_g03_s11_dvugrannyy_ugol_izmerenie_dvugrannykh_uglov/p90-fig149.png)
 
 357. Найдите множество всех точек:
 1) принадлежащих одной грани двугранного угла и удаленных от плоскости
@@ -106,7 +106,7 @@ $$(\widehat{\alpha, \beta}) = \varphi, \text{ где } 0^\circ \leqslant \varphi
 
 **358.** 1) Вычислите угол заострения стамески по размерам, указанным на рисунке 150.
 
-![Рис. 150](assets/klopskiy_stereometria_g03_s11_dvugrannyy_ugol_izmerenie_dvugrannykh_uglov/p94-fig1.png)
+![Рис. 150](assets/klopskiy_stereometria_g03_s11_dvugrannyy_ugol_izmerenie_dvugrannykh_uglov/p91-fig1.png)
 
 2) Из заготовки толщиной 2,0 мм нужно изготовить стамеску с углом заострения в $12^\circ$. На каком расстоянии от края заготовки должна начинаться сточенная часть?
 
@@ -114,7 +114,7 @@ $$(\widehat{\alpha, \beta}) = \varphi, \text{ где } 0^\circ \leqslant \varphi
 
 Решение. Пусть $\widehat{\alpha m \beta} = 45^\circ$, $C \in \beta$ (рис. 151). Проведем $[CB] \perp \alpha$ и $[CD] \perp m$, где $B \in \alpha$, $D \in m$. По теореме о трех перпендикулярах отрезок $BD$ перпендикулярен ребру $m$. Тогда $\angle BDC$ — линейный угол данного двугранного угла.
 
-![Рис. 151](assets/klopskiy_stereometria_g03_s11_dvugrannyy_ugol_izmerenie_dvugrannykh_uglov/p94-fig2.png)
+![Рис. 151](assets/klopskiy_stereometria_g03_s11_dvugrannyy_ugol_izmerenie_dvugrannykh_uglov/p91-fig2.png)
 
 Имеем: $|CD| = a$, $\widehat{BDC} = 45^\circ$; требуется найти $|BC|$. Из прямоугольного треугольника $BCD$ получим:
 $$|BC| = |CD| \cdot \sin \widehat{BDC} = a \sin 45^\circ = \frac{a\sqrt{2}}{2}.$$
@@ -127,7 +127,7 @@ $$|BC| = |CD| \cdot \sin \widehat{BDC} = a \sin 45^\circ = \frac{a\sqrt{2}}{2}.$
 
 2) На изображении параллелепипеда $ABCDA_1B_1C_1D_1$ (рис. 152) укажите несколько пар равных по величине двугранных углов.
 
-![Рис. 152](assets/klopskiy_stereometria_g03_s11_dvugrannyy_ugol_izmerenie_dvugrannykh_uglov/p94-fig3.png)
+![Рис. 152](assets/klopskiy_stereometria_g03_s11_dvugrannyy_ugol_izmerenie_dvugrannykh_uglov/p91-fig3.png)
 
 **362.** Эскалатор (движущаяся лестница) одной из станций Московского метрополитена в наклонной части имеет 170 ступенек. Ширина ступеньки 40 см, а высота 20 см. Вычислите: 1) глубину подземной станции; 2) длину спуска; 3) угол наклона лестницы к горизонтальной плоскости пола станции.
 
@@ -137,7 +137,7 @@ $$|BC| = |CD| \cdot \sin \widehat{BDC} = a \sin 45^\circ = \frac{a\sqrt{2}}{2}.$
 
 **363.** Вычислите толщину $m$ каменноугольного пласта, наклоненного под углом $\varphi = 34^\circ 40'$ к плоскости горизонта, если при вертикальном бурении установлено, что глубина пласта $b = 4{,}4$ м (рис. 153).
 
-![Рис. 153](assets/klopskiy_stereometria_g03_s11_dvugrannyy_ugol_izmerenie_dvugrannykh_uglov/p95-fig1.png)
+![Рис. 153](assets/klopskiy_stereometria_g03_s11_dvugrannyy_ugol_izmerenie_dvugrannykh_uglov/p92-fig1.png)
 
 **364.** 1) Через катет $AC$ прямоугольного треугольника $ABC$ ($\widehat{C} = 90^\circ$) проведена плоскость $\alpha$, образующая с плоскостью треугольника угол $\varphi$. Найдите расстояние от вершины $B$ до плоскости $\alpha$, если $|AB| = c$, $|AC| = b$.
 
@@ -157,7 +157,7 @@ $$\vec{a}\cdot\vec{c} = 0,\quad \vec{b}\cdot\vec{c} = 0$$
 и
 $$|AB|^2 = a^2 + b^2 + c^2 - 2\vec{a}\cdot\vec{b}. \quad (1)$$
 
-![Рис. 154](assets/klopskiy_stereometria_g03_s11_dvugrannyy_ugol_izmerenie_dvugrannykh_uglov/p95-fig2.png)
+![Рис. 154](assets/klopskiy_stereometria_g03_s11_dvugrannyy_ugol_izmerenie_dvugrannykh_uglov/p92-fig2.png)
 
 Векторы $\vec{a}$ и $\vec{b}$ сонаправлены сторонам линейного угла, поэтому $(\widehat{\vec{a}, \vec{b}}) = \varphi$.
 

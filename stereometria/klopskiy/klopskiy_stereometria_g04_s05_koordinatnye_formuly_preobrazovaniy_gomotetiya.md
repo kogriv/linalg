@@ -45,7 +45,7 @@ $$x_1 = a + x,\quad y_1 = b + y,\quad z_1 = c + z.$$
 **стр. 114**
 ---
 
-![Рис. 12 и 13](assets/klopskiy_stereometria_g04_s05_koordinatnye_formuly_preobrazovaniy_gomotetiya/p117-fig1.png)
+![Рис. 12 и 13](assets/klopskiy_stereometria_g04_s05_koordinatnye_formuly_preobrazovaniy_gomotetiya/p114-fig1.png)
 
 Задача 2. Найти координатные формулы гомотетии с центром в начале координат и коэффициентом $k$.
 
@@ -63,7 +63,7 @@ $$ax + by + cz + d = 0. \tag{1}$$
 
 Чтобы найти уравнение образа плоскости $\alpha$, воспользуемся координатными формулами гомотетии (задача 2). Имеем: $x_1 = kx$, $y_1 = ky$, $z_1 = kz$. Выразив из этих формул $x$, $y$, $z$ и подставив их значения в уравнение $(1)$, получим уравнение:
 
-![Рис. 14](assets/klopskiy_stereometria_g04_s05_koordinatnye_formuly_preobrazovaniy_gomotetiya/p117-fig2.png)
+![Рис. 14](assets/klopskiy_stereometria_g04_s05_koordinatnye_formuly_preobrazovaniy_gomotetiya/p114-fig2.png)
 
 $$\frac{a}{k}x_1 + \frac{b}{k}y_1 + \frac{c}{k}z_1 + d = 0.$$
 

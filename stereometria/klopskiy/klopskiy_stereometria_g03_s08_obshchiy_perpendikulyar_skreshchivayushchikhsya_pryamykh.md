@@ -45,13 +45,13 @@
 
 Заметим, что расстояние между двумя скрещивающимися прямыми равно расстоянию между параллельными плоскостями, содержащими данные прямые (рис. 128).
 
-![Рис. 128](assets/klopskiy_stereometria_g03_s08_obshchiy_perpendikulyar_skreshchivayushchikhsya_pryamykh/p85-fig1.png)
+![Рис. 128](assets/klopskiy_stereometria_g03_s08_obshchiy_perpendikulyar_skreshchivayushchikhsya_pryamykh/p82-fig1.png)
 
 ## Задачи
 
 **324.** На изображении прямоугольного параллелепипеда $ABCDA_1B_1C_1D_1$ (рис. 129) укажите общий перпендикуляр прямых: 1) $A_1D_1$ и $BB_1$; 2) $DC$ и $B_1C_1$; 3) $CC_1$ и $AB$.
 
-![Рис. 129](assets/klopskiy_stereometria_g03_s08_obshchiy_perpendikulyar_skreshchivayushchikhsya_pryamykh/p85-fig2.png)
+![Рис. 129](assets/klopskiy_stereometria_g03_s08_obshchiy_perpendikulyar_skreshchivayushchikhsya_pryamykh/p82-fig2.png)
 
 **325.** Одна из двух скрещивающихся прямых лежит в плоскости $\alpha$, другая — перпендикулярна $\alpha$. Как расположен общий перпендикуляр данных прямых?
 
@@ -63,4 +63,4 @@
 
 **329.** Через середину общего перпендикуляра $[MN]$ двух скрещивающихся прямых проведена плоскость $\gamma$, перпендикулярная $(MN)$. Докажите, что $\gamma$ делит пополам любой отрезок, соединяющий точку одной прямой с точкой другой прямой.
 
-![Рис. 130](assets/klopskiy_stereometria_g03_s08_obshchiy_perpendikulyar_skreshchivayushchikhsya_pryamykh/p85-fig3.png)
+![Рис. 130](assets/klopskiy_stereometria_g03_s08_obshchiy_perpendikulyar_skreshchivayushchikhsya_pryamykh/p82-fig3.png)

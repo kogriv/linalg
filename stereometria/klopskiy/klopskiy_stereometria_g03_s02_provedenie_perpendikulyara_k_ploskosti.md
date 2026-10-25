@@ -87,7 +87,7 @@ $$\overrightarrow{A_1C}=\vec a+\vec b+\vec c;\quad \overrightarrow{AB_1}=\overri
 
 Следовательно, $(A_1C)\perp(AB_1D_1)$. ■
 
-![Рис. 110](assets/klopskiy_stereometria_g03_s02_provedenie_perpendikulyara_k_ploskosti/p74-fig110.png)
+![Рис. 110](assets/klopskiy_stereometria_g03_s02_provedenie_perpendikulyara_k_ploskosti/p71-fig110.png)
 
 278. Дан прямоугольный параллелепипед $ABCDA_1B_1C_1D_1$, у которого $|AB|=2|BC|$, $|AA_1|=|BC|$. 1) Докажите, что прямая $BD_1$ не перпендикулярна плоскости $A_1C_1D$. 2) Вычислите углы между прямой $BD_1$ и прямыми $A_1C_1$, $C_1D$, $DA_1$.
 
@@ -97,4 +97,4 @@ $$\overrightarrow{A_1C}=\vec a+\vec b+\vec c;\quad \overrightarrow{AB_1}=\overri
 
 1) Произвольную точку $M$, принадлежащую плоскости $\alpha$, соединим с точками $A$, $B$, $O$. Прямоугольные треугольники $AOM$ и $BOM$, лежащие в одной плоскости $(ABM)=\beta$, конгруэнтны (по двум катетам), отсюда $|MA|=|MB|$.
 
-![Рис. 111](assets/klopskiy_stereometria_g03_s02_provedenie_perpendikulyara_k_ploskosti/p74-fig111.png)
+![Рис. 111](assets/klopskiy_stereometria_g03_s02_provedenie_perpendikulyara_k_ploskosti/p71-fig111.png)

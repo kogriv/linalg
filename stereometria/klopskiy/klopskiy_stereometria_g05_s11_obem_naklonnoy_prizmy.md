@@ -33,9 +33,9 @@
 **стр. 139**
 ---
 
-![Рис. 65](assets/klopskiy_stereometria_g05_s11_obem_naklonnoy_prizmy/p142-fig65.png)
+![Рис. 65](assets/klopskiy_stereometria_g05_s11_obem_naklonnoy_prizmy/p139-fig65.png)
 
-![Рис. 66](assets/klopskiy_stereometria_g05_s11_obem_naklonnoy_prizmy/p142-fig66.png)
+![Рис. 66](assets/klopskiy_stereometria_g05_s11_obem_naklonnoy_prizmy/p139-fig66.png)
 
 ству $V_{A_3C_1} = V_{AC_1} + V_{A_3C}$ и $V_{A_3C} = V_{A_3C_2} + V_{A_2C}$. Тогда $V_{AC_1} + V_{A_3C} =$
 $= V_{A_3C_2} + V_{A_2C}$, отсюда $V_{AC_1} = V_{A_3C_2}$. Применим формулу объема

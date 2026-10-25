@@ -16,7 +16,7 @@
 
 Доказательство. Пусть даны два вектора $\vec{a}$ и $\vec{b}$. Докажем, что их композиция есть некоторый вектор. Рассмотрим две произвольные различные точки $M$ и $N$. Имеем: $\vec{a}(M) = M_1$, $\vec{a}(N) = N_1$, $\vec{b}(M_1) = M_2$, $\vec{b}(N_1) = N_2$ (рис. 71).
 
-![Рис. 71](assets/klopskiy_stereometria_g02_s05_slozhenie_vektorov/p47-fig1.png)
+![Рис. 71](assets/klopskiy_stereometria_g02_s05_slozhenie_vektorov/p44-fig1.png)
 
 Тогда композиция $\vec{b} \circ \vec{a}$ отображает точки $M$ и $N$ соответственно на точки $M_2$ и $N_2$. Для доказательства теоремы достаточно убедиться, что $\overrightarrow{MM_2} = \overrightarrow{NN_2}$. Вектор является перемещением (§ 17, свойство 1). Поэтому $|MN| = |M_1N_1|$ и $|M_1N_1| = |M_2N_2|$. Отсюда $|MN| = |M_2N_2|$ (1). Вектор отображает каждый луч на сонаправленный с ним луч (§ 17, свойство 2), тогда $[MN) \uparrow\uparrow [M_1N_1)$ и $[M_1N_1) \uparrow\uparrow [M_2N_2)$. Отсюда следует (§ 16), что $[MN) \uparrow\uparrow [M_2N_2)$. (2)
 
@@ -26,7 +26,7 @@
 
 Рассмотрим произвольные точки $A$, $B$, $C$ (рис. 72, а).
 
-![Рис. 72](assets/klopskiy_stereometria_g02_s05_slozhenie_vektorov/p47-fig2.png)
+![Рис. 72](assets/klopskiy_stereometria_g02_s05_slozhenie_vektorov/p44-fig2.png)
 
 Из теоремы о композиции двух векторов вытекает равенство:
 

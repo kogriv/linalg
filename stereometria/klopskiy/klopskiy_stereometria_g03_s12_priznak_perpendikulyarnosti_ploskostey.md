@@ -36,7 +36,7 @@ $|AB|=14\text{ см},\ |DC|=8\text{ см},\ |AC|=|BC|=|AD|=|BD|=9\text{ см}$.
 
 369. Докажите перпендикулярность плоскостей двух смежных боковых граней прямоугольного параллелепипеда.
 
-![Рис. 155](assets/klopskiy_stereometria_g03_s12_priznak_perpendikulyarnosti_ploskostey/p96-fig1.png)
+![Рис. 155](assets/klopskiy_stereometria_g03_s12_priznak_perpendikulyarnosti_ploskostey/p93-fig1.png)
 
 ---
 **стр. 94**
@@ -64,7 +64,7 @@ $|AB|=14\text{ см},\ |DC|=8\text{ см},\ |AC|=|BC|=|AD|=|BD|=9\text{ см}$.
 
 380. Две прямоугольные трапеции с углами $60^\circ$ лежат в перпендикулярных плоскостях и имеют общее большее основание. Большие боковые стороны трапеций равны $4\text{ см}$ и $8\text{ см}$. Найдите расстояние между вершинами прямых и между вершинами тупых углов трапеций, если известно, что вершины их острых углов совпадают.
 
-![Рис. 156](assets/klopskiy_stereometria_g03_s12_priznak_perpendikulyarnosti_ploskostey/p97-fig1.png)
+![Рис. 156](assets/klopskiy_stereometria_g03_s12_priznak_perpendikulyarnosti_ploskostey/p94-fig1.png)
 
 381. Даны две различные параллельные прямые $a$ и $b$. Укажите оси симметрии, отображающих $a$ на $b$. Какой фигурой является объединение всех таких осей?
 

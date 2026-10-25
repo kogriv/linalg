@@ -16,12 +16,12 @@
 
 Пусть дана плоскость $\alpha$ и прямая $l$, пересекающая $\alpha$ (рис. 39). Возьмем произвольную точку $A_1$; через нее проведем прямую $l_1$, параллельную прямой $l$. Прямая $l_1$ пересечет $\alpha$ в некоторой точке $A$ (рис. 39). Полученную таким способом точку $A$ назовем проекцией точки $A_1$ на плоскость $\alpha$ при проектировании параллельно прямой $l$ (короче, точка $A$ — параллельная проекция точки $A_1$). **Параллельной проекцией фигуры** $\Phi_1$ назовем множество $\Phi$ параллельных проекций всех точек данной фигуры.
 
-![Рис. 39](assets/klopskiy_stereometria_g01_s12_parallelnaya_proektsiya_figury_svoystva_parallelnoy_proektsi/p29-fig1.png)
+![Рис. 39](assets/klopskiy_stereometria_g01_s12_parallelnaya_proektsiya_figury_svoystva_parallelnoy_proektsi/p26-fig1.png)
 
 Представление о параллельной проекции фигуры получим, рассматривая тень, которую отбрасывает на стену в солнечный день картонная или проволочная модель этой фигуры (рис. 40 и 41). Солнечные лучи можно приближенно считать параллельными вследствие большой удаленности Солнца от Земли.
 
-![Рис. 40](assets/klopskiy_stereometria_g01_s12_parallelnaya_proektsiya_figury_svoystva_parallelnoy_proektsi/p29-fig2.png)
+![Рис. 40](assets/klopskiy_stereometria_g01_s12_parallelnaya_proektsiya_figury_svoystva_parallelnoy_proektsi/p26-fig2.png)
 
 Модель правильного шестиугольника $A_1B_1C_1D_1E_1F_1$ (рис. 41) отбрасывает на стену тень в виде многоугольника $ABCDEF$. Рассматривая эту тень (при различ-
 
-![Рис. 41](assets/klopskiy_stereometria_g01_s12_parallelnaya_proektsiya_figury_svoystva_parallelnoy_proektsi/p29-fig3.png)
+![Рис. 41](assets/klopskiy_stereometria_g01_s12_parallelnaya_proektsiya_figury_svoystva_parallelnoy_proektsi/p26-fig3.png)

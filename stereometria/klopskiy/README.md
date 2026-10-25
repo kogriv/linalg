@@ -95,8 +95,29 @@
 
 **Глава 6. Глава VI. Фигуры вращения**
 - [[klopskiy_stereometria_g06_s01_izobrazhenie_okruzhnosti_ellips|6.1. Изображение окружности. Эллипс (§ 59)]] (стр. 147–148)
-- [[klopskiy_stereometria_g06_s02_figura_vrashcheniya_tsilindr|6.2. Фигура вращения. Цилиндр (§ 60)]] (стр. 149–150, не окончен)
+- [[klopskiy_stereometria_g06_s02_figura_vrashcheniya_tsilindr|6.2. Фигура вращения. Цилиндр (§ 60)]] (стр. 149–151)
+- [[klopskiy_stereometria_g06_s03_konus_usechennyy_konus|6.3. Конус. Усеченный конус (§ 61)]] (стр. 152–153)
+- [[klopskiy_stereometria_g06_s04_sfera_i_shar|6.4. Сфера и шар (§ 62)]] (стр. 154)
+- [[klopskiy_stereometria_g06_s05_sechenie_sfery_izobrazhenie_sfery|6.5. Сечение сферы. Изображение сферы (§ 63)]] (стр. 155–157)
+- [[klopskiy_stereometria_g06_s06_ploskost_kasatelnaya_k_sfere|6.6. Плоскость, касательная к сфере (§ 64)]] (стр. 158)
+- [[klopskiy_stereometria_g06_s07_obobshchenie_zadachi_izmereniya_obemov_obem_tsilindra|6.7. Обобщение задачи измерения объемов. Объем цилиндра (§ 65)]] (стр. 159–160)
+- [[klopskiy_stereometria_g06_s08_obem_figury_poluchennoy_pri_vrashchenii_krivolineynoy|6.8. Объем фигуры, полученной при вращении криволинейной трапеции (§ 66)]] (стр. 161–162)
+- [[klopskiy_stereometria_g06_s09_obem_konusa|6.9. Объем конуса (§ 67)]] (стр. 163)
+- [[klopskiy_stereometria_g06_s10_obem_shara|6.10. Объем шара (§ 68)]] (стр. 164)
+- [[klopskiy_stereometria_g06_s11_ploshchad_sfery|6.11. Площадь сферы (§ 69)]] (стр. 165–166)
+- [[klopskiy_stereometria_g06_s12_zadachi_na_povtorenie_k_glave_vi|6.12. Задачи на повторение к главе VI]] (стр. 167–170)
 
-Разбор в процессе. Дальше — продолжение «6.2. Фигура вращения. Цилиндр» со стр. 151.
+**Глава 7. Справочный материал и приложения**
+- [[klopskiy_stereometria_g07_s01_voprosy_dlya_povtoreniya|7.1. Вопросы для повторения]] (стр. 171–174)
+- [[klopskiy_stereometria_g07_s02_zadachi_na_povtorenie_po_kursu_x|7.2. Задачи на повторение по курсу X класса]] (стр. 175–184)
+- [[klopskiy_stereometria_g07_s03_istoricheskiy_ocherk|7.3. Исторический очерк]] (стр. 185–192)
+- [[klopskiy_stereometria_g07_s04_kratkaya_svodka_svedeniy_po_kursu_planimetrii|7.4. Краткая сводка сведений по курсу планиметрии]] (стр. 193–216)
+- [[klopskiy_stereometria_g07_s05_formuly_geometrii|7.5. Формулы геометрии]] (стр. 217–219)
+- [[klopskiy_stereometria_g07_s06_prilozheniya|7.6. Приложения]] (стр. 220–235)
+- [[klopskiy_stereometria_g07_s07_otvety_i_ukazaniya|7.7. Ответы и указания]] (стр. 236–247)
+- [[klopskiy_stereometria_g07_s08_predmetnyy_ukazatel|7.8. Предметный указатель]] (стр. 248–250)
+- [[klopskiy_stereometria_g07_s09_ukazatel_primenyaemykh_simvolov|7.9. Указатель применяемых символов]] (стр. 251–259)
+
+Книга разобрана до конца источника (последняя печатная страница — 259).
 
 <!-- конец автогенерируемого блока apokrif -->

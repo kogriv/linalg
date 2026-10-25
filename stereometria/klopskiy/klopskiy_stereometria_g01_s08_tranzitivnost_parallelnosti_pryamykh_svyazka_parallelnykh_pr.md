@@ -16,7 +16,7 @@
 
 Доказательство. Пусть прямая $a$ параллельна прямой $b$ (рис. 21).
 
-![Рис. 21](assets/klopskiy_stereometria_g01_s08_tranzitivnost_parallelnosti_pryamykh_svyazka_parallelnykh_pr/p21-fig1.png)
+![Рис. 21](assets/klopskiy_stereometria_g01_s08_tranzitivnost_parallelnosti_pryamykh_svyazka_parallelnykh_pr/p18-fig1.png)
 
 Через $a$ проведена плоскость $\alpha$, через $b$ — плоскость $\beta$, причём пересечением плоскостей $\alpha$ и $\beta$ служит прямая $c$. Докажем, что $c \parallel a$. По признаку параллельности прямой и плоскости заключаем, что прямая $a$ параллельна плоскости $\beta$, но тогда $c \parallel a$ (§ 7, теорема 3). Аналогично доказывается, что $c \parallel b$.
 
@@ -24,7 +24,7 @@
 
 Доказательство. Пусть $a \parallel c$ и $b \parallel c$, причём $a$, $b$ и $c$ не лежат в одной плоскости (рис. 22).
 
-![Рис. 22](assets/klopskiy_stereometria_g01_s08_tranzitivnost_parallelnosti_pryamykh_svyazka_parallelnykh_pr/p21-fig2.png)
+![Рис. 22](assets/klopskiy_stereometria_g01_s08_tranzitivnost_parallelnosti_pryamykh_svyazka_parallelnykh_pr/p18-fig2.png)
 
 Возьмём на прямой $a$ произвольную точку $M$. Через $c$ и $M$, $b$ и $M$ проведём соответственно плоскости $\alpha$ и $\beta$; по теореме 4 линия $MN$ пересечения этих плоскостей параллельна прямой $b$ и прямой $c$. Через точку $M$ нельзя провести две различные прямые, параллельные прямой $c$ (§ 4, задача), поэтому прямые $MN$ и $a$ совпадают. Но так как $(MN) \parallel b$, то и $a \parallel b$.
 

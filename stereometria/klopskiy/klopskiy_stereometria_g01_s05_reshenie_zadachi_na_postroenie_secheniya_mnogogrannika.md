@@ -27,5 +27,5 @@
 ---
 ^1^ Понятия «многогранник», «пирамида», «параллелепипед» и т. п. будут определены в X классе. Сейчас мы основываемся на сведениях из восьмилетней школы.
 
-![Рис. 12](assets/klopskiy_stereometria_g01_s05_reshenie_zadachi_na_postroenie_secheniya_mnogogrannika/p15-fig1.png)
-![Рис. 13](assets/klopskiy_stereometria_g01_s05_reshenie_zadachi_na_postroenie_secheniya_mnogogrannika/p15-fig2.png)
+![Рис. 12](assets/klopskiy_stereometria_g01_s05_reshenie_zadachi_na_postroenie_secheniya_mnogogrannika/p12-fig1.png)
+![Рис. 13](assets/klopskiy_stereometria_g01_s05_reshenie_zadachi_na_postroenie_secheniya_mnogogrannika/p12-fig2.png)

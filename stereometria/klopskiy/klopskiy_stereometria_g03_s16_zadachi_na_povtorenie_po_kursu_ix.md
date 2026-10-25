@@ -91,7 +91,7 @@
 
 **Решение.** Имеем $a \parallel b$ (рис. 165). Выберем произвольно точку $M$ пространства, пусть $S_a(M)=M_1$, $S_b(M_1)=M_2$. Тогда композиция $S_b \circ S_a$ отобразит точку $M$ на точку $M_2$. Рассмотрим два случая.
 
-![Рис. 165](assets/klopskiy_stereometria_g03_s16_zadachi_na_povtorenie_po_kursu_ix/p106-fig1.png)
+![Рис. 165](assets/klopskiy_stereometria_g03_s16_zadachi_na_povtorenie_po_kursu_ix/p103-fig1.png)
 
 ---
 **стр. 104**

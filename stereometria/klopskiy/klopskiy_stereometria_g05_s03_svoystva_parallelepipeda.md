@@ -4,7 +4,7 @@
 **стр. 122**
 ---
 
-![Рис. 29](assets/klopskiy_stereometria_g05_s03_svoystva_parallelepipeda/p125-fig1.png)
+![Рис. 29](assets/klopskiy_stereometria_g05_s03_svoystva_parallelepipeda/p122-fig1.png)
 
 **62.** Постройте сечение четырёхугольной призмы $ABCDA_1B_1C_1D_1$ плоскостью, проходящей: 1) через точки $M$, $N$, $P$, принадлежащие рёбрам $BB_1$, $CC_1$, $AD$; 2) через ребро $B_1C_1$ и вершину $A$.
 
@@ -24,7 +24,7 @@
 
 Д о к а з а т е л ь с т в о. Пусть $O$ — середина диагонали $BD_1$ параллелепипеда $ABCDA_1B_1C_1D_1$ (рис. 31). Рассмотрим центральную симметрию с центром $O$. Так как $|OB| = |OD_1|$, то $Z_o(B) = D_1$.
 
-![Рис. 30–32](assets/klopskiy_stereometria_g05_s03_svoystva_parallelepipeda/p125-fig2.png)
+![Рис. 30–32](assets/klopskiy_stereometria_g05_s03_svoystva_parallelepipeda/p122-fig2.png)
 
 
 ---

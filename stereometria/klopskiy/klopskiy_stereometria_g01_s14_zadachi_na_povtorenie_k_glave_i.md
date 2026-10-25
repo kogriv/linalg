@@ -24,7 +24,7 @@
 
 **126\*.** Даны две скрещивающиеся прямые $m$ и $n$. Через точку $P$, не принадлежащую ни одной из них, проведите прямую, пересекающую обе данные прямые (рис. 54).
 
-![Рис. 54](assets/klopskiy_stereometria_g01_s14_zadachi_na_povtorenie_k_glave_i/p35-fig1.png)
+![Рис. 54](assets/klopskiy_stereometria_g01_s14_zadachi_na_povtorenie_k_glave_i/p32-fig1.png)
 
 **127.** Дано: $\alpha \cap \beta = m$, $a \subset \alpha$, $m \cap a = A$, $\beta \cap b = B$ ($A \neq B$). Каково взаимное расположение прямых $a$ и $b$?
 
@@ -65,7 +65,7 @@
 
 Сечение $EFGH$ удовлетворяет условию задачи.
 
-![Рис. 55](assets/klopskiy_stereometria_g01_s14_zadachi_na_povtorenie_k_glave_i/p36-fig1.png)
+![Рис. 55](assets/klopskiy_stereometria_g01_s14_zadachi_na_povtorenie_k_glave_i/p33-fig1.png)
 
 
 ---

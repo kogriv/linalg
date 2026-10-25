@@ -67,10 +67,10 @@ $(a \parallel a_1,\; a \subset \alpha,\; a_1 \subset \beta) \Rightarrow c \paral
 
 $(b \parallel b_1,\; b \subset \alpha,\; b_1 \subset \beta) \Rightarrow c \parallel b$.
 
-![Рис. 30](assets/klopskiy_stereometria_g01_s10_vzaimnoe_raspolozhenie_dvukh_ploskostey_priznak_parallelnost/p25-fig1.png)
+![Рис. 30](assets/klopskiy_stereometria_g01_s10_vzaimnoe_raspolozhenie_dvukh_ploskostey_priznak_parallelnost/p22-fig1.png)
 
 Мы получили противоречие с аксиомой параллельных прямых. Следовательно, $\alpha \parallel \beta$.
 
 Плоскости $\alpha$ и $\beta$, удовлетворяющие условию теоремы, могут совпадать (рис. 31). И в этом случае признак остаётся верным, так как совпадающие плоскости параллельны. $\blacksquare$
 
-![Рис. 31](assets/klopskiy_stereometria_g01_s10_vzaimnoe_raspolozhenie_dvukh_ploskostey_priznak_parallelnost/p25-fig2.png)
+![Рис. 31](assets/klopskiy_stereometria_g01_s10_vzaimnoe_raspolozhenie_dvukh_ploskostey_priznak_parallelnost/p22-fig2.png)

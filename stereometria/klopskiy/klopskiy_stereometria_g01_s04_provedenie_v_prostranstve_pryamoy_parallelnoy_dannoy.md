@@ -31,4 +31,4 @@
 
 б) Пусть $M \in a$ (рис. 11, б). В этом случае единственной прямой, проходящей через $M$ и параллельной $a$, служит данная прямая $a$.
 
-![Рис. 11](assets/klopskiy_stereometria_g01_s04_provedenie_v_prostranstve_pryamoy_parallelnoy_dannoy/p14-fig1.png)
+![Рис. 11](assets/klopskiy_stereometria_g01_s04_provedenie_v_prostranstve_pryamoy_parallelnoy_dannoy/p11-fig1.png)

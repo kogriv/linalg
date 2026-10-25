@@ -75,7 +75,7 @@ $$|AB| = \sqrt{m^2 + n^2 + d^2 \pm 2mn \cos \varphi}.$$
 **стр. 87**
 ---
 
-![Рис. 139](assets/klopskiy_stereometria_g03_s10_ugol_mezhdu_naklonnoy_i_ploskostyu/p90-fig1.png)
+![Рис. 139](assets/klopskiy_stereometria_g03_s10_ugol_mezhdu_naklonnoy_i_ploskostyu/p87-fig1.png)
 
 углы $ACM$ и $ADM$, получим: $\widehat{ACM} = \alpha$, $\widehat{ADM} = \beta$. Высоту $|CC_1|$ эклиметра обозначим через $h$.
 
@@ -101,7 +101,7 @@ $$|AB| = \frac{b \sin \alpha \sin \beta}{\sin (\beta - \alpha)} + h.$$
 
 **348.** Сторона правильного треугольника равна $12$ см. Точка $M$ выбрана так, что отрезки, соединяющие $M$ со всеми вершинами треугольника, образуют с его плоскостью углы по $45^\circ$. Найдите расстояние от точки $M$ до вершин и сторон треугольника.
 
-![Рис. 140](assets/klopskiy_stereometria_g03_s10_ugol_mezhdu_naklonnoy_i_ploskostyu/p90-fig2.png)
+![Рис. 140](assets/klopskiy_stereometria_g03_s10_ugol_mezhdu_naklonnoy_i_ploskostyu/p87-fig2.png)
 
 **349.** Через сторону квадрата проведена плоскость под углом $30^\circ$ к диагонали квадрата. Найдите углы, под которыми наклонены к плоскости две стороны квадрата.
 

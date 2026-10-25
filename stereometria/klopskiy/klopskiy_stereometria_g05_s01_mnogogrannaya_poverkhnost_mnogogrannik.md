@@ -26,13 +26,13 @@
 
 Если каждое ребро многогранной поверхности содержится в двух ее гранях, то эту многогранную поверхность называют
 
-![Рис. 16, 17, 18](assets/klopskiy_stereometria_g05_s01_mnogogrannaya_poverkhnost_mnogogrannik/p120-fig1.png)
+![Рис. 16, 17, 18](assets/klopskiy_stereometria_g05_s01_mnogogrannaya_poverkhnost_mnogogrannik/p117-fig1.png)
 
 ---
 **стр. 118**
 ---
 
-![Рис. 19](assets/klopskiy_stereometria_g05_s01_mnogogrannaya_poverkhnost_mnogogrannik/p121-fig1.png)
+![Рис. 19](assets/klopskiy_stereometria_g05_s01_mnogogrannaya_poverkhnost_mnogogrannik/p118-fig1.png)
 
 замкнутой. Поверхность пирамиды (см. рис. 17) является примером замкнутой многогранной поверхности, боковая поверхность призмы (см. рис. 16) — пример незамкнутой многогранной поверхности.
 
@@ -42,10 +42,10 @@
 
 При этом многогранную поверхность и ее внутреннюю область называют соответственно *поверхностью* и *внутренней областью* многогранника. Грани, ребра, вершины поверхности многогранника называют соответственно гранями, ребрами и вершинами многогранника.
 
-![Рис. 20](assets/klopskiy_stereometria_g05_s01_mnogogrannaya_poverkhnost_mnogogrannik/p121-fig2.png)
+![Рис. 20](assets/klopskiy_stereometria_g05_s01_mnogogrannaya_poverkhnost_mnogogrannik/p118-fig2.png)
 
 Отрезок, который соединяет две вершины многогранника, не принадлежащие одной грани, называют *диагональю многогранника*. На рисунке 19 изображен шестигранник $ABCDEF$ и его диагональ $BF$.
 
 Как и многоугольники, многогранники могут быть выпуклыми (рис. 19) и невыпуклыми (рис. 20). Мы будем изучать только выпуклые многогранники.
 
-![Рис. 21](assets/klopskiy_stereometria_g05_s01_mnogogrannaya_poverkhnost_mnogogrannik/p121-fig3.png)
+![Рис. 21](assets/klopskiy_stereometria_g05_s01_mnogogrannaya_poverkhnost_mnogogrannik/p118-fig3.png)

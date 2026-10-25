@@ -58,7 +58,7 @@
 
 Доказательство. Рассмотрим случай, когда $a \not\subset \alpha$ (рис. 19).
 
-![Рис. 19](assets/klopskiy_stereometria_g01_s07_vzaimnoe_raspolozhenie_pryamoy_i_ploskosti_priznak/p19-fig1.png)
+![Рис. 19](assets/klopskiy_stereometria_g01_s07_vzaimnoe_raspolozhenie_pryamoy_i_ploskosti_priznak/p16-fig1.png)
 
 Во-первых, прямые $b$ и $a$ лежат в плоскости $\beta$; во-вторых, прямая $a$ не может пересекать прямую $b$, так как иначе $a$ пересекла бы плоскость $\alpha$. Следовательно, $b \parallel a$. Истинность теоремы для случая $a \subset \alpha$ очевидна.
 
@@ -90,7 +90,7 @@
 
 *Решение.* **Анализ.** Предположим, что сечение построено (рис. 20).
 
-![Рис. 20](assets/klopskiy_stereometria_g01_s07_vzaimnoe_raspolozhenie_pryamoy_i_ploskosti_priznak/p20-fig1.png)
+![Рис. 20](assets/klopskiy_stereometria_g01_s07_vzaimnoe_raspolozhenie_pryamoy_i_ploskosti_priznak/p17-fig1.png)
 
 Пересечение плоскости сечения с гранью $ADB$ получим, соединив точки $M$ и $N$. По условию прямая $AC$ параллельна плоскости сечения, поэтому пересечениями граней $ACB$ и $ACD$ с плоскостью сечения служат отрезки $NP$ и $MQ$, параллельные прямой $AC$ (§ 7, теорема 3).
 

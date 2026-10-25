@@ -24,7 +24,7 @@
 
 2°) Для проверки горизонтальности установки лимба угломерных инструментов пользуются двумя уровнями, расположенными на одной плоскости (рис. 32). Почему уровни располагают на пересекающихся прямых?
 
-![Рис. 32](assets/klopskiy_stereometria_g01_s11_teoremy_o_parallelnykh_ploskostyakh/p26-fig1.png)
+![Рис. 32](assets/klopskiy_stereometria_g01_s11_teoremy_o_parallelnykh_ploskostyakh/p23-fig1.png)
 
 **§ 11. ТЕОРЕМЫ О ПАРАЛЛЕЛЬНЫХ ПЛОСКОСТЯХ**
 
@@ -56,13 +56,13 @@
 
 **Решение.** Через произвольную точку $M$ прямой $a$ проведём прямую $a_1$, параллельную прямой $b$ (рис. 36); через прямые $a$ и $a_1$ проведём плоскость $\alpha$. Аналогично проводим плоскость $\beta$.
 
-![Рис. 33](assets/klopskiy_stereometria_g01_s11_teoremy_o_parallelnykh_ploskostyakh/p27-fig1.png)
+![Рис. 33](assets/klopskiy_stereometria_g01_s11_teoremy_o_parallelnykh_ploskostyakh/p24-fig1.png)
 
-![Рис. 34](assets/klopskiy_stereometria_g01_s11_teoremy_o_parallelnykh_ploskostyakh/p27-fig2.png)
+![Рис. 34](assets/klopskiy_stereometria_g01_s11_teoremy_o_parallelnykh_ploskostyakh/p24-fig2.png)
 
-![Рис. 35](assets/klopskiy_stereometria_g01_s11_teoremy_o_parallelnykh_ploskostyakh/p27-fig3.png)
+![Рис. 35](assets/klopskiy_stereometria_g01_s11_teoremy_o_parallelnykh_ploskostyakh/p24-fig3.png)
 
-![Рис. 36](assets/klopskiy_stereometria_g01_s11_teoremy_o_parallelnykh_ploskostyakh/p27-fig4.png)
+![Рис. 36](assets/klopskiy_stereometria_g01_s11_teoremy_o_parallelnykh_ploskostyakh/p24-fig4.png)
 
 
 ---
@@ -87,7 +87,7 @@
 
 2°) Могут ли иметь равные длины два непараллельных отрезка, концы которых принадлежат параллельным плоскостям?
 
-![Рис. 37](assets/klopskiy_stereometria_g01_s11_teoremy_o_parallelnykh_ploskostyakh/p28-fig1.png)
+![Рис. 37](assets/klopskiy_stereometria_g01_s11_teoremy_o_parallelnykh_ploskostyakh/p25-fig1.png)
 
 **90.** Через данную прямую проведите плоскость, параллельную данной плоскости. Исследуйте решение.
 
@@ -99,6 +99,6 @@
 
 Решение. Пересечение плоскости $\alpha$ с двумя гранями получим, проведя отрезки $AC$ и $AM$. Линия пересечения плоскости $\alpha$ с гранью $A_1B_1C_1D_1$ параллельна $(AC)$ (§ 11, теорема 7), поэтому построим $[MN] \parallel [AC]$. Наконец, строим отрезок $NC$. Трапеция $AMNC$ — искомое сечение. Если $M = B_1$, то искомое сечение есть треугольник $AB_1C$, а если $M = A_1$, то сечение — параллелограмм $AA_1C_1C$. Решение единственное (аксиома 4).
 
-![Рис. 38](assets/klopskiy_stereometria_g01_s11_teoremy_o_parallelnykh_ploskostyakh/p28-fig2.png)
+![Рис. 38](assets/klopskiy_stereometria_g01_s11_teoremy_o_parallelnykh_ploskostyakh/p25-fig2.png)
 
 **93.** Постройте сечение тетраэдра $ABCD$ плоскостью, проходящей через внутреннюю точку $M$ ребра $AB$ и параллельной грани $DBC$.
