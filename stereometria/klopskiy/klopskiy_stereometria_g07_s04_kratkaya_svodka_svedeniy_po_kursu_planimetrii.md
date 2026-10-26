@@ -367,7 +367,7 @@ $$
 (\triangle A_1B_1C_1\cong\triangle ABC).
 $$
 
-![Рис. 133](assets/klopskiy_stereometria_g07_s04_kratkaya_svodka_svedeniy_po_kursu_planimetrii/p202-fig133.png)
+![Рис. 133](assets/klopskiy_stereometria_g07_s04_kratkaya_svodka_svedeniy_po_kursu_planimetrii/p202-fig1.png)
 
 ## 3. Соотношения между элементами треугольника
 
@@ -479,7 +479,7 @@ $$
 
 8. **Т.** Любая прямая, проходящая через центр окружности, является ее осью симметрии.
 
-![Рис. 138](assets/klopskiy_stereometria_g07_s04_kratkaya_svodka_svedeniy_po_kursu_planimetrii/p204-fig138.png)
+![Рис. 138](assets/klopskiy_stereometria_g07_s04_kratkaya_svodka_svedeniy_po_kursu_planimetrii/p204-fig1.png)
 
 ![Рис. 139](assets/klopskiy_stereometria_g07_s04_kratkaya_svodka_svedeniy_po_kursu_planimetrii/p204-fig139.png)
 
@@ -608,7 +608,7 @@ $$
 
 ![Рис. 146](assets/klopskiy_stereometria_g07_s04_kratkaya_svodka_svedeniy_po_kursu_planimetrii/p208-fig146.png)
 
-![Рис. 147](assets/klopskiy_stereometria_g07_s04_kratkaya_svodka_svedeniy_po_kursu_planimetrii/p208-fig147.png)
+![Рис. 147](assets/klopskiy_stereometria_g07_s04_kratkaya_svodka_svedeniy_po_kursu_planimetrii/p208-fig1.png)
 
 При гомотетии с коэффициентом $k$ все расстояния между точками умножаются на $|k|$, т. е. $|X_1Y_1|=|k|\cdot|XY|$.
 
