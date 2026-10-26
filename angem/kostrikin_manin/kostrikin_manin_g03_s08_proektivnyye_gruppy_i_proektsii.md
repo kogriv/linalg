@@ -236,7 +236,7 @@ $$\Gamma = \Gamma_0\cup\{0\}\times P^{n-1},$$
 
 в соответствии с геометрической интуицией, согласно которой при проекции из $O$ центр «переходит во все пространство $P^{n-1}$».
 
-![Рис. 7](assets/kostrikin_manin_g03_s08_proektivnyye_gruppy_i_proektsii/p238-fig7.png)
+![Рис. 7](assets/kostrikin_manin_g03_s08_proektivnyye_gruppy_i_proektsii/p238-fig1.png)
 
 Множество $\Gamma$ обладает рядом хороших свойств.
 
