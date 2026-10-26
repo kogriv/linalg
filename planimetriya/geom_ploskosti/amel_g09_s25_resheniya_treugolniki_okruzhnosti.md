@@ -583,7 +583,7 @@ $$\angle CKB = \frac{3\alpha - \gamma}{2} \text{ (по условию).}$$
 
 Предположим сначала, что $\beta < 90^\circ$. По условию $3\alpha - \gamma = 2\delta$ и, значит, $\gamma = 3\alpha - 2\delta < 90^\circ$ (поскольку $\alpha = 30^\circ$). Следовательно, треугольник $ABC$ — остроугольный и точка $O$ лежит внутри треугольника (рис. 26.41С).
 
-![Рис. 26.41С](assets/amel_g09_s25_resheniya_treugolniki_okruzhnosti/p534-fig2.png)
+![Рис. 26.41С](assets/amel_g09_s25_resheniya_treugolniki_okruzhnosti/p534-fig1.png)
 
 Отрезок $QP$ — средняя линия треугольника $ABC$ и, значит, $QP = a/2$. Но тогда по теореме косинусов из треугольника $QOP$ находим, что $QP^2 = \frac{a^2}{4} = x^2 + y^2 - 2x \cdot y \cdot \cos 150^\circ = x^2 + (2 -$
 
