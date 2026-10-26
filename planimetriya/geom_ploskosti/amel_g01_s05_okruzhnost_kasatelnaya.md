@@ -103,7 +103,7 @@ $- \angle DBC - \angle DCB = 180^\circ -$
 $- \angle AEB - \angle AEC = 180^\circ -$
 $- \angle BEC = \angle ABE + \angle ACE$.
 
-![Рис. 5.7](assets/amel_g01_s05_okruzhnost_kasatelnaya/p75-fig2.png)
+![Рис. 5.7](assets/amel_g01_s05_okruzhnost_kasatelnaya/p75-fig1.png)
 
 
 ---
