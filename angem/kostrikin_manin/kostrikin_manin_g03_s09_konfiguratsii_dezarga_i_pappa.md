@@ -34,7 +34,7 @@
 
 **4. Конфигурация Паппа.** Рассмотрим в проективной плоскости две разные прямые и две тройки лежащих на них попарно разных точек $p_1$, $p_2$, $p_3$ и $q_1$, $q_2$, $q_3$. Для любой пары различных индексов
 
-![Рис. 8](assets/kostrikin_manin_g03_s09_konfiguratsii_dezarga_i_pappa/p240-fig8.png)
+![Рис. 8](assets/kostrikin_manin_g03_s09_konfiguratsii_dezarga_i_pappa/p240-fig1.png)
 
 
 ---

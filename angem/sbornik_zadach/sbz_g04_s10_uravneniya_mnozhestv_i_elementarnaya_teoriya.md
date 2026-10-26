@@ -63,13 +63,13 @@ $$\begin{cases}\alpha\left(\dfrac{x}{a}+\dfrac{y}{b}\right)=\beta z, \\ \beta\le
 
 ![Рис. 4](assets/sbz_g04_s10_uravneniya_mnozhestv_i_elementarnaya_teoriya/p83-fig4.png)
 
-![Рис. 5](assets/sbz_g04_s10_uravneniya_mnozhestv_i_elementarnaya_teoriya/p83-fig5.png)
+![Рис. 5](assets/sbz_g04_s10_uravneniya_mnozhestv_i_elementarnaya_teoriya/p83-fig1.png)
 
 ![Рис. 6](assets/sbz_g04_s10_uravneniya_mnozhestv_i_elementarnaya_teoriya/p83-fig6.png)
 
 ![Рис. 7](assets/sbz_g04_s10_uravneniya_mnozhestv_i_elementarnaya_teoriya/p83-fig7.png)
 
-![Рис. 8](assets/sbz_g04_s10_uravneniya_mnozhestv_i_elementarnaya_teoriya/p83-fig8.png)
+![Рис. 8](assets/sbz_g04_s10_uravneniya_mnozhestv_i_elementarnaya_teoriya/p83-fig2.png)
 
 ![Рис. 9](assets/sbz_g04_s10_uravneniya_mnozhestv_i_elementarnaya_teoriya/p83-fig9.png)
 
