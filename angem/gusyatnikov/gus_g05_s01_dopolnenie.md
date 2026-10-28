@@ -57,3 +57,14 @@
 5°. Параллельный перенос $T_{\overrightarrow{AB}}$ имеет обратное преобразование, которое является параллельным переносом на направленный отрезок $\overrightarrow{BA} = -\overrightarrow{AB}$.
 
 6°. Параллельный перенос на нулевой направленный отрезок есть тождественное преобразование.
+
+
+---
+**стр. 231**
+---
+
+7°. При параллельном переносе образом плоскости является параллельная ей плоскость, образом прямой — параллельная ей прямая, образом луча — сонаправленный ему луч.
+
+8° Для любых направленных отрезков $\overrightarrow{AB}$ и $\overrightarrow{CD}$ выполнены равенства $T_{\overrightarrow{AB}} \circ T_{\overrightarrow{CD}} = T_{\overrightarrow{CD}} \circ T_{\overrightarrow{AB}} = T_{\overrightarrow{AB}+\overrightarrow{CD}} = T_{\overrightarrow{CD}+\overrightarrow{AB}}$.
+
+9° Для любых точек $A_1$, $A_2$, $\ldots$, $A_n$ справедливо п р а в и л о  ц и к л а: $T_{\overrightarrow{A_nA_1}} \circ T_{\overrightarrow{A_{n-1}A_n}} \circ \ldots \circ T_{\overrightarrow{A_2A_3}} \circ T_{\overrightarrow{A_1A_2}} = T_{\overrightarrow{A_1A_1}}$.
