@@ -182,6 +182,17 @@
 
 Именование — по конвенции из [[../README|stereometria/README]], префикс `prasolov_sharygin_stereo`: `prasolov_sharygin_stereo_g{глава:02d}_s{параграф:02d}_{слаг}.md`.
 
-Разбор ещё не начат.
+**Вступительные материалы**
+- [[prasolov_sharygin_stereo_g00_s01_vstupitelnye_materialy|Вступительные материалы]] (стр. 0–8)
+- [[prasolov_sharygin_stereo_g00_s02_znakomstvo_so_stereometriey|Знакомство со стереометрией]] (стр. 9–17)
+
+**Глава 1. Прямые и плоскости в пространстве**
+- [[prasolov_sharygin_stereo_g01_s01_ugly_i_rasstoyaniya|1.1. Углы и расстояния между скрещивающимися прямыми (§ 1)]] (стр. 18)
+- [[prasolov_sharygin_stereo_g01_s03_ravnye_ugly|1.3. Прямые, образующие равные углы с прямыми и плоскостями (§ 3)]] (стр. 19)
+- [[prasolov_sharygin_stereo_g01_s04_skreshchivayushchiesya_pryamye|1.4. Скрещивающиеся прямые (§ 4)]] (стр. 20)
+- [[prasolov_sharygin_stereo_g01_s06_metod_koordinat|1.6. Метод координат (§ 6)]] (стр. 21)
+- [[prasolov_sharygin_stereo_g01_s08_resheniya|1.8. Решения]] (стр. 22–29, не окончен)
+
+Разбор в процессе. Дальше — продолжение «1.8. Решения» со стр. 30.
 
 <!-- конец автогенерируемого блока apokrif -->
