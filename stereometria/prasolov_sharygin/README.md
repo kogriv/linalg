@@ -258,8 +258,40 @@
 - [[prasolov_sharygin_stereo_g07_s08_povorot_i_kompozitsii|7.8. Поворот. Композиции преобразований (§ 8)]] (стр. 137–139)
 - [[prasolov_sharygin_stereo_g07_s09_otrazhenie_luchey_sveta|7.9. Отражение лучей света (§ 9)]] (стр. 139)
 - [[prasolov_sharygin_stereo_g07_s10_zadachi_dlya_samostoyatelnogo_resheniya|7.10. Задачи для самостоятельного решения]] (стр. 139–140)
-- [[prasolov_sharygin_stereo_g07_s11_resheniya|7.11. Решения]] (стр. 140–149, не окончен)
+- [[prasolov_sharygin_stereo_g07_s11_resheniya|7.11. Решения]] (стр. 140–154)
 
-Разбор в процессе. Дальше — продолжение «7.11. Решения» со стр. 150.
+**Глава 8. Выпуклые многогранники и пространственные многоугольники**
+- [[prasolov_sharygin_stereo_g08_s01_raznye_zadachi|8.1. Разные задачи (§ 1)]] (стр. 155–156)
+- [[prasolov_sharygin_stereo_g08_s02_nevpisannost_i_neopisannost|8.2. Признаки невписанности и неописанности многогранников (§ 2)]] (стр. 156)
+- [[prasolov_sharygin_stereo_g08_s03_formula_eylera|8.3. Формула Эйлера (§ 3)]] (стр. 156–157)
+- [[prasolov_sharygin_stereo_g08_s04_obhody_mnogogrannikov|8.4. Обходы многогранников (§ 4)]] (стр. 157–158)
+- [[prasolov_sharygin_stereo_g08_s05_prostranstvennye_mnogougolniki|8.5. Пространственные многоугольники (§ 5)]] (стр. 158–159)
+- [[prasolov_sharygin_stereo_g08_s06_resheniya|8.6. Решения]] (стр. 159–173)
+
+**Глава 9. Правильные многогранники**
+- [[prasolov_sharygin_stereo_g09_s01_svoystva_pravilnyh_mnogogrannikov|9.1. Основные свойства правильных многогранников (§ 1)]] (стр. 174–176)
+- [[prasolov_sharygin_stereo_g09_s02_vzaimosvyazi_mnogogrannikov|9.2. Взаимосвязи между правильными многогранниками (§ 2)]] (стр. 176–177)
+- [[prasolov_sharygin_stereo_g09_s03_proektsii_i_secheniya|9.3. Проекции и сечения правильных многогранников (§ 3)]] (стр. 177)
+- [[prasolov_sharygin_stereo_g09_s04_samosovmeshcheniya|9.4. Самосовмещения правильных многогранников (§ 4)]] (стр. 177–178)
+- [[prasolov_sharygin_stereo_g09_s05_opredeleniya_pravilnyh_mnogogrannikov|9.5. Различные определения правильных многогранников (§ 5)]] (стр. 178–179)
+- [[prasolov_sharygin_stereo_g09_s06_resheniya|9.6. Решения]] (стр. 179–189)
+
+**Глава 10. Геометрические неравенства**
+- [[prasolov_sharygin_stereo_g10_s01_dliny_perimetry|10.1. Длины, периметры (§ 1)]] (стр. 190–191)
+- [[prasolov_sharygin_stereo_g10_s02_ugly|10.2. Углы (§ 2)]] (стр. 191–192)
+- [[prasolov_sharygin_stereo_g10_s03_ploshchadi|10.3. Площади (§ 3)]] (стр. 192)
+- [[prasolov_sharygin_stereo_g10_s04_obemy|10.4. Объемы (§ 4)]] (стр. 192–193)
+- [[prasolov_sharygin_stereo_g10_s05_raznye_zadachi|10.5. Разные задачи (§ 5)]] (стр. 193)
+- [[prasolov_sharygin_stereo_g10_s06_zadachi_dlya_samostoyatelnogo_resheniya|10.6. Задачи для самостоятельного решения]] (стр. 194)
+- [[prasolov_sharygin_stereo_g10_s07_resheniya|10.7. Решения]] (стр. 194–206)
+
+**Глава 11. Задачи на максимум и минимум**
+- [[prasolov_sharygin_stereo_g11_s01_otrezok_na_skreshchivayushchihsya_pryamyh|11.1. Отрезок с концами на скрещивающихся прямых (§ 1)]] (стр. 207)
+- [[prasolov_sharygin_stereo_g11_s02_ploshchad_i_obem|11.2. Площадь и объем (§ 2)]] (стр. 207–208)
+- [[prasolov_sharygin_stereo_g11_s03_rasstoyaniya|11.3. Расстояния (§ 3)]] (стр. 208–209)
+- [[prasolov_sharygin_stereo_g11_s04_raznye_zadachi|11.4. Разные задачи (§ 4)]] (стр. 209)
+- [[prasolov_sharygin_stereo_g11_s05_zadachi_dlya_samostoyatelnogo_resheniya|11.5. Задачи для самостоятельного решения]] (стр. 209)
+
+Разбор в процессе. Дальше — 11.6. Решения со стр. 210.
 
 <!-- конец автогенерируемого блока apokrif -->
