@@ -115,22 +115,22 @@
 - [[efimov_g02_s02_gruppa_1_aksiomy_svyazi|2. Группа I. Аксиомы связи (§ 12)]] (стр. 41–44)
 - [[efimov_g02_s03_gruppa_2_aksiomy_poryadka|3. Группа II. Аксиомы порядка (§ 13)]] (стр. 44–45)
 - [[efimov_g02_s04_sledstviya_iz_aksiom_svyazi_i_poryadka|4. Следствия из аксиом связи и порядка (§§ 14-15)]] (стр. 45–54)
-- [[efimov_g02_s05_gruppa_3_aksiomy_kongruentnosti|5. Группа III. Аксиомы конгруэнтности (§ 16)]] (стр. 54–57)
+- [[efimov_g02_s05_gruppa_3_aksiomy_kongruentnosti|5. Группа III. Аксиомы конгруэнтности (§ 16)]] (стр. 54–58)
 - [[efimov_g02_s06_sledstviya_iz_aksiom_i_iii|6. Следствия из аксиом I-III (§§ 17-19)]] (стр. 58–71)
 - [[efimov_g02_s07_gruppa_4_aksiomy_nepreryvnosti|7. Группа IV. Аксиомы непрерывности (§§ 20-24)]] (стр. 72–85)
 - [[efimov_g02_s08_gruppa_5_aksioma_parallelnosti|8. Группа V. Аксиома параллельности. Абсолютная геометрия (§§ 25-27)]] (стр. 86–89)
 
 **Глава III. Неевклидова теория параллельных**
-- [[efimov_g03_s01_opredelenie_parallelnykh_po_lobachevskomu|1. Определение параллельных по Лобачевскому (§§ 28-30)]] (стр. 90–101)
+- [[efimov_g03_s01_opredelenie_parallelnykh_po_lobachevskomu|1. Определение параллельных по Лобачевскому (§§ 28-30)]] (стр. 90–102)
 - [[efimov_g03_s02_osobennosti_raspolozheniya_parallelnykh|2. Особенности расположения параллельных и расходящихся прямых (§§ 31-32)]] (стр. 102–106)
-- [[efimov_g03_s03_funktsiya_lobachevskogo|3. Функция Лобачевского П(х) (§ 33)]] (стр. 107–110)
-- [[efimov_g03_s04_pryamye_i_ploskosti_v_prostranstve_lobachevskogo|4. Прямые и плоскости в пространстве Лобачевского (§§ 34-35)]] (стр. 111–118)
-- [[efimov_g03_s05_ekvidistanta_i_oritsikl|5. Эквидистанта и орицикл (§§ 36-40)]] (стр. 119–129)
+- [[efimov_g03_s03_funktsiya_lobachevskogo|3. Функция Лобачевского П(х) (§ 33)]] (стр. 107–111)
+- [[efimov_g03_s04_pryamye_i_ploskosti_v_prostranstve_lobachevskogo|4. Прямые и плоскости в пространстве Лобачевского (§§ 34-35)]] (стр. 111–119)
+- [[efimov_g03_s05_ekvidistanta_i_oritsikl|5. Эквидистанта и орицикл (§§ 36-40)]] (стр. 119–130)
 - [[efimov_g03_s06_ekvidistantnaya_poverkhnost_i_orisfera|6. Эквидистантная поверхность и орисфера (§§ 41-44)]] (стр. 130–135)
-- [[efimov_g03_s07_elementarnaya_geometriya_na_poverkhnostyakh|7. Элементарная геометрия на поверхностях пространства Лобачевского (§§ 45-47)]] (стр. 136–146)
-- [[efimov_g03_s08_ploshchad_treugolnika|8. Площадь треугольника (§ 48)]] (стр. 147–155)
+- [[efimov_g03_s07_elementarnaya_geometriya_na_poverkhnostyakh|7. Элементарная геометрия на поверхностях пространства Лобачевского (§§ 45-47)]] (стр. 136–147)
+- [[efimov_g03_s08_ploshchad_treugolnika|8. Площадь треугольника (§ 48)]] (стр. 147–156)
 - [[efimov_g03_s09_dokazatelstvo_neprotivorechivosti_geometrii_lobachevskogo|9. Доказательство логической непротиворечивости геометрии Лобачевского (§§ 49-54)]] (стр. 156–176)
-- [[efimov_g03_s10_osnovnye_metricheskie_sootnosheniya|10. Основные метрические соотношения в геометрии Лобачевского (§§ 55-62)]] (стр. 177–190)
+- [[efimov_g03_s10_osnovnye_metricheskie_sootnosheniya|10. Основные метрические соотношения в геометрии Лобачевского (§§ 55-62)]] (стр. 177–191)
 - [[efimov_g03_s11_kratkie_svedeniya_o_geometrii_rimana|11. Краткие сведения о геометрии Римана (§§ 63-68)]] (стр. 191–200)
 
 **Глава IV. Исследование аксиом элементарной геометрии**
@@ -142,43 +142,45 @@
 - [[efimov_g04_s06_aksiomaticheskiy_metod_v_matematike|6. Аксиоматический метод в математике (§ 76)]] (стр. 240–241)
 
 **Глава V. Основы проективной геометрии**
-- [[efimov_g05_s01_predmet_proektivnoy_geometrii|1. Предмет проективной геометрии (§§ 77-83)]] (стр. 242–247)
+- [[efimov_g05_s01_predmet_proektivnoy_geometrii|1. Предмет проективной геометрии (§§ 77-83)]] (стр. 242–248)
 - [[efimov_g05_s02_teorema_dezarga|2. Теорема Дезарга. Построение гармонических групп элементов (§§ 84-88)]] (стр. 248–260)
 - [[efimov_g05_s03_poryadok_tochek_na_proektivnoy_pryamoy|3. Порядок точек на проективной прямой (§§ 89-91)]] (стр. 261–270)
-- [[efimov_g05_s04_razdelennost_garmonicheskikh_par|4. Разделённость гармонических пар; непрерывность гармонического соответствия (§§ 92-93)]] (стр. 271–276)
+- [[efimov_g05_s04_razdelennost_garmonicheskikh_par|4. Разделённость гармонических пар; непрерывность гармонического соответствия (§§ 92-93)]] (стр. 271–277)
 - [[efimov_g05_s05_aksioma_nepreryvnosti_proektivnaya_sistema|5. Аксиома непрерывности. Проективная система координат на прямой (§§ 94-97)]] (стр. 277–290)
-- [[efimov_g05_s06_proektivnaya_sistema_koordinat_na_ploskosti|6. Проективная система координат на плоскости и в пространстве (§§ 98-102)]] (стр. 291–303)
+- [[efimov_g05_s06_proektivnaya_sistema_koordinat_na_ploskosti|6. Проективная система координат на плоскости и в пространстве (§§ 98-102)]] (стр. 291–304)
 - [[efimov_g05_s07_proektivnoe_sootvetstvie_odnomernykh|7. Проективное соответствие между элементами одномерных многообразий (§§ 103-105)]] (стр. 304–314)
-- [[efimov_g05_s08_proektivnoe_sootvetstvie_mnogoobraziy|8. Проективное соответствие между многообразиями двух и трёх измерений (§§ 106-108)]] (стр. 315–324)
-- [[efimov_g05_s09_analiticheskie_predstavleniya_involyutsiya|9. Аналитические представления проективных отображений. Инволюция (§§ 109-113)]] (стр. 325–342)
-- [[efimov_g05_s10_formuly_preobrazovaniya_slozhnoe_otnoshenie|10. Формулы преобразования проективных координат. Сложное отношение четырёх элементов (§§ 114-119)]] (стр. 343–352)
-- [[efimov_g05_s11_printsip_dvoystvennosti|11. Принцип двойственности (§§ 120-124)]] (стр. 353–366)
-- [[efimov_g05_s12_algebraicheskie_krivye_i_puchki|12. Алгебраические кривые и пучки. Комплексное проективное пространство (§§ 125-130)]] (стр. 367–375)
+- [[efimov_g05_s08_proektivnoe_sootvetstvie_mnogoobraziy|8. Проективное соответствие между многообразиями двух и трёх измерений (§§ 106-108)]] (стр. 315–325)
+- [[efimov_g05_s09_analiticheskie_predstavleniya_involyutsiya|9. Аналитические представления проективных отображений. Инволюция (§§ 109-113)]] (стр. 325–343)
+- [[efimov_g05_s10_formuly_preobrazovaniya_slozhnoe_otnoshenie|10. Формулы преобразования проективных координат. Сложное отношение четырёх элементов (§§ 114-119)]] (стр. 343–353)
+- [[efimov_g05_s11_printsip_dvoystvennosti|11. Принцип двойственности (§§ 120-124)]] (стр. 353–367)
+- [[efimov_g05_s12_algebraicheskie_krivye_i_puchki|12. Алгебраические кривые и пучки. Комплексное проективное пространство (§§ 125-130)]] (стр. 367–376)
 - [[efimov_g05_s13_obrazy_vtoroy_stepeni_teoriya_polyar|13. Образы второй степени. Теория поляр (§§ 131-136)]] (стр. 376–392)
 - [[efimov_g05_s14_konstruktivnye_teoremy_i_zadachi|14. Конструктивные теоремы и задачи проективной геометрии (§§ 137-154)]] (стр. 393–420)
 
 **Глава VI. Теоретико-групповые принципы геометрии. Группы преобразований**
-- [[efimov_g06_s01_geometriya_i_teoriya_grupp|1. Геометрия и теория групп (§§ 155-158)]] (стр. 421–425)
-- [[efimov_g06_s02_proektivnaya_gruppa_i_ee_osnovnye_podgruppy|2. Проективная группа и её основные подгруппы (§§ 159-167)]] (стр. 426–439)
+- [[efimov_g06_s01_geometriya_i_teoriya_grupp|1. Геометрия и теория групп (§§ 155-158)]] (стр. 421–426)
+- [[efimov_g06_s02_proektivnaya_gruppa_i_ee_osnovnye_podgruppy|2. Проективная группа и её основные подгруппы (§§ 159-167)]] (стр. 426–440)
 - [[efimov_g06_s03_geometrii_lobachevskogo_rimana_i_evklida|3. Геометрии Лобачевского, Римана и Евклида в проективной схеме (§§ 168-174)]] (стр. 440–457)
 
 **Глава VII. Пространство Минковского**
-- [[efimov_g07_s01_mnogomernoe_affinnoe_prostranstvo|1. Многомерное аффинное пространство (§§ 175-188)]] (стр. 458–474)
+- [[efimov_g07_s01_mnogomernoe_affinnoe_prostranstvo|1. Многомерное аффинное пространство (§§ 175-188)]] (стр. 458–475)
 - [[efimov_g07_s02_evklidovy_prostranstva_i_prostranstvo_minkovskogo|2. Евклидовы пространства и пространство Минковского (§§ 189-202)]] (стр. 475–490)
 - [[efimov_g07_s03_prostranstvo_sobytiy_sto|3. Пространство событий специальной теории относительности (§§ 203-214)]] (стр. 491–508)
 
 **Глава VIII. Дифференциальные свойства неевклидовой метрики**
-- [[efimov_g08_s01_metricheskaya_forma_evklidovoy_ploskosti|1. Метрическая форма евклидовой плоскости (§ 215)]] (стр. 509–511)
+- [[efimov_g08_s01_metricheskaya_forma_evklidovoy_ploskosti|1. Метрическая форма евклидовой плоскости (§ 215)]] (стр. 509–512)
 - [[efimov_g08_s02_vychislenie_rasstoyaniya_na_ploskosti_lobachevskogo|2. Вычисление расстояния между двумя точками на плоскости Лобачевского (§§ 216-219)]] (стр. 512–522)
-- [[efimov_g08_s03_metricheskaya_forma_ploskosti_lobachevskogo|3. Метрическая форма плоскости Лобачевского (§§ 220-224)]] (стр. 523–535)
-- [[efimov_g08_s04_vnutrennyaya_geometriya_i_zadacha_beltrami|4. Внутренняя геометрия поверхности и задача Бельтрами (§§ 225-226)]] (стр. 536–541)
-- [[efimov_g08_s05_geometriya_na_poverkhnosti_postoyannoy_krivizny|5. Геометрия на поверхности постоянной кривизны (§§ 227-228)]] (стр. 542–551)
+- [[efimov_g08_s03_metricheskaya_forma_ploskosti_lobachevskogo|3. Метрическая форма плоскости Лобачевского (§§ 220-224)]] (стр. 523–536)
+- [[efimov_g08_s04_vnutrennyaya_geometriya_i_zadacha_beltrami|4. Внутренняя геометрия поверхности и задача Бельтрами (§§ 225-226)]] (стр. 536–542)
+- [[efimov_g08_s05_geometriya_na_poverkhnosti_postoyannoy_krivizny|5. Геометрия на поверхности постоянной кривизны (§§ 227-228)]] (стр. 542–552)
 - [[efimov_g08_s06_vyvod_osnovnykh_metricheskikh_sootnosheniy|6. Вывод основных метрических соотношений в геометрии Лобачевского (§§ 229-233)]] (стр. 552–556)
 
 **Глава IX. Пространственные формы геометрии постоянной кривизны**
-- [[efimov_g09_s01_dvumernye_mnogoobraziya_s_differentsialno_geometricheskoy_metrikoy|1. Двумерные многообразия с дифференциально-геометрической метрикой (§§ 234-238)]] (стр. 557–563)
-- [[efimov_g09_s02_parabolicheskie_prostranstvennye_formy|2. Параболические пространственные формы (§§ 239-241)]] (стр. 564–568)
-- [[efimov_g09_s03_ellipticheskie_prostranstvennye_formy|3. Эллиптические пространственные формы (§§ 242-245)]] (стр. 569–571)
+- [[efimov_g09_s01_dvumernye_mnogoobraziya_s_differentsialno_geometricheskoy_metrikoy|1. Двумерные многообразия с дифференциально-геометрической метрикой (§§ 234-238)]] (стр. 557–564)
+- [[efimov_g09_s02_parabolicheskie_prostranstvennye_formy|2. Параболические пространственные формы (§§ 239-241)]] (стр. 564–569)
+- [[efimov_g09_s03_ellipticheskie_prostranstvennye_formy|3. Эллиптические пространственные формы (§§ 242-245)]] (стр. 569–572)
 - [[efimov_g09_s04_giperbolicheskie_prostranstvennye_formy|4. Гиперболические пространственные формы (§§ 246-249)]] (стр. 572–576)
 
 Книга разобрана до конца источника (последняя печатная страница — 576).
+
+<!-- конец автогенерируемого блока apokrif -->
