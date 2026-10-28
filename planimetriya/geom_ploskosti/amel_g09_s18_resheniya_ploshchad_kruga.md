@@ -1,16 +1,8 @@
 ## 9.18. Площадь круга и его частей
 
 ---
-**стр. 465**
+**стр. 465, продолжение**
 ---
-
-$DE = \frac{a \cdot \sin \alpha}{\sin(\alpha + \beta)}$, $BE = \frac{b \cdot \sin \beta}{\sin(\alpha + \beta)}$ и $CE = \frac{b \cdot \sin \alpha}{\sin(\alpha + \beta)}$ и, таким образом,
-
-$S_{ABCD} = \frac{1}{2} \cdot \frac{a \cdot \sin \beta}{\sin(\alpha + \beta)} \cdot \frac{a \cdot \sin \alpha}{\sin(\alpha + \beta)} \cdot \sin(\alpha + \beta) -$
-
-$- \frac{1}{2} \cdot \frac{b \cdot \sin \beta}{\sin(\alpha + \beta)} \cdot \frac{b \cdot \sin \alpha}{\sin(\alpha + \beta)} \cdot \sin(\alpha + \beta) = \frac{1}{2}(a^2 - b^2) \frac{\sin \alpha \cdot \sin \beta}{\sin(\alpha + \beta)}$.
-
-Ответ: $\frac{1}{2}(a^2 - b^2) \frac{\sin \alpha \cdot \sin \beta}{\sin(\alpha + \beta)}$.
 
 **§18. Площадь круга и его частей**
 
@@ -61,3 +53,20 @@ $- \frac{R^2}{12}(4\pi - 3\sqrt{3}) = \frac{R^2}{12}(8\pi + 3\sqrt{3})$.
 Ответ: $\frac{4\pi - 3\sqrt{3}}{8\pi + 3\sqrt{3}} \left(\frac{8\pi + 3\sqrt{3}}{4\pi - 3\sqrt{3}}\right)$.
 
 **18.4C.** Пусть $M$ — точка пересечения диагоналей четырехугольника $ABCD$ (рис. 18.4C). Тогда угол $DMC$ как угол, вершина которого лежит внутри круга, равен полусумме дуг $AB$ и $CD$. По условию этот же угол равен $\frac{\pi}{2}$ и, значит, $\frac{1}{2}(\cup AB + \cup CD) = \frac{\pi}{2}$ или $\cup AB + \cup CD = \pi$.
+
+
+---
+**стр. 467**
+---
+
+![Рис. 18.4C](assets/amel_g09_s18_resheniya_ploshchad_kruga/p467-fig1.png)
+
+С другой стороны, по условию $\angle AOB = 3\angle COD$. Следовательно, $3\cup CD + \cup CD = \pi$ и, таким образом, $\cup CD = \frac{\pi}{4}$.
+
+Далее, поскольку $\angle DAC = \frac{1}{2}\angle DOC = \frac{\pi}{8}$, то по теореме синусов из треугольника $DAC$ можно найти радиус $R$ окружности $s$.
+
+Именно, $R = \frac{CD}{2\sin\angle DAC} = \frac{10}{2\sin\frac{\pi}{8}} = \frac{5}{\sin\frac{\pi}{8}} = \frac{5}{\sqrt{\frac{1-\cos(\pi/4)}{2}}} = 5\sqrt{4+2\sqrt{2}}$.
+
+Но в таком случае искомая площадь круга равна $\pi \cdot R^2 = \pi \cdot 25(4+2\sqrt{2}) = 50(2+\sqrt{2})\cdot\pi$.
+
+Ответ: $50(2+\sqrt{2})\cdot\pi$.

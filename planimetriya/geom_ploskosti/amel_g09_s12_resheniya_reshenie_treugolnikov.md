@@ -1,28 +1,8 @@
 ## 9.12. Решение треугольников
 
 ---
-**стр. 437**
+**стр. 437, продолжение**
 ---
-
-![Рис. 11.7С](assets/amel_g09_s12_resheniya_reshenie_treugolnikov/p437-fig1.png)
-
-угольного треугольника $ACB$ находим, что $\cos\alpha = \frac{AC}{AB} = \frac{2}{\sqrt{5}}$, $CB = 2R \cdot \sin\alpha$. По теореме же косинусов из треугольника $BDC$ получаем, что $CB^2 = CD^2 + BD^2 - 2CD \cdot BD \cdot \cos\alpha$, т. е. $4R^2 \cdot \sin^2\alpha =$
-
-$= 4R^2 \cdot (1 - \frac{4}{5}) = \frac{16}{5}R^2 + 5 - 2 \cdot \frac{4}{\sqrt{5}} \cdot R \cdot \sqrt{5} \cdot \frac{2}{R}$, или $\frac{4}{5}R^2 = 5$, откуда $R = \frac{5}{2}$.
-
-**Ответ:** $R = \frac{5}{2}$.
-
-**11.12С.** Вначале выясним вид заданного треугольника, для чего вычислим косинус угла, лежащего против большей стороны, т. е. $\cos\angle CAB$. По теореме косинусов
-
-$\cos\angle CAB = \frac{AC^2 + AB^2 - BC^2}{2AC \cdot AB} = -\frac{1}{4}$
-
-и так как $\cos\angle CAB < 0$, то треугольник является тупоугольным (рис. 11.8С).
-
-![Рис. 11.8С](assets/amel_g09_s12_resheniya_reshenie_treugolnikov/p437-fig2.png)
-
-Обозначим $\angle ACB$ через $\alpha$. Тогда по теореме косинусов $\cos\alpha = \frac{BC^2 + AC^2 - AB^2}{2BC \cdot AC} = \frac{11}{16}$. Теперь из прямоугольного треугольника $BCD$ находим $DC = BC \cdot \cos\alpha = 4 \cdot \frac{11}{16} = \frac{11}{4}$.
-
-**Ответ:** $CD = \frac{11}{4}$.
 
 **§ 12. Решение треугольников**
 
@@ -31,7 +11,6 @@ $\cos\angle CAB = \frac{AC^2 + AB^2 - BC^2}{2AC \cdot AB} = -\frac{1}{4}$
 $+ c) \cdot r^2 = (b + c - a) \cdot (a + c - b) \cdot (a + b - c)$.
 
 **Ответ:** $4(a + b + c) \cdot r^2 = (b + c - a) \cdot (a + c - b) \cdot (a + b - c)$.
-
 
 ---
 **стр. 438**
@@ -84,3 +63,18 @@ $+ c) \cdot r^2 = (b + c - a) \cdot (a + c - b) \cdot (a + b - c)$.
 если $b > a > h_c$, то $c = \pm\sqrt{a^2 - h_c^2} + \sqrt{b^2 - h_c^2}$.
 
 **12.5C.** Пусть $AB = c$, тогда из пункта 3 задачи 12.1 следует, что $\cos \frac{\alpha}{2} = \frac{l_a(b+c)}{2bc}$. С другой стороны, по теореме косинусов $b^2 + c^2 - 2b \cdot c \cdot \cos \alpha = a^2$ или $b^2 + c^2 - 2b \cdot c \left(2\cos^2 \frac{\alpha}{2} - 1\right) = a^2$, или $4b \cdot c \cdot \cos^2 \frac{\alpha}{2} = (b+c)^2 - a^2$. Подставляя в это равенство найденное выше значение $\cos \frac{\alpha}{2}$,
+
+
+---
+**стр. 440**
+---
+
+находим, что $l_a = \frac{\sqrt{bc(b+c+a)(b+c-a)}}{b+c}$ или $l_a^2 \cdot (b+c)^2 = b \cdot c \cdot (b+c+a) \cdot (b+c-a)$.
+
+**Ответ:** $l_a^2 \cdot (b+c)^2 = b \cdot c \cdot (b+c+a) \cdot (b+c-a)$.
+
+**12.6C.** По аналогии с решением предыдущей задачи легко найти, что $l_c = \frac{\sqrt{ab(a+b+c)(a+b-c)}}{a+b}$ или $c^2 = (a+b)^2 \cdot \left(1 - \frac{l_c^2}{ab}\right)$, или $c = (a+b) \cdot \sqrt{1 - \frac{l_c^2}{ab}}$, где $c = AB$. Чтобы выяснить, при каких значениях $a$, $b$, $l_c$ задача имеет решение, воспользуемся формулой $l_c = \frac{2ab \cos \frac{\gamma}{2}}{a+b}$ или формулой $\cos \frac{\gamma}{2} = \frac{(a+b)l_c}{2ab}$.
+
+Отсюда следует, что требуемый треугольник существует тогда и только тогда, когда $\frac{(a+b)l_c}{2ab} < 1$.
+
+**Ответ:** задача имеет решение тогда и только тогда, когда $l_c < \frac{2ab}{a+b}$. В этом случае $c = (a+b) \sqrt{1 - \frac{l_c^2}{ab}}$.

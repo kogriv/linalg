@@ -1,14 +1,8 @@
 ## 9.17. Площадь n-угольников
 
 ---
-**стр. 461**
+**стр. 461, продолжение**
 ---
-
-ли диагонали перпендикулярны, квадратом — если они равны и перпендикулярны.
-
-**16.9С.** Пусть $ABCD$ — выпуклый четырехугольник (рис. 16.7С) и пусть $AE \perp BD$, $CF \perp BD$. Тогда если рассмотреть, например, прямоугольный треугольник $BEA$, то вся часть плоскости, ограниченная этим треугольником, будет лежать внутри круга, построенного на стороне $AB$ как на диаметре. Аналогичный факт имеет место и относительно прямоугольных треугольников $AED$, $CFB$ и $DFC$, что и доказывает требуемое.
-
-![Рис. 16.7С](assets/amel_g09_s17_resheniya_ploshchad_n_ugolnikov/p461-fig1.png)
 
 **§17. Площадь $n$-угольников**
 
@@ -27,7 +21,6 @@ $S = \frac{l_c(a + b)}{4ab} \cdot \sqrt{4a^2b^2 - l_c^2(a + b)^2}$.
 **17.2С.** Пусть $O$ — точка пересечения медиан треугольника $ABC$, $\angle DOB = \alpha$ (рис. 17.1С).
 
 Тогда поскольку $S_{\Delta ABC} = 3S_{\Delta BOA}$ (задача 6.1), $AO = \frac{2}{3} AD$, $BO =$
-
 
 ---
 **стр. 462**
@@ -120,3 +113,16 @@ $$S_{\Delta AED} = \frac{1}{2} \cdot AE \cdot DE \cdot \sin(\alpha + \beta),$$
 $$S_{\Delta BEC} = \frac{1}{2} \cdot BE \cdot CE \cdot \sin(\alpha + \beta),$$
 
 где $AE$, $DE$, $BE$ и $CE$ находятся на основании теоремы синусов из соотношений $\frac{AE}{\sin \beta} = \frac{DE}{\sin \alpha} = \frac{a}{\sin(\alpha + \beta)}$, $\frac{BE}{\sin \beta} = \frac{CE}{\sin \alpha} = \frac{b}{\sin(\alpha + \beta)}$. Отсюда получаем, что $AE = \frac{a \cdot \sin \beta}{\sin(\alpha + \beta)}$,
+
+
+---
+**стр. 465**
+---
+
+$DE = \frac{a \cdot \sin \alpha}{\sin(\alpha + \beta)}$, $BE = \frac{b \cdot \sin \beta}{\sin(\alpha + \beta)}$ и $CE = \frac{b \cdot \sin \alpha}{\sin(\alpha + \beta)}$ и, таким образом,
+
+$S_{ABCD} = \frac{1}{2} \cdot \frac{a \cdot \sin \beta}{\sin(\alpha + \beta)} \cdot \frac{a \cdot \sin \alpha}{\sin(\alpha + \beta)} \cdot \sin(\alpha + \beta) -$
+
+$- \frac{1}{2} \cdot \frac{b \cdot \sin \beta}{\sin(\alpha + \beta)} \cdot \frac{b \cdot \sin \alpha}{\sin(\alpha + \beta)} \cdot \sin(\alpha + \beta) = \frac{1}{2}(a^2 - b^2) \frac{\sin \alpha \cdot \sin \beta}{\sin(\alpha + \beta)}$.
+
+Ответ: $\frac{1}{2}(a^2 - b^2) \frac{\sin \alpha \cdot \sin \beta}{\sin(\alpha + \beta)}$.

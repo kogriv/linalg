@@ -1,24 +1,8 @@
 ## 9.11. Теорема косинусов
 
 ---
-**стр. 432**
+**стр. 432, продолжение**
 ---
-
-уравнение $\dfrac{10\cos\gamma}{3 - 4\sin^2\gamma} - \dfrac{5}{3 - 4\sin^2\gamma} = 2$, которое равносильно уравнению $8\cos^2\gamma - 10\cos\gamma + 3 = 0$, имеющему относительно $\cos\gamma$ корни $\dfrac{1}{2}$ и $\dfrac{3}{4}$. А поскольку $\angle BCA + \angle CAB = 3\gamma < 180^\circ$, т. е. $\gamma < 60^\circ$, то $\cos\gamma > \dfrac{1}{2}$. Поэтому из найденных значений косинуса подходит только $\cos\gamma = \dfrac{3}{4}$. Но тогда $\sin\gamma = \sqrt{1 - \cos^2\gamma} = \dfrac{\sqrt{7}}{4}$ и, таким образом, $x = 4$, т. е. $AB = 4$ и, значит, $BC = x + 2 = 6$.
-
-**Ответ:** 4; 6.
-
-**10.7С.** Пусть $R_1$ и $R_2$ — радиусы окружностей, описанных соответственно около треугольников $ABD$ и $BCD$ (рис. 10.7С).
-
-![Рис. 10.7С](assets/amel_g09_s11_resheniya_teorema_kosinusov/p432-fig1.png)
-
-Тогда по расширенной теореме синусов имеем
-
-$$2R_1 = \frac{AB}{\sin \angle BDA},$$
-
-$$2R_2 = \frac{BC}{\sin \angle BDC}.$$
-
-Но $AB = BC$, $\sin \angle BDA = \sin(180^\circ - \angle BDC) = \sin \angle BDC$ и поэтому $R_1 = R_2$, что и требовалось доказать.
 
 **§ 11. Теорема косинусов**
 
@@ -138,3 +122,28 @@ $= 20\sqrt{6} .$
 **Ответ:** $\frac{7\sqrt{3}}{3} r^2$.
 
 **11.11С.** Обозначим $\angle BAC = \alpha$ (рис. 11.7С). Тогда из условия задачи следует, что $\frac{1}{2} AC \cdot AB \cdot \sin \alpha = CD \cdot BD \cdot \sin \angle BDC = CD \cdot BD \cdot \sin \alpha$ (вписанные углы $BAC$ and $BDC$ опираются на одну и ту же дугу $CB$), откуда $CD = \frac{AC \cdot AB}{2BD} = \frac{4R}{\sqrt{5}}$. Далее, из прямо-
+
+
+---
+**стр. 437**
+---
+
+![Рис. 11.7С](assets/amel_g09_s11_resheniya_teorema_kosinusov/p437-fig1.png)
+
+угольного треугольника $ACB$ находим, что $\cos\alpha = \frac{AC}{AB} = \frac{2}{\sqrt{5}}$, $CB = 2R \cdot \sin\alpha$. По теореме же косинусов из треугольника $BDC$ получаем, что $CB^2 = CD^2 + BD^2 - 2CD \cdot BD \cdot \cos\alpha$, т. е. $4R^2 \cdot \sin^2\alpha =$
+
+$= 4R^2 \cdot (1 - \frac{4}{5}) = \frac{16}{5}R^2 + 5 - 2 \cdot \frac{4}{\sqrt{5}} \cdot R \cdot \sqrt{5} \cdot \frac{2}{R}$, или $\frac{4}{5}R^2 = 5$, откуда $R = \frac{5}{2}$.
+
+**Ответ:** $R = \frac{5}{2}$.
+
+**11.12С.** Вначале выясним вид заданного треугольника, для чего вычислим косинус угла, лежащего против большей стороны, т. е. $\cos\angle CAB$. По теореме косинусов
+
+$\cos\angle CAB = \frac{AC^2 + AB^2 - BC^2}{2AC \cdot AB} = -\frac{1}{4}$
+
+и так как $\cos\angle CAB < 0$, то треугольник является тупоугольным (рис. 11.8С).
+
+![Рис. 11.8С](assets/amel_g09_s11_resheniya_teorema_kosinusov/p437-fig2.png)
+
+Обозначим $\angle ACB$ через $\alpha$. Тогда по теореме косинусов $\cos\alpha = \frac{BC^2 + AC^2 - AB^2}{2BC \cdot AC} = \frac{11}{16}$. Теперь из прямоугольного треугольника $BCD$ находим $DC = BC \cdot \cos\alpha = 4 \cdot \frac{11}{16} = \frac{11}{4}$.
+
+**Ответ:** $CD = \frac{11}{4}$.

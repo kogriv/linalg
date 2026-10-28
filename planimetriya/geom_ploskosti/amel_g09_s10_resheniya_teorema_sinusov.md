@@ -87,3 +87,24 @@ $\frac{x}{\sin\gamma} = \frac{5}{\sin(180^\circ - 3\gamma)} = \frac{x + 2}{\sin 
 Отсюда, имея в виду тот факт, что $\sin 3\gamma = 3\sin\gamma - 4\sin^3\gamma$, находим, что
 $x = \frac{5\sin\gamma}{\sin 3\gamma} = \frac{5}{3 - 4\sin^2\gamma}$, а $x + 2 = \frac{5\sin 2\gamma}{\sin 3\gamma} =$
 $= \frac{10\cos\gamma}{3 - 4\sin^2\gamma}$. Следствием последних двух соотношений является
+
+
+---
+**стр. 432**
+---
+
+уравнение $\dfrac{10\cos\gamma}{3 - 4\sin^2\gamma} - \dfrac{5}{3 - 4\sin^2\gamma} = 2$, которое равносильно уравнению $8\cos^2\gamma - 10\cos\gamma + 3 = 0$, имеющему относительно $\cos\gamma$ корни $\dfrac{1}{2}$ и $\dfrac{3}{4}$. А поскольку $\angle BCA + \angle CAB = 3\gamma < 180^\circ$, т. е. $\gamma < 60^\circ$, то $\cos\gamma > \dfrac{1}{2}$. Поэтому из найденных значений косинуса подходит только $\cos\gamma = \dfrac{3}{4}$. Но тогда $\sin\gamma = \sqrt{1 - \cos^2\gamma} = \dfrac{\sqrt{7}}{4}$ и, таким образом, $x = 4$, т. е. $AB = 4$ и, значит, $BC = x + 2 = 6$.
+
+**Ответ:** 4; 6.
+
+**10.7С.** Пусть $R_1$ и $R_2$ — радиусы окружностей, описанных соответственно около треугольников $ABD$ и $BCD$ (рис. 10.7С).
+
+![Рис. 10.7С](assets/amel_g09_s10_resheniya_teorema_sinusov/p432-fig1.png)
+
+Тогда по расширенной теореме синусов имеем
+
+$$2R_1 = \frac{AB}{\sin \angle BDA},$$
+
+$$2R_2 = \frac{BC}{\sin \angle BDC}.$$
+
+Но $AB = BC$, $\sin \angle BDA = \sin(180^\circ - \angle BDC) = \sin \angle BDC$ и поэтому $R_1 = R_2$, что и требовалось доказать.

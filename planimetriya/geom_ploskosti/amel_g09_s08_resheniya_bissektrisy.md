@@ -171,3 +171,14 @@ $= \angle ABO + \angle D_2BO = \beta/2 + (\gamma - \varphi + \beta/2) = \beta + 
 Действительно, так как $\angle KMA_1 =$ $= \angle B_1BC = \angle ABB_1 = \angle C_1ML$, то $\angle BMK = \angle BNL$, поэтому для доказательства подобия указанных выше треугольников достаточно показать, что $\frac{BM}{MK} = \frac{BN}{NL}$.
 
 По построению $MK \parallel BB_1$, поэтому $\Delta MA_1K \sim \Delta BA_1B_1$. Следовательно, $\frac{MA_1}{BA_1} = \frac{KA_1}{B_1A_1}$ или $\frac{BA_1 - BM}{BA_1} = \frac{B_1A_1 - B_1K}{B_1A_1}$. Отсюда $\frac{BM}{BA_1} =$
+
+
+---
+**стр. 422**
+---
+
+$= \frac{B_1K}{B_1A_1}$, т. е. $BM = \frac{BA_1 \cdot B_1K}{B_1A_1}$. Далее, из рассмотрения тех же треугольников $MA_1K$ и $BA_1B_1$ следует, что $\frac{MK}{BB_1} = \frac{KA_1}{B_1A_1}$ или $MK =$ $= \frac{BB_1 \cdot KA_1}{B_1A_1}$. Но в таком случае $\frac{BM}{MK} = \frac{B_1K}{KA_1} \cdot \frac{BA_1}{BB_1}$.
+
+Пусть $AB = c$, $BC = a$, $AC = b$. Тогда из треугольников $A_1CB_1$ и $ABC$ по свойству 8.7X получаем следующие пропорции: $\frac{B_1K}{KA_1} =$ $= \frac{CB_1}{CA_1}$, $\frac{A_1B}{CA_1} = \frac{c}{b}$, $\frac{CB_1}{a} = \frac{b - CB_1}{c}$. Из последнего соотношения находим, что $CB_1 = \frac{ab}{a + c}$. Поэтому $\frac{BM}{MK} = \frac{B_1K}{KA_1} \cdot \frac{BA_1}{BB_1} = \frac{CB_1}{CA_1} \cdot \frac{BA_1}{BB_1} =$ $= \frac{BA_1}{CA_1} \cdot \frac{CB_1}{BB_1} = \frac{ac}{(a + c)BB_1}$.
+
+Аналогично доказывается, что и $\frac{BN}{NL} = \frac{ac}{(a + c)BB_1}$. Итак, $\Delta LNB \sim$ $\sim \Delta BMK$, поэтому $\angle NBL = \angle KBM$ и, значит, $\angle LBB_1 = \angle KBB_1$, откуда и следует требуемое.
