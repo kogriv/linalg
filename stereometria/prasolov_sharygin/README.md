@@ -318,8 +318,19 @@
 - [[prasolov_sharygin_stereo_g15_s02_tselochislennye_reshetki|15.2. Целочисленные решетки (§ 2)]] (стр. 255)
 - [[prasolov_sharygin_stereo_g15_s03_razrezaniya_razbieniya_raskraski|15.3. Разрезания. Разбиения. Раскраски (§ 3)]] (стр. 256–257)
 - [[prasolov_sharygin_stereo_g15_s04_zadachi_odinochki|15.4. Задачи-одиночки (§ 4)]] (стр. 257)
-- [[prasolov_sharygin_stereo_g15_s05_resheniya|15.5. Решения]] (стр. 257–269, не окончен)
+- [[prasolov_sharygin_stereo_g15_s05_resheniya|15.5. Решения]] (стр. 257–270)
 
-Разбор в процессе. Дальше — продолжение «15.5. Решения» со стр. 270.
+**Глава 16. Инверсия и стереографическая проекция**
+- [[prasolov_sharygin_stereo_g16_s01_svoystva_inversii|16.1. Свойства инверсии (§ 1)]] (стр. 271–272)
+- [[prasolov_sharygin_stereo_g16_s02_sdelaem_inversiyu|16.2. Сделаем инверсию (§ 2)]] (стр. 272)
+- [[prasolov_sharygin_stereo_g16_s03_nabory_kasayushchihsya_sfer|16.3. Наборы касающихся сфер (§ 3)]] (стр. 272–273)
+- [[prasolov_sharygin_stereo_g16_s04_stereograficheskaya_proektsiya|16.4. Стереографическая проекция (§ 4)]] (стр. 273–274)
+- [[prasolov_sharygin_stereo_g16_s05_resheniya|16.5. Решения]] (стр. 274–281)
+
+**Глава 17. Приложение**
+- [[prasolov_sharygin_stereo_g17_s01_zadachi_dlya_samostoyatelnogo_resheniya|17.1. Задачи для самостоятельного решения]] (стр. 282–285)
+- [[prasolov_sharygin_stereo_g17_s02_spisok_literatury|17.2. Список рекомендуемой литературы]] (стр. 286–289)
+
+Книга разобрана до конца источника (последняя печатная страница — 289).
 
 <!-- конец автогенерируемого блока apokrif -->
