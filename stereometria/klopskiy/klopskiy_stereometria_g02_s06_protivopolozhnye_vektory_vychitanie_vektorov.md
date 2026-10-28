@@ -1,24 +1,8 @@
 ## 2.6. Противоположные векторы. Вычитание векторов
 
 ---
-**стр. 46**
+**стр. 46, продолжение**
 ---
-
-**Задачи**
-
-179°. Может ли длина суммы двух векторов быть меньше длины каждого из слагаемых?
-
-180. В трапеции $ABCD$ основания $[AD]$ и $[BC]$ имеют соответственно длины $a$ и $b$ ($a > b$). Постройте направленный отрезок, задающий вектор: 1) $\overrightarrow{AD} + \overrightarrow{BC}$; 2) $\overrightarrow{AD} + \overrightarrow{CB}$; 3) $\overrightarrow{AB} + \overrightarrow{CD}$. Вычислите длину каждого из этих векторов.
-
-181. В треугольнике $ABC$ проведена медиана $AM$. Докажите, что $\overrightarrow{AM} + \overrightarrow{AM} = \overrightarrow{AB} + \overrightarrow{AC}$.
-
-182°. Докажите, что $\overrightarrow{AB} + \overrightarrow{DA} = \overrightarrow{DB}$.
-
-183°. Найдите сумму $\overrightarrow{AB} + \overrightarrow{BC} + \overrightarrow{CA}$.
-
-184. Дан тетраэдр $ABCD$. Найдите сумму векторов: 1) $\overrightarrow{AB} + \overrightarrow{BD} + \overrightarrow{DC}$; 2) $\overrightarrow{AD} + \overrightarrow{CB} + \overrightarrow{DC}$; 3) $\overrightarrow{AB} + \overrightarrow{CD} + \overrightarrow{BC} + \overrightarrow{DA}$.
-
-185. Дан параллелепипед $ABCDA_1B_1C_1D_1$. Найдите сумму векторов: 1) $\overrightarrow{AB} + \overrightarrow{BB_1} + \overrightarrow{B_1C_1}$; 2) $\overrightarrow{CB} + \overrightarrow{B_1A_1} + \overrightarrow{AD_1}$; 3) $\overrightarrow{AC_1} + \overrightarrow{D_1A} + \overrightarrow{BD_1}$; 4) $\overrightarrow{D_1C} + \overrightarrow{AA_1} + \overrightarrow{CB} + \overrightarrow{C_1C}$.
 
 ## § 19. ПРОТИВОПОЛОЖНЫЕ ВЕКТОРЫ. ВЫЧИТАНИЕ ВЕКТОРОВ
 
@@ -39,7 +23,6 @@ $$\vec{a} + (-\vec{a}) = \vec{0}. \qquad (1)$$
 $$\vec{c} + \vec{b} = (\vec{a} + (-\vec{b})) + \vec{b} = \vec{a} + ((-\vec{b}) + \vec{b}) = \vec{a} + \vec{0} = \vec{a}.$$
 
 (Какие законы сложения векторов здесь применялись?)
-
 
 ---
 **стр. 47**

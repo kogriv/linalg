@@ -73,3 +73,10 @@ $$\overrightarrow{AB} \cdot \overrightarrow{AC} + \overrightarrow{BC} \cdot \ove
 **224.** Дан треугольник $ABC$: $|BC| = a$, $|CA| = b$, $|AB| = c$. Выразите через $a$, $b$, $c$ скалярные произведения: 1) $\overrightarrow{AB} \cdot \overrightarrow{AC}$; 2) $\overrightarrow{BC} \cdot \overrightarrow{BA}$.
 
 **225.** $\overrightarrow{OA}$ и $\overrightarrow{OB}$ — неколлинеарные единичные векторы. Найдите скалярное произведение $(\overrightarrow{OA} + \overrightarrow{OB}) \cdot (\overrightarrow{OA} - \overrightarrow{OB})$.
+
+
+---
+**стр. 59**
+---
+
+226. Длина каждого из рёбер тетраэдра $ABCD$ равна $a$, точки $M$, $N$, $P$ являются серединами рёбер $AB$, $AD$, $DC$. Вычислите скалярные произведения: 1) $\overrightarrow{AC}\cdot\overrightarrow{AB}$; 2) $\overrightarrow{AD}\cdot\overrightarrow{DB}$; 3) $\overrightarrow{PN}\cdot\overrightarrow{AC}$; 4) $\overrightarrow{MN}\cdot\overrightarrow{BC}$; 5) $\overrightarrow{NP}\cdot\overrightarrow{BA}$; 6) $\overrightarrow{PM}\cdot\overrightarrow{PB}$.

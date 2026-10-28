@@ -1,28 +1,8 @@
 ## 2.10. Правило параллелепипеда. Разложение вектора по трем некомпланарным векторам
 
 ---
-**стр. 53**
+**стр. 53, продолжение**
 ---
-
-$+ \frac{2}{3}\overrightarrow{OC_1}$. Но $\overrightarrow{OC_1} = \frac{1}{2}(\overrightarrow{OA} + \overrightarrow{OB})$ (задача 1), тогда
-
-$$\overrightarrow{OM} = \frac{1}{3}\overrightarrow{OC} + \frac{2}{3} \cdot \frac{1}{2}(\overrightarrow{OB} + \overrightarrow{OA}) = \frac{1}{3}(\overrightarrow{OA} + \overrightarrow{OB} + \overrightarrow{OC}). \blacksquare$$
-
-**Задачи**
-
-**206.** Точки $M_1$ и $M_2$ — середины отрезков $A_1B_1$ и $A_2B_2$ соответственно. Докажите, что $\overrightarrow{M_1M_2} = \frac{1}{2}(\overrightarrow{A_1A_2} + \overrightarrow{B_1B_2})$.
-
-**207.** Докажите, что середины оснований трапеции и точка пересечения продолжений ее боковых сторон принадлежат одной прямой.
-
-**208.** 1) $M_1$ и $M_2$ — точки пересечения медиан треугольников $A_1B_1C_1$ и $A_2B_2C_2$. Докажите, что $\overrightarrow{M_1M_2} = \frac{1}{3}(\overrightarrow{A_1A_2} + \overrightarrow{B_1B_2} + \overrightarrow{C_1C_2})$.
-
-2) В треугольнике $ABC$ точки $A_1$, $B_1$, $C_1$ являются серединами сторон $BC$, $AC$, $AB$. Докажите, что при любом выборе точки $O$ выполняется равенство:
-
-$$\overrightarrow{OA_1} + \overrightarrow{OB_1} + \overrightarrow{OC_1} = \overrightarrow{OA} + \overrightarrow{OB} + \overrightarrow{OC}.$$
-
-**209.** В тетраэдре $ABCD$ точки $M_1$ и $M_2$ являются соответственно точками пересечения медиан граней $ADB$ и $BDC$. Докажите, что векторы $\overrightarrow{M_1M_2}$ и $\overrightarrow{AC}$ коллинеарны. Найдите отношение длин этих векторов.
-
-**210.** Треугольник $ABC$ является параллельной проекцией треугольника $A_1B_1C_1$ на плоскость. Известно: $|AA_1| = a$, $|BB_1| = b$, $|CC_1| = c$. Найдите расстояние между точками пересечения медиан этих треугольников.
 
 ## § 23. Правило параллелепипеда. Разложение вектора по трем некомпланарным векторам
 
@@ -59,3 +39,24 @@ $$\vec{d} = x\vec{a} + y\vec{b} + z\vec{c}.$$
 **Задачи**
 
 **211.** Дан параллелепипед $ABCDA_1B_1C_1D_1$. Разложите по векторам $\vec{p} = \overrightarrow{AB}$, $\vec{q} = \overrightarrow{AD}$, $\vec{r} = \overrightarrow{AA_1}$ векторы: 1) $\overrightarrow{AB_1}$; 2) $\overrightarrow{AC_1}$;
+
+
+---
+**стр. 55**
+---
+
+3) $\overrightarrow{AM}$, где $M$ — середина $[DD_1]$; 4) $\overrightarrow{AN}$, где $N$ — середина $[CC_1]$; 5) $\overrightarrow{AP}$, где $P$ — середина $[BC_1]$; 6) $\overrightarrow{AQ}$, где $Q \in [D_1C_1]$ и $|D_1Q| : |D_1C_1| = 5 : 11$.
+
+**212.** Треугольник $ABC$ является параллельной проекцией треугольника $A_1B_1C_1$ на непересекающую его плоскость (рис. 89). Известно: $|AA_1| = a$, $|BB_1| = b$, $M$ — середина $[B_1C]$. Разложить вектор $\overrightarrow{AM}$ по векторам $\overrightarrow{AA_1} = \vec{p}$, $\overrightarrow{AB} = \vec{q}$, $\overrightarrow{AC} = \vec{r}$.
+
+![Рис. 89](assets/klopskiy_stereometria_g02_s10_pravilo_parallelepipeda_razlozhenie_vektora_po_trem/p55-fig1.png)
+
+**Решение.** Имеем: $\overrightarrow{AM} = \frac{1}{2}(\overrightarrow{AC} + \overrightarrow{AB_1}) = \frac{1}{2}(\vec{r} + \overrightarrow{AB_1})$ (§ 22, задача 1). По правилу треугольника $\overrightarrow{AB_1} = \overrightarrow{AB} + \overrightarrow{BB_1} = \vec{q} + \overrightarrow{BB_1}$. Но $\overrightarrow{BB_1} = x\vec{p}$, так как $\overrightarrow{BB_1} \uparrow\uparrow \vec{p}$, отсюда $|\overrightarrow{BB_1}| = x|\vec{p}|$, или $b = xa$, $x = \frac{b}{a}$. Тогда $\overrightarrow{AM} = \frac{1}{2}\left(\vec{r} + \vec{q} + \frac{b}{a}\vec{p}\right) = \frac{b}{2a}\vec{p} + \frac{1}{2}\vec{q} + \frac{1}{2}\vec{r}$.
+
+**213.** Медианы грани $ABC$ тетраэдра $OABC$ пересекаются в точке $M$. Разложите вектор $\overrightarrow{OA}$ по векторам $\overrightarrow{OB}$, $\overrightarrow{OC}$, $\overrightarrow{OM}$.
+
+**214.** Вне плоскости параллелограмма $ABCD$ взята точка $O$. Разложите по векторам $\vec{a} = \overrightarrow{OA}$, $\vec{b} = \overrightarrow{OB}$, $\vec{c} = \overrightarrow{OC}$ векторы: 1) $\overrightarrow{OM}$, где $M = (AC) \cap (BD)$; 2) $\overrightarrow{OD}$; 3) $\overrightarrow{OK}$, где $K$ — середина $[AD]$.
+
+**215.** В тетраэдре $ABCD$ медиана $AA_1$ грани $ABC$ делится точкой $M$ в отношении $|AM| : |MA_1| = 3 : 7$. Разложите вектор $\overrightarrow{DM}$ по векторам $\overrightarrow{DA}$, $\overrightarrow{DB}$, $\overrightarrow{DC}$.
+
+**216.** Рассматривается треугольник, вершинами которого являются концы трёх рёбер параллелепипеда, выходящих из одной его вершины. Докажите, что точка пересечения медиан треугольника принадлежит диагонали параллелепипеда, выходящей из той же вершины, и делит эту диагональ в отношении $1 : 2$.

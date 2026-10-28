@@ -1,10 +1,9 @@
 ## 2.13. Основные свойства скалярного умножения векторов
 
----
-**стр. 59**
----
 
-226. Длина каждого из рёбер тетраэдра $ABCD$ равна $a$, точки $M$, $N$, $P$ являются серединами рёбер $AB$, $AD$, $DC$. Вычислите скалярные произведения: 1) $\overrightarrow{AC}\cdot\overrightarrow{AB}$; 2) $\overrightarrow{AD}\cdot\overrightarrow{DB}$; 3) $\overrightarrow{PN}\cdot\overrightarrow{AC}$; 4) $\overrightarrow{MN}\cdot\overrightarrow{BC}$; 5) $\overrightarrow{NP}\cdot\overrightarrow{BA}$; 6) $\overrightarrow{PM}\cdot\overrightarrow{PB}$.
+---
+**стр. 59, продолжение**
+---
 
 ### § 26. Основные свойства скалярного умножения векторов
 
@@ -47,3 +46,34 @@ $$(\vec{a}+\vec{b})^2=2\vec{a}^2+2\vec{b}^2-(\vec{a}-\vec{b})^2. \qquad (2)$$
 Преобразуем выражение $(\vec{a}+\vec{b}+\vec{c})^2$.
 
 Сначала сгруппируем слагаемые так, чтобы можно было выделить скалярное произведение $\vec{a}\cdot(\vec{b}+\vec{c})$. Имеем:
+
+---
+**стр. 60**
+---
+
+произведение $\vec{a}\cdot(\vec{b}+\vec{c})$. Имеем:
+
+$$(\vec{a}+\vec{b}+\vec{c})^2=(\vec{a}+(\vec{b}+\vec{c}))^2=\vec{a}^2+2\vec{a}\cdot(\vec{b}+\vec{c})+(\vec{b}+\vec{c})^2=$$
+$$=\vec{a}^2+\vec{b}^2+\vec{c}^2+2\vec{a}\cdot(\vec{b}+\vec{c})+2\vec{b}\cdot\vec{c}. \qquad (3)$$
+
+Теперь преобразуем $(\vec{a}+\vec{b}+\vec{c})^2$, используя равенство (2):
+
+$$(\vec{a}+\vec{b}+\vec{c})^2=\left(\left(\frac{\vec{a}}{2}+\vec{b}\right)+\left(\frac{\vec{a}}{2}+\vec{c}\right)\right)^2=2\left(\frac{\vec{a}}{2}+\vec{b}\right)^2+2\left(\frac{\vec{a}}{2}+\vec{c}\right)^2-$$
+$$-(\vec{b}-\vec{c})^2=\vec{a}^2+\vec{b}^2+\vec{c}^2+2\vec{a}\cdot\vec{b}+2\vec{a}\cdot\vec{c}+2\vec{b}\cdot\vec{c}. \qquad (4)$$
+
+Приравняв правые части равенств (3) и (4) и выполнив несложные преобразования, получим:
+
+$$\vec{a}\cdot(\vec{b}+\vec{c})=\vec{a}\cdot\vec{b}+\vec{a}\cdot\vec{c}.$$
+
+■
+
+Доказывая распределительный закон, мы попутно вывели формулу скалярного квадрата суммы трёх векторов:
+
+$$(\vec{a}+\vec{b}+\vec{c})^2=\vec{a}^2+\vec{b}^2+\vec{c}^2+2\vec{a}\cdot\vec{b}+2\vec{a}\cdot\vec{c}+2\vec{b}\cdot\vec{c}.$$
+
+Этой формулой мы будем неоднократно пользоваться.
+
+Приведём пример применения распределительного закона. Пусть надо произвести умножение: $(\vec{a}+\vec{b})\cdot(\vec{c}+\vec{d})$. Обозначим через $\vec{m}$ сумму $\vec{a}+\vec{b}$. Тогда $\vec{m}\cdot(\vec{c}+\vec{d})=\vec{m}\cdot\vec{c}+\vec{m}\cdot\vec{d}=(\vec{a}+\vec{b})\cdot\vec{c}+$
+$+(\vec{a}+\vec{b})\cdot\vec{d}=\vec{a}\cdot\vec{c}+\vec{b}\cdot\vec{c}+\vec{a}\cdot\vec{d}+\vec{b}\cdot\vec{d}.$
+
+Замечаем, что этот результат можно получить, преобразуя произведение $(\vec{a}+\vec{b})\cdot(\vec{c}+\vec{d})$ по аналогии с известным из алгебры способом преобразования произведения двух многочленов. Поэтому в дальнейшем промежуточные записи будем опускать.

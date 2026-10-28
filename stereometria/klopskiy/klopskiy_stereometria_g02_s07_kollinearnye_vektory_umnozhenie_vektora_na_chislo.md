@@ -75,3 +75,12 @@ $$0\vec{a} = \vec{0} \text{ для любого } \vec{a}.$$
 
 **196°.** В треугольнике $ABC$ медианы $AA_1$, $BB_1$, $CC_1$ пересекаются в точке $M$. Найдите множитель $k$, если:
 1) $\overrightarrow{A_1C}=k\overrightarrow{BC}$;
+
+
+---
+**стр. 50**
+---
+
+2) $\overrightarrow{C_1B}=k\overrightarrow{C_1A}$; 3) $\overrightarrow{AM}=k\overrightarrow{MA_1}$; 4) $\overrightarrow{CC_1}=k\overrightarrow{C_1M}$; 5) $\overrightarrow{MB_1}=k\overrightarrow{B_1B}$; 6) $\overrightarrow{MA}=k\overrightarrow{AA_1}$.
+
+**197.** Дано: $\vec a$ и $\vec b$ коллинеарны, $|\vec a|>|\vec b|$. Какое направление имеет вектор $\vec a+\vec b$? Найдите длину этого вектора.

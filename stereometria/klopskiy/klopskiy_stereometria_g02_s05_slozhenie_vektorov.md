@@ -1,12 +1,8 @@
 ## 2.5. Сложение векторов
 
 ---
-**стр. 44**
+**стр. 44, продолжение**
 ---
-
-**177.** Докажите, что треугольник и его проекция на плоскость конгруэнтны, если плоскость треугольника параллельна плоскости проекций.
-
-**178.** Дан параллелепипед $ABCDA_1B_1C_1D_1$. Докажите, что следующие пары углов конгруэнтны: 1) $\angle BC_1C$ и $\angle AD_1D$; 2) $\angle CBD_1$ и $\angle A_1D_1B$; 3) $\angle ADC$ и $\angle A_1B_1C_1$.
 
 **§ 18. СЛОЖЕНИЕ ВЕКТОРОВ**
 
@@ -31,7 +27,6 @@
 Из теоремы о композиции двух векторов вытекает равенство:
 
 $$\overrightarrow{AB} + \overrightarrow{BC} = \overrightarrow{AC}. \quad (3)$$
-
 
 ---
 **стр. 45**
@@ -63,3 +58,24 @@ $$\vec{a} + \vec{b} + \vec{c} + \vec{d} = (\vec{a} + \vec{b} + \vec{c}) + \vec{d
 Сумму трех или более векторов можно найти, пользуясь правилом многоугольника. Пусть надо найти сумму $\vec{s} = \vec{a}_1 + \vec{a}_2 + \vec{a}_3 + \vec{a}_4$. Выбрав произвольно точку $A$ (рис. 74), откладываем последовательно векторы $\overrightarrow{AA_1} = \vec{a}_1$, $\overrightarrow{A_1A_2} = \vec{a}_2$, $\overrightarrow{A_2A_3} = \vec{a}_3$, $\overrightarrow{A_3A_4} = \vec{a}_4$. Вектор $\overrightarrow{AA_4}$ равен искомой сумме $\vec{s}$. Убедитесь в этом самостоятельно, применяя последовательно правило треугольника (рис. 74).
 
 ![Рис. 74](assets/klopskiy_stereometria_g02_s05_slozhenie_vektorov/p45-fig2.png)
+
+
+---
+**стр. 46**
+---
+
+**Задачи**
+
+179°. Может ли длина суммы двух векторов быть меньше длины каждого из слагаемых?
+
+180. В трапеции $ABCD$ основания $[AD]$ и $[BC]$ имеют соответственно длины $a$ и $b$ ($a > b$). Постройте направленный отрезок, задающий вектор: 1) $\overrightarrow{AD} + \overrightarrow{BC}$; 2) $\overrightarrow{AD} + \overrightarrow{CB}$; 3) $\overrightarrow{AB} + \overrightarrow{CD}$. Вычислите длину каждого из этих векторов.
+
+181. В треугольнике $ABC$ проведена медиана $AM$. Докажите, что $\overrightarrow{AM} + \overrightarrow{AM} = \overrightarrow{AB} + \overrightarrow{AC}$.
+
+182°. Докажите, что $\overrightarrow{AB} + \overrightarrow{DA} = \overrightarrow{DB}$.
+
+183°. Найдите сумму $\overrightarrow{AB} + \overrightarrow{BC} + \overrightarrow{CA}$.
+
+184. Дан тетраэдр $ABCD$. Найдите сумму векторов: 1) $\overrightarrow{AB} + \overrightarrow{BD} + \overrightarrow{DC}$; 2) $\overrightarrow{AD} + \overrightarrow{CB} + \overrightarrow{DC}$; 3) $\overrightarrow{AB} + \overrightarrow{CD} + \overrightarrow{BC} + \overrightarrow{DA}$.
+
+185. Дан параллелепипед $ABCDA_1B_1C_1D_1$. Найдите сумму векторов: 1) $\overrightarrow{AB} + \overrightarrow{BB_1} + \overrightarrow{B_1C_1}$; 2) $\overrightarrow{CB} + \overrightarrow{B_1A_1} + \overrightarrow{AD_1}$; 3) $\overrightarrow{AC_1} + \overrightarrow{D_1A} + \overrightarrow{BD_1}$; 4) $\overrightarrow{D_1C} + \overrightarrow{AA_1} + \overrightarrow{CB} + \overrightarrow{C_1C}$.

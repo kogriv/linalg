@@ -1,12 +1,8 @@
 ## 2.8. Компланарные векторы
 
 ---
-**стр. 50**
+**стр. 50, продолжение**
 ---
-
-2) $\overrightarrow{C_1B}=k\overrightarrow{C_1A}$; 3) $\overrightarrow{AM}=k\overrightarrow{MA_1}$; 4) $\overrightarrow{CC_1}=k\overrightarrow{C_1M}$; 5) $\overrightarrow{MB_1}=k\overrightarrow{B_1B}$; 6) $\overrightarrow{MA}=k\overrightarrow{AA_1}$.
-
-**197.** Дано: $\vec a$ и $\vec b$ коллинеарны, $|\vec a|>|\vec b|$. Какое направление имеет вектор $\vec a+\vec b$? Найдите длину этого вектора.
 
 ## § 21. Компланарные векторы
 
@@ -33,7 +29,6 @@ $$\vec c=x\vec a+y\vec b.$$
 *Доказательство.* Пусть векторы $\vec a$, $\vec b$, $\vec c$ компланарны,
 
 ![Рис. 82](assets/klopskiy_stereometria_g02_s08_komplanarnye_vektory/p50-fig3.png)
-
 
 ---
 **стр. 51**
@@ -64,3 +59,14 @@ $$\vec c=x\vec a+y\vec b.$$
 **202.** Из вершин тетраэдра $ABCD$ составьте: 1) две упорядоченные пары точек, задающие коллинеарные векторы; 2) три упорядоченные пары, задающие компланарные векторы; 3) три упорядоченные пары, задающие некомпланарные векторы.
 
 **203.** Дан параллелепипед $ABCDA_1B_1C_1D_1$. Какие из следующих троек векторов компланарны:
+
+
+---
+**стр. 52**
+---
+
+1) $\overrightarrow{AA_1}$, $\overrightarrow{CC_1}$, $\overrightarrow{B_1B}$; 2) $\overrightarrow{AB}$, $\overrightarrow{AD}$, $\overrightarrow{AA_1}$; 3) $\overrightarrow{B_1B}$, $\overrightarrow{AC}$, $\overrightarrow{DD_1}$; 4) $\overrightarrow{AD}$, $\overrightarrow{A_1B_1}$, $\overrightarrow{CC_1}$?
+
+**204.** Дан параллелограмм $ABCD$. Разложите по векторам $\vec p = \overrightarrow{AB}$ и $\vec q = \overrightarrow{AD}$ векторы: 1) $\overrightarrow{AB}$; 2) $\overrightarrow{AD}$; 3) $\overrightarrow{AC}$; 4) $\overrightarrow{AO}$, где $O = (AC) \cap (BD)$; 5) $\overrightarrow{AM}$, где $M$ — середина отрезка $BC$.
+
+**205.** Дан треугольник $ABC$. Разложите по векторам $\vec a = \overrightarrow{CA}$ и $\vec b = \overrightarrow{CB}$ векторы: 1) $\overrightarrow{CB_1}$, где $B_1$ — середина $[AC]$; 2) $\overrightarrow{CC_1}$, где $C_1$ — середина $[AB]$; 3) $\overrightarrow{CO}$, где $O$ — точка пересечения медиан треугольника; 4) $\overrightarrow{CK}$, где $K \in [AB]$ и $|AK| : |KB| = 3 : 10$.

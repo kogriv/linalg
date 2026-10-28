@@ -1,24 +1,8 @@
 ## 2.11. Угол между двумя векторами
 
 ---
-**стр. 55**
+**стр. 55, продолжение**
 ---
-
-3) $\overrightarrow{AM}$, где $M$ — середина $[DD_1]$; 4) $\overrightarrow{AN}$, где $N$ — середина $[CC_1]$; 5) $\overrightarrow{AP}$, где $P$ — середина $[BC_1]$; 6) $\overrightarrow{AQ}$, где $Q \in [D_1C_1]$ и $|D_1Q| : |D_1C_1| = 5 : 11$.
-
-**212.** Треугольник $ABC$ является параллельной проекцией треугольника $A_1B_1C_1$ на непересекающую его плоскость (рис. 89). Известно: $|AA_1| = a$, $|BB_1| = b$, $M$ — середина $[B_1C]$. Разложить вектор $\overrightarrow{AM}$ по векторам $\overrightarrow{AA_1} = \vec{p}$, $\overrightarrow{AB} = \vec{q}$, $\overrightarrow{AC} = \vec{r}$.
-
-![Рис. 89](assets/klopskiy_stereometria_g02_s11_ugol_mezhdu_dvumya_vektorami/p55-fig1.png)
-
-**Решение.** Имеем: $\overrightarrow{AM} = \frac{1}{2}(\overrightarrow{AC} + \overrightarrow{AB_1}) = \frac{1}{2}(\vec{r} + \overrightarrow{AB_1})$ (§ 22, задача 1). По правилу треугольника $\overrightarrow{AB_1} = \overrightarrow{AB} + \overrightarrow{BB_1} = \vec{q} + \overrightarrow{BB_1}$. Но $\overrightarrow{BB_1} = x\vec{p}$, так как $\overrightarrow{BB_1} \uparrow\uparrow \vec{p}$, отсюда $|\overrightarrow{BB_1}| = x|\vec{p}|$, или $b = xa$, $x = \frac{b}{a}$. Тогда $\overrightarrow{AM} = \frac{1}{2}\left(\vec{r} + \vec{q} + \frac{b}{a}\vec{p}\right) = \frac{b}{2a}\vec{p} + \frac{1}{2}\vec{q} + \frac{1}{2}\vec{r}$.
-
-**213.** Медианы грани $ABC$ тетраэдра $OABC$ пересекаются в точке $M$. Разложите вектор $\overrightarrow{OA}$ по векторам $\overrightarrow{OB}$, $\overrightarrow{OC}$, $\overrightarrow{OM}$.
-
-**214.** Вне плоскости параллелограмма $ABCD$ взята точка $O$. Разложите по векторам $\vec{a} = \overrightarrow{OA}$, $\vec{b} = \overrightarrow{OB}$, $\vec{c} = \overrightarrow{OC}$ векторы: 1) $\overrightarrow{OM}$, где $M = (AC) \cap (BD)$; 2) $\overrightarrow{OD}$; 3) $\overrightarrow{OK}$, где $K$ — середина $[AD]$.
-
-**215.** В тетраэдре $ABCD$ медиана $AA_1$ грани $ABC$ делится точкой $M$ в отношении $|AM| : |MA_1| = 3 : 7$. Разложите вектор $\overrightarrow{DM}$ по векторам $\overrightarrow{DA}$, $\overrightarrow{DB}$, $\overrightarrow{DC}$.
-
-**216.** Рассматривается треугольник, вершинами которого являются концы трёх рёбер параллелепипеда, выходящих из одной его вершины. Докажите, что точка пересечения медиан треугольника принадлежит диагонали параллелепипеда, выходящей из той же вершины, и делит эту диагональ в отношении $1 : 2$.
 
 **§ 24. УГОЛ МЕЖДУ ДВУМЯ ВЕКТОРАМИ**
 
