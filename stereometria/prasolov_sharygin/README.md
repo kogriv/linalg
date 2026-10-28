@@ -290,8 +290,36 @@
 - [[prasolov_sharygin_stereo_g11_s02_ploshchad_i_obem|11.2. Площадь и объем (§ 2)]] (стр. 207–208)
 - [[prasolov_sharygin_stereo_g11_s03_rasstoyaniya|11.3. Расстояния (§ 3)]] (стр. 208–209)
 - [[prasolov_sharygin_stereo_g11_s04_raznye_zadachi|11.4. Разные задачи (§ 4)]] (стр. 209)
-- [[prasolov_sharygin_stereo_g11_s05_zadachi_dlya_samostoyatelnogo_resheniya|11.5. Задачи для самостоятельного решения]] (стр. 209)
+- [[prasolov_sharygin_stereo_g11_s05_zadachi_dlya_samostoyatelnogo_resheniya|11.5. Задачи для самостоятельного решения]] (стр. 209–210)
+- [[prasolov_sharygin_stereo_g11_s06_resheniya|11.6. Решения]] (стр. 210–218)
 
-Разбор в процессе. Дальше — 11.6. Решения со стр. 210.
+**Глава 12. Построения и геометрические места точек**
+- [[prasolov_sharygin_stereo_g12_s01_skreshchivayushchiesya_pryamye|12.1. Скрещивающиеся прямые (§ 1)]] (стр. 219–220)
+- [[prasolov_sharygin_stereo_g12_s02_sfera_i_trehgrannyi_ugol|12.2. Сфера и трехгранный угол (§ 2)]] (стр. 220)
+- [[prasolov_sharygin_stereo_g12_s03_raznye_gmt|12.3. Разные ГМТ (§ 3)]] (стр. 220–221)
+- [[prasolov_sharygin_stereo_g12_s04_postroeniya_na_izobrazheniyah|12.4. Построения на изображениях (§ 4)]] (стр. 221–222)
+- [[prasolov_sharygin_stereo_g12_s05_postroeniya_s_figurami|12.5. Построения, связанные с пространственными фигурами (§ 5)]] (стр. 222)
+- [[prasolov_sharygin_stereo_g12_s06_resheniya|12.6. Решения]] (стр. 222–230)
+
+**Глава 13. Некоторые методы решения задач**
+- [[prasolov_sharygin_stereo_g13_s01_printsip_kraynego|13.1. Принцип крайнего (§ 1)]] (стр. 231)
+- [[prasolov_sharygin_stereo_g13_s02_printsip_dirihle|13.2. Принцип Дирихле (§ 2)]] (стр. 231–232)
+- [[prasolov_sharygin_stereo_g13_s03_vyhod_v_prostranstvo|13.3. Выход в пространство (§ 3)]] (стр. 232–235)
+- [[prasolov_sharygin_stereo_g13_s04_resheniya|13.4. Решения]] (стр. 235–243)
+
+**Глава 14. Центр масс. Момент инерции. Барицентрические координаты**
+- [[prasolov_sharygin_stereo_g14_s01_tsentr_mass|14.1. Центр масс и его основные свойства (§ 1)]] (стр. 244–245)
+- [[prasolov_sharygin_stereo_g14_s02_moment_inertsii|14.2. Момент инерции (§ 2)]] (стр. 245–246)
+- [[prasolov_sharygin_stereo_g14_s03_baritsentricheskie_koordinaty|14.3. Барицентрические координаты (§ 3)]] (стр. 246–247)
+- [[prasolov_sharygin_stereo_g14_s04_resheniya|14.4. Решения]] (стр. 247–253)
+
+**Глава 15. Разные задачи**
+- [[prasolov_sharygin_stereo_g15_s01_primery_i_kontrprimery|15.1. Примеры и контрпримеры (§ 1)]] (стр. 254–255)
+- [[prasolov_sharygin_stereo_g15_s02_tselochislennye_reshetki|15.2. Целочисленные решетки (§ 2)]] (стр. 255)
+- [[prasolov_sharygin_stereo_g15_s03_razrezaniya_razbieniya_raskraski|15.3. Разрезания. Разбиения. Раскраски (§ 3)]] (стр. 256–257)
+- [[prasolov_sharygin_stereo_g15_s04_zadachi_odinochki|15.4. Задачи-одиночки (§ 4)]] (стр. 257)
+- [[prasolov_sharygin_stereo_g15_s05_resheniya|15.5. Решения]] (стр. 257–269, не окончен)
+
+Разбор в процессе. Дальше — продолжение «15.5. Решения» со стр. 270.
 
 <!-- конец автогенерируемого блока apokrif -->
