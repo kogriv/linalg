@@ -188,9 +188,12 @@
 
 **Глава 1. Прямые и плоскости в пространстве**
 - [[prasolov_sharygin_stereo_g01_s01_ugly_i_rasstoyaniya|1.1. Углы и расстояния между скрещивающимися прямыми (§ 1)]] (стр. 18)
+- [[prasolov_sharygin_stereo_g01_s02_ugly_mezhdu_pryamymi_i_ploskostyami|1.2. Углы между прямыми и плоскостями (§ 2)]] (стр. 18–19)
 - [[prasolov_sharygin_stereo_g01_s03_ravnye_ugly|1.3. Прямые, образующие равные углы с прямыми и плоскостями (§ 3)]] (стр. 19)
 - [[prasolov_sharygin_stereo_g01_s04_skreshchivayushchiesya_pryamye|1.4. Скрещивающиеся прямые (§ 4)]] (стр. 20)
+- [[prasolov_sharygin_stereo_g01_s05_teorema_pifagora|1.5. Теорема Пифагора в пространстве (§ 5)]] (стр. 20)
 - [[prasolov_sharygin_stereo_g01_s06_metod_koordinat|1.6. Метод координат (§ 6)]] (стр. 21)
+- [[prasolov_sharygin_stereo_g01_s07_zadachi_dlya_samostoyatelnogo_resheniya|1.7. Задачи для самостоятельного решения]] (стр. 21–22)
 - [[prasolov_sharygin_stereo_g01_s08_resheniya|1.8. Решения]] (стр. 22–29, не окончен)
 
 Разбор в процессе. Дальше — продолжение «1.8. Решения» со стр. 30.
