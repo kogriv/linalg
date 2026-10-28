@@ -194,8 +194,48 @@
 - [[prasolov_sharygin_stereo_g01_s05_teorema_pifagora|1.5. Теорема Пифагора в пространстве (§ 5)]] (стр. 20)
 - [[prasolov_sharygin_stereo_g01_s06_metod_koordinat|1.6. Метод координат (§ 6)]] (стр. 21)
 - [[prasolov_sharygin_stereo_g01_s07_zadachi_dlya_samostoyatelnogo_resheniya|1.7. Задачи для самостоятельного решения]] (стр. 21–22)
-- [[prasolov_sharygin_stereo_g01_s08_resheniya|1.8. Решения]] (стр. 22–29, не окончен)
+- [[prasolov_sharygin_stereo_g01_s08_resheniya|1.8. Решения]] (стр. 22–30)
 
-Разбор в процессе. Дальше — продолжение «1.8. Решения» со стр. 30.
+**Глава 2. Проекции, сечения, развертки**
+- [[prasolov_sharygin_stereo_g02_s01_vspomogatelnye_proektsii|2.1. Вспомогательные проекции (§ 1)]] (стр. 31)
+- [[prasolov_sharygin_stereo_g02_s02_teorema_o_treh_perpendikulyarah|2.2. Теорема о трех перпендикулярах (§ 2)]] (стр. 32)
+- [[prasolov_sharygin_stereo_g02_s03_ploshchad_proektsii|2.3. Площадь проекции многоугольника (§ 3)]] (стр. 32)
+- [[prasolov_sharygin_stereo_g02_s04_zadachi_o_proektsiyah|2.4. Задачи о проекциях (§ 4)]] (стр. 33)
+- [[prasolov_sharygin_stereo_g02_s05_secheniya|2.5. Сечения (§ 5)]] (стр. 33–34)
+- [[prasolov_sharygin_stereo_g02_s06_razvertki|2.6. Развертки (§ 6)]] (стр. 34)
+- [[prasolov_sharygin_stereo_g02_s07_zadachi_dlya_samostoyatelnogo_resheniya|2.7. Задачи для самостоятельного решения]] (стр. 34–35)
+- [[prasolov_sharygin_stereo_g02_s08_resheniya|2.8. Решения]] (стр. 35–44)
+
+**Глава 3. Объем**
+- [[prasolov_sharygin_stereo_g03_s01_obem_tetraedra_i_piramidy|3.1. Формулы для объема тетраэдра и пирамиды (§ 1)]] (стр. 45)
+- [[prasolov_sharygin_stereo_g03_s02_obem_mnogogrannikov_i_kruglyh_tel|3.2. Формулы для объема многогранников и круглых тел (§ 2)]] (стр. 45–46)
+- [[prasolov_sharygin_stereo_g03_s03_svoystva_obema|3.3. Свойства объема (§ 3)]] (стр. 46–47)
+- [[prasolov_sharygin_stereo_g03_s04_vychislenie_obema|3.4. Вычисление объема (§ 4)]] (стр. 47–48)
+- [[prasolov_sharygin_stereo_g03_s05_vspomogatelnyi_obem|3.5. Вспомогательный объем (§ 5)]] (стр. 49)
+- [[prasolov_sharygin_stereo_g03_s06_zadachi_dlya_samostoyatelnogo_resheniya|3.6. Задачи для самостоятельного решения]] (стр. 50)
+- [[prasolov_sharygin_stereo_g03_s07_resheniya|3.7. Решения]] (стр. 51–61)
+
+**Глава 4. Сферы**
+- [[prasolov_sharygin_stereo_g04_s01_dlina_obshchey_kasatelnoy|4.1. Длина общей касательной (§ 1)]] (стр. 62)
+- [[prasolov_sharygin_stereo_g04_s02_kasatelnye_k_sferam|4.2. Касательные к сферам (§ 2)]] (стр. 62–63)
+- [[prasolov_sharygin_stereo_g04_s03_okruzhnosti_na_odnoy_sfere|4.3. Две пересекающиеся окружности лежат на одной сфере (§ 3)]] (стр. 63–64)
+- [[prasolov_sharygin_stereo_g04_s04_raznye_zadachi|4.4. Разные задачи (§ 4)]] (стр. 64)
+- [[prasolov_sharygin_stereo_g04_s05_sfericheskaya_poloska_i_segment|4.5. Площадь сферической полоски и объем шарового сегмента (§ 5)]] (стр. 64–66)
+- [[prasolov_sharygin_stereo_g04_s06_radikalnaya_ploskost|4.6. Радикальная плоскость (§ 6)]] (стр. 66)
+- [[prasolov_sharygin_stereo_g04_s07_sfericheskaya_geometriya|4.7. Сферическая геометрия и телесные углы (§ 7)]] (стр. 67–68)
+- [[prasolov_sharygin_stereo_g04_s08_zadachi_dlya_samostoyatelnogo_resheniya|4.8. Задачи для самостоятельного решения]] (стр. 68–69)
+- [[prasolov_sharygin_stereo_g04_s09_resheniya|4.9. Решения]] (стр. 69–81)
+
+**Глава 5. Трехгранные и многогранные углы. Теоремы Чевы и Менелая для трехгранных углов**
+- [[prasolov_sharygin_stereo_g05_s01_polyarnyi_trehgrannyi_ugol|5.1. Полярный трехгранный угол (§ 1)]] (стр. 82)
+- [[prasolov_sharygin_stereo_g05_s02_neravenstva_s_trehgrannymi_uglami|5.2. Неравенства с трехгранными углами (§ 2)]] (стр. 82)
+- [[prasolov_sharygin_stereo_g05_s03_sinusy_i_kosinusy|5.3. Теоремы синусов и косинусов для трехгранных углов (§ 3)]] (стр. 82–83)
+- [[prasolov_sharygin_stereo_g05_s04_raznye_zadachi|5.4. Разные задачи (§ 4)]] (стр. 83)
+- [[prasolov_sharygin_stereo_g05_s05_mnogogrannye_ugly|5.5. Многогранные углы (§ 5)]] (стр. 84)
+- [[prasolov_sharygin_stereo_g05_s06_cheva_i_menelay|5.6. Теоремы Чевы и Менелая для трехгранных углов (§ 6)]] (стр. 84–87)
+- [[prasolov_sharygin_stereo_g05_s07_zadachi_dlya_samostoyatelnogo_resheniya|5.7. Задачи для самостоятельного решения]] (стр. 87–88)
+- [[prasolov_sharygin_stereo_g05_s08_resheniya|5.8. Решения]] (стр. 88–89, не окончен)
+
+Разбор в процессе. Дальше — продолжение «5.8. Решения» со стр. 90.
 
 <!-- конец автогенерируемого блока apokrif -->
