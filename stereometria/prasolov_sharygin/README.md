@@ -234,8 +234,32 @@
 - [[prasolov_sharygin_stereo_g05_s05_mnogogrannye_ugly|5.5. Многогранные углы (§ 5)]] (стр. 84)
 - [[prasolov_sharygin_stereo_g05_s06_cheva_i_menelay|5.6. Теоремы Чевы и Менелая для трехгранных углов (§ 6)]] (стр. 84–87)
 - [[prasolov_sharygin_stereo_g05_s07_zadachi_dlya_samostoyatelnogo_resheniya|5.7. Задачи для самостоятельного решения]] (стр. 87–88)
-- [[prasolov_sharygin_stereo_g05_s08_resheniya|5.8. Решения]] (стр. 88–89, не окончен)
+- [[prasolov_sharygin_stereo_g05_s08_resheniya|5.8. Решения]] (стр. 88–99)
 
-Разбор в процессе. Дальше — продолжение «5.8. Решения» со стр. 90.
+**Глава 6. Тетраэдр, пирамида и призма**
+- [[prasolov_sharygin_stereo_g06_s01_svoystva_tetraedra|6.1. Свойства тетраэдра (§ 1)]] (стр. 100–101)
+- [[prasolov_sharygin_stereo_g06_s02_spetsialnye_tetraedry|6.2. Тетраэдры, обладающие специальными свойствами (§ 2)]] (стр. 101–102)
+- [[prasolov_sharygin_stereo_g06_s03_pryamougolnyi_tetraedr|6.3. Прямоугольный тетраэдр (§ 3)]] (стр. 102–103)
+- [[prasolov_sharygin_stereo_g06_s04_ravnogrannyi_tetraedr|6.4. Равногранный тетраэдр (§ 4)]] (стр. 103–104)
+- [[prasolov_sharygin_stereo_g06_s05_ortotsentricheskiy_tetraedr|6.5. Ортоцентрический тетраэдр (§ 5)]] (стр. 104–106)
+- [[prasolov_sharygin_stereo_g06_s06_dostraivanie_tetraedra|6.6. Достраивание тетраэдра (§ 6)]] (стр. 106–107)
+- [[prasolov_sharygin_stereo_g06_s07_piramida_i_prizma|6.7. Пирамида и призма (§ 7)]] (стр. 107–109)
+- [[prasolov_sharygin_stereo_g06_s08_zadachi_dlya_samostoyatelnogo_resheniya|6.8. Задачи для самостоятельного решения]] (стр. 109–110)
+- [[prasolov_sharygin_stereo_g06_s09_resheniya|6.9. Решения]] (стр. 110–130)
+
+**Глава 7. Геометрические преобразования и векторы**
+- [[prasolov_sharygin_stereo_g07_s01_skalyarnoe_proizvedenie_sootnosheniya|7.1. Скалярное произведение. Соотношения (§ 1)]] (стр. 131)
+- [[prasolov_sharygin_stereo_g07_s02_skalyarnoe_proizvedenie_neravenstva|7.2. Скалярное произведение. Неравенства (§ 2)]] (стр. 132)
+- [[prasolov_sharygin_stereo_g07_s03_lineynye_zavisimosti_vektorov|7.3. Линейные зависимости векторов (§ 3)]] (стр. 132–133)
+- [[prasolov_sharygin_stereo_g07_s04_raznye_zadachi|7.4. Разные задачи (§ 4)]] (стр. 133)
+- [[prasolov_sharygin_stereo_g07_s05_vektornoe_proizvedenie|7.5. Векторное произведение (§ 5)]] (стр. 133–135)
+- [[prasolov_sharygin_stereo_g07_s06_simmetriya|7.6. Симметрия (§ 6)]] (стр. 135–136)
+- [[prasolov_sharygin_stereo_g07_s07_gomotetiya|7.7. Гомотетия (§ 7)]] (стр. 136–137)
+- [[prasolov_sharygin_stereo_g07_s08_povorot_i_kompozitsii|7.8. Поворот. Композиции преобразований (§ 8)]] (стр. 137–139)
+- [[prasolov_sharygin_stereo_g07_s09_otrazhenie_luchey_sveta|7.9. Отражение лучей света (§ 9)]] (стр. 139)
+- [[prasolov_sharygin_stereo_g07_s10_zadachi_dlya_samostoyatelnogo_resheniya|7.10. Задачи для самостоятельного решения]] (стр. 139–140)
+- [[prasolov_sharygin_stereo_g07_s11_resheniya|7.11. Решения]] (стр. 140–149, не окончен)
+
+Разбор в процессе. Дальше — продолжение «7.11. Решения» со стр. 150.
 
 <!-- конец автогенерируемого блока apokrif -->
