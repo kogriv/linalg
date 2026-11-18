@@ -93,7 +93,12 @@ The four completed books were converted before apokrif existed, by launching bac
 ## LaTeX in chat vs. in files
 
 - **In files**: keep raw LaTeX (`$...$`, `$$...$$`) — Obsidian renders it natively via MathJax.
-- **In chat replies**: the terminal does not render LaTeX. Pipe formulas through `l2u` (`/root/.local/bin/l2u`, backed by venv `/root/venvs/l2u`, wraps `pylatexenc` + unicode sub/superscript post-processing) before including them in a response, e.g. `l2u 'text with $\alpha_1^2$ inside'`.
+- **In chat replies**: the terminal / Claude Code desktop does not reliably render LaTeX (simple `$b=a$` may render, `$(a,b)$` or `$(0;\,0{,}1)$` shows raw). No raw `$…$` in chat: convert formulas to Unicode with `l2u` before including them in a response.
+  - The tool lives in this repo: `tools/l2u.py` (single source for all machines; needs `pip install unicodeit`). Run `python tools/l2u.py '<latex>'`, or put a wrapper named `l2u` on PATH that execs it (`~/bin/l2u` / `l2u.cmd` on Windows, `~/.local/bin/l2u` on Linux).
+  - Input: an argument without `$` is one formula (`l2u '\sigma_3 \le x^2'` → σ₃ ≤ x²); with `$…$` / `$$…$$` it is text with formulas (`l2u 'пара $(a,b)$ в $\sigma_3$'`); a file path or stdin converts the whole file. `-m` / `-t` force formula / text mode.
+  - Roots are drawn with a combining overline (`\sqrt{x^2+1}` → √x̅²̅+̅1̅, the user's choice); `-p` gives the old `√(x²+1)`.
+  - Code in backticks is left untouched, so a whole message can be piped through it.
+  - Checked cases that the previous `pylatexenc`-based `/root/.local/bin/l2u` got wrong: `\tfrac12` → 1/2, `x^{100}` → x¹⁰⁰, `P_i` → Pᵢ, `\overrightarrow{AB}` → →AB, `\ne`/`\iff`/`\lg` kept (≠, ⇔, lg), `\frac{x}{x^2+1}` → x/(x²+1), `\lg\dfrac1u` → lg(1/u). If a formula still comes out wrong, fix it in `tools/l2u.py`, not by hand in the chat.
 
 ## Git
 
