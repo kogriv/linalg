@@ -20,7 +20,7 @@ $$s\left(\exp\left(\frac12\,it\sigma_1\right)\right)=\begin{pmatrix}1&0&0\\0&\co
 
 является вращением $\mathscr{E}$ на угол $t$ вокруг оси $\mathbf{R}\sigma_1$. Совершенно аналогично проверяется, что $s\left(\exp\left(\dfrac12\,it\sigma_k\right)\right)$ есть вращение $\mathscr{E}$ на угол $t$ вокруг оси $\sigma_k$ также для $k=2,3$. В частности, любое вращение из $\mathrm{SO}(3)$ разлагается в произведение трёх вращений относительно $\sigma_3$, $\sigma_1$, $\sigma_3$ на углы Эйлера $\psi$, $\theta$, $\varphi$, причём $\psi$ можно считать меняющимся от $0$ до $2\pi$.
 
-<div align="center">У П Р А Ж Н Е Н И Я</div>
+<div align="center">*УПРАЖНЕНИЯ*</div>
 
 **1.** Доказать тождества
 

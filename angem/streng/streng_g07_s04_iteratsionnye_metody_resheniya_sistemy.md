@@ -214,7 +214,7 @@ $$A = \begin{bmatrix} 2 & -1 & & \\ -1 & \cdot & \cdot & \\ & \cdot & \cdot & -1
 **стр. 352**
 ---
 
-Д о к а з а т е л ь с т в о. Уравнение $Ax = \lambda x$ в покомпонентной записи имеет вид $(\lambda - a_{ii}) x_i = \sum_{j \neq i} a_{ij} x_j$, откуда $|\lambda - a_{ii}| \leqslant \sum_{j \neq i} |a_{ij}| \frac{|x_j|}{|x_i|}$. Если наибольшей по модулю компонентой $x$ является компонента $x_i$, то $|x_j| / |x_i| \leqslant 1$ для всех $j \neq i$ и, следовательно, $|\lambda - a_{ii}| \leqslant r_i$, т. е. $\lambda$ лежит в $i$-м круге.
+*Доказательство*. Уравнение $Ax = \lambda x$ в покомпонентной записи имеет вид $(\lambda - a_{ii}) x_i = \sum_{j \neq i} a_{ij} x_j$, откуда $|\lambda - a_{ii}| \leqslant \sum_{j \neq i} |a_{ij}| \frac{|x_j|}{|x_i|}$. Если наибольшей по модулю компонентой $x$ является компонента $x_i$, то $|x_j| / |x_i| \leqslant 1$ для всех $j \neq i$ и, следовательно, $|\lambda - a_{ii}| \leqslant r_i$, т. е. $\lambda$ лежит в $i$-м круге.
 
 **Упражнение 7.4.4.** Матрица
 
