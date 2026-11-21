@@ -1,0 +1,443 @@
+<!doctype html>
+<html lang="ru">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Порядки внутри σ₃</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Golos+Text:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: одна колонка текста ~68ch, схемы по ходу рассуждения; шаги пронумерованы, потому что это реальная последовательность. */
+:root {
+  --bg: #f2f4f6;
+  --panel: #ffffff;
+  --ink: #1b2330;
+  --muted: #5a6474;
+  --line: #d5dbe3;
+  --grid: #e1e6ec;
+  --axis: #8b94a3;
+  --region: #2f6fb0;
+  --region-fill: rgba(47, 111, 176, 0.22);
+  --faint-fill: rgba(47, 111, 176, 0.08);
+  --removed: #b4553b;
+  --ok: #2c8a4d;
+  --ok-fill: rgba(44, 138, 77, 0.22);
+  --bad: #c33a2c;
+  --pair-fill: rgba(184, 121, 15, 0.16);
+  --pair: #b8790f;
+  --font-body: "Golos Text", "Segoe UI", system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, "Cascadia Mono", Consolas, monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #11151b; --panel: #1a2029; --ink: #e5e9ef; --muted: #9aa3b1; --line: #2b323d; --grid: #232a34;
+    --axis: #5f6877; --region: #6ea7e3; --region-fill: rgba(110, 167, 227, 0.24); --faint-fill: rgba(110, 167, 227, 0.09);
+    --removed: #e27c60; --ok: #5cc380; --ok-fill: rgba(92, 195, 128, 0.24); --bad: #ff6d60;
+    --pair-fill: rgba(240, 181, 74, 0.16); --pair: #f0b54a;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #11151b; --panel: #1a2029; --ink: #e5e9ef; --muted: #9aa3b1; --line: #2b323d; --grid: #232a34;
+  --axis: #5f6877; --region: #6ea7e3; --region-fill: rgba(110, 167, 227, 0.24); --faint-fill: rgba(110, 167, 227, 0.09);
+  --removed: #e27c60; --ok: #5cc380; --ok-fill: rgba(92, 195, 128, 0.24); --bad: #ff6d60;
+  --pair-fill: rgba(240, 181, 74, 0.16); --pair: #f0b54a;
+  color-scheme: dark;
+}
+body {
+  background: var(--bg); color: var(--ink); font-family: var(--font-body); font-size: 16px; line-height: 1.6;
+  padding-left: max(16px, env(safe-area-inset-left, 0px));
+  padding-right: max(16px, env(safe-area-inset-right, 0px));
+  padding-block: 24px 48px;
+}
+main { max-width: 760px; margin: 0 auto; display: grid; gap: 28px; }
+h1 { font-size: 1.7rem; font-weight: 600; margin: 0; line-height: 1.25; text-wrap: balance; }
+h2 { font-size: 1.25rem; font-weight: 600; margin: 0; text-wrap: balance; display: flex; gap: 10px; align-items: baseline; }
+h2 .n { font-family: var(--font-mono); font-size: 0.85rem; color: var(--muted); font-weight: 500; }
+h3 { font-size: 1.02rem; font-weight: 600; margin: 0; }
+p { margin: 0; max-width: 68ch; }
+section { display: grid; gap: 12px; }
+.lead { color: var(--muted); }
+.mono { font-family: var(--font-mono); font-size: 0.92em; }
+.rule { background: var(--panel); border: 1px solid var(--line); border-left: 4px solid var(--region); border-radius: 0 10px 10px 0; padding: 10px 14px; }
+.rule.ok { border-left-color: var(--ok); }
+.figs { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 12px; }
+figure { margin: 0; background: var(--panel); border: 1px solid var(--line); border-radius: 10px; padding: 8px 8px 10px; display: grid; gap: 6px; min-width: 0; }
+figure.wide { max-width: 420px; }
+figcaption { font-size: 0.88rem; color: var(--muted); padding: 0 4px; }
+figcaption b { color: var(--ink); font-weight: 600; }
+.verdict { font-weight: 600; }
+.verdict.ok { color: var(--ok); } .verdict.bad { color: var(--bad); }
+svg { display: block; width: 100%; height: auto; }
+table { border-collapse: collapse; width: 100%; font-size: 0.94rem; background: var(--panel); }
+.tbl { overflow-x: auto; border: 1px solid var(--line); border-radius: 10px; }
+th, td { text-align: left; padding: 8px 12px; border-bottom: 1px solid var(--line); vertical-align: top; }
+th { font-size: 0.78rem; letter-spacing: 0.06em; text-transform: uppercase; color: var(--muted); font-weight: 600; }
+tr:last-child td { border-bottom: none; }
+ul.steps { margin: 0; padding-left: 1.2em; display: grid; gap: 4px; max-width: 68ch; }
+
+/* svg */
+.g-grid { stroke: var(--grid); stroke-width: 1; }
+.g-axis { stroke: var(--axis); stroke-width: 1.2; }
+.g-cell { stroke: var(--axis); stroke-width: 1; stroke-dasharray: 4 4; }
+.g-tick { fill: var(--muted); font-family: var(--font-mono); font-size: 10px; }
+.g-reg { fill: var(--region-fill); shape-rendering: crispEdges; }
+.g-faint { fill: var(--faint-fill); shape-rendering: crispEdges; }
+.g-diag { stroke: var(--axis); stroke-width: 1; stroke-dasharray: 5 4; }
+.g-regdiag { stroke: var(--region); stroke-width: 3.5; stroke-linecap: round; }
+.g-removed { fill: url(#hatch); stroke: var(--removed); stroke-width: 1; }
+.g-hl { stroke: var(--removed); stroke-width: 1.3; opacity: 0.75; }
+.g-free { fill: var(--ok-fill); stroke: var(--ok); stroke-width: 1.5; }
+.g-pairs { fill: var(--pair-fill); stroke: none; }
+.g-pt { stroke: var(--panel); stroke-width: 2; }
+.g-pt.ok { fill: var(--ok); } .g-pt.bad { fill: var(--bad); } .g-pt.neu { fill: var(--axis); } .g-pt.reg { fill: var(--region); } .g-pt.pair { fill: var(--pair); }
+.g-ring { fill: var(--panel); stroke-width: 3; }
+.g-ring.ok { stroke: var(--ok); } .g-ring.bad { stroke: var(--bad); }
+.g-lab { font-family: var(--font-mono); font-size: 11px; fill: var(--ink); paint-order: stroke; stroke: var(--panel); stroke-width: 3.5px; stroke-linejoin: round; }
+.g-txt { font-family: var(--font-body); font-size: 11.5px; fill: var(--ink); paint-order: stroke; stroke: var(--panel); stroke-width: 3.5px; stroke-linejoin: round; }
+.g-txt.rem { fill: var(--removed); font-weight: 600; }
+.g-txt.ok { fill: var(--ok); font-weight: 600; }
+.g-txt.pair { fill: var(--pair); font-weight: 600; }
+.g-txt.mut { fill: var(--muted); }
+.g-mline { stroke: var(--pair); stroke-width: 1; stroke-dasharray: 2 3; opacity: 0.8; }
+.g-mirror { stroke: var(--pair); stroke-width: 1.5; stroke-dasharray: 4 3; }
+.g-path { stroke: var(--ink); stroke-width: 1.8; fill: none; }
+.g-short { stroke-width: 1.8; stroke-dasharray: 2 4; stroke-linecap: round; fill: none; }
+.g-short.ok { stroke: var(--ok); } .g-short.bad { stroke: var(--bad); }
+.g-arrowhead { fill: var(--ink); }
+.nl-line { stroke: var(--axis); stroke-width: 1.5; }
+.nl-zone { font-family: var(--font-body); font-size: 13px; fill: var(--ink); font-weight: 600; }
+.nl-sub { font-family: var(--font-mono); font-size: 11px; fill: var(--muted); }
+.nl-ok { stroke: var(--ok); stroke-width: 2; fill: none; }
+.nl-bad { stroke: var(--bad); stroke-width: 2; fill: none; }
+.nl-okh { fill: var(--ok); } .nl-badh { fill: var(--bad); }
+</style>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <pattern id="hatch" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <line class="g-hl" x1="0" y1="0" x2="0" y2="6"/>
+    </pattern>
+    <marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path class="g-arrowhead" d="M0,0 L10,5 L0,10 z"/>
+    </marker>
+    <marker id="arrok" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path class="nl-okh" d="M0,0 L10,5 L0,10 z"/>
+    </marker>
+    <marker id="arrbad" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path class="nl-badh" d="M0,0 L10,5 L0,10 z"/>
+    </marker>
+  </defs>
+</svg>
+
+<main>
+  <header style="display:grid;gap:8px">
+    <h1>Как из σ₃ сделать упорядочение</h1>
+    <p class="lead">Беран, глава 1, задача 3. Отношение <span class="mono">a σ₃ b ⇔ a ≤ 1 или b ≥ −1</span> упорядочением не является. Ниже по шагам, через три свойства, строим все упорядочения, которые помещаются внутри σ₃. В конце сравнение с другой задачей, где вместо точек выбрасываются числа.</p>
+  </header>
+
+  <section>
+    <h2><span class="n">0</span>Исходная картинка</h2>
+    <p>Пара (a; b) — точка на плоскости: a по горизонтали, b по вертикали. «Точка закрашена» значит «a стоит перед b». σ₃ — вся плоскость, кроме одного угла: a больше 1 и b меньше −1.</p>
+    <div class="figs"><figure class="wide" id="f-start"></figure></div>
+    <p>Задача: стирать точки с этой картинки, пока не останется упорядочение. Добавлять точки нельзя, и в угол заходить нельзя: что получится, должно остаться частью σ₃.</p>
+  </section>
+
+  <section>
+    <h2><span class="n">1</span>Рефлексивность: диагональ оставляем</h2>
+    <p>Рефлексивность требует, чтобы каждая пара (a; a) была в отношении. Это вся диагональ b = a. Значит, диагональ стирать нельзя. Угол диагонали не касается, так что с этим проблем нет.</p>
+    <div class="figs"><figure class="wide" id="f-refl"></figure></div>
+    <div class="rule"><b>После шага 1:</b> диагональ обязательно остаётся, про остальные точки рефлексивность ничего не говорит.</div>
+  </section>
+
+  <section>
+    <h2><span class="n">2</span>Антисимметричность: из каждой пары не больше одной точки</h2>
+    <p>Точки вне диагонали разбиваются на зеркальные пары: (a; b) и (b; a). Антисимметричность запрещает оставлять обе точки пары. Пары бывают двух видов.</p>
+    <div class="figs">
+      <figure id="f-pair1"></figure>
+      <figure id="f-pair2"></figure>
+    </div>
+    <p>Если раскрасить всю плоскость по этим двум видам, получится так:</p>
+    <div class="figs"><figure class="wide" id="f-zones"></figure></div>
+    <div class="rule"><b>После шага 2:</b> диагональ, плюс что угодно из зелёного квадрата, плюс из каждой жёлтой пары не больше одной точки. Выбирать можно по-разному. Два естественных выбора — оставить всё выше диагонали или всё ниже:</div>
+    <div class="figs">
+      <figure id="f-up"></figure>
+      <figure id="f-down"></figure>
+    </div>
+    <p>Оба рисунка проходят шаги 1 и 2. Решает транзитивность.</p>
+  </section>
+
+  <section>
+    <h2><span class="n">3</span>Транзитивность: путь не должен вести в угол</h2>
+    <p>Транзитивность: если a стоит перед b, а b перед c, то a стоит перед c. На картинке: от точки (a; b) идём по горизонтали до диагонали, оттуда по вертикали к (b; c). Тогда точка (a; c), «прямой путь», тоже обязана быть закрашена.</p>
+    <div class="figs">
+      <figure id="f-t-down"></figure>
+      <figure id="f-t-up"></figure>
+    </div>
+    <p>Почему «нижний» вариант сломался? Путь начался с большого числа 2 и закончился маленьким −2. Прямой путь (2; −2) обязан быть закрашен, а он в углу, туда нельзя. Это общее правило: <b>если цепочка ведёт от числа больше 1 к числу меньше −1, прямой путь попадает в угол.</b> Значит, таких цепочек быть не должно. Ни напрямую, ни через промежуточные числа.</p>
+    <div class="figs"><figure class="wide" id="f-line"></figure></div>
+  </section>
+
+  <section>
+    <h2><span class="n">4</span>Итог: все упорядочения внутри σ₃</h2>
+    <div class="rule ok">
+      <p>Упорядочение помещается внутри σ₃ тогда и только тогда, когда в нём <b>ни одно число больше 1 не стоит перед числом меньше −1</b>, ни напрямую, ни через цепочку.</p>
+    </div>
+    <p>Откуда каждая часть условия:</p>
+    <ul class="steps">
+      <li>шаг 1 оставил диагональ — это рефлексивность;</li>
+      <li>шаг 2 разрешил из каждой пары не больше одной точки — это антисимметричность;</li>
+      <li>шаг 3 запретил цепочки «большое → … → маленькое», потому что их прямой путь лежит в угле — это транзитивность вместе с запретом угла.</li>
+    </ul>
+    <p>Примеры. Зелёная подпись — упорядочение внутри σ₃, красная — нет и почему.</p>
+    <div class="figs" id="catalog"></div>
+    <div class="rule ok">
+      <p><b>Решений бесконечно много.</b> «Пила» подсказывает, как строить их сколько угодно:</p>
+      <ul class="steps">
+        <li>разрежьте числовую прямую на куски в любых местах;</li>
+        <li>поставьте куски по возрастанию: левый кусок целиком перед правым;</li>
+        <li>внутри каждого куска выберите направление: обычное (≤) или обратное (≥).</li>
+      </ul>
+      <p><b>Одна оговорка:</b> кусок с обратным направлением (≥) не должен выходить за отрезок [−1; 1] сразу с обеих сторон. Иначе внутри него окажутся, например, 2 и −2, и обратное направление поставит 2 перед −2, а это угол. Крайний случай — ни одного разреза и ≥ на всей прямой: это и есть ≥, который не подходит.</p>
+      <p>С этой оговоркой всегда получится упорядочение внутри σ₃: разные куски идут слева направо, а внутри куска большое число может оказаться перед маленьким только при ≥, и оговорка это запрещает. Мест разреза бесконечно много, значит и таких порядков бесконечно много. А есть ещё и другие, не «пилы», например только диагональ или диагональ + зелёный квадрат.</p>
+    </div>
+  </section>
+
+  <section>
+    <h2><span class="n">5</span>Вторая задача: какие числа оставить</h2>
+    <h3>Условие</h3>
+    <p>Теперь правило σ₃ менять нельзя: точки по одной не стираем. Зато можно выбрать, <b>какие числа оставить</b>. Набор оставленных чисел назовём M. Вопрос: для каких M правило σ₃, если смотреть только на числа из M, будет упорядочением?</p>
+    <p>Пример: M = {−3; 0; 2}. Тогда нас интересуют только пары из этих трёх чисел, остальные числа как будто исчезли.</p>
+
+    <h3>Шаг 1. Что значит «оставить числа» на картинке</h3>
+    <p>Через каждое оставленное число проведём вертикальную и горизонтальную линию. На пересечениях стоят все возможные пары. Точка появляется, если она закрашена в σ₃, и не появляется, если попала в угол.</p>
+    <div class="figs"><figure class="wide" id="f-m3"></figure></div>
+    <div class="rule"><b>Главное отличие от первой задачи:</b> точки появляются сами. Если оставлены числа x и y, на картинке будут и (x; y), и (y; x), если только одна из них не в угле. Стереть одну из них по своему желанию нельзя.</div>
+
+    <h3>Шаг 2. Рефлексивность: всегда в порядке</h3>
+    <p>Точки (x; x) лежат на диагонали, а угол её не касается. Значит, для любого M все такие точки на месте.</p>
+
+    <h3>Шаг 3. Антисимметричность: решает всё</h3>
+    <p>Возьмём любые два разных числа x и y из M. Обе точки (x; y) и (y; x) появятся, если обе лежат в σ₃, а это нарушение. Спасти может только угол: одна из двух точек должна попасть в него. А в угле первое число больше 1, второе меньше −1.</p>
+    <p>Получается правило: <b>любые два числа из M — одно большое (больше 1), другое маленькое (меньше −1)</b>. Проверим на парах:</p>
+    <div class="figs">
+      <figure id="f-a01"></figure>
+      <figure id="f-a23"></figure>
+      <figure id="f-a32"></figure>
+    </div>
+    <p>Что из этого правила следует:</p>
+    <ul class="steps">
+      <li><b>среднее число</b> (от −1 до 1) ни с кем в пару не годится: оно не большое и не маленькое. Значит, если в M больше одного числа, средних в нём нет;</li>
+      <li><b>двух больших</b> быть не может: в паре из них нет маленького. <b>Двух маленьких</b> тоже;</li>
+      <li>остаётся максимум одно маленькое и одно большое, то есть <b>не больше двух чисел</b>.</li>
+    </ul>
+    <p>Например, M = {−3; 0; 2} не подходит: на первой картинке видны и (−3; 0), и (0; −3).</p>
+
+    <h3>Шаг 4. Транзитивность для того, что осталось</h3>
+    <p>Если в M одно число x, есть только точка (x; x), проверять нечего. Если два числа, q меньше −1 и p больше 1, то есть точки (q; q), (p; p) и (q; p), а (p; q) в угле. Единственный шаг — «q перед p», продолжить его нечем. Транзитивность есть.</p>
+
+    <div class="rule ok"><b>Ответ второй задачи.</b> M — одно любое число или два числа: одно меньше −1, другое больше 1. Тогда меньшее стоит перед большим. Например, {−3; 2} или {−1,5; 10}. Больше ничего.</div>
+  </section>
+
+  <section>
+    <h2><span class="n">6</span>Сравнение двух задач</h2>
+    <p>В обеих задачах сначала стоит одна и та же картинка σ₃. Разница в том, <b>что разрешено менять</b>.</p>
+    <div class="tbl"><table>
+      <thead><tr><th></th><th>Первая задача: стираем точки</th><th>Вторая задача: выбираем числа</th></tr></thead>
+      <tbody>
+        <tr><td>Что меняем</td><td>Числа остаются все. С картинки стираем любые точки, по одной.</td><td>Правило σ₃ не трогаем. Оставляем только некоторые числа M.</td></tr>
+        <tr><td>Что остаётся на картинке</td><td>Ровно те точки, которые мы решили оставить.</td><td>Все точки σ₃, у которых обе координаты из M. Точки по одной не выбираются.</td></tr>
+        <tr><td>Как справляемся с парой (0; 1) и (1; 0)</td><td>Стираем одну из двух точек, другая остаётся.</td><td>Только выкинуть число 0 или число 1 целиком.</td></tr>
+        <tr><td>Ответ</td><td>Любое упорядочение, где большие (больше 1) не стоят перед маленькими (меньше −1). Таких бесконечно много.</td><td>Одно число или два: одно меньше −1, другое больше 1.</td></tr>
+      </tbody>
+    </table></div>
+    <div class="figs">
+      <figure id="f-c1"></figure>
+      <figure id="f-c2"></figure>
+    </div>
+    <p>Почему во второй задаче ответ такой бедный: каждое лишнее число приводит с собой сразу много точек, в том числе зеркальные пары. Стереть лишнюю точку нельзя, можно только выкинуть число вместе со всеми его точками. В первой задаче мы работаем «пинцетом», по одной точке, поэтому вариантов бесконечно много.</p>
+  </section>
+</main>
+
+<script>
+(() => {
+  const LIM = 4, S = 30, PAD = 16, W = 2 * LIM * S + 2 * PAD;
+  const X = a => PAD + (a + LIM) * S, Y = b => PAD + (LIM - b) * S;
+  const E = 1e-9;
+  const eq = (a, b) => Math.abs(a - b) < E;
+  const s3 = (a, b) => !(a > 1 + E && b < -1 - E);
+  const f = v => String(v).replace('.', ',').replace('-', '−');
+
+  function raster(pred, cls) {
+    let h = '';
+    const st = 0.1, n = Math.round(2 * LIM / st);
+    for (let j = 0; j < n; j++) {
+      const b = -LIM + st / 2 + st * j;
+      let start = null;
+      for (let i = 0; i <= n; i++) {
+        const a = -LIM + st / 2 + st * i;
+        const on = i < n && i !== j && pred(a, b);
+        if (on && start === null) start = i;
+        if (!on && start !== null) {
+          h += `<rect class="${cls}" x="${X(-LIM + st * start)}" y="${Y(b + st / 2)}" width="${((i - start) * st * S).toFixed(1)}" height="${(st * S).toFixed(1)}"/>`;
+          start = null;
+        }
+      }
+    }
+    return h;
+  }
+
+  // plane({ region, faint, cells, marks })
+  function plane(o) {
+    let h = `<svg viewBox="0 0 ${W} ${W}" role="img">`;
+    for (let k = -LIM; k <= LIM; k++) {
+      h += `<line class="g-grid" x1="${X(k)}" y1="${Y(-LIM)}" x2="${X(k)}" y2="${Y(LIM)}"/><line class="g-grid" x1="${X(-LIM)}" y1="${Y(k)}" x2="${X(LIM)}" y2="${Y(k)}"/>`;
+    }
+    if (o.faint) h += raster(o.faint, 'g-faint');
+    if (o.region) h += raster(o.region, 'g-reg');
+    (o.under || []).forEach(m => { h += mark(m); });
+    h += `<rect class="g-removed" x="${X(1)}" y="${Y(-1)}" width="${3 * S}" height="${3 * S}"/>`;
+    if (o.cells) {
+      [-1, 1].forEach(k => {
+        h += `<line class="g-cell" x1="${X(k)}" y1="${Y(-LIM)}" x2="${X(k)}" y2="${Y(LIM)}"/><line class="g-cell" x1="${X(-LIM)}" y1="${Y(k)}" x2="${X(LIM)}" y2="${Y(k)}"/>`;
+      });
+    }
+    h += `<line class="g-axis" x1="${X(-LIM)}" y1="${Y(0)}" x2="${X(LIM)}" y2="${Y(0)}"/><line class="g-axis" x1="${X(0)}" y1="${Y(-LIM)}" x2="${X(0)}" y2="${Y(LIM)}"/>`;
+    [-3, -2, -1, 1, 2, 3].forEach(k => {
+      h += `<text class="g-tick" x="${X(k)}" y="${Y(0) + 12}" text-anchor="middle">${f(k)}</text>`;
+      h += `<text class="g-tick" x="${X(0) - 4}" y="${Y(k) + 3.5}" text-anchor="end">${f(k)}</text>`;
+    });
+    h += `<line class="g-diag" x1="${X(-LIM)}" y1="${Y(-LIM)}" x2="${X(LIM)}" y2="${Y(LIM)}"/>`;
+    if (o.diag) h += `<line class="g-regdiag" x1="${X(-LIM)}" y1="${Y(-LIM)}" x2="${X(LIM)}" y2="${Y(LIM)}"/>`;
+    (o.marks || []).forEach(m => { h += mark(m); });
+    return h + '</svg>';
+  }
+
+  function mark(m) {
+    if (m.t === 'pt') return `<circle class="g-pt ${m.c || 'reg'}" cx="${X(m.a)}" cy="${Y(m.b)}" r="${m.r || 5.5}"/>` + (m.l ? lab(m) : '');
+    if (m.t === 'ring') return `<circle class="g-ring ${m.c}" cx="${X(m.a)}" cy="${Y(m.b)}" r="6.5"/>` + (m.l ? lab(m) : '');
+    if (m.t === 'line') return `<line class="${m.c}" x1="${X(m.a1)}" y1="${Y(m.b1)}" x2="${X(m.a2)}" y2="${Y(m.b2)}" ${m.arrow ? 'marker-end="url(#arr)"' : ''}/>`;
+    if (m.t === 'rect') return `<rect class="${m.c}" x="${X(m.a1)}" y="${Y(m.b2)}" width="${(m.a2 - m.a1) * S}" height="${(m.b2 - m.b1) * S}"/>`;
+    if (m.t === 'txt') return `<text class="g-txt ${m.c || ''}" x="${X(m.a)}" y="${Y(m.b)}" text-anchor="${m.anchor || 'middle'}">${m.s}</text>`;
+    return '';
+  }
+  const lab = m => `<text class="g-lab" x="${X(m.a) + (m.dx ?? 8)}" y="${Y(m.b) + (m.dy ?? -8)}" text-anchor="${m.anchor || 'start'}">${m.l}</text>`;
+
+  function fig(id, svg, cap) {
+    document.getElementById(id).innerHTML = svg + `<figcaption>${cap}</figcaption>`;
+  }
+
+  // 0
+  fig('f-start', plane({ region: s3, diag: true, cells: true, marks: [
+    { t: 'txt', a: 2.5, b: -2.4, s: 'выброшено', c: 'rem' },
+    { t: 'txt', a: 2.5, b: -2.9, s: 'a > 1, b < −1', c: 'rem' },
+  ] }), '<b>σ₃.</b> Пунктирные прямые a, b = ±1 делят плоскость на 9 клеток. Выброшена одна, правая нижняя: «большое число перед маленьким».');
+
+  // 1
+  fig('f-refl', plane({ faint: s3, diag: true, marks: [
+    { t: 'pt', a: -2, b: -2, l: '(−2; −2)' }, { t: 'pt', a: 2.5, b: 2.5, l: '(2,5; 2,5)', anchor: 'end', dx: -8, dy: 16 },
+    { t: 'txt', a: -1.6, b: 3.2, s: 'остальное — пока как угодно', c: 'mut' },
+  ] }), '<b>Диагональ обязательна.</b> Все точки (a; a) остаются. Бледным — то, что пока не решено.');
+
+  // 2
+  fig('f-pair1', plane({ faint: s3, marks: [
+    { t: 'line', a1: 0, b1: 1, a2: 1, b2: 0, c: 'g-mirror' },
+    { t: 'pt', a: 0, b: 1, c: 'pair', l: '(0; 1)', anchor: 'end', dx: -8 },
+    { t: 'pt', a: 1, b: 0, c: 'pair', l: '(1; 0)', dy: 16 },
+  ] }), '<b>Вид 1: обе точки пары в σ₃.</b> (0; 1) и (1; 0) обе закрашены. Оставить можно только одну из них (или ни одной).');
+  fig('f-pair2', plane({ faint: s3, marks: [
+    { t: 'line', a1: -2, b1: 2, a2: 2, b2: -2, c: 'g-mirror' },
+    { t: 'pt', a: -2, b: 2, c: 'ok', l: '(−2; 2)' },
+    { t: 'ring', a: 2, b: -2, c: 'bad', l: '(2; −2)', dy: 18 },
+  ] }), '<b>Вид 2: вторая точка в угле.</b> (2; −2) и так выброшена, поэтому (−2; 2) можно оставлять смело.');
+  fig('f-zones', plane({ faint: s3, diag: true, under: [
+    { t: 'rect', a1: -4, b1: 1, a2: -1, b2: 4, c: 'g-free' },
+  ], marks: [
+    { t: 'txt', a: -2.5, b: 2.9, s: 'свободно:', c: 'ok' },
+    { t: 'txt', a: -2.5, b: 2.4, s: 'пара в угле', c: 'ok' },
+    { t: 'txt', a: 1.6, b: 1.2, s: 'остальное: пары,', c: 'pair' },
+    { t: 'txt', a: 1.6, b: 0.75, s: 'не больше одной', c: 'pair' },
+    { t: 'txt', a: 1.6, b: 0.3, s: 'из каждой', c: 'pair' },
+  ] }), '<b>Зелёный квадрат</b> (a < −1, b > 1) — точки, чья пара в угле: их можно оставлять. <b>Всё остальное</b> вне диагонали — пары вида 1.');
+  fig('f-up', plane({ region: (a, b) => b > a + E, diag: true }), '<b>Всё выше диагонали.</b> Это обычный порядок a ≤ b. Из каждой пары оставлена верхняя точка.');
+  fig('f-down', plane({ region: (a, b) => b < a - E && s3(a, b), diag: true }), '<b>Всё ниже диагонали</b>, кроме угла. Это a ≥ b, обрезанный по σ₃. Из каждой пары оставлена нижняя точка.');
+
+  // 3
+  fig('f-t-down', plane({ region: (a, b) => b < a - E && s3(a, b), diag: true, marks: [
+    { t: 'line', a1: 2, b1: 0, a2: 0.1, b2: 0, c: 'g-path', arrow: true },
+    { t: 'line', a1: 0, b1: 0, a2: 0, b2: -1.9, c: 'g-path', arrow: true },
+    { t: 'line', a1: 2, b1: 0, a2: 2, b2: -2, c: 'g-short bad' },
+    { t: 'line', a1: 0, b1: -2, a2: 2, b2: -2, c: 'g-short bad' },
+    { t: 'pt', a: 2, b: 0, c: 'ok', l: '(2; 0)', dy: -8 },
+    { t: 'pt', a: 0, b: -2, c: 'ok', l: '(0; −2)', anchor: 'end', dx: -8, dy: 4 },
+    { t: 'ring', a: 2, b: -2, c: 'bad', l: '(2; −2)', dx: 9, dy: 16 },
+  ] }), '<span class="verdict bad">Нижний вариант ломается.</span> (2; 0) и (0; −2) закрашены, значит 2 стоит перед −2. Прямой путь (2; −2) должен быть закрашен, а он в угле.');
+  fig('f-t-up', plane({ region: (a, b) => b > a + E, diag: true, marks: [
+    { t: 'line', a1: -2, b1: 0, a2: -0.1, b2: 0, c: 'g-path', arrow: true },
+    { t: 'line', a1: 0, b1: 0, a2: 0, b2: 1.9, c: 'g-path', arrow: true },
+    { t: 'line', a1: -2, b1: 0, a2: -2, b2: 2, c: 'g-short ok' },
+    { t: 'line', a1: 0, b1: 2, a2: -2, b2: 2, c: 'g-short ok' },
+    { t: 'pt', a: -2, b: 0, c: 'ok', l: '(−2; 0)', anchor: 'end', dx: -8, dy: 14 },
+    { t: 'pt', a: 0, b: 2, c: 'ok', l: '(0; 2)' },
+    { t: 'ring', a: -2, b: 2, c: 'ok', l: '(−2; 2)', anchor: 'end', dx: -9, dy: -8 },
+  ] }), '<span class="verdict ok">Верхний вариант держится.</span> Путь вверх и снова вверх даёт прямой путь тоже вверх, а выше диагонали всё закрашено.');
+
+  // числовая прямая
+  (() => {
+    const w = 400, y = 70, x1 = 20, x2 = 380, xa = 140, xb = 260;
+    let h = `<svg viewBox="0 0 ${w} 150" role="img">`;
+    h += `<line class="nl-line" x1="${x1}" y1="${y}" x2="${x2}" y2="${y}"/>`;
+    [xa, xb].forEach((x, i) => { h += `<line class="nl-line" x1="${x}" y1="${y - 8}" x2="${x}" y2="${y + 8}"/><text class="nl-sub" x="${x}" y="${y + 22}" text-anchor="middle">${i ? '1' : '−1'}</text>`; });
+    h += `<text class="nl-zone" x="${(x1 + xa) / 2}" y="${y - 14}" text-anchor="middle">маленькие</text>`;
+    h += `<text class="nl-zone" x="${(xa + xb) / 2}" y="${y - 14}" text-anchor="middle">средние</text>`;
+    h += `<text class="nl-zone" x="${(xb + x2) / 2}" y="${y - 14}" text-anchor="middle">большие</text>`;
+    h += `<path class="nl-bad" d="M ${(xb + x2) / 2} ${y + 34} Q ${w / 2} ${y + 70} ${(x1 + xa) / 2} ${y + 34}" marker-end="url(#arrbad)"/>`;
+    h += `<text class="nl-sub" x="${w / 2}" y="${y + 68}" text-anchor="middle" style="fill:var(--bad)">большое → маленькое: нельзя (и через средние тоже)</text>`;
+    h += `<path class="nl-ok" d="M ${(x1 + xa) / 2} ${y - 30} Q ${w / 2} ${y - 66} ${(xb + x2) / 2} ${y - 30}" marker-end="url(#arrok)"/>`;
+    h += `<text class="nl-sub" x="${w / 2}" y="${y - 50}" text-anchor="middle" style="fill:var(--ok)">маленькое → большое: можно</text>`;
+    h += '</svg>';
+    document.getElementById('f-line').innerHTML = h + '<figcaption><b>Единственный запрет.</b> Всё остальное — внутри зон и между средними и остальными — разрешено, если получается упорядочение.</figcaption>';
+  })();
+
+  // 4 каталог
+  const CAT = [
+    { r: (a, b) => false, d: true, ok: true, cap: '<b>Только диагональ.</b> Никто ни перед кем не стоит, запрет нарушить нечем.' },
+    { r: (a, b) => a < -1 - E && b > 1 + E, d: true, ok: true, cap: '<b>Диагональ + зелёный квадрат.</b> Маленькие стоят перед большими, и только.' },
+    { r: (a, b) => b > a + E, d: true, ok: true, cap: '<b>a ≤ b.</b> Маленькие перед большими, никогда наоборот.' },
+    { r: (a, b) => { const z = v => v < -1 ? 0 : v > 1 ? 2 : 1; const za = z(a), zb = z(b); return za === zb ? b < a - E : za < zb; }, d: true, ok: true,
+      cap: '<b>Зоны по порядку, внутри зон наоборот.</b> Внутри каждой зоны ≥ (−2 перед −3), но вся зона маленьких перед средними, средние перед большими. Угол пуст.' },
+    { r: (a, b) => b < a - E && s3(a, b), d: true, ok: false, cap: '<b>a ≥ b без угла.</b> 2 перед 0, 0 перед −2, значит 2 перед −2 — большое перед маленьким.' },
+    { r: s3, d: true, ok: false, cap: '<b>σ₃ целиком.</b> (0; 1) и (1; 0) обе на месте — нет антисимметричности.' },
+  ];
+  document.getElementById('catalog').innerHTML = CAT.map((c, i) => `<figure id="cat-${i}"></figure>`).join('');
+  CAT.forEach((c, i) => fig(`cat-${i}`, plane({ region: c.r, diag: c.d }),
+    `<span class="verdict ${c.ok ? 'ok' : 'bad'}">${c.ok ? 'Упорядочение внутри σ₃' : 'Не подходит'}.</span> ${c.cap}`));
+
+  // 5 вторая задача: выбираем числа
+  const ptsA = (M, labels = true) => {
+    const ms = [];
+    M.forEach(x => {
+      ms.push({ t: 'line', a1: x, b1: -LIM, a2: x, b2: LIM, c: 'g-mline' });
+      ms.push({ t: 'line', a1: -LIM, b1: x, a2: LIM, b2: x, c: 'g-mline' });
+    });
+    M.forEach(a => M.forEach(b => {
+      if (s3(a, b)) ms.push({ t: 'pt', a, b, c: a === b ? 'reg' : 'pair', l: labels && a !== b ? `(${f(a)}; ${f(b)})` : '', dy: b > a ? -8 : 16, anchor: a > 0 ? 'end' : 'start', dx: a > 0 ? -8 : 8 });
+      else ms.push({ t: 'ring', a, b, c: 'bad', l: labels ? `(${f(a)}; ${f(b)}) в угле` : '', anchor: 'end', dx: -9, dy: 18 });
+    }));
+    return ms;
+  };
+  fig('f-m3', plane({ faint: s3, marks: ptsA([-3, 0, 2]) }),
+    '<b>M = {−3; 0; 2}.</b> Линии через оставленные числа, на пересечениях 9 пар. Синие точки на диагонали, жёлтые вне её. Пустой кружок (2; −3) в угле, его нет. Жёлтые точки появились сами, выбирать их мы не можем.');
+  fig('f-a01', plane({ faint: s3, marks: ptsA([0, 1]) }),
+    '<b>M = {0; 1}.</b> Оба числа средние. (0; 1) и (1; 0) обе на месте. <span class="verdict bad">Нарушение.</span>');
+  fig('f-a23', plane({ faint: s3, marks: ptsA([2, 3]) }),
+    '<b>M = {2; 3}.</b> Оба числа большие, маленького нет. (2; 3) и (3; 2) обе на месте. <span class="verdict bad">Нарушение.</span>');
+  fig('f-a32', plane({ faint: s3, marks: ptsA([-3, 2]) }),
+    '<b>M = {−3; 2}.</b> Одно маленькое, одно большое. (2; −3) попала в угол, осталась только (−3; 2). <span class="verdict ok">Порядок: −3 перед 2.</span>');
+
+  // 6 сравнение
+  fig('f-c1', plane({ region: (a, b) => b > a + E, diag: true }),
+    '<b>Первая задача.</b> Числа все, точки выбираем сами, например всё выше диагонали. <span class="verdict ok">Порядок ≤ и бесконечно много других.</span>');
+  fig('f-c2', plane({ faint: s3, marks: ptsA([-3, 2], false) }),
+    '<b>Вторая задача.</b> Оставили числа −3 и 2, на картинке всего три точки. <span class="verdict ok">Порядок, но крошечный: из двух чисел.</span>');
+})();
+</script>

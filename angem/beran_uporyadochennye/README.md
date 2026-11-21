@@ -37,6 +37,7 @@
 **Глава 1. Упорядоченные множества**
 - [[beran_uporyadochennye_g01_s01_uporyadochennye_mnozhestva|1.1. Упорядоченные множества]] (стр. 11–18)
   - [[beran_uporyadochennye_g01_s01_zzz_resheniya_zadach_1_3|Заметка: решения задач 1–3 из текста главы и пояснение к примеру 5]]
+  - [[beran_uporyadochennye_g01_s01_zzz_sigma3_razbor|Заметка: задача 3 — как из σ₃ получить упорядочение (полный разбор, ход понимания, интерактивные страницы)]]
 
 **Глава 2. Решетки: основные свойства**
 - [[beran_uporyadochennye_g02_s01_reshetki_osnovnye_svoystva|2.1. Решетки: основные свойства]] (стр. 18–28)

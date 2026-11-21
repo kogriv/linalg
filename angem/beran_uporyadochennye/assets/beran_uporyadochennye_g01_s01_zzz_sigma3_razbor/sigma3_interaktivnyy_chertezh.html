@@ -1,0 +1,711 @@
+<!doctype html>
+<html lang="ru">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Свойства отношения σ₃</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Golos+Text:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: плоскость слева (липкая), справа пульт: переключатели свойств, итог, карточка на каждое включённое свойство, конструктор, примеры. */
+:root {
+  --bg: #eef1f4;
+  --panel: #ffffff;
+  --ink: #1b2330;
+  --muted: #5a6474;
+  --line: #d5dbe3;
+  --grid: #dfe4ea;
+  --axis: #8b94a3;
+  --region: #2f6fb0;
+  --region-fill: rgba(47, 111, 176, 0.20);
+  --removed: #b4553b;
+  --ok: #2c8a4d;
+  --bad: #c33a2c;
+  --neutral: #7b8492;
+  --conf: rgba(195, 58, 44, 0.22);
+  --p-refl: #7a4fb5;
+  --p-anti: #b8790f;
+  --p-trans: #1f7f86;
+  --font-body: "Golos Text", "Segoe UI", system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, "Cascadia Mono", Consolas, monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #11151b; --panel: #1a2029; --ink: #e5e9ef; --muted: #9aa3b1; --line: #2b323d;
+    --grid: #232a34; --axis: #5f6877; --region: #6ea7e3; --region-fill: rgba(110, 167, 227, 0.22);
+    --removed: #e27c60; --ok: #5cc380; --bad: #ff6d60; --neutral: #8e96a4; --conf: rgba(255, 109, 96, 0.24);
+    --p-refl: #b48cf0; --p-anti: #f0b54a; --p-trans: #4fc3cb;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #11151b; --panel: #1a2029; --ink: #e5e9ef; --muted: #9aa3b1; --line: #2b323d;
+  --grid: #232a34; --axis: #5f6877; --region: #6ea7e3; --region-fill: rgba(110, 167, 227, 0.22);
+  --removed: #e27c60; --ok: #5cc380; --bad: #ff6d60; --neutral: #8e96a4; --conf: rgba(255, 109, 96, 0.24);
+  --p-refl: #b48cf0; --p-anti: #f0b54a; --p-trans: #4fc3cb;
+  color-scheme: dark;
+}
+body {
+  background: var(--bg); color: var(--ink); font-family: var(--font-body); font-size: 15px; line-height: 1.5;
+  padding-left: max(16px, env(safe-area-inset-left, 0px));
+  padding-right: max(16px, env(safe-area-inset-right, 0px));
+  padding-block: 20px 32px;
+}
+.wrap { max-width: 1180px; margin: 0 auto; display: grid; gap: 16px; }
+header h1 { font-size: 1.45rem; font-weight: 600; margin: 0; text-wrap: balance; }
+header p { margin: 4px 0 0; color: var(--muted); max-width: 74ch; }
+.mono { font-family: var(--font-mono); font-size: 0.92em; }
+.main { display: grid; grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr); gap: 16px; align-items: start; }
+@media (max-width: 880px) { .main { grid-template-columns: minmax(0, 1fr); } }
+.plot { background: var(--panel); border: 1px solid var(--line); border-radius: 10px; padding: 8px; position: sticky; top: max(12px, env(safe-area-inset-top, 0px)); }
+@media (max-width: 880px) { .plot { position: static; } }
+svg { display: block; width: 100%; height: auto; touch-action: none; user-select: none; }
+svg:focus-visible { outline: 2px solid var(--region); outline-offset: 2px; border-radius: 6px; }
+.side { display: grid; gap: 12px; min-width: 0; }
+.label { font-size: 0.72rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); font-weight: 600; }
+button { font: inherit; color: var(--ink); cursor: pointer; }
+button:focus-visible, input:focus-visible, summary:focus-visible { outline: 2px solid var(--region); outline-offset: 2px; }
+
+.props { display: flex; flex-wrap: wrap; gap: 8px; }
+.prop {
+  display: inline-flex; align-items: center; gap: 8px; background: var(--panel);
+  border: 1.5px solid var(--line); border-radius: 8px; padding: 7px 12px; font-size: 0.95rem;
+}
+.prop .box { width: 16px; height: 16px; border-radius: 4px; border: 2px solid currentColor; display: inline-grid; place-items: center; font-size: 11px; line-height: 1; }
+.prop[aria-pressed="true"] .box::after { content: "✓"; font-weight: 700; }
+.prop.refl { color: var(--p-refl); } .prop.anti { color: var(--p-anti); } .prop.trans { color: var(--p-trans); }
+.prop span.t { color: var(--ink); }
+.prop[aria-pressed="true"] { border-color: currentColor; font-weight: 500; }
+.prop:hover { border-color: currentColor; }
+
+.verdict { background: var(--panel); border: 1px solid var(--line); border-radius: 10px; padding: 10px 14px; display: grid; gap: 6px; border-left: 4px solid var(--neutral); }
+.verdict.ok { border-left-color: var(--ok); } .verdict.bad { border-left-color: var(--bad); }
+.verdict .big { font-weight: 600; font-size: 1.02rem; }
+.verdict.ok .big { color: var(--ok); } .verdict.bad .big { color: var(--bad); }
+.verdict p { margin: 0; color: var(--muted); font-size: 0.9rem; max-width: 62ch; }
+
+.pcard { background: var(--panel); border: 1px solid var(--line); border-radius: 10px; padding: 10px 14px; display: grid; gap: 8px; border-top: 3px solid var(--line); }
+.pcard.refl { border-top-color: var(--p-refl); } .pcard.anti { border-top-color: var(--p-anti); } .pcard.trans { border-top-color: var(--p-trans); }
+.pcard h2 { margin: 0; font-size: 1rem; font-weight: 600; display: flex; align-items: center; justify-content: space-between; gap: 8px; flex-wrap: wrap; }
+.pcard h2 .tag { font-size: 0.8rem; font-weight: 600; padding: 1px 9px; border-radius: 999px; border: 1px solid; }
+.tag.ok { color: var(--ok); border-color: var(--ok); } .tag.bad { color: var(--bad); border-color: var(--bad); } .tag.neutral { color: var(--neutral); border-color: var(--neutral); }
+.pcard p { margin: 0; max-width: 62ch; font-size: 0.93rem; }
+.pcard .now { font-weight: 500; }
+.checks { list-style: none; margin: 0; padding: 0; display: grid; gap: 3px; font-variant-numeric: tabular-nums; font-size: 0.92rem; }
+.checks li { display: flex; justify-content: space-between; align-items: center; gap: 12px; flex-wrap: wrap; }
+.y { color: var(--ok); font-weight: 600; } .n { color: var(--bad); font-weight: 600; }
+.gridline { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; font-size: 0.88rem; color: var(--muted); border-top: 1px dashed var(--line); padding-top: 7px; }
+.gridline .ce { font-family: var(--font-mono); font-size: 0.84rem; color: var(--ink); }
+.go, .presets button, .seg button { font-size: 0.86rem; background: var(--panel); border: 1px solid var(--line); border-radius: 7px; padding: 4px 10px; text-align: left; }
+.go:hover, .presets button:hover, .seg button:hover { border-color: var(--axis); }
+.seg { display: flex; flex-wrap: wrap; gap: 6px; }
+.seg button[aria-pressed="true"] { border-color: var(--region); background: var(--region-fill); font-weight: 500; }
+.toggle { display: flex; align-items: center; gap: 8px; font-size: 0.9rem; color: var(--muted); }
+.presets { display: flex; flex-wrap: wrap; gap: 6px; }
+.presets button[aria-pressed="true"] { border-color: var(--region); background: var(--region-fill); font-weight: 500; }
+.pnote { background: var(--panel); border: 1px solid var(--line); border-radius: 10px; padding: 10px 14px; display: grid; gap: 6px; font-size: 0.93rem; }
+.pnote p { margin: 0; max-width: 62ch; }
+.pnote .hint { color: var(--muted); }
+.pnote b { font-weight: 600; }
+.help { margin: 0; font-size: 0.88rem; color: var(--muted); max-width: 62ch; display: grid; gap: 4px; }
+.help p { margin: 0; }
+
+details.box2 { background: var(--panel); border: 1px solid var(--line); border-radius: 10px; padding: 10px 14px; }
+details.box2 > summary { cursor: pointer; font-weight: 600; font-size: 0.95rem; }
+details.box2 > .in { display: grid; gap: 8px; margin-top: 10px; }
+.pieces { display: grid; gap: 6px; }
+.piece { display: grid; grid-template-columns: minmax(0, 1fr) auto; align-items: center; gap: 8px; }
+.piece .nm { font-size: 0.9rem; min-width: 0; }
+.tri { display: inline-flex; border: 1px solid var(--line); border-radius: 7px; overflow: hidden; }
+.tri button { background: var(--panel); border: none; border-left: 1px solid var(--line); padding: 3px 9px; font-size: 0.82rem; min-width: 2.2em; }
+.tri button:first-child { border-left: none; }
+.tri button[aria-pressed="true"] { background: var(--region-fill); font-weight: 600; }
+.tri button.sub[aria-pressed="true"] { background: var(--conf); }
+@media (max-width: 520px) { .piece { grid-template-columns: minmax(0, 1fr); gap: 4px; } }
+.wrow { display: flex; align-items: center; gap: 10px; font-size: 0.88rem; color: var(--muted); }
+.wrow input { flex: 1; min-width: 0; accent-color: var(--region); }
+
+.legend { display: flex; flex-wrap: wrap; gap: 6px 14px; font-size: 0.84rem; color: var(--muted); padding: 4px 6px 0; }
+.legend span { display: inline-flex; align-items: center; gap: 6px; }
+.sw { width: 14px; height: 14px; border-radius: 3px; display: inline-block; border: 1px solid var(--line); }
+.sw.reg { background: var(--region-fill); border-color: var(--region); }
+.sw.rem { background: repeating-linear-gradient(45deg, var(--removed) 0 2px, transparent 2px 5px); }
+.sw.conf { background: var(--conf); }
+.sw.dg { height: 4px; border: none; background: var(--region); border-radius: 2px; }
+.sw.dot { border-radius: 50%; border: none; }
+.sw.dot.ok { background: var(--ok); } .sw.dot.bad { background: var(--bad); } .sw.dot.neu { background: var(--neutral); }
+
+/* SVG */
+.grid { stroke: var(--grid); stroke-width: 1; }
+.axis { stroke: var(--axis); stroke-width: 1.3; }
+.tick { fill: var(--muted); font-family: var(--font-mono); font-size: 11px; }
+.axname { fill: var(--ink); font-family: var(--font-body); font-size: 14px; font-style: italic; }
+.reg { fill: var(--region-fill); stroke: none; shape-rendering: crispEdges; }
+.regdiag { stroke: var(--region); stroke-width: 4; stroke-linecap: round; }
+.diag { stroke: var(--axis); stroke-width: 1.3; stroke-dasharray: 6 5; }
+.removed { fill: url(#hatch); stroke: var(--removed); stroke-width: 1.2; }
+.hatchline { stroke: var(--removed); stroke-width: 1.4; opacity: 0.75; }
+.bound { stroke: var(--removed); stroke-width: 1; stroke-dasharray: 4 4; fill: none; }
+.note { fill: var(--muted); font-size: 12px; font-family: var(--font-body); }
+.note.rem { fill: var(--removed); font-weight: 500; }
+.conf { fill: var(--conf); shape-rendering: crispEdges; }
+.pt { stroke-width: 3; cursor: grab; }
+.pt.ok { fill: var(--ok); } .pt.bad { fill: var(--bad); } .pt.neu { fill: var(--neutral); }
+.pt.refl { stroke: var(--p-refl); } .pt.anti { stroke: var(--p-anti); } .pt.trans { stroke: var(--p-trans); }
+.pt.ring { fill: var(--panel); stroke-width: 3.5; }
+.pt.ring.ok { stroke: var(--ok); } .pt.ring.bad { stroke: var(--bad); } .pt.ring.neu { stroke: var(--neutral); }
+.hit { fill: transparent; cursor: grab; }
+.fixed { cursor: default; }
+.plabel { font-family: var(--font-mono); font-size: 12px; paint-order: stroke; stroke: var(--panel); stroke-width: 4px; stroke-linejoin: round; }
+.plabel.refl { fill: var(--p-refl); } .plabel.anti { fill: var(--p-anti); } .plabel.trans { fill: var(--p-trans); }
+.path { stroke: var(--p-trans); stroke-width: 2; fill: none; }
+.mirror { stroke: var(--p-anti); stroke-width: 1.6; stroke-dasharray: 5 4; fill: none; }
+.short { stroke-width: 2; stroke-dasharray: 2 5; stroke-linecap: round; fill: none; }
+.short.ok { stroke: var(--ok); } .short.bad { stroke: var(--bad); } .short.neu { stroke: var(--neutral); }
+.arrowhead { fill: var(--p-trans); }
+</style>
+
+<div class="wrap">
+  <header>
+    <h1>Свойства отношения σ₃ на плоскости</h1>
+    <p>Беран, глава 1, задача 3: <span class="mono">a σ₃ b ⇔ a ≤ 1 или b ≥ −1</span>. Пара (a; b) — точка: a по горизонтали, b по вертикали. Закрашено то, что в отношении. Включите одно свойство, любые два или все три: у каждого свои точки на чертеже, их можно таскать.</p>
+  </header>
+
+  <div class="main">
+    <div class="plot">
+      <svg id="plane" viewBox="0 0 520 520" tabindex="0" aria-label="Координатная плоскость; стрелки клавиатуры двигают последнюю выбранную точку">
+        <defs>
+          <pattern id="hatch" width="7" height="7" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+            <line class="hatchline" x1="0" y1="0" x2="0" y2="7"/>
+          </pattern>
+          <marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+            <path class="arrowhead" d="M0,0 L10,5 L0,10 z"/>
+          </marker>
+        </defs>
+        <g id="static"></g>
+        <g id="dyn"></g>
+      </svg>
+      <div class="legend">
+        <span><i class="sw reg"></i>в отношении</span>
+        <span><i class="sw dg"></i>диагональ в отношении</span>
+        <span><i class="sw rem"></i>выброшенный угол σ₃</span>
+        <span id="lg-conf" hidden><i class="sw conf"></i>точка и отражение обе в отношении</span>
+        <span><i class="sw dot ok"></i>в отношении</span>
+        <span><i class="sw dot bad"></i>нарушение / нет</span>
+        <span><i class="sw dot neu"></i>не в отношении, не мешает</span>
+      </div>
+    </div>
+
+    <div class="side">
+      <div>
+        <div class="label">Какие свойства проверяем</div>
+        <div class="props" id="props" style="margin-top:6px">
+          <button type="button" class="prop refl" id="p-refl" data-p="refl"><span class="box"></span><span class="t">Рефлексивность</span></button>
+          <button type="button" class="prop anti" id="p-anti" data-p="anti"><span class="box"></span><span class="t">Антисимметричность</span></button>
+          <button type="button" class="prop trans" id="p-trans" data-p="trans"><span class="box"></span><span class="t">Транзитивность</span></button>
+        </div>
+      </div>
+
+      <div class="verdict" id="verdict"></div>
+
+      <div id="cards" style="display:grid;gap:12px"></div>
+
+      <details class="box2" open>
+        <summary>Отношение на чертеже</summary>
+        <div class="in">
+          <div class="seg" id="configs">
+            <button type="button" id="c-s3" data-cfg="s3">σ₃ целиком</button>
+            <button type="button" id="c-v0" data-cfg="v0">0: диагональ + угол</button>
+            <button type="button" id="c-v1" data-cfg="v1">1: b ≥ a (≤)</button>
+            <button type="button" id="c-v2" data-cfg="v2">2: угол + полоса</button>
+          </div>
+          <details>
+            <summary class="toggle" style="cursor:pointer">собрать своё из кусков</summary>
+            <div class="in" style="display:grid;gap:8px;margin-top:8px">
+              <div class="help">
+                <p>У каждого куска три кнопки:</p>
+                <p>• <b>нет</b> — кусок не участвует, как будто его нет;</p>
+                <p>• <b>добавить</b> — точки куска входят в отношение;</p>
+                <p>• <b>вырезать</b> — точки куска удаляются, даже если их покрывает другой, добавленный кусок. Это заметно только там, где куски перекрываются.</p>
+                <p>Отношение = всё, что попало хотя бы в один добавленный кусок, минус всё, что попало хотя бы в один вырезанный. Галочка «обрезать по σ₃» потом оставляет только то, что внутри σ₃.</p>
+                <p>Диагональ — отдельный кусок: «над диагональю» и «под диагональю» её не включают. Без «диагональ: добавить» рефлексивности не будет.</p>
+              </div>
+              <div class="label">Наглядные примеры сборки</div>
+              <div class="presets" id="cex"></div>
+              <div class="pnote" id="cnote"></div>
+              <div class="pieces" id="pieces"></div>
+              <div class="wrow"><label for="bandw">ширина полосы w</label><input type="range" id="bandw" min="0.2" max="4" step="0.1" value="1"><span class="mono" id="bandw-v">1</span></div>
+              <label class="toggle"><input type="checkbox" id="clip" checked> обрезать по σ₃</label>
+            </div>
+          </details>
+        </div>
+      </details>
+
+      <div>
+        <div class="label">Готовые примеры</div>
+        <div class="presets" id="presets" style="margin-top:6px"></div>
+      </div>
+      <div class="pnote" id="pnote"></div>
+    </div>
+  </div>
+</div>
+
+<script>
+(() => {
+  const S = 60, O = 260, LIM = 4, E = 1e-9;
+  const X = a => O + S * a, Y = b => O - S * b;
+  const clamp = v => Math.max(-LIM, Math.min(LIM, v));
+  const snap = v => clamp(Math.round(v * 10) / 10);
+  const eq = (a, b) => Math.abs(a - b) < E;
+  const fmt = v => {
+    let s = (Math.round(v * 10) / 10).toFixed(1).replace(/\.0$/, '').replace('.', ',');
+    if (s === '-0') s = '0';
+    return s.replace('-', '−');
+  };
+  const P = (a, b) => `(${fmt(a)}; ${fmt(b)})`;
+  const s3 = (a, b) => !(a > 1 + E && b < -1 - E);
+
+  const PIECES = {
+    s3:   { t: 'σ₃ целиком',                           in: s3 },
+    diag: { t: 'диагональ b = a',                      in: (a, b) => eq(a, b) },
+    up:   { t: 'над диагональю (b > a)',               in: (a, b) => b > a + E },
+    down: { t: 'под диагональю (b < a)',               in: (a, b) => b < a - E },
+    tl:   { t: 'левый верхний угол (a < −1, b > 1)',   in: (a, b) => a < -1 - E && b > 1 + E },
+    band: { t: 'полоса под диагональю: a − w ≤ b < a', in: (a, b) => b < a - E && b >= a - state.w - E },
+  };
+  const blank = () => Object.fromEntries(Object.keys(PIECES).map(k => [k, 'off']));
+  const CONFIGS = {
+    s3: { pieces: { s3: 'add' }, w: 1 },
+    v0: { pieces: { diag: 'add', tl: 'add' }, w: 1 },
+    v1: { pieces: { diag: 'add', up: 'add' }, w: 1 },
+    v2: { pieces: { diag: 'add', tl: 'add', band: 'add' }, w: 1 },
+  };
+
+  const state = {
+    props: { refl: true, anti: true, trans: true },
+    pieces: { ...blank(), s3: 'add' }, w: 1, clip: true,
+    d: -2.5, p: { a: 0, b: 1 }, t1: { a: 2, b: 0 }, c: -2,
+    conf: true, active: 'trans1', preset: 0, cex: null,
+  };
+
+  function has(a, b) {
+    let add = false, sub = false;
+    for (const k in PIECES) {
+      const m = state.pieces[k];
+      if (m === 'off') continue;
+      if (PIECES[k].in(a, b)) { if (m === 'add') add = true; else sub = true; }
+    }
+    let r = add && !sub;
+    if (state.clip) r = r && s3(a, b);
+    return r;
+  }
+
+  // ---- проверка по сетке (на всё отношение сразу) ----
+  const STEP = 0.1, N = Math.round(2 * LIM / STEP) + 1;
+  const V = Array.from({ length: N }, (_, i) => Math.round((-LIM + STEP * i) * 10) / 10);
+  const score = (...xs) => xs.reduce((s, x) => s + (Number.isInteger(x) ? 0 : 10) + Math.abs(x), 0);
+  let checkKey = '', checkRes = null;
+  function runChecks() {
+    const key = JSON.stringify([state.pieces, state.w, state.clip]);
+    if (key === checkKey) return checkRes;
+    const M = V.map(a => V.map(b => has(a, b)));
+    let refl = null, anti = null, trans = null, bs, any = false;
+    bs = Infinity;
+    for (let i = 0; i < N; i++) if (!M[i][i]) { const s = score(V[i]); if (s < bs) { bs = s; refl = V[i]; } }
+    bs = Infinity;
+    for (let i = 0; i < N; i++) for (let j = 0; j < N; j++) {
+      if (M[i][j]) any = true;
+      if (i !== j && M[i][j] && M[j][i]) { const s = score(V[i], V[j]); if (s < bs) { bs = s; anti = { a: V[i], b: V[j] }; } }
+    }
+    bs = Infinity;
+    for (let i = 0; i < N; i++) { const Mi = M[i];
+      for (let j = 0; j < N; j++) { if (!Mi[j]) continue; const Mj = M[j];
+        for (let k = 0; k < N; k++) if (Mj[k] && !Mi[k]) {
+          const s = score(V[i], V[j], V[k]); if (s < bs) { bs = s; trans = { a: V[i], b: V[j], c: V[k] }; }
+        } } }
+    checkKey = key; checkRes = { refl, anti, trans, empty: !any };
+    return checkRes;
+  }
+
+  const svg = document.getElementById('plane');
+  const gStatic = document.getElementById('static');
+  const gDyn = document.getElementById('dyn');
+
+  const NAMES = { refl: 'Рефлексивность', anti: 'Антисимметричность', trans: 'Транзитивность' };
+  const RULES = {
+    refl: 'Каждая пара (a; a) должна быть в отношении, то есть вся диагональ b = a. Точки вне диагонали этому свойству безразличны. Фиолетовая точка ходит только по диагонали.',
+    anti: 'Если (a; b) и (b; a) обе в отношении, то a = b. Точка (b; a) — отражение (a; b) относительно диагонали. Нарушение только одно: точка и отражение обе закрашены и не на диагонали. Двигайте жёлтую точку, отражение строится само.',
+    trans: 'Если (a; b) и (b; c) в отношении, то (a; c) тоже. Путь: от точки 1 (a; b) по горизонтали до диагонали, оттуда по вертикали к точке 2 (b; c). Прямой путь a → c — точка (a; c) в столбце точки 1 и в строке точки 2. Точку 1 двигайте свободно, точку 2 только вверх-вниз.',
+  };
+
+  const PRESETS = [
+    { t: 'σ₃: где ломается', cfg: 's3', props: { refl: true, anti: true, trans: true }, d: -2.5, p: { a: 0, b: 1 }, t1: { a: 2, b: 0 }, c: -2,
+      n: [
+        '<b>Рефлексивность выполнена.</b> Диагональ закрашена вся: выброшенный угол лежит ниже неё (там a > b) и её не касается.',
+        '<b>Антисимметричность нарушена.</b> Точки (0; 1) и (1; 0) обе закрашены, а 0 ≠ 1. Красная подсветка показывает, что так почти везде. Без нарушения остаются только выброшенный угол и его зеркало (пунктирный квадрат слева вверху).',
+        '<b>Транзитивность нарушена.</b> Путь (2; 0) → (0; −2): обе точки закрашены, а прямой путь (2; −2) попадает в выброшенный угол.',
+        'Итог: σ₃ не упорядочение. Отсюда задача 3: a) да, b)–d) нет.',
+      ] },
+    { t: 'σ₃: антисимметричность без нарушения', cfg: 's3', props: { refl: false, anti: true, trans: false }, p: { a: -2, b: 2 },
+      n: [
+        'Точка (−2; 2) в отношении, а её отражение (2; −2) лежит в выброшенном угле. В отношении только одна из двух, поэтому условие «если обе…» не срабатывает, нарушения нет.',
+        'Подвигайте жёлтую точку. Без нарушения она бывает только в пунктирном квадрате «зеркало угла». В любом другом месте вне диагонали и точка, и отражение закрашены.',
+      ] },
+    { t: '≤: все три выполнены', cfg: 'v1', props: { refl: true, anti: true, trans: true }, d: -2, p: { a: 0, b: 1 }, t1: { a: -1, b: 1 }, c: 3,
+      n: [
+        'Закрашены диагональ и всё над ней: это обычный порядок a ≤ b.',
+        '<b>Антисимметричность:</b> отражение любой точки над диагональю лежит под ней, а там пусто.',
+        '<b>Транзитивность:</b> из a ≤ b и b ≤ c следует a ≤ c. Путь вверх и снова вверх даёт прямой путь тоже вверх.',
+        'Это упорядочение, и оно целиком лежит внутри σ₃: выброшенный угол весь под диагональю.',
+      ] },
+    { t: 'вариант 0: все три', cfg: 'v0', props: { refl: true, anti: true, trans: true }, d: 2.5, p: { a: -2, b: 2 }, t1: { a: -2, b: 2 }, c: 2,
+      n: [
+        'Диагональ и левый верхний угол. <b>Антисимметричность есть:</b> отражения точек угла лежат в выброшенном угле.',
+        '<b>Транзитивность есть:</b> путь из угла продолжить нельзя. После Т1 = (−2; 2) точка Т2 стоит в столбце a = 2, а там закрашена только (2; 2) на диагонали. Тогда прямой путь совпадает с Т1. Подвигайте Т2 вверх-вниз: она будет либо серой, либо на (2; 2).',
+        'Это упорядочение, но бедное: сравнимы только пары q < −1 и p > 1 (q стоит перед p) и каждое число с самим собой.',
+      ] },
+    { t: 'полоса: Р и А есть, Т нет', cfg: 'v2', props: { refl: true, anti: true, trans: true }, d: -2.5, p: { a: 2, b: 1.5 }, t1: { a: 2, b: 1.2 }, c: 0.4,
+      n: [
+        'Диагональ, угол и полоса шириной 1 под диагональю.',
+        '<b>Рефлексивность и антисимметричность выполнены:</b> отражения точек полосы лежат над диагональю, где закрашен только угол.',
+        '<b>Транзитивность нарушена:</b> шаги (2; 1,2) и (1,2; 0,4) спускаются каждый меньше чем на 1, а прямой путь (2; 0,4) спускается на 1,6 и вылетает из полосы. Два коротких шага дают длинный, а длинных полоса не пускает.',
+      ] },
+    { t: 'σ₃ минус полоса w = 2', custom: { pieces: { s3: 'add', band: 'sub' }, w: 2 }, props: { refl: true, anti: true, trans: true }, d: -2.5, p: { a: -3, b: 0 }, t1: { a: 0, b: 1 }, c: -2,
+      n: [
+        'Из σ₃ вырезана полоса шириной 2 под диагональю. Это пример, собранный в конструкторе: «σ₃ +», «полоса −», w = 2.',
+        '<b>Антисимметричность всё равно нарушена:</b> (−3; 0) и (0; −3) обе закрашены. Точка (0; −3) отстоит от диагонали на 3, дальше, чем ширина полосы.',
+        '<b>Транзитивность нарушена:</b> (0; 1) и (1; −2) закрашены, а прямой путь (0; −2) попал в вырезанную полосу.',
+      ] },
+  ];
+
+  // наглядные примеры сборки в конструкторе
+  const CEX = [
+    { t: 'σ₃ добавить, полоса нет', cfg: { pieces: { s3: 'add' }, w: 2, clip: true },
+      n: 'Полоса не участвует. На чертеже всё σ₃ целиком: точки полосы и так входят в σ₃. Сравните со следующим примером.' },
+    { t: 'σ₃ добавить, полоса вырезать', cfg: { pieces: { s3: 'add', band: 'sub' }, w: 2, clip: true },
+      n: 'Та же сборка, но полоса вырезана. Под диагональю появилась пустая полоса шириной 2: её точки покрывал кусок σ₃, а «вырезать» их всё равно удалил.' },
+    { t: 'вырезать то, чего нет', cfg: { pieces: { diag: 'add', tl: 'add', band: 'sub' }, w: 2, clip: true },
+      n: 'Диагональ и угол добавлены, полоса вырезана. Но полоса ни с чем добавленным не пересекается (она под диагональю, а диагональ в неё не входит), поэтому чертёж такой же, как с «полоса: нет». Вырезать заметно только при перекрытии.' },
+    { t: 'два куска сразу: ≤', cfg: { pieces: { diag: 'add', up: 'add' }, w: 1, clip: true },
+      n: 'Добавлены «диагональ» и «над диагональю». Отношение — их объединение, это обычный порядок a ≤ b. Если убрать диагональ (поставить «нет»), пропадёт рефлексивность: посмотрите на итог.' },
+    { t: 'обрезка по σ₃: выкл', cfg: { pieces: { diag: 'add', down: 'add' }, w: 1, clip: false },
+      n: 'Добавлены «диагональ» и «под диагональю» — это a ≥ b, обрезка выключена. Закрашен и выброшенный угол σ₃: такое отношение уже не часть σ₃. По итогу это упорядочение.' },
+    { t: 'обрезка по σ₃: вкл', cfg: { pieces: { diag: 'add', down: 'add' }, w: 1, clip: true },
+      n: 'То же самое, но с обрезкой: выброшенный угол снова пустой. И отношение перестало быть транзитивным: (2; 0) и (0; −2) закрашены, а прямой путь (2; −2) вырезан обрезкой. Так ≥ не помещается внутри σ₃, а ≤ помещается.' },
+  ];
+
+  // ---- статический слой ----
+  function drawStatic() {
+    let h = '';
+    for (let k = -LIM; k <= LIM; k++) {
+      h += `<line class="grid" x1="${X(k)}" y1="${Y(-LIM)}" x2="${X(k)}" y2="${Y(LIM)}"/>`;
+      h += `<line class="grid" x1="${X(-LIM)}" y1="${Y(k)}" x2="${X(LIM)}" y2="${Y(k)}"/>`;
+    }
+    const st = 0.05, n = Math.round(2 * LIM / st);
+    for (let j = 0; j < n; j++) {
+      const b = -LIM + st / 2 + st * j;
+      let start = null;
+      for (let i = 0; i <= n; i++) {
+        const a = -LIM + st / 2 + st * i;
+        const on = i < n && i !== j && has(a, b);
+        if (on && start === null) start = i;
+        if (!on && start !== null) {
+          h += `<rect class="reg" x="${X(-LIM + st * start)}" y="${Y(b + st / 2)}" width="${((i - start) * st * S).toFixed(2)}" height="${(st * S).toFixed(2)}"/>`;
+          start = null;
+        }
+      }
+    }
+    if (state.props.anti && state.conf) {
+      const s2 = 0.2, n2 = Math.round(2 * LIM / s2);
+      for (let j = 0; j < n2; j++) {
+        const b = -LIM + s2 / 2 + s2 * j;
+        let start = null;
+        for (let i = 0; i <= n2; i++) {
+          const a = -LIM + s2 / 2 + s2 * i;
+          const on = i < n2 && i !== j && has(a, b) && has(b, a);
+          if (on && start === null) start = i;
+          if (!on && start !== null) {
+            h += `<rect class="conf" x="${X(-LIM + s2 * start)}" y="${Y(b + s2 / 2)}" width="${(i - start) * s2 * S}" height="${s2 * S}"/>`;
+            start = null;
+          }
+        }
+      }
+    }
+    h += `<rect class="removed" x="${X(1)}" y="${Y(-1)}" width="${3 * S}" height="${3 * S}"/>`;
+    h += `<text class="note rem" x="${X(2.5)}" y="${Y(-3.75)}" text-anchor="middle">выброшено</text>`;
+    if (state.props.anti) {
+      h += `<rect class="bound" x="${X(-4)}" y="${Y(4)}" width="${3 * S}" height="${3 * S}"/>`;
+      h += `<text class="note" x="${X(-2.5)}" y="${Y(3.7)}" text-anchor="middle">зеркало угла</text>`;
+    }
+    h += `<line class="axis" x1="${X(-LIM)}" y1="${Y(0)}" x2="${X(LIM)}" y2="${Y(0)}"/>`;
+    h += `<line class="axis" x1="${X(0)}" y1="${Y(-LIM)}" x2="${X(0)}" y2="${Y(LIM)}"/>`;
+    for (let k = -LIM + 1; k < LIM; k++) {
+      if (k === 0) continue;
+      h += `<text class="tick" x="${X(k)}" y="${Y(0) + 15}" text-anchor="middle">${fmt(k)}</text>`;
+      h += `<text class="tick" x="${X(0) - 6}" y="${Y(k) + 4}" text-anchor="end">${fmt(k)}</text>`;
+    }
+    h += `<text class="axname" x="${X(LIM) - 4}" y="${Y(0) - 8}" text-anchor="end">a</text>`;
+    h += `<text class="axname" x="${X(0) + 8}" y="${Y(LIM) + 16}">b</text>`;
+    h += `<line class="diag" x1="${X(-LIM)}" y1="${Y(-LIM)}" x2="${X(LIM)}" y2="${Y(LIM)}"/>`;
+    let ds = null;
+    for (let i = 0; i <= N; i++) {
+      const on = i < N && has(V[i], V[i]);
+      if (on && ds === null) ds = i;
+      if (!on && ds !== null) {
+        h += `<line class="regdiag" x1="${X(V[ds])}" y1="${Y(V[ds])}" x2="${X(V[i - 1])}" y2="${Y(V[i - 1])}"/>`;
+        ds = null;
+      }
+    }
+    h += `<text class="note" x="${X(3.2)}" y="${Y(3.55)}" text-anchor="end">b = a</text>`;
+    gStatic.innerHTML = h;
+  }
+
+  // ---- точки и карточки ----
+  const dot = (a, b, fill, prop, role, extra = '') =>
+    `<circle class="pt ${fill} ${prop} ${extra}" cx="${X(a)}" cy="${Y(b)}" r="${extra.includes('ring') ? 8 : 7.5}"/>` +
+    (role ? `<circle class="hit" data-role="${role}" cx="${X(a)}" cy="${Y(b)}" r="20"/>` : '');
+  const label = (a, b, text, prop, dx = 12, dy = -12, anchor = 'start') =>
+    `<text class="plabel ${prop}" x="${X(a) + dx}" y="${Y(b) + dy}" text-anchor="${anchor}">${text}</text>`;
+  const yn = v => `<span class="${v ? 'y' : 'n'}">${v ? 'да' : 'нет'}</span>`;
+
+  function evalRefl() {
+    const d = state.d, ok = has(d, d);
+    return {
+      kind: ok ? 'ok' : 'bad',
+      now: ok ? `Точка ${P(d, d)} в отношении.` : `Точка ${P(d, d)} не в отношении: здесь рефлексивность нарушена.`,
+      rows: [[`${P(d, d)} в отношении`, yn(ok)]],
+      svg: dot(d, d, ok ? 'ok' : 'bad', 'refl', 'refl') + label(d, d, `Р ${P(d, d)}`, 'refl', 12, 18),
+    };
+  }
+  function evalAnti() {
+    const { a, b } = state.p, inP = has(a, b), inM = has(b, a), same = eq(a, b);
+    const A = inP && inM, bad = A && !same;
+    const fP = bad ? 'bad' : (inP ? 'ok' : 'neu'), fM = bad ? 'bad' : (inM ? 'ok' : 'neu');
+    let s = '';
+    if (!same) s += `<line class="mirror" x1="${X(a)}" y1="${Y(b)}" x2="${X(b)}" y2="${Y(a)}"/>`;
+    if (!same) s += dot(b, a, fM, 'anti', null, 'fixed') + label(b, a, `А′ ${P(b, a)}`, 'anti');
+    s += dot(a, b, fP, 'anti', 'anti') + label(a, b, `А ${P(a, b)}`, 'anti');
+    return {
+      kind: bad ? 'bad' : 'ok',
+      now: same ? 'Точка на диагонали: отражение совпадает с ней, проверять нечего.'
+        : bad ? 'Нарушение: точка и отражение обе в отношении, а a ≠ b.'
+        : 'Нарушения нет: в отношении не больше одной из двух точек.',
+      rows: [
+        [`${P(a, b)} в отношении`, yn(inP)],
+        [`отражение ${P(b, a)} в отношении`, yn(inM)],
+        ['A: «обе в отношении» · B: «a = b»', `${yn(A)} · ${yn(same)}`],
+        ['«если A, то B»', bad ? '<span class="n">ложно</span>' : '<span class="y">истинно</span>'],
+      ],
+      svg: s,
+    };
+  }
+  function evalTrans() {
+    const { a, b } = state.t1, c = state.c;
+    const in1 = has(a, b), in2 = has(b, c), inS = has(a, c);
+    const sc = !(in1 && in2) ? 'neu' : (inS ? 'ok' : 'bad');
+    let s = '';
+    if (!eq(a, b)) s += `<line class="path" x1="${X(a)}" y1="${Y(b)}" x2="${X(b)}" y2="${Y(b)}" marker-end="url(#arr)"/>`;
+    if (!eq(b, c)) s += `<line class="path" x1="${X(b)}" y1="${Y(b)}" x2="${X(b)}" y2="${Y(c)}" marker-end="url(#arr)"/>`;
+    if (!eq(b, c)) s += `<line class="short ${sc}" x1="${X(a)}" y1="${Y(b)}" x2="${X(a)}" y2="${Y(c)}"/>`;
+    if (!eq(a, b)) s += `<line class="short ${sc}" x1="${X(b)}" y1="${Y(c)}" x2="${X(a)}" y2="${Y(c)}"/>`;
+    s += `<circle class="pt neu trans fixed" cx="${X(b)}" cy="${Y(b)}" r="4"/>`;
+    s += dot(a, c, sc, 'trans', null, 'ring fixed') + label(a, c, `прямой ${P(a, c)}`, 'trans', -12, 20, 'end');
+    s += dot(b, c, in2 ? 'ok' : 'bad', 'trans', 'trans2') + label(b, c, `Т2 ${P(b, c)}`, 'trans');
+    s += dot(a, b, in1 ? 'ok' : 'bad', 'trans', 'trans1') + label(a, b, `Т1 ${P(a, b)}`, 'trans', -12, -12, 'end');
+    return {
+      kind: sc === 'neu' ? 'neutral' : sc,
+      now: !(in1 && in2) ? 'Одна из точек пути вне отношения: правило не срабатывает.'
+        : inS ? 'Обе точки пути в отношении, и прямой путь тоже.'
+        : 'Нарушение: обе точки пути в отношении, а прямой путь нет.',
+      rows: [
+        [`Т1 ${P(a, b)} в отношении`, yn(in1)],
+        [`Т2 ${P(b, c)} в отношении`, yn(in2)],
+        [`прямой путь ${P(a, c)} в отношении`, yn(inS)],
+      ],
+      svg: s,
+    };
+  }
+  const EVAL = { refl: evalRefl, anti: evalAnti, trans: evalTrans };
+
+  function gridText(k, r) {
+    if (k === 'refl') return r.refl === null ? null : `нет ${P(r.refl, r.refl)}`;
+    if (k === 'anti') return r.anti ? `${P(r.anti.a, r.anti.b)} и ${P(r.anti.b, r.anti.a)}` : null;
+    return r.trans ? `${P(r.trans.a, r.trans.b)}, ${P(r.trans.b, r.trans.c)}, нет ${P(r.trans.a, r.trans.c)}` : null;
+  }
+
+  function nameOf(on, r) {
+    const ok = k => r[k] === null;
+    const R = ok('refl'), A = ok('anti'), T = ok('trans');
+    if (R && A && T) return 'Это упорядочение: рефлексивно, антисимметрично и транзитивно.';
+    if (R && T) return 'Рефлексивно и транзитивно, но не антисимметрично. У Берана это квазиупорядочение (стр. 18).';
+    return null;
+  }
+
+  function render() {
+    const on = Object.keys(state.props).filter(k => state.props[k]);
+    const r = runChecks();
+    let s = '';
+    const cards = [];
+    for (const k of on) {
+      const e = EVAL[k]();
+      s += e.svg;
+      const gt = gridText(k, r);
+      cards.push(`<section class="pcard ${k}">
+        <h2>${NAMES[k]} <span class="tag ${e.kind}">${e.kind === 'ok' ? 'здесь выполнено' : e.kind === 'bad' ? 'здесь нарушено' : 'не срабатывает'}</span></h2>
+        <p>${RULES[k]}</p>
+        <p class="now">${e.now}</p>
+        <ul class="checks">${e.rows.map(([a, b]) => `<li><span>${a}</span>${b}</li>`).join('')}</ul>
+        <div class="gridline">По всему отношению (сетка 0,1):
+          ${gt === null ? '<span class="y">выполнено везде</span>' : `<span class="n">нарушено</span> <span class="ce">${gt}</span> <button type="button" class="go" data-go="${k}">поставить сюда</button>`}
+        </div>
+      </section>`);
+    }
+    gDyn.innerHTML = s;
+    document.getElementById('cards').innerHTML = cards.join('');
+
+    const v = document.getElementById('verdict');
+    if (!on.length) { v.className = 'verdict'; v.innerHTML = '<span class="big">Выберите хотя бы одно свойство</span><p>Можно одно, любые два или все три.</p>'; return; }
+    if (r.empty) { v.className = 'verdict'; v.innerHTML = '<span class="big">Отношение пустое</span><p>Добавьте кусок в разделе «Отношение на чертеже».</p>'; return; }
+    const failed = on.filter(k => r[k] !== null);
+    const list = on.map(k => `${NAMES[k].toLowerCase()} ${r[k] === null ? '✓' : '✗'}`).join(' · ');
+    const extra = on.length === 3 ? nameOf(on, r) : null;
+    v.className = 'verdict ' + (failed.length ? 'bad' : 'ok');
+    v.innerHTML = `<span class="big">${failed.length ? 'Выбранные свойства выполнены не все' : (on.length === 1 ? 'Свойство выполнено' : 'Все выбранные свойства выполнены')}</span>
+      <p>${list} (по всему отношению, сетка 0,1)</p>${extra ? `<p><b>${extra}</b></p>` : ''}`;
+  }
+
+  function renderPieces() {
+    document.getElementById('pieces').innerHTML = Object.entries(PIECES).map(([k, p]) => {
+      const m = state.pieces[k];
+      const b = (val, txt, extra = '') => `<button type="button" id="pc-${k}-${val}" data-piece="${k}" data-val="${val}" class="${extra}" aria-pressed="${m === val}" title="${{ off: 'не использовать', add: 'добавить', sub: 'вычесть' }[val]}">${txt}</button>`;
+      return `<div class="piece"><span class="nm">${p.t}</span><span class="tri">${b('off', 'нет')}${b('add', 'добавить')}${b('sub', 'вырезать', 'sub')}</span></div>`;
+    }).join('');
+    document.getElementById('bandw').value = state.w;
+    document.getElementById('bandw-v').textContent = fmt(state.w);
+    document.getElementById('clip').checked = state.clip;
+    const cur = JSON.stringify([state.pieces, state.w]);
+    document.querySelectorAll('#configs button').forEach(btn => {
+      const c = CONFIGS[btn.dataset.cfg];
+      btn.setAttribute('aria-pressed', String(JSON.stringify([{ ...blank(), ...c.pieces }, c.w]) === cur && state.clip));
+    });
+  }
+
+  function renderNote() {
+    const el = document.getElementById('pnote');
+    document.querySelectorAll('#presets button').forEach(b => b.setAttribute('aria-pressed', String(+b.dataset.i === state.preset)));
+    if (state.preset === null) {
+      el.innerHTML = '<p class="hint">Нажмите пример: на чертеже выставятся отношение и точки, а здесь появится пояснение, на что смотреть.</p>';
+      return;
+    }
+    const p = PRESETS[state.preset];
+    el.innerHTML = `<p><b>${p.t}</b></p>` + p.n.map(x => `<p>${x}</p>`).join('');
+  }
+
+  function renderCNote() {
+    document.querySelectorAll('#cex button').forEach(b => b.setAttribute('aria-pressed', String(+b.dataset.i === state.cex)));
+    document.getElementById('cnote').innerHTML = state.cex === null
+      ? '<p class="hint">Нажмите пример: куски выставятся сами, а здесь будет сказано, что изменилось на чертеже.</p>'
+      : `<p>${CEX[state.cex].n}</p>`;
+  }
+
+  function sync() {
+    renderNote();
+    renderCNote();
+    document.querySelectorAll('#props button').forEach(b => b.setAttribute('aria-pressed', String(!!state.props[b.dataset.p])));
+    document.getElementById('lg-conf').hidden = !(state.props.anti && state.conf);
+    renderPieces();
+    drawStatic();
+    render();
+  }
+
+  function applyCfg(c) { state.pieces = { ...blank(), ...c.pieces }; state.w = c.w; state.clip = true; }
+
+  document.getElementById('props').addEventListener('click', e => {
+    const b = e.target.closest('button'); if (!b) return;
+    state.props[b.dataset.p] = !state.props[b.dataset.p]; sync();
+  });
+  document.getElementById('configs').addEventListener('click', e => {
+    const b = e.target.closest('button'); if (!b) return;
+    state.preset = null; state.cex = null; applyCfg(CONFIGS[b.dataset.cfg]); sync();
+  });
+  document.getElementById('pieces').addEventListener('click', e => {
+    const b = e.target.closest('button'); if (!b) return;
+    state.preset = null; state.cex = null; state.pieces[b.dataset.piece] = b.dataset.val; sync();
+  });
+  document.getElementById('bandw').addEventListener('input', e => { state.preset = null; state.cex = null; state.w = +e.target.value; sync(); });
+  document.getElementById('clip').addEventListener('change', e => { state.preset = null; state.cex = null; state.clip = e.target.checked; sync(); });
+  document.getElementById('cex').innerHTML = CEX.map((c, i) => `<button type="button" id="cex-${i}" data-i="${i}">${c.t}</button>`).join('');
+  document.getElementById('cex').addEventListener('click', e => {
+    const b = e.target.closest('button'); if (!b) return;
+    const c = CEX[+b.dataset.i].cfg;
+    state.preset = null; state.cex = +b.dataset.i;
+    state.pieces = { ...blank(), ...c.pieces }; state.w = c.w; state.clip = c.clip;
+    sync();
+  });
+  document.getElementById('presets').innerHTML = PRESETS.map((p, i) => `<button type="button" id="pre-${i}" data-i="${i}">${p.t}</button>`).join('');
+  document.getElementById('presets').addEventListener('click', e => {
+    const b = e.target.closest('button'); if (!b) return;
+    const p = PRESETS[+b.dataset.i];
+    state.preset = +b.dataset.i; state.cex = null;
+    if (p.cfg) applyCfg(CONFIGS[p.cfg]);
+    if (p.custom) applyCfg(p.custom);
+    if (p.props) state.props = { ...p.props };
+    if ('d' in p) state.d = p.d;
+    if (p.p) state.p = { ...p.p };
+    if (p.t1) state.t1 = { ...p.t1 };
+    if ('c' in p) state.c = p.c;
+    sync();
+  });
+  document.getElementById('cards').addEventListener('click', e => {
+    const b = e.target.closest('button.go'); if (!b) return;
+    const r = runChecks(), go = b.dataset.go;
+    if (go === 'refl') state.d = r.refl;
+    if (go === 'anti') state.p = { a: r.anti.a, b: r.anti.b };
+    if (go === 'trans') { state.t1 = { a: r.trans.a, b: r.trans.b }; state.c = r.trans.c; }
+    render();
+  });
+
+  // ---- перетаскивание ----
+  let drag = null;
+  function toPlane(e) {
+    const pt = svg.createSVGPoint(); pt.x = e.clientX; pt.y = e.clientY;
+    const q = pt.matrixTransform(svg.getScreenCTM().inverse());
+    return { a: snap((q.x - O) / S), b: snap((O - q.y) / S) };
+  }
+  function moveTo(role, a, b) {
+    if (role === 'refl') state.d = snap((a + b) / 2);
+    else if (role === 'anti') state.p = { a, b };
+    else if (role === 'trans2') state.c = b;
+    else if (role === 'trans1') state.t1 = { a, b };
+    render();
+  }
+  function defaultRole() {
+    const on = Object.keys(state.props).filter(k => state.props[k]);
+    return on.length === 1 ? (on[0] === 'trans' ? 'trans1' : on[0]) : null;
+  }
+  svg.addEventListener('pointerdown', e => {
+    const role = (e.target.dataset && e.target.dataset.role) || defaultRole();
+    if (!role) return;
+    drag = role; state.active = role;
+    svg.setPointerCapture(e.pointerId);
+    const { a, b } = toPlane(e); moveTo(role, a, b);
+    e.preventDefault();
+  });
+  svg.addEventListener('pointermove', e => { if (!drag) return; const { a, b } = toPlane(e); moveTo(drag, a, b); });
+  const end = () => { drag = null; };
+  svg.addEventListener('pointerup', end);
+  svg.addEventListener('pointercancel', end);
+  svg.addEventListener('keydown', e => {
+    const k = { ArrowLeft: [-1, 0], ArrowRight: [1, 0], ArrowUp: [0, 1], ArrowDown: [0, -1] }[e.key];
+    if (!k) return;
+    e.preventDefault();
+    const st = e.shiftKey ? 1 : 0.1, r = state.active;
+    if (r === 'refl') state.d = snap(state.d + st * (k[0] || k[1]));
+    else if (r === 'anti') state.p = { a: snap(state.p.a + st * k[0]), b: snap(state.p.b + st * k[1]) };
+    else if (r === 'trans2') state.c = snap(state.c + st * k[1]);
+    else state.t1 = { a: snap(state.t1.a + st * k[0]), b: snap(state.t1.b + st * k[1]) };
+    render();
+  });
+
+  sync();
+})();
+</script>

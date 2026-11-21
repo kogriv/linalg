@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 120" width="400" height="120"><style>
+.bg{fill:#ffffff}
+.g-grid{stroke:#e1e6ec;stroke-width:1}
+.g-axis{stroke:#8b94a3;stroke-width:1.2}
+.g-cell{stroke:#8b94a3;stroke-width:1;stroke-dasharray:4 4}
+.g-tick{fill:#5a6474;font-family:Consolas,monospace;font-size:10px}
+.g-reg{fill:rgba(47,111,176,0.22);shape-rendering:crispEdges}
+.g-faint{fill:rgba(47,111,176,0.08);shape-rendering:crispEdges}
+.g-diag{stroke:#8b94a3;stroke-width:1;stroke-dasharray:5 4}
+.g-regdiag{stroke:#2f6fb0;stroke-width:3.5;stroke-linecap:round}
+.g-removed{fill:url(#hatch);stroke:#b4553b;stroke-width:1}
+.g-hl{stroke:#b4553b;stroke-width:1.3;opacity:0.75}
+.g-free{fill:rgba(44,138,77,0.22);stroke:#2c8a4d;stroke-width:1.5}
+.g-box{fill:rgba(184,121,15,0.18);stroke:#b8790f;stroke-width:1.5}
+.g-kill{stroke:#c33a2c;stroke-width:9;opacity:0.22}
+.g-pt{stroke:#ffffff;stroke-width:2}
+.g-pt.ok{fill:#2c8a4d}.g-pt.bad{fill:#c33a2c}.g-pt.neu{fill:#8b94a3}.g-pt.reg{fill:#2f6fb0}.g-pt.pair{fill:#b8790f}
+.g-ring{fill:#ffffff;stroke-width:3}
+.g-ring.ok{stroke:#2c8a4d}.g-ring.bad{stroke:#c33a2c}
+.g-lab{font-family:Consolas,monospace;font-size:11px;fill:#1b2330;paint-order:stroke;stroke:#ffffff;stroke-width:3.5px;stroke-linejoin:round}
+.g-txt{font-family:'Segoe UI',sans-serif;font-size:11.5px;fill:#1b2330;paint-order:stroke;stroke:#ffffff;stroke-width:3.5px;stroke-linejoin:round}
+.g-txt.rem{fill:#b4553b;font-weight:600}.g-txt.ok{fill:#2c8a4d;font-weight:600}.g-txt.bad{fill:#c33a2c;font-weight:600}
+.g-txt.pair{fill:#b8790f;font-weight:600}.g-txt.mut{fill:#5a6474}.g-txt.reg{fill:#2f6fb0;font-weight:600}
+.g-mline{stroke:#b8790f;stroke-width:1;stroke-dasharray:2 3;opacity:0.8}
+.g-mirror{stroke:#b8790f;stroke-width:1.5;stroke-dasharray:4 3}
+.g-path{stroke:#1b2330;stroke-width:1.8;fill:none}
+.g-short{stroke-width:1.8;stroke-dasharray:2 4;stroke-linecap:round;fill:none}
+.g-short.ok{stroke:#2c8a4d}.g-short.bad{stroke:#c33a2c}
+.g-arrowhead{fill:#1b2330}
+.nl-line{stroke:#8b94a3;stroke-width:1.5}
+.nl-zone{font-family:'Segoe UI',sans-serif;font-size:13px;fill:#1b2330;font-weight:600}
+.nl-sub{font-family:Consolas,monospace;font-size:11px;fill:#5a6474}
+.nl-ok{stroke:#2c8a4d;stroke-width:2;fill:none}.nl-bad{stroke:#c33a2c;stroke-width:2;fill:none}
+.nl-okh{fill:#2c8a4d}.nl-badh{fill:#c33a2c}
+.nl-piece{stroke-width:3;fill:none}
+</style><defs>
+<pattern id="hatch" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line class="g-hl" x1="0" y1="0" x2="0" y2="6"/></pattern>
+<marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path class="g-arrowhead" d="M0,0 L10,5 L0,10 z"/></marker>
+<marker id="arrok" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path class="nl-okh" d="M0,0 L10,5 L0,10 z"/></marker>
+<marker id="arrbad" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path class="nl-badh" d="M0,0 L10,5 L0,10 z"/></marker>
+</defs><rect class="bg" width="400" height="120"/><line class="nl-line" x1="20" y1="60" x2="380" y2="60"/><line class="nl-line" x1="87.5" y1="48" x2="87.5" y2="72"/><text class="nl-sub" x="87.5" y="86" text-anchor="middle">−2,5</text><line class="nl-line" x1="222.5" y1="48" x2="222.5" y2="72"/><text class="nl-sub" x="222.5" y="86" text-anchor="middle">0,5</text><line class="nl-line" x1="290" y1="48" x2="290" y2="72"/><text class="nl-sub" x="290" y="86" text-anchor="middle">2</text><line class="nl-piece" style="stroke:#b8790f" x1="81.5" y1="38" x2="26" y2="38" marker-end="url(#arr)"/><text class="nl-zone" x="53.75" y="28" text-anchor="middle">≥</text><line class="nl-piece" style="stroke:#2f6fb0" x1="93.5" y1="38" x2="216.5" y2="38" marker-end="url(#arr)"/><text class="nl-zone" x="155" y="28" text-anchor="middle">≤</text><line class="nl-piece" style="stroke:#b8790f" x1="284" y1="38" x2="228.5" y2="38" marker-end="url(#arr)"/><text class="nl-zone" x="256.25" y="28" text-anchor="middle">≥</text><line class="nl-piece" style="stroke:#2f6fb0" x1="296" y1="38" x2="374" y2="38" marker-end="url(#arr)"/><text class="nl-zone" x="335" y="28" text-anchor="middle">≤</text><text class="nl-sub" x="200" y="110" text-anchor="middle">куски идут слева направо; стрелка — порядок внутри куска</text></svg>
